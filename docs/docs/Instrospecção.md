@@ -1,16 +1,9 @@
-## Sumário
-
-1. [Introdução](#1-introdução)
-2. [Introspecção](#2-introspecção)
-3. [Referências](#3-referências)
-
-___
-
 ## 1. Introdução
 <p align="justify"> É uma técnica de elicitação, que baseia-se em imaginar que tipo de sistema eu iria querer se eu tivesse executando esta tarefa, utilizando este equipamento, entre outros[1]. Nesse caso consiste em aspectos em que uma rede social de monitorias deve possuir para satisfazer as necessidades de um estudante que busca compartilhar e adquirir novos conhecimentos.</p>
 
 ## 2. Instrospecção:
 <p align="justify"> 
+
 **Perfil:**
 * Deve conter informações básicas obrigatórias sobre o usuário(monitor).
 * Pode conter informações complementares sobre o usuário(monitor).

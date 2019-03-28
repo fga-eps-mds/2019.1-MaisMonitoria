@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/en/help" /> </url>
+<url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/en/index" /> </url>
+<url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/en/users" /> </url>
+<url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Instrospecção</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Instrospecção" /> </url>
+<url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Observação</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Observação" /> </url>
+</urlset>
