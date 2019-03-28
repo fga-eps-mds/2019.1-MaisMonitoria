@@ -103,8 +103,8 @@ const users = [
 const siteConfig = {
   title: 'Hora da hora', // Title for your website.
   tagline: '',
-  url: 'https://caiooliv.github.io', // Your website URL
-  baseUrl: '/teste/', // Base URL for your project */
+  url: 'https://fga-eps-mds.github.io', // Your website URL
+  baseUrl: '/2019.1-Hora-Da-Hora/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
