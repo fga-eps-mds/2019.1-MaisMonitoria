@@ -7,10 +7,13 @@
     "docs": {
       "Instrospecção": {
         "title": "Instrospecção"
+      },
+      "Observação": {
+        "title": "Observação"
       }
     },
     "links": {
-      "Documetnos": "Documetnos",
+      "Documentos": "Documentos",
       "Sprints": "Sprints"
     },
     "categories": {
