@@ -3,6 +3,7 @@
 <url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/en/help" /> </url>
 <url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/en/index" /> </url>
 <url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/en/users" /> </url>
+<url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Documento-de-Visão</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Documento-de-Visão" /> </url>
 <url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Instrospecção</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Instrospecção" /> </url>
 <url> <loc>https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Observação</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/Observação" /> </url>
 </urlset>
