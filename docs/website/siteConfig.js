@@ -14,7 +14,7 @@ const users = [
     caption: 'Caio Oliveira',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Caio.jpg',
+    image: '/2019.1-Hora-Da-Hora/img/Caio.jpg',
     infoLink: 'https://www.github.com/caiooliv',
     pinned: true,
     papel: 'EPS',
@@ -24,8 +24,8 @@ const users = [
     caption: 'Lucas Macêdo',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Lucas_Macedo.jpeg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/Lucas_Macedo.jpeg',
+    infoLink: 'https://www.github.com/lukassxp',
     pinned: true,
     papel: 'EPS',
   },
@@ -34,8 +34,8 @@ const users = [
     caption: 'Lucas Siqueira',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Lucas_siqueira.jpeg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/Lucas_siqueira.jpeg',
+    infoLink: 'https://www.github.com/lucassiqz',
     pinned: true,
     papel: 'EPS',
   },
@@ -44,8 +44,8 @@ const users = [
     caption: 'Matheus Nascimento',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Matheus_Rodrigues.jpeg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/Matheus_Rodrigues.jpeg',
+    infoLink: 'https://www.github.com/matheus-rn',
     pinned: true,
     papel: 'EPS',
   },
@@ -54,8 +54,8 @@ const users = [
     caption: 'João Pedro',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Joao.jpeg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/Joao.jpeg',
+    infoLink: 'https://www.github.com/jpcirqueira',
     pinned: true,
     papel: 'MDS',
   },
@@ -63,8 +63,8 @@ const users = [
     caption: 'Lucas Alexandre',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Lucas_Alexandre.jpeg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/Lucas_Alexandre.jpeg',
+    infoLink: 'https://www.github.com/lucasA27',
     pinned: true,
     papel: 'MDS',
   },
@@ -72,8 +72,8 @@ const users = [
     caption: 'Matheus de Cristo',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/cristo.jpg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/cristo.jpg',
+    infoLink: 'https://www.github.com/MatheusEstanislau',
     pinned: true,
     papel: 'MDS',
   },
@@ -81,8 +81,8 @@ const users = [
     caption: 'Moacir Júnior',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Moacir.jpeg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/Moacir.jpeg',
+    infoLink: 'https://www.github.com/MoacirMSJ',
     pinned: true,
     papel: 'MDS',
   },
@@ -91,8 +91,8 @@ const users = [
     caption: 'Renan',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/teste/img/Lucas_Alexandre.jpeg',
-    infoLink: 'https://www.github.com/caiooliv',
+    image: '/2019.1-Hora-Da-Hora/img/Renan.jpeg',
+    infoLink: 'https://www.github.com/RCristyan',
     pinned: true,
     papel: 'MDS',
   },
@@ -118,7 +118,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'Instrospecção', label: 'Documentos'},
+    {doc: 'Instrospecção', label: 'Documetnos'},
     {doc: 'Instrospecção', label: 'Sprints'},
     
   ],
