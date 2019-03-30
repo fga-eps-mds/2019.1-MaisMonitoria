@@ -13,10 +13,13 @@
       },
       "Observação": {
         "title": "Observação"
+      },
+      "Prototipo": {
+        "title": "Prototipo"
       }
     },
     "links": {
-      "Documentos": "Documentos",
+      "Documetnos": "Documetnos",
       "Sprints": "Sprints"
     },
     "categories": {
