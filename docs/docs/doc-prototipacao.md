@@ -1,3 +1,9 @@
+---
+id: doc-prototipacao
+title: Prototipação
+sidebar_label: Prototipação
+---
+
 ## 1. Introdução
 
 <p align="justify">Construir um protótipo é um método para se obter respostas iniciais sobre os requisitos através de um modelo funcional do produto esperado, antes de efetivamente construí-lo. Já que um protótipo é tangível, ele permite que as partes interessadas façam experiências com um modelo do seu produto final ao invés de somente discutirem representações abstratas dos seus requisitos. Os protótipos suportam o conceito de elaboração progressiva em ciclos iterativos de criação de modelos em tamanho natural, experiências de usuários, geração de opiniões e revisão do protótipo[1].
@@ -20,26 +26,26 @@ Iniciamos com o projeto de baixa fidelidade produzido através dos levantamentos
 
 ### 3.1 Visão Geral Telas
 
-![alt-text](assets/todas-as-telas.jpg)
+![Visão Geral](assets/todas-as-telas.jpg)
 
 ### 3.3 Login
-![alt-text](assets/entrar.jpg)
+![Tela de Login](assets/entrar.jpg)
 ### 3.4 Cadastro
-![alt-text](assets/cadastrar.jpg)
+![Tela de Cadastro](assets/cadastrar.jpg)
 ### 3.5 feed
-![alt-text](assets/feed.jpg)
+![Tela de Feed](assets/feed.jpg)
 ### 3.6 perfil
-![alt-text](assets/perfil.jpg)
+![Tela de Perfil](assets/perfil.jpg)
 ### 3.7 Cadastrar Monitoria
-![alt-text](assets/cadastrar-monitoria.jpg)
+![Tela de Cadastro de Monitoria](assets/cadastrar-monitoria.jpg)
 ### 3.8 Monitoria
-![alt-text](assets/monitoria.jpg)
+![Tela de Monitoria](assets/monitoria.jpg)
 ### 3.9 Feedback
-![alt-text](assets/feedback.jpg)
+![Tela de Avaliação de Monitoria](assets/feedback.jpg)
 ### 3.10 Ranking
-![alt-text](assets/ranking.jpg)
+![Tela de Ranking](assets/ranking.jpg)
 ### 3.11 Recuperar Senha
-![alt-text](assets/recuperar-senha.jpg)
+![Tela de Recuperação de Senha](assets/recuperar-senha.jpg)
 
 ## 4. Link para Protótipo
 

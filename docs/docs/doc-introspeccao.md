@@ -1,3 +1,9 @@
+---
+id: doc-introspeccao
+title: Introspecção
+sidebar_label: Introspecção
+---
+
 ## 1. Introdução
 <p align="justify"> É uma técnica de elicitação, que baseia-se em imaginar que tipo de sistema eu iria querer se eu tivesse executando esta tarefa, utilizando este equipamento, entre outros[1]. Nesse caso consiste em aspectos em que uma rede social de monitorias deve possuir para satisfazer as necessidades de um estudante que busca compartilhar e adquirir novos conhecimentos.</p>
 

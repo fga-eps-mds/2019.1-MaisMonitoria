@@ -1,4 +1,8 @@
-# Documento de visão
+---
+id: doc-visao
+title: Documento de Visão
+sidebar_label: Documento de Visão
+---
 
 ## Introdução
 <p align="justify">Esse documento tem como propósito demonstrar a visão geral, as características, reunir as funcionalidades, requisitos e os objetivos do aplicativo web a ser produzido. Fornece uma visão unificada das necessidades e expectativas do cliente em relação ao software, além de ajudar a reduzir riscos.</p>

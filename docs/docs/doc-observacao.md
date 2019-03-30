@@ -1,5 +1,10 @@
-## 1. Introdução
+---
+id: doc-observacao
+title: Observação
+sidebar_label: Observação
+---
 
+## 1. Introdução
   
   <p align='justify' >A observação é uma técnica de elicitação que possibilita observar as tarefas sendo executadas pelos interessados sem interferir no ambiente, como o nosso contexto trata-se de um PWA (Progressive Web Apps) ainda não implementado, utilizamos da observação participativa para levantar requisitos a partir de aplicativos já existentes que implementam funcionalidades semelhantes às desejadas.</p>
 

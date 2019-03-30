@@ -5,17 +5,33 @@
     "previous": "Previous",
     "tagline": "",
     "docs": {
-      "Documento-de-Visão": {
-        "title": "Documento-de-Visão"
+      "doc-introspeccao": {
+        "title": "Introspecção",
+        "sidebar_label": "Introspecção"
       },
-      "Instrospecção": {
-        "title": "Instrospecção"
+      "doc-observacao": {
+        "title": "Observação",
+        "sidebar_label": "Observação"
       },
-      "Observação": {
-        "title": "Observação"
+      "doc-prototipacao": {
+        "title": "Prototipação",
+        "sidebar_label": "Prototipação"
       },
-      "Prototipo": {
-        "title": "Prototipo"
+      "doc-visao": {
+        "title": "Documento de Visão",
+        "sidebar_label": "Documento de Visão"
+      },
+      "plano-gcs": {
+        "title": "Plano de Gestão e Configuração de Software",
+        "sidebar_label": "Plano de GCS"
+      },
+      "plano-grh": {
+        "title": "Plano de Gerenciamento de Recursos Humanos",
+        "sidebar_label": "Plano de GRH"
+      },
+      "plano-riscos": {
+        "title": "Plano de Riscos",
+        "sidebar_label": "Plano de Riscos"
       }
     },
     "links": {
@@ -23,7 +39,8 @@
       "Sprints": "Sprints"
     },
     "categories": {
-      "Documentos": "Documentos"
+      "Documentos": "Documentos",
+      "Planos": "Planos"
     }
   },
   "pages-strings": {

@@ -1,5 +1,6 @@
 {
   "docs": {
-    "Documentos": ["Instrospecção", "Observação", "Documento-de-Visão", "Prototipo"] 
+    "Documentos": ["doc-introspeccao", "doc-observacao", "doc-visao", "doc-prototipacao"],
+    "Planos": ["plano-gcs", "plano-riscos", "plano-grh"] 
   }  
 }
