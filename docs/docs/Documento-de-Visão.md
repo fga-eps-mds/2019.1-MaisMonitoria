@@ -9,6 +9,7 @@ Criar uma aplicação que visa facilitar a relação entre monitores e estudante
 Agilizar o processo de agendamento de encontros com monitores, sobrando assim mais tempo para o aluno se dedicar aos estudos
 ## 2. Descrição do usuário
 <p align="justify">O aplicativo web tem como finalidade viabilizar e flexibilizar as monitorias e encontros de estudos. Os usuários serão discentes que poderão optar por ministrar monitorias, ou optar por participar da monitoria como aluno interessado . Destarte o aplicativo irá facilitar o encontro entre os usuários possibilitando um maior fluxo de informações de maneira simples e eficiente.</p>
+
 ## 2.1 Usuários
 
 |Tipo|Descrição|Responsabilidade|
