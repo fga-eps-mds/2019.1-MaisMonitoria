@@ -9,6 +9,10 @@
         "title": "Introspecção",
         "sidebar_label": "Introspecção"
       },
+      "doc-nfr": {
+        "title": "NFR Framework",
+        "sidebar_label": "NFR Framework"
+      },
       "doc-observacao": {
         "title": "Observação",
         "sidebar_label": "Observação"
@@ -20,6 +24,9 @@
       "doc-visao": {
         "title": "Documento de visão",
         "sidebar_label": "Documento de visão"
+      },
+      "plano-custos": {
+        "title": "plano-custos"
       },
       "plano-gcs": {
         "title": "Plano de Gestão e Configuração de Software",
