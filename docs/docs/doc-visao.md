@@ -1,5 +1,9 @@
+---
+id: doc-visao
+title: Documento de visão
+sidebar_label: Documento de visão
+---
 
-# Documento de visão
 ## 1. Introdução
 <p align="justify"> Esse documento tem como propósito demonstrar a visão geral, as características, reunir as funcionalidades, requisitos e os objetivos do aplicativo web a ser produzido. Fornece uma visão unificada das necessidades e expectativas do cliente em relação ao software, além de ajudar a reduzir riscos.<p>
 <p align="justify"> Muitos alunos no meio acadêmico possuem dificuldades de aprendizado durante seus estudos tradicionais, através disso foi idealizado um ambiente agradável que possibilitasse que alunos pudessem trocar informações com a realização de monitorias.</p>
@@ -42,10 +46,10 @@
 |Matheus de Cristo|Membro da equipe de desenvolvimento|Realizar o desenvolvimento do software e manter a documentação|
 |Moacir Mascarenha|Membro da equipe de desenvolvimento|Realizar o desenvolvimento do software e manter a documentação|
 |Renan Cristyan|Membro da equipe de desenvolvimento|Realizar o desenvolvimento do software e manter a documentação|
-|Caio Oliveira|Membro da equipe de gerenciamento|Gerir o projeto e administrar o andamento, indicando os melhores caminhos e soluções|
-|Lucas Pereira|Membro da equipe de gerenciamento|Gerir o projeto e administrar o andamento, indicando os melhores caminhos e soluções|
-|Lucas Siqueira|Membro da equipe de gerenciamento|Gerir o projeto e administrar o andamento, indicando os melhores caminhos e soluções|
-|Matheus Rodigues|Membro da equipe de gerenciamento|Gerir o projeto e administrar o andamento, indicando os melhores caminhos e soluções|
+|Caio Oliveira|Product Owner|Responsável por maximizar o valor resultante do produto desenvolvido, gerenciando e priorizando o product backlog|
+|Lucas Pereira|Arquiteto|O arquiteto deve monitorar a equipe de desenvolvimento para instruí-los a seguir a arquitetura planejada e lidarem com seu fluxo de dados|
+|Lucas Siqueira|Scrum Master|Responsável por monitorar e garantir que a equipe esteja seguindo os valores, práticas e regras escolhidas das metodologias ágeis, de forma que a equipe consiga ser produtiva e auto-organizável|
+|Matheus Rodigues|DevOps|Responsável por definir as ferramentas utilizadas no desenvolvimento do projeto. O devOps deve configurar o ambiente, buscando aumento a produtividade da equipe de desenvolvimento|
 
 
 ## 5. Visão Geral
@@ -113,4 +117,5 @@ Os requisitos não funcionais se baseiam em portabilidade, tempo na execução, 
 |28/03/2019|0.2|Preenchimento dos tópicos de Descrição do Usuário|João Pedro, Lucas Alexandre, Moacir Mascarenha|
 |29/03/2019|0.3|Preenchimento dos tópicos de visão geral e Visão Geral do Produto|Matheus de Cristo, Moacir Mascarenha|
 |30/03/2019|0.4|Criação do tópico Outros Aplicativos, preenchimento Visão Geral do Produto, Referências Bibliográficas, Recursos do Produto|João Pedro, Lucas Alexandre, Matheus de Cristo, Moacir Mascarenha e Renan Cristyan|
+|31/03/2019/|0.5|Finalização do papel dos Envolvidos|João Pedro e Lucas Alexandre|
 

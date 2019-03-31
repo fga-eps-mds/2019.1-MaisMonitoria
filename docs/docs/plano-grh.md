@@ -36,7 +36,7 @@ Lucas Alexandre| Desenvolvedor
 ## 4. Planejamento de Encontros
 O número grande de membros da equipe foi o fator decisivo para o planejamento das reuniões, pois a chance de horários conflitantes e compromissos marcados é muito grande. Assim, foi necessário encontrar quais os horários seriam adequados e comuns para a equipe.
 
-Realizou-se a coleta das [grades horárias](https://docs.google.com/spreadsheets/d/1Wavk1fAJQwDcvFomMvTTJt4rybGHg_LclKfEK9qaEN8/edit?usp=sharing) da equipe de forma que fosse possível identificar os horários com maior número de disponibilidades, onde seriam realizados os encontrados presenciais ou não. 
+Realizou-se a coleta das [grades horárias](https://docs.google.com/spreadsheets/d/1Wavk1fAJQwDcvFomMvTTJt4rybGHg_LclKfEK9qaEN8/edit?usp=sharing) da equipe de forma que fosse possível identificar os horários com maior número de disponibilidades, onde seriam realizados os encontros presenciais ou não. 
 
 Essa intersecção de horários mostrou que os horários mais propícios para os encontros seriam as segundas de 13 às 14h presencial na faculdade, todos os dias após as 19h remotamente e aos sábados a tarde quando necessário presencialmente na faculdade. Ficando definido nestes então, nossos horários de trabalho conjunto.
 
