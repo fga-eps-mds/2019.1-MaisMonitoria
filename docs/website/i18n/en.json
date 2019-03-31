@@ -18,8 +18,7 @@
         "sidebar_label": "Prototipação"
       },
       "doc-visao": {
-        "title": "Documento de Visão",
-        "sidebar_label": "Documento de Visão"
+        "title": "doc-visao"
       },
       "plano-gcs": {
         "title": "Plano de Gestão e Configuração de Software",
