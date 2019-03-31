@@ -26,30 +26,40 @@ Iniciamos com o projeto de baixa fidelidade produzido através dos levantamentos
 
 ### 3.1 Visão Geral Telas
 
-![Visão Geral](assets/todas-as-telas.jpg)
+![Visão Geral](assets/todas-as-telas.png)
 
 ### 3.3 Login
-![Tela de Login](assets/entrar.jpg)
+![Tela de Login](assets/entrar.png)
 ### 3.4 Cadastro
-![Tela de Cadastro](assets/cadastrar.jpg)
+![Tela de Cadastro](assets/cadastro.png)
 ### 3.5 feed
-![Tela de Feed](assets/feed.jpg)
+![Tela de Feed](assets/feed.png)
 ### 3.6 perfil
-![Tela de Perfil](assets/perfil.jpg)
+![Tela de Perfil](assets/perfil.png)
 ### 3.7 Cadastrar Monitoria
-![Tela de Cadastro de Monitoria](assets/cadastrar-monitoria.jpg)
+![Tela de Cadastro de Monitoria](assets/cadastro-monitoria.png)
 ### 3.8 Monitoria
-![Tela de Monitoria](assets/monitoria.jpg)
+![Tela de Monitoria](assets/monitoria.png)
 ### 3.9 Feedback
-![Tela de Avaliação de Monitoria](assets/feedback.jpg)
+![Tela de Avaliação de Monitoria](assets/feedback.png)
 ### 3.10 Ranking
-![Tela de Ranking](assets/ranking.jpg)
+![Tela de Ranking](assets/ranking.png)
 ### 3.11 Recuperar Senha
-![Tela de Recuperação de Senha](assets/recuperar-senha.jpg)
+![Tela de Recuperação de Senha](assets/recuperar-senha.png)
 
 ## 4. Link para Protótipo
 
 https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scaling=scale-down
+
 ## 5. Referências
+>[1] PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
+>[2] Prototyping QueroMaisConversa. Disponível em https://github.com/QueroMais/QueroMaisConversa/wiki/Prototyping#31-vis%C3%A3o-geral-das-telas
+>[3]ferramenta Figma. Disponível em https://www.figma.com
+
+## Histórico de Revisão
+| Data | Versão | Descrição | Autor(es) |
+|:--:|:--:|:--:|:--:|
+| 30/03/2018 | 0.1 | Criação Protótipo | João Pedro, Matheus Cristo |
+
 
 
