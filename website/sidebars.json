@@ -1,0 +1,31 @@
+{
+  "docs": {
+    "Documentos": [ "doc-visao"],
+
+    "Planos": [ "plano-gcs",
+                "plano-riscos",
+                "plano-grh", 
+                "plano-custos"]
+  },
+
+  "docs-sprints": {
+    "Sprint 0": ["sprint0-planning", 
+                 "sprint0-review"],
+    "Sprint 1": ["sprint1-planning", 
+                 "sprint1-review"]
+  },
+
+  "docs-requisitos": {
+    "Pré-Rastreabilidade": ["doc-richpicture"],
+
+    "Elicitação": [ "doc-introspeccao", 
+                    "doc-observacao",
+                    "doc-prototipacao"],
+    
+    "Priorização": [],
+
+    "Modelagem": ["doc-nfr"],
+
+    "Pós-Rastreabilidade": []
+  }
+}
