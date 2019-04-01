@@ -21,6 +21,10 @@
         "title": "Prototipação",
         "sidebar_label": "Prototipação"
       },
+      "doc-richpicture": {
+        "title": "Richpicture",
+        "sidebar_label": "Richpicture"
+      },
       "doc-visao": {
         "title": "Documento de visão",
         "sidebar_label": "Documento de visão"
@@ -40,6 +44,15 @@
       "plano-riscos": {
         "title": "Plano de Riscos",
         "sidebar_label": "Plano de Riscos"
+      },
+      "sprint0-planning": {
+        "title": "sprint0-planning"
+      },
+      "sprint0-review": {
+        "title": "sprint0-review"
+      },
+      "sprint1-planning": {
+        "title": "sprint1-planning"
       }
     },
     "links": {
