@@ -42,7 +42,6 @@ const siteConfig = {
     {doc: 'doc-visao', label: 'Docs'},
     {doc: 'sprint0-planning', label: 'Sprints'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
