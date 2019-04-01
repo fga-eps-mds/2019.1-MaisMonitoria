@@ -26,7 +26,8 @@
         "sidebar_label": "Documento de visão"
       },
       "plano-custos": {
-        "title": "plano-custos"
+        "title": "Plano de Custos",
+        "sidebar_label": "Plano de Custos"
       },
       "plano-gcs": {
         "title": "Plano de Gestão e Configuração de Software",

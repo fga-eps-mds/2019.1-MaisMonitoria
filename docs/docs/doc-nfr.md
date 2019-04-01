@@ -8,7 +8,7 @@ sidebar_label: NFR Framework
 
 <p align="justify">Trata-se de um framework conceitual para condução da Engenharia de Requisitos orientada aos requisitos não funcionais, com uma extensão que apoia suposições para avaliação de satisfação das metas-flexíveis.</p>
 
-## 2. NFR's
+## 2. NFR
 
 <br>
 
