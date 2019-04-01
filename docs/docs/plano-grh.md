@@ -45,7 +45,7 @@ Foi feito um mapeamento inicial das características técnicas dos membros do pr
 
 <br>
 
-![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento.png)
+![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-0.png)
 
 <br>
 
