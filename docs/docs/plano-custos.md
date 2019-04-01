@@ -89,15 +89,16 @@ Não estão previstos gastos com ferramentas durante a execução do projeto, po
 
 | Custo | Valor Total |
 |:--:|:--:|
+| Custos de aquisição, pessoal, ferramentas e capacitação | R$ 235.521,99 |
 | Acrescimo de risco | R$ 47.104,40 | 
-| Margen de lucro | R$ 47.104,40 |
+| Margem de lucro | R$ 47.104,40 |
 | **Total** | **R$ 329.730,79** |
 
 <br>
 
 ## 8. Referências
 
-> GUIA PMBOK®. Diisponível em: https://brasil.pmi.org/brazil/PMBOKGuideAndStandards.aspx
+> GUIA PMBOK®. Disponível em: https://brasil.pmi.org/brazil/PMBOKGuideAndStandards.aspx
 
 > LOVEMONDAYS. <b>Salários para programadores e equipe de analista, arquiteto, scrum master, DevOps e PO</b>. Disponível em: <https://www.lovemondays.com.br/>.
 
