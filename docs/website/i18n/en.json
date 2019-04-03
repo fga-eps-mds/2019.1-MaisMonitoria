@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "",
     "docs": {
+      "doc-arquitetura": {
+        "title": "Documento de Arquitetura",
+        "sidebar_label": "Arquitetura"
+      },
       "doc-introspeccao": {
         "title": "Introspecção",
         "sidebar_label": "Introspecção"
@@ -53,6 +57,9 @@
       },
       "sprint1-planning": {
         "title": "sprint1-planning"
+      },
+      "sprint1-review": {
+        "title": "sprint1-review"
       }
     },
     "links": {
