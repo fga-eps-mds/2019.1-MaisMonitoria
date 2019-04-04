@@ -22,7 +22,8 @@ Neste documento estão contidos os seguintes pontos, respectivamente: representa
 
 ## 2. Representação da Arquitetura
 <p align="justify">
-	A arquitetura da aplicação seguirá o modelo MVT (Model - View - Template), já que usaremos o Django Rest Framework para o desenvolvimento do back-end que é escrito na linguagem de programação python, React JS para a interface com o usuário baseado na linguagem de programação JavaScript. GATEWAY</p>
+	A arquitetura da aplicação seguirá o modelo MVT (Model - View - Template), já que usaremos o Django Rest Framework para o desenvolvimento do back-end que é escrito na linguagem de programação python, React JS para a interface com o usuário baseado na linguagem de programação JavaScript. Contando também com um "API Gateway" responsável pela comunicação com as outras API’s da aplicação. Será usado um sistema gerenciador de banco de dados objeto relacional
+PostgreSQL, será utilizado para salvar os dados necessários para os indicadores.</p>
 
 ### 2.1 MVT
 
@@ -100,9 +101,13 @@ O padrão MVT proporciona uma composição, manutenibilidade e reutilização de
 ### 5.3 Diagrama de Classes
 
 ## 6. Tamanho e desempenho
+<p align="justify">
+A aplicação será simples e eficiente. Por ser um PWA utilizará scripts de execução em segundo plano,arquivos JavaScript, que armazenam em cache os ativos e permitem desempenho mais alto. Permitem, também, execuções off-line e acesso ao armazenamento off-line. Apesar de precisar de requisições externas para a comunicação, essa aplicação não tende a sofrer muitas quedas de desempenho, inclusive pode ser usado em sistemas com menor poder de processamento e memória.</p>
 
 ## 7. Qualidade
- 
+<p align="justify">
+A arquitetura utilizada, segue o modelo MVT que, organiza a aplicação em camadas. e isso faz com que a compreensão, manutenção do código seja facilitada para os desenvolvedores. Será utilizado frameworks adequados para o que é requisitado no projeto, sendo Django rest para do back-end e React JS para o front-end. Sendo eles altamente utilizados pela comunidade de desenvolvedores
+O banco de dados PostgreSQL tem relativamente baixo custo, ao fato de não ter que pagar por uma licença e mesmo assim ter uma performance bastante admirável. Além disso, o software é multi-plataforma e altamente escalável. O software garantirá a segurança dos dados informados pelo usuário. Além de disponibilizar ferramentas simples,funcionais e intuitivas.</p>
  
  
 ## 8. Referências Bibliográficas
@@ -118,5 +123,6 @@ ___
 |:--:|:--:|:--:|:--:|
 | 02/04/2019 | 0.1 |  Abertura do Documento|João Pedro, Lucas Alexandre, Moacir Mascarenha |
 | 03/04/2019 | 0.2 |  Adição dos tópicos: Representação da Arquitetura, Metas e Restrições de Arquitetura, Visões Arquiteturais e Referências Bibliográficas| João Pedro, Lucas Alexandre, Mateus Estanislau, Moacir Mascarenha, Renan Cristyan |
+| 04/04/2019/ | 0.3 | Adição dos tópicos: Tamanho e Desempenho; Qualidade;  Atualizado: Representação da arquitetura | João Pedro, Lucas Alexandre |
 
 
