@@ -39,7 +39,7 @@ Tarefas|Status|Pontos
 |Renan Cristyan|Adquiri novos conhecimentos durante a sprint, relativos a git, metodologia agil, reactjs e docker | Nenhum| Nenhuma|
 |Lucas Alexandre| Me matriculei na disciplina, adquiri noção básica de react, git, scrum, docker, e entendi o projeto | Demora para fazer a matrícula na disciplina, falta de foco nas reuniões causando perda de tempo.| Passar a reunião de sábado de manhã para a tarde. |
 
-## 4. Quadro de conhecimento ao fim da sprint
+## 3. Quadro de conhecimento ao fim da sprint
 <br>
 
 ![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-1.png)
