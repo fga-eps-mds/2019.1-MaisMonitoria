@@ -44,11 +44,7 @@ Nessa camada é implementada o banco de dados ou o modelo objeto-relacional. Tem
  Nessa camada fica a interface do sistema, responsável por fazer a comunicação entre o usuário e o sistema de forma ágil e visualmente agradável. Implementada principalmente em HTML, CSS e JavaScript, mas podendo também utilizar tecnologias menos usuais. 
 </p>
 
-### 2.2 API Connection
-<p align="justify">
-Cuidará da comunicação com a API Mapas Culturais, gerando encapsulamento das transações e disponibilizando as outras partes do sistema os dados provenientes da API Mapas Culturais que necessitam para realizar suas funções dentro do contexto de processamento de dados, geração de indicadores e afins. Tem interação direta com a camada View e indireta com as demais através da camada View.</p>
-
-### 2.3 PWA
+### 2.2 PWA
 
 <p align="justify">
 	PWA (Progressive Web App) é uma metodologia de desenvolvimento que torna a experiência de uso de uma página web pelo smartphone muito semelhante a de um aplicativo mobile. Basicamente, trata-se de um híbrido entre página web e aplicativo mobile. Algumas das principais características dos PWA são:</p>
@@ -79,15 +75,9 @@ O padrão MVT proporciona uma composição, manutenibilidade e reutilização de
 </p>
 
 
-## 4. Visão dos Casos de Uso
+## 4. Visões Arquiteturais
 
-### 4.1 Diagramas de casos de uso
-
-### 4.2 Descrição dos casos de uso
-
-## 5. Visões Arquiteturais
-
-### 5.1. Visão lógica
+### 4.1. Visão lógica
 <p align="justify">
 É possível distribuir a visão lógica em 3 campos, sendo eles model,view e template</p>
 
@@ -96,21 +86,33 @@ O padrão MVT proporciona uma composição, manutenibilidade e reutilização de
 - Template - Responsável pela interação com o usuário, conterá as telas de apresentação dos indicadores, tela de apresentação do mapa de atualizações em tempo real e as demais páginas do sistema.
 
 
-### 5.2 Visão de implementação
+### 4.2 Visão de implementação
+<p align="justify">Para  a implementação da aplicação será desenvolvido API's, geradas pelo Django Rest Framework, que serão consumidas pelo React para construir interfaces com o Usuário.
 
-### 5.3 Diagrama de Classes
+Descrição da distribuição no Django Rest Framework:</p>
 
-## 6. Tamanho e desempenho
+- Arquivo Views.py - arquivo responsável por agrupar todo comportamento comum em classes chamadas ViewSets.
+- Arquivo Serializers.py - responsavel por serializar as instâncias em representações do tipo Json.
+- Arquivo Urls.py - responsavel por conectar e configurar os URLs da API.
+- Arquivo Models.py - Gerencia e executa a comunicação com o banco de dados além de definir entidades e validações.
+
+<p align="justify">Descrição da distribuição no ambiente React:</p>
+
+- Arquivo App.js - Ponto inicial da aplicação, também é capaz de referenciar componentes do projeto.
+
+### 4.3 Diagrama de Classes
+
+## 5. Tamanho e desempenho
 <p align="justify">
 A aplicação será simples e eficiente. Por ser um PWA utilizará scripts de execução em segundo plano,arquivos JavaScript, que armazenam em cache os ativos e permitem desempenho mais alto. Permitem, também, execuções off-line e acesso ao armazenamento off-line. Apesar de precisar de requisições externas para a comunicação, essa aplicação não tende a sofrer muitas quedas de desempenho, inclusive pode ser usado em sistemas com menor poder de processamento e memória.</p>
 
-## 7. Qualidade
+## 6. Qualidade
 <p align="justify">
 A arquitetura utilizada, segue o modelo MVT que, organiza a aplicação em camadas. e isso faz com que a compreensão, manutenção do código seja facilitada para os desenvolvedores. Será utilizado frameworks adequados para o que é requisitado no projeto, sendo Django rest para do back-end e React JS para o front-end. Sendo eles altamente utilizados pela comunidade de desenvolvedores
 O banco de dados PostgreSQL tem relativamente baixo custo, ao fato de não ter que pagar por uma licença e mesmo assim ter uma performance bastante admirável. Além disso, o software é multi-plataforma e altamente escalável. O software garantirá a segurança dos dados informados pelo usuário. Além de disponibilizar ferramentas simples,funcionais e intuitivas.</p>
  
  
-## 8. Referências Bibliográficas
+## 7. Referências Bibliográficas
 
 
 
@@ -124,5 +126,5 @@ ___
 | 02/04/2019 | 0.1 |  Abertura do Documento|João Pedro, Lucas Alexandre, Moacir Mascarenha |
 | 03/04/2019 | 0.2 |  Adição dos tópicos: Representação da Arquitetura, Metas e Restrições de Arquitetura, Visões Arquiteturais e Referências Bibliográficas| João Pedro, Lucas Alexandre, Mateus Estanislau, Moacir Mascarenha, Renan Cristyan |
 | 04/04/2019/ | 0.3 | Adição dos tópicos: Tamanho e Desempenho; Qualidade;  Atualizado: Representação da arquitetura | João Pedro, Lucas Alexandre |
-
+| 04/04/2019/ | 0.4 | Adição o tópico: Visão de implementação; Atualizado: PWA | Matheus Estanislau|
 
