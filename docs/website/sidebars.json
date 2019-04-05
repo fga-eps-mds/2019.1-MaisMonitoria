@@ -1,6 +1,0 @@
-{
-  "docs": {
-    "Documentos": ["doc-introspeccao", "doc-richpicture", "doc-observacao", "doc-visao", "doc-prototipacao", "doc-nfr","doc-arquitetura"],
-    "Planos": ["plano-gcs", "plano-riscos", "plano-grh", "plano-custos"] 
-  }  
-}
