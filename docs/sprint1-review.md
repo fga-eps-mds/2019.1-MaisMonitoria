@@ -1,3 +1,8 @@
+---
+id: sprint1-review
+title: Sprint 1 Review
+sidebar_label: Sprint 1 Review
+---
 
 ## 1. Resumo
 

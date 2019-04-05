@@ -1,3 +1,8 @@
+---
+id: sprint1-planning
+title: Sprint 1 Planning
+sidebar_label: Sprint 1 Planning
+---
 
 ## 1. Resumo
 

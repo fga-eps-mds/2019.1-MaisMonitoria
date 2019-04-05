@@ -1,3 +1,9 @@
+---
+id: sprint0-planning
+title: Sprint 0 Planning
+sidebar_label: Sprint 0 Planning
+---
+
 ## 1. Resumo
 
 - Período: 14/03 - 24/03
