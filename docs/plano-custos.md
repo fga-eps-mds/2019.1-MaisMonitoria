@@ -110,6 +110,6 @@ ___
 ## Histórico de Revisão
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 31/03/2018 | 0.1 | Criação do documento | Lucas Macêdo |
-| 31/03/2018 | 0.2 | Criação dos Tópicos | Lucas Macêdo e Lucas Siqueira |
-| 31/03/2018 | 0.3 | Criação das Tabelas de Custos | Lucas Macêdo, Lucas Siqueira, Caio Oliveira e Matheus Rodrigues |
+| 31/03/2019 | 0.1 | Criação do documento | Lucas Macêdo |
+| 31/03/2019 | 0.2 | Criação dos Tópicos | Lucas Macêdo e Lucas Siqueira |
+| 31/03/2019 | 0.3 | Criação das Tabelas de Custos | Lucas Macêdo, Lucas Siqueira, Caio Oliveira e Matheus Rodrigues |

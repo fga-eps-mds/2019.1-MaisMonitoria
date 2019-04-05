@@ -59,7 +59,7 @@ https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scal
 ## Histórico de Revisão
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 30/03/2018 | 0.1 | Criação Protótipo | João Pedro, Matheus Cristo |
+| 30/03/2019 | 0.1 | Criação Protótipo | João Pedro, Matheus Cristo |
 
 
 

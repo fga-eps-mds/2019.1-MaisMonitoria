@@ -1,3 +1,8 @@
+---
+id: sprint0-review
+title: Sprint 0 Review
+sidebar_label: Sprint 0 Review
+---
 
 ## 1. Resumo
 
@@ -33,13 +38,13 @@ Tarefas|Status|Pontos
 |Lucas Pereira|Comunicação efetiva, definimos requisitos para o produto tendo assim uma boa visão sobre o escopo e os dojos pareceram efetivos | Planejamos várias coisas e botamos poucas em prática| Otimizar o tempo botando em prática o que é planejado |
 |Caio Oliveira| - | - | - |
 |Matheus Rodrigues|Entendimento do projeto e alinhamento do conhecimento entre os integrantes| Reuniões prolongadas por conta da perda de foco| Concentração da equipe|
-|Moacir Junior|Adquirir noção básica de react, git, scrum, docker, e entendi o projeto |Falta de foco nas reuniões |Nenhuma|
+|Moacir Junior|Adquirir noção básica de react, git, scrum, docker, e entendi o projeto |Falta de foco nas reuniões |Nenhum|
 |João Pedro|Adquiri noção básica de react, git, scrum, docker, e entendi o projeto |Falta de foco nas reuniões causando perda de tempo | sugestão de melhoria|
 |Matheus Cristo|Adquiri noção básica de react, git, scrum, docker, e entendi o projeto | Nenhuma| Nenhuma|
 |Renan Cristyan|Adquiri novos conhecimentos durante a sprint, relativos a git, metodologia agil, reactjs e docker | Nenhum| Nenhuma|
 |Lucas Alexandre| Me matriculei na disciplina, adquiri noção básica de react, git, scrum, docker, e entendi o projeto | Demora para fazer a matrícula na disciplina, falta de foco nas reuniões causando perda de tempo.| Passar a reunião de sábado de manhã para a tarde. |
 
-## 4. Quadro de conhecimento ao fim da sprint
+## 3. Quadro de conhecimento ao fim da sprint
 <br>
 
 ![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-1.png)
