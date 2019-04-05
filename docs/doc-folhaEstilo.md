@@ -5,11 +5,11 @@ sidebar_label: Folha de Estilo
 ---
 
 
-# 1. Introdução
+# 1 Introdução
 
 <p align="justify">Este documento tem como objetivo padronizar e organizar o estilo de código entre os integrantes do projeto. A folha de estilo é baseada no padrão PEP 8, que é um documento de convenções Python, onde são estabelecidas boas práticas e recomendações para se criar códigos organizados e, consequentemente, mais legíveis e baseada nos padrões de utilização do React.</p>
 
-# 2. Python
+# 2 Python
 ## 2.1 Layout de Código
 ### 2.1.1 Identação
 ### 2.1.1.1 Usar 4 espaços por nível de identação
@@ -20,22 +20,23 @@ sidebar_label: Folha de Estilo
     Exemplo incorreto:
     if (constant > iterator)
     do_something()
+
 ### 2.1.1.2 As linhas são limitadas a no máximo 79 caracteres
-        Exemplo correto:
+    Exemplo correto:
     total = ((number_of_items * base_price) + (taxes * dollar_quotation)
             - (sub_total - commercial_discount))
 
-        Exemplo incorreto:
+    Exemplo incorreto:
     total = ((number_of_items * base_price) + (taxes * dollar_quotation) - (sub_total - commercial_discount))
 
 ### 2.1.1.3 Alinhar os operandos com a quebra do delimitador
-        Exemplo correto:
-        # Aligned with opening delimiter
+    Exemplo correto:
+    # Aligned with opening delimiter
     foo = long_function_name(var_one, var_two,
-                            var_three, var_four)
+                             var_three, var_four)
 
-        Exemplo incorreto:
-        # Arguments on first line forbidden when not using vertical alignment
+    Exemplo incorreto:
+    # Arguments on first line forbidden when not using vertical alignment
     foo = long_function_name(var_one, var_two,
         var_three, var_four)
 
@@ -55,10 +56,10 @@ sidebar_label: Folha de Estilo
 ### 2.1.1.5 Uma linha deve ser quebrada depois de um operador binário
     Exemplo correto:
     income = (gross_wages +
-          taxable_interest +
-          (dividends - qualified_dividends) -
-          ira_deduction -
-          student_loan_interest)
+              taxable_interest +
+              (dividends - qualified_dividends) -
+              ira_deduction -
+              student_loan_interest)
 
     Exemplo incorreto:
     income = (gross_wages
@@ -68,7 +69,7 @@ sidebar_label: Folha de Estilo
           - student_loan_interest)
 
 ### 2.1.2 Linhas em branco
-    ### 1.2.1 Colocar linhas em branco entre as linhas de código
+### 2.1.2.1 Colocar linhas em branco entre as linhas de código
     Exemplo correto:
     name = input('enter your name') 
     age = input('enter your name')
@@ -79,11 +80,11 @@ sidebar_label: Folha de Estilo
     print(people.getAge())
 
     Exemplo incorreto:
-    name = input ('enter your name')<br /> 
-    age = input ('enter your name')<br /> 
-    people = People(name , age) <br />
-    print(people.getName()) <br />
-    print(people.getAge()) <br />
+    name = input ('enter your name') 
+    age = input ('enter your name') 
+    people = People(name , age) 
+    print(people.getName()) 
+    print(people.getAge()) 
     
 ### 2.1.2.2 Adicionar duas linhas em branco acima e abaixo das definições de classe e funções top-level
 
@@ -108,16 +109,17 @@ sidebar_label: Folha de Estilo
     phrase = string + string2
 
 ### 2.1.3 Imports
-### 1.3.1 Imports devem estar em linhas separadas
-        Exemplo correto:
-        import os
-        import sys
+### 2.1.3.1 Imports devem estar em linhas separadas
+    Exemplo correto:
+    import os
+    import sys
 
-        Exemplo incorreto:
-        import sys, os
+    Exemplo incorreto:
+    import sys, os
+
 ### 2.1.3.2 Os imports são sempre colocados na parte de cima do arquivo, logo após qualquer comentário e docstrings do arquivo, e antes dos módulos globais e constantes
 
-## 2.2. Estruturas de Comentários
+## 2.2 Estruturas de Comentários
 ### 2.2.1 Comentários de linha única devem ser escritos com # (espaço) (comentário)
     Exemplo correto:
     # This is a commentary
@@ -135,6 +137,7 @@ sidebar_label: Folha de Estilo
 ### 2.2.3 Todos os comentários devem ser redigidos em inglês
     Exemplo correto:
     # This is a commentary    
+
     Exemplo incorreto:
     # Este é um comentário
 
@@ -160,88 +163,92 @@ sidebar_label: Folha de Estilo
 
 ### 2.2.7 Todos os comentários devem ser identificados com o código
 
-## 2.3. Organização de Estruturas de Controle
+## 2.3 Organização de Estruturas de Controle
 ### 2.3.1 Usar parênteses em estruturas de decisão
-        Exemplo correto:
-        if (age >= 18):
+    Exemplo correto:
+    if (age >= 18):
         print (maior de idade)
-        Exemplo incorreto:
-        if age >= 18:
+
+    Exemplo incorreto:
+    if age >= 18:
         print (maior de idade)
 
 ### 2.3.2 Colocar um espaço entre condicionais muito extensas
     Exemplo correto:
     if((name == 'Lira' and age == 10) or (name == 'Jessica' and age == 8)):    
+
     Exemplo incorreto:
     if((name=='Lira'and age==10)or(name=='Jessica'and age == 8)):
-## 2.4. Indentação de Estruturas de Controle
+
+## 2.4 Indentação de Estruturas de Controle
 ### 2.4.1 Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura
     Exemplo correto:
     if (variable_1 > 100): 
-    do_this( )
+        do_this( )
     else:
-    do_that( )
+        do_that( )
 
     Exemplo incorreto:
     if (variable_1 > 100): 
-    do_this( )
-    else:
-    do_that( )
+        do_this( )
+        else:
+        do_that( )
 
 ### 2.4.2 Estruturas complicadas
     Exemplo correto:
     if (((var_1 > var_2) && (var_1 > var_3)) ||
-    ((var_1 > 1) && (var_2 < 10)) || 
-    (var_3 = 0)):
+        ((var_1 > 1) && (var_2 < 10)) || 
+         (var_3 = 0)):
         do_this( )
     else:
-   do_that( )
+        do_that( )
 
     Exemplo incorreto:
-    if (((var_1 > var_2) && (var_1 > var_3)) ||
-    ((var_1 > 1) && (var_2 < 10)) || 
-    (var_3 = 0)):
-    do_this( )
+    if (((var_1 > var_2) && (var_1 > var_3)) || ((var_1 > 1) && (var_2 < 10))|| (var_3 = 0)):
+        do_this( )
     else:
-    do_that( )
-## 2.5. Rotinas
+      do_that( )
+
+## 2.5 Rotinas
 ### 2.5.1 Usar linhas em branco para separar as partes da rotina
     Exemplo correto:
     def showAccount(accountNumber):
 
-    print(accountNumber)
+        print(accountNumber)
 
     def retrieveAccount(accountNumber):
 
-    findNumber()
+        findNumber()
 
     Exemplo incorreto:
     def showAccount(accountNumber):
-    print(accountNumber)
+        print(accountNumber)
     def retrieveAccount(accountNumber):
-    findNumber()    
+        findNumber()    
+
 ### 2.5.2 Usar a identação padrão nos parâmetros da rotina
     Exemplo correto:
     def setBalance (
-    id,
-    balance,
-    date,
-    user
+        id,
+        balance,
+        date,
+        user
     ):
+
     Exemplo incorreto:
     def setBalance (id, balance, date, user):
 
-## 2.6. Convenção de Nomeação
+## 2.6 Convenção de Nomeação
 ### 2.6.1 Evitar caracteres ‘l’ (‘L’ minúsculo), ‘O’ (‘o’ maiúsculo) ou ‘I’ (‘i’ maiúsculo) como nomes de variáveis de único caractere
     Exemplo correto:
-    I = True
-    l = 47
-    O = 3.14
-
-    Exemplo incorreto:
     i = True
     L = 47
     o = 3.14
+
+    Exemplo incorreto:
+    I = True
+    l = 47
+    O = 3.14
 
 ### 2.6.2 Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula
     Exemplo correto:
@@ -253,11 +260,11 @@ sidebar_label: Folha de Estilo
 ### 2.6.3 Nomes de variáveis devem ser escritos em letra minúscula e separados por underline ‘_’
     Exemplo correto:
     person_name = "John"
-person_last_name = "Smith"
+    person_last_name = "Smith"
 
     Exemplo incorreto:
     PersonName = "John"
-PersonLastName = "Smith"
+    PersonLastName = "Smith"
 
 ### 2.6.4 Os nomes de exceções devem seguir a convenção de nomenclatura de classes com o sufixo “Error”
     Exemplo correto:
@@ -280,8 +287,8 @@ PersonLastName = "Smith"
     Exemplo incorreto:
     max_length = 25
 
-# 3.React
-## 3.1. Regras Básicas
+# 3 React
+## 3.1 Regras Básicas
 - Apenas um componente por arquivo.
 - contudo, múltiplos componentes são permitidos quando são dependentes um do outro:
 
@@ -298,7 +305,7 @@ PersonLastName = "Smith"
 - Sempre use a sintaxe JSX.
 - Não use React.createElement a não ser que você esteja declarando a partir de um arquivo que não seja JSX.
     
-## 3.2. Nomenclatura
+## 3.2 Nomenclatura
 - Extensão: Use a extensão .jsx para componentes React.
 Nome do arquivo: use PascalCase para os arquivos. Ex.: MeuComponente.jsx
 Referência de nomenclatura: Use PascalCase para componentes e camelCase para as instâncias.
@@ -316,7 +323,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
         const reservationItem = <ReservationCard />; //instância em camel e componente em Pascal
 - Nomeando componentes: Use o mesmo nome do componente. Ex.: MeuComponente.jsx tem um nome que referencia MeuComponente. No entanto, para os componentes de raiz de um diretório, use index.jsx como o nome do arquivo e usar o nome de diretório como o nome do componente.
 
-## 3.3. Declaração
+## 3.3 Declaração
 - Não use displayName para nomear componentes. Em vez disso, o nome do componente por referência.
         
         // ruim
@@ -327,7 +334,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
         // ideal
         export default class MeuComponente extends React.Component {
         }
-## 3.4. Aspas
+## 3.4 Aspas
 - Sempre usa aspas duplas (") para atributos, mas aspas simples para todos os outros JS usados no componente.
     
         // ruim
@@ -342,7 +349,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
         // ideal
         <Componente style={{ left: '20px' }} />
 
-## 3.5. Espaçamento
+## 3.5 Espaçamento
 Sempre inclua um único espaço no fechamento de suas tags que não recebem filhos.
     
         // ruim
@@ -360,7 +367,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
         // ideal
         <Foo bar={baz} />
 
-## 3.6. Props
+## 3.6 Props
 - Sempre use camelCase para nomes de props.
             
         // ruim
@@ -400,7 +407,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
             key={todo.id}
         />
         ))}
-## 3.7. Refs
+## 3.7 Refs
 - Sempre use ref callbacks.
         
         // ruim
@@ -411,7 +418,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
         <Foo
         ref={(ref) => this.myRef = ref}
                                     />
-## 3.8. Parênteses
+## 3.8 Parênteses
 - Coloque Tags JSX entre parênteses quando eles abrangem mais de uma linha.
 
         // ruim
@@ -435,7 +442,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
         const body = <div>hello</div>;
         return <Componente>{body}</Componente>;
         }
-## 3.9. Tags
+## 3.9 Tags
 - Sempre que a Tag não possuir children use self-close ( ).
 
         // ruim
@@ -455,7 +462,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
         bar="bar"
         baz="baz"
         />
-## 3.10. Métodos
+## 3.10 Métodos
 - Manipuladores de evento do método render dentro do constructor().
 
         // ruim
@@ -512,7 +519,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
         return (<div />);
         }
 
-## 3.11.Prioridades
+## 3.11 Prioridades
     - Prioridades para class extends                       
             -React.Component:
             -opcional static
@@ -554,7 +561,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
         -Optional render methods tipo renderNavigation() ou renderProfilePicture()
         -render
 
-## 4. Referências Bibliográficas
+## 4 Referências Bibliográficas
 > Quero Cultura - Folha de Estilo. Disponível em: https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Folha-de-estilo. Acesso em: 03 de Abril de 2019.
 
 > PEP 8 - Style Guide for Python Code. Disponível em: https://www.python.org/dev/peps/pep-0008/. Acesso em: 03 de Abril de 2019
@@ -565,7 +572,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
 https://github.com/airbnb/javascript/tree/master/react. Acesso em: 04 de Abril de 2019
 
 
-## 5. Histórico de Revisão
+## 5 Histórico de Revisão
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 05/04/2019 | 0.1 |  Abertura do Documento|Matheus Estanislau, Renan Cristyan|
