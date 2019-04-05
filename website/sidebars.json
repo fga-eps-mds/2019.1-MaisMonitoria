@@ -1,7 +1,8 @@
 {
   "docs": {
     "Documentos": [ "doc-visao",
-                    "doc-arquitetura"],
+                    "doc-arquitetura",
+                    "doc-folhaEstilo"],
 
     "Planos": [ "plano-gcs",
                 "plano-riscos",
