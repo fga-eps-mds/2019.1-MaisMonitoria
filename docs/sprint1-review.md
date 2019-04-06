@@ -1,7 +1,7 @@
 ---
 id: sprint1-review
-title: Sprint 1 Review
-sidebar_label: Sprint 1 Review
+title: Review da Sprint 1 
+sidebar_label: Review
 ---
 
 ## 1. Resumo
