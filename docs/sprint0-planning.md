@@ -1,7 +1,7 @@
 ---
 id: sprint0-planning
-title: Sprint 0 Planning
-sidebar_label: Sprint 0 Planning
+title: Planning da Sprint 0 
+sidebar_label: Planning
 ---
 
 ## 1. Resumo
