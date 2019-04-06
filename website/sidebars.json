@@ -26,7 +26,8 @@
 
     "Elicitação": [ "doc-introspeccao", 
                     "doc-observacao",
-                    "doc-prototipacao"],
+                    "doc-prototipacao",
+                     "doc-usabilidade"],
     
     "Priorização": [],
 
