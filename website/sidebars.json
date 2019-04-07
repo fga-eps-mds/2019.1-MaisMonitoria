@@ -2,7 +2,8 @@
   "docs": {
     "Documentos": [ "doc-tap",
                     "doc-visao",
-                    "doc-arquitetura"],
+                    "doc-arquitetura",
+                    "doc-backlog"],
 
     "Planos": [ "plano-gcs",
                 "plano-riscos",
