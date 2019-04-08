@@ -1,7 +1,7 @@
 ---
 id: doc-usabilidade
 title: Teste de Usabilidade
-sidebar_label: Usabilidade
+sidebar_label: Teste de Usabilidade
 ---
 
 

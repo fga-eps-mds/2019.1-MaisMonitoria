@@ -44,6 +44,8 @@ Iniciamos com o projeto de baixa fidelidade produzido através dos levantamentos
 
 <p align="justify">
 A partir dos testes realizados foram feitas atualizações como, reestilização de todas as telas e botões, adicionando elementos de acordo com as observações feitas pelos usuários testados.
+
+O Teste de Usabilidade completo está disponivel em: [Teste de Usabilidade](doc-usabilidade)
 </p>
 
 

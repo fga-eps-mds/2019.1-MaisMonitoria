@@ -5,7 +5,8 @@
     "Documentos": [ "doc-tap",
                     "doc-visao",
                     "doc-arquitetura",
-                    "doc-folhaEstilo"],
+                    "doc-folhaEstilo",
+                    "doc-usabilidade"],
 
     "Planos": [ "plano-gcs",
                 "plano-riscos",
@@ -26,8 +27,7 @@
 
     "Elicitação": [ "doc-introspeccao", 
                     "doc-observacao",
-                    "doc-prototipacao",
-                     "doc-usabilidade"],
+                    "doc-prototipacao"],
     
     "Priorização": [],
 
