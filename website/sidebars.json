@@ -5,7 +5,8 @@
     "Documentos": [ "doc-tap",
                     "doc-visao",
                     "doc-arquitetura",
-                    "doc-folhaEstilo"],
+                    "doc-folhaEstilo",
+                    "doc-usabilidade"],
 
     "Planos": [ "plano-gcs",
                 "plano-riscos",
