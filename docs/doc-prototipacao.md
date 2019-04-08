@@ -15,6 +15,7 @@ Iniciamos com o projeto de baixa fidelidade produzido através dos levantamentos
 </p>
 
 ## 2. Funcionalidades
+
 - Cadastro Perfil
 - Login
 - Logout
@@ -22,36 +23,37 @@ Iniciamos com o projeto de baixa fidelidade produzido através dos levantamentos
 - Pesquisar monitoria
 - Classificação monitoria
 - Ranking
+- Recuperar senha
+- Acessar monitoria
+
 ## 3. Protótipo
 
 ### 3.1 Visão Geral Telas
 
+### Versão 2.0
+
+![Visão Geral](assets/visao-geral1-prototipo2.png)
+
+![Visão Geral](assets/visao-geral2-prototipo2.png)
+
+### Versão 1.0
+
 ![Visão Geral](assets/todas-as-telas.png)
 
-### 3.3 Login
-![Tela de Login](assets/entrar.png)
-### 3.4 Cadastro
-![Tela de Cadastro](assets/cadastro.png)
-### 3.5 feed
-![Tela de Feed](assets/feed.png)
-### 3.6 perfil
-![Tela de Perfil](assets/perfil.png)
-### 3.7 Cadastrar Monitoria
-![Tela de Cadastro de Monitoria](assets/cadastro-monitoria.png)
-### 3.8 Monitoria
-![Tela de Monitoria](assets/monitoria.png)
-### 3.9 Feedback
-![Tela de Avaliação de Monitoria](assets/feedback.png)
-### 3.10 Ranking
-![Tela de Ranking](assets/ranking.png)
-### 3.11 Recuperar Senha
-![Tela de Recuperação de Senha](assets/recuperar-senha.png)
+## 4. Teste de Usabilidade
 
-## 4. Link para Protótipo
+<p align="justify">
+A partir dos testes realizados foram feitas atualizações como, reestilização de todas as telas e botões, adicionando elementos de acordo com as observações feitas pelos usuários testados.
+
+O Teste de Usabilidade completo está disponivel em: [Teste de Usabilidade](doc-usabilidade)
+</p>
+
+
+## 5. Link para Protótipo
 
 https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scaling=scale-down
 
-## 5. Referências
+## 6. Referências
 >[1] PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
 >[2] Prototyping QueroMaisConversa. Disponível em https://github.com/QueroMais/QueroMaisConversa/wiki/Prototyping#31-vis%C3%A3o-geral-das-telas
 >[3]ferramenta Figma. Disponível em https://www.figma.com
@@ -59,7 +61,8 @@ https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scal
 ## Histórico de Revisão
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 30/03/2019 | 0.1 | Criação Protótipo | João Pedro, Matheus Cristo |
+| 30/03/2019 | 0.1 | Criação Protótipo | João Pedro, Matheus Cristo | 
+| 07/04/2019 | 0.2 | Criação de uma nova versão do Protótipo | Lucas Alexandre, Moacir Mascarenha |
 
 
 
