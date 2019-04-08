@@ -40,7 +40,7 @@ Tarefas|Status|Pontos
 |---|------|-----|---|
 |Lucas Siqueira| Maior entndimento da equipe em realação as metodologias ágeis, boa prototipação do produto, conclusão do backlog, importantes decisões tomadas. | Dividas continuaram como divida e as entregas não foram constantes. |Maior comprometimento na realização das tarefas.|
 |Lucas Pereira| Fechamento do backlog do produto, ambientes configurados para inicio da codificação. | Falta de comprometimento da equipe de EPS que deixou as mesmas historias como divida, demora na definição da logo e do novo nome do projeto. |Maior comprometimento da equipe de EPS.|
-|Caio Oliveira| + | - |melhoria|
+|Caio Oliveira| Fechamento do backlog  | Falta de proatividade da equipe de MDS e dívidas não resolvidas | Maior comprometimento para acabar com dívidas |
 |Matheus Rodrigues| + | - | melhoria|
 |Moacir Junior| Dojo de testes, aprendi a utilizar o figma, otimo pareamento no desenvolvimento do prototipo. | Dependencia entre as issues e falta direcionamengo na realização das tarefas. |Deixar menos dividas.|
 |João Pedro| Agora tenho um entendimento maior do projeto, todo mundo evoluiu em relação as metodologias ágeis, aprendi testes em python, bom engajamento nas dailys | Falta de tempo disponivél para execução das tarefas |Dividr melhor o tempo para a realização das tarefas|
