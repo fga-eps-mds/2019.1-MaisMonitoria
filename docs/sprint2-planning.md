@@ -49,7 +49,7 @@ Tarefas|Responsáveis
 |[Folha de estilo](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/27) | Matheus Estanislau, Renan Cristyan
 |[Prototipo de alta fidelidade](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/30) | Moacir Junior, Lucas Alexandre, Caio Oliveira
 |[Documento de Abertura do Projeto](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/13) | Caio Oliveira 
-|[Refatorar Github Pages](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/14) | Caio Oliveira
+|[Refatorar Github Pages](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/14) | Lucas Macedo, Matheus Rodrigues
 |[Priorização](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/16) | Caio Oliveira
 |[Documentos do scrum master sprint 2](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/22) | Lucas Siqueira
 |[Dojo de Pytest](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/26) | Lucas Macedo, MDS
