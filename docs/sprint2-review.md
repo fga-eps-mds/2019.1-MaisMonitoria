@@ -82,6 +82,20 @@ Tarefas|Status|Pontos
 ## 7. Feedback do Scrum Master
 ### 7.1 Análise dos riscos
 
+**Riscos ocorridos durante a sprint:**
+
+**R07 - Entregas atrasadas:**
+
+Das dividas anteriores, apenas uma foi cumprida, e as outras 2 se mantiveram como dividas, e tivemos mais uma divida dessa sprint, referente a refatoração do github pages, ocasionadas devido ao mal planejamento do tempo ao decorrer da sprint. 
+
+As ações tomadas foram: Definir uma meta de priorizar essas tarefas logo no inicio da sprint, porém os pareamentos vão se manter.
+
+**R08 - Dependencia das atividades:**
+
+Ocorreu a dependencia do backlog para a realização da priorização e da descrição das historias no documento de arquitetura, como era uma tarefa da issue do plano tempo, estava atrasada desde a sprint anterior.
+
+As ações tomadas foram: Realizar o backlog em parelelo ao documento de arquitetura, e ao finalizar o backlog foi feito o topico que estava faltando. Em relação à priorização não teve nenhuma ação tomada ao longa da sprint, porém como o backlog está pronto ela já pode ser feita.
+
 
 ### 7.2 Análise geral
 <p align = "justify">
