@@ -1,6 +1,6 @@
 ---
 id: sprint1-review
-title: Review da Sprint 1 
+title: Review da Sprint 1
 sidebar_label: Review
 ---
 
@@ -42,15 +42,15 @@ Tarefas|Status|Pontos
 
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
-|Lucas Siqueira| Muito documento entregue, a equipe de MDS mais comprometida no projeto. | Bot da daily não funcionou corretamente, dividas referentes a equipe de EPS, devido a mal planejamento da sprint. |Planejar melhor as proximas sprints|
-|Lucas Pereira| Muitos planos entregues, conseguimos iniciar a configuração do ambiente. | Planejamos equivocadamente muitas tarefas para a sprint porque achamos que precisam rapidamente. |Aumentar o comprometimento dos menbros de EPS|
+|Lucas Siqueira| Muito documento entregue, a equipe de MDS mais comprometida no projeto. | Bot da daily não funcionou corretamente, dívidas referentes a equipe de EPS, devido a mal planejamento da sprint. |Planejar melhor as próximas sprints|
+|Lucas Pereira| Muitos planos entregues, conseguimos iniciar a configuração do ambiente. | Planejamos equivocadamente muitas tarefas para a sprint porque achamos que precisam rapidamente. |Aumentar o comprometimento dos membros de EPS|
 |Caio Oliveira| Muitos documentos entregues e inicio da configuração do ambiente | Falta de proatividade da equipe de MDS, dívidas da equipe de EPS |Equipe de MDS ser mais independente|
-|Matheus Rodrigues| O entendimento a respeito do projeto aumentou por parte de MDS, o time se mostra bem interessado. | Dividas da equipe de EPS e algumas decisões que já deveriam ter sido tomadas, não foram resolvidas | A equipe não tardar em tomar decisões importantes |
-|Moacir Junior| Aprendi a noção baśica de django rest e aumentei o conhecimento sobre o projeto. | Curso muito repetitivo em algumas partes, faltou comunicação efetiva entre os menbros de mds. |Prestar atenção e se comunicar com seus pareamentos.|
-|João Pedro| Aprendi a noção básica de django rest, consegui usar bem o que foi ensinado nos dojos da sprint pasada.  | Curso cansativo e repetitivo, e falta de comunicação entre a equipe de MDS |Ter mais comprometimento e atenção nas tarefas|
+|Matheus Rodrigues| O entendimento a respeito do projeto aumentou por parte de MDS, o time se mostra bem interessado. | Dívidas da equipe de EPS e algumas decisões que já deveriam ter sido tomadas, não foram resolvidas | A equipe não demorar em tomar decisões importantes |
+|Moacir Junior| Aprendi a noção baśica de django rest e aumentei o conhecimento sobre o projeto. | Curso muito repetitivo em algumas partes, faltou comunicação efetiva entre os membros de mds. |Prestar atenção e se comunicar com seus pareamentos.|
+|João Pedro| Aprendi a noção básica de django rest, consegui usar bem o que foi ensinado nos dojos da sprint passada.  | Curso cansativo e repetitivo, e falta de comunicação entre a equipe de MDS |Ter mais comprometimento e atenção nas tarefas|
 |Matheus Cristo| - | - | - |
-|Renan Cristyan| Durante essa sprint tive mais colaboração em relação a sprint pasada, e foi legal ter essa noção de django rest | Pouco tempo para a realização do curso. |Nenhuma|
-|Lucas Alexandre| Aprendi a noção básica de django rest, aprendi a modelar requisitos não funcionais, todos os EPS me ajudaram quanto solicitado. | Muitos problemas na configuração do ambiente durante a realização do curso e o git hub pages poderia ser melhor. |Nenhuma.|
+|Renan Cristyan| Durante essa sprint tive mais colaboração em relação a sprint passada, e foi legal ter essa noção de django rest | Pouco tempo para a realização do curso. |Nenhuma|
+|Lucas Alexandre| Aprendi a noção básica de django rest, aprendi a modelar requisitos não funcionais, todos os EPS me ajudaram quando solicitado. | Muitos problemas na configuração do ambiente durante a realização do curso e o git hub pages poderia ser melhor. |Nenhuma.|
 
 ## 3. Quadro de conhecimento ao fim da sprint
 ![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-2.png)
@@ -83,10 +83,4 @@ Para essa sprint também iniciamos o ritual das dailys via slack, inicialmente t
 Analisando o burndown é possível perceber que a equipe conseguiu realizar entregas constantemente ao longo da sprint, porém creio que devido á um mal planejamento de algumas tarefas não conseguimos entregar tudo o que o foi planejado, porém a equipe como um todo demonstrou estar comprometida com o projeto.
 
 Em relação ao quadro de conhecimento é notável o avanço da equipe de desenvolvimento em relação aos seus estudos, mesmo sendo uma melhora pequena, pode-se perceber que  as realizações dos ritos ágeis, a prática de git e os estudos estão sendo efetivos. </p>
-
-
-
-
-
-
 

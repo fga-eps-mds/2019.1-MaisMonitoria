@@ -10,11 +10,11 @@ sidebar_label: Plano de Custos
 
 ## 2. Estimativa de Custo
 
-<p align="justify">O cálculo da espectativa de custo vai levar em conta custos de aquisição, custos com pessoal, custo de ferramentas, custos de capacitação e uma porcentagem para cobrir eventuais riscos e manter uma margen de lucro segura.</p>
+<p align="justify">O cálculo da expectativa de custo vai levar em conta custos de aquisição, custos com pessoal, custo de ferramentas, custos de capacitação e uma porcentagem para cobrir eventuais riscos e manter uma margem de lucro segura.</p>
 
 ## 3. Custo de Aquisição
 
-<p align="justify">Incluem equipamentos, espaço de trabalho, transporte e alimentação. Para levantar o custo dos equipamentos o Devops e o Arquiteto levantaram os requistos minimos que um notebook precisa ter para que os Desenvolvedores possam realizar suas atividades tranquilamente, com base nisso o Product Owner fez uma pesquisa de preço e escolheu o modelo de Notebook que atende aos requisitos impostos equalisando qualidade e bom preço. No quesito espaço de trabalho o Product Owner chegou a conclusão que a melhor saída é alugar um espaço de Coworking pois todos os outros gastos e preocupações como contas de água, luz e a manutenção do espaço estão imbutidas no aluguel. Por fim para definir um valor para as despesas com transporte e alimentação o Product Owner considerou que cada membro da equipe pegará no máximo duas conduções para se deslocar até o local de trabalho e que o preço médio de uma refeição na região é 15 reais.</p>
+<p align="justify">Incluem equipamentos, espaço de trabalho, transporte e alimentação. Para levantar o custo dos equipamentos o Devops e o Arquiteto levantaram os requisitos mínimos que um notebook precisa ter para que os Desenvolvedores possam realizar suas atividades tranquilamente, com base nisso o Product Owner fez uma pesquisa de preço e escolheu o modelo de Notebook que atende aos requisitos impostos equalizando qualidade e bom preço. No quesito espaço de trabalho o Product Owner chegou a conclusão que a melhor saída é alugar um espaço de Coworking pois todos os outros gastos e preocupações como contas de água, luz e a manutenção do espaço estão embutidas no aluguel. Por fim para definir um valor para as despesas com transporte e alimentação o Product Owner considerou que cada membro da equipe pegará no máximo duas conduções para se deslocar até o local de trabalho e que o preço médio de uma refeição na região é 15 reais.</p>
 
 <br>
 
@@ -32,11 +32,11 @@ sidebar_label: Plano de Custos
 
 **Preço aproximado do aluguel de 4 baias com espaço para um pareamento em cada baia durante 10 horas por semana, com base em pesquisa feita dia 31/03/2019. Link da pesquisa: [Conecta Coworking](https://coworkingbrasil.org/spaces/conecta-coworking/).
 
-***Preço das passagens de onibus no DF utilizando uma linha de R$ 5,00 e outra de R$ 3,50 para ir e para voltar. Link da pesquisa: [DFTRANS](http://www.dftrans.df.gov.br/tarifas/).
+***Preço das passagens de ônibus no DF utilizando uma linha de R$ 5,00 e outra de R$ 3,50 para ir e para voltar. Link da pesquisa: [DFTRANS](http://www.dftrans.df.gov.br/tarifas/).
 
 ## 4. Custo de Pessoal
 
-<p align="justify"> Para chegar nos valores salariais definidos o Product Owner fez uma pesquisa de quanto se paga em média por uma hora de trabalho de desenvolvedores junior para se estimar o salário da equipe de MDS, já no caso da equipe de EPS se levantou quanto se paga em média pela hora de trabalho de cada um dos papéis definidos para a equipe e ao final calculamos a média aritmética entre os ganhos médios, pois levamos em conta que tais papeis serão rotacionados entre a equipe de EPS.</p>
+<p align="justify"> Para chegar nos valores salariais definidos o Product Owner fez uma pesquisa de quanto se paga em média por uma hora de trabalho de desenvolvedores júnior para se estimar o salário da equipe de MDS, já no caso da equipe de EPS se levantou quanto se paga em média pela hora de trabalho de cada um dos papéis definidos para a equipe e ao final calculamos a média aritmética entre os ganhos médios, pois levamos em conta que tais papéis serão rotacionados entre a equipe de EPS.</p>
 
 <br>
 
@@ -48,15 +48,15 @@ sidebar_label: Plano de Custos
 
 <br>
 
-*Valor médio do salário dos Gerentes consideou que um Product Owner ganha em média R$ 8.180, um Scrum Master R$ 7.913, um Devops R$ 7.514 e um Arquiteto R$ 9.855. Valores aproximados definidos com base em pesquisa feita dia 31/03/2019 no site LoveMondays. Link da pesquisa: [LoveMondays](https://www.lovemondays.com.br/).  
+*Valor médio do salário dos Gerentes considerou que um Product Owner ganha em média R$ 8.180, um Scrum Master R$ 7.913, um Devops R$ 7.514 e um Arquiteto R$ 9.855. Valores aproximados definidos com base em pesquisa feita dia 31/03/2019 no site LoveMondays. Link da pesquisa: [LoveMondays](https://www.lovemondays.com.br/). 
 
 ## 5. Custo de Ferramentas
 
-Não estão previstos gastos com ferramentas durante a execução do projeto, pois o grupo pretende utilizar apenas ferramentas Open Source ou em caso extremo em que não existam soluções Open Source adequadas utilizar ferramentas proprietarias dentro de seu limite Free de uso. As ferramentas que esperamos utilizar podem ser vistas no [Plano de GCS](https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/plano-gcs).
+Não estão previstos gastos com ferramentas durante a execução do projeto, pois o grupo pretende utilizar apenas ferramentas Open Source ou em caso extremo em que não existam soluções Open Source adequadas utilizar ferramentas proprietárias dentro de seu limite Free de uso. As ferramentas que esperamos utilizar podem ser vistas no [Plano de GCS](https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/plano-gcs).
 
 ## 6. Custo de Capacitação
 
-<p align="justify">Ao discutir com a equipe de EPS sobre o atual nível técnico da equipe de MDS o Product Owner chegou a conclusão que seria necessário investir na capacitação da equipe MDS, tendo em vista que eles ainda não tem tanta desenvoltura para pesquisar e aprender por conta própria sobre os conhecimentos demandados para execução do projeto. A partir dessa decisão foram adotadas duas formas de realizar capacitação da equipe de MDS, a primeira através de Dojos ministrados pelos membros da equipe de EPS e a segunda forma que é através de cursos em plataformas online de ensino, sendo alguns gratuitos e outros adiquiridos.</p>
+<p align="justify">Ao discutir com a equipe de EPS sobre o atual nível técnico da equipe de MDS o Product Owner chegou a conclusão que seria necessário investir na capacitação da equipe MDS, tendo em vista que eles ainda não tem tanta desenvoltura para pesquisar e aprender por conta própria sobre os conhecimentos demandados para execução do projeto. A partir dessa decisão foram adotadas duas formas de realizar capacitação da equipe de MDS, a primeira através de Dojos ministrados pelos membros da equipe de EPS e a segunda forma que é através de cursos em plataformas online de ensino, sendo alguns gratuitos e outros adquiridos.</p>
 
 <br>
 
@@ -73,7 +73,7 @@ Não estão previstos gastos com ferramentas durante a execução do projeto, po
 
 ## 7. Custo Total
 
-<p align="justify">Para estimar o custo total, além de somar todas as despesas levantadas nos tópicos anteriores o Product Owner adicionou um acrescimo de 20% no custo para garantir uma margem de lucro segura e mais 20% para cobrir eventuais riscos ou atrasos que venham a ocorrer durante a execução do projeto.</p>
+<p align="justify">Para estimar o custo total, além de somar todas as despesas levantadas nos tópicos anteriores o Product Owner adicionou um acréscimo de 20% no custo para garantir uma margem de lucro segura e mais 20% para cobrir eventuais riscos ou atrasos que venham a ocorrer durante a execução do projeto.</p>
 
 <br>
 
@@ -90,7 +90,7 @@ Não estão previstos gastos com ferramentas durante a execução do projeto, po
 | Custo | Valor Total |
 |:--:|:--:|
 | Custos de aquisição, pessoal, ferramentas e capacitação | R$ 235.521,99 |
-| Acrescimo de risco | R$ 47.104,40 | 
+| Acrescimo de risco | R$ 47.104,40 |
 | Margem de lucro | R$ 47.104,40 |
 | **Total** | **R$ 329.730,79** |
 
@@ -113,3 +113,5 @@ ___
 | 31/03/2019 | 0.1 | Criação do documento | Lucas Macêdo |
 | 31/03/2019 | 0.2 | Criação dos Tópicos | Lucas Macêdo e Lucas Siqueira |
 | 31/03/2019 | 0.3 | Criação das Tabelas de Custos | Lucas Macêdo, Lucas Siqueira, Caio Oliveira e Matheus Rodrigues |
+
+

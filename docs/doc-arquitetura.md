@@ -8,19 +8,19 @@ sidebar_label: Documento de Arquitetura
 
 ### 1.1. Objetivo
 
-<p align="justify"> 
-	Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema. garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores. </p>
- 
+<p align="justify">
+    Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema. garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores. </p>
+
 ### 1.2. Escopo
 
-<p align="justify"> 
-	O +Monitoria é um produto de software que contará com uma interface Web Progressiva (PWA) e uma estrutura de microserviços responsável pela implementação das regras de negócios, com objetivo de facilitar as monitorias na FGA.</p>
+<p align="justify">
+    O +Monitoria é um produto de software que contará com uma interface Web Progressiva (PWA) e uma estrutura de microsserviços responsável pela implementação das regras de negócios, com objetivo de facilitar as monitorias na FGA.</p>
 
 <p align="justify">
-	Neste documento são apresentadas as descrições do modelo arquitetural, sua composição e requisitos de integração.</p>
-	
-<p align="justify">	
-	Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS no desenvolvimento do produto, oferecendo diretrizes quanto às tecnologias a serem utilizadas neste projeto, além de seu padrão de utilização.</p>
+    Neste documento são apresentadas as descrições do modelo arquitetural, sua composição e requisitos de integração.</p>
+    
+<p align="justify"> 
+    Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS no desenvolvimento do produto, oferecendo diretrizes quanto às tecnologias a serem utilizadas neste projeto, além de seu padrão de utilização.</p>
 
 ### 1.3. Visão Geral
 
@@ -30,7 +30,7 @@ Neste documento estão contidos os seguintes pontos, respectivamente: representa
 ## 2. Representação Arquitetural
 
 <p align="justify">
-Será utilizada na aplicação o padrão arquitetural de microsserviços, com uma interface PWA construida com React JS, um framework que baseia-se na linguagem de programação JavaScript. A organização dos microsserviços se dará através de uma API Gateway que será responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação. Os microserviços voltados a implementação das regras de negócio serão construidos com Django Rest, um framework feito a partir da linguagem de programação Python que implementa o design de arquitetura REST. </p>
+Será utilizada na aplicação o padrão arquitetural de microsserviços, com uma interface PWA construída com React JS, um framework que baseia-se na linguagem de programação JavaScript. A organização dos microsserviços se dará através de uma API Gateway que será responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação. Os microsserviços voltados à implementação das regras de negócio serão construídos com Django Rest, um framework feito a partir da linguagem de programação Python que implementa o design de arquitetura REST. </p>
 
 ### 2.1 Representação Interna dos Microsserviços
 
@@ -39,7 +39,7 @@ Será utilizada na aplicação o padrão arquitetural de microsserviços, com um
 ### Django REST Framework
 
 <p align="justify">
-Os microsserviços voltados as regras de negócio do produto serão feitos com Django Rest Framework. O Django Rest Framework é uma biblioteca para o Framework Django que disponibiliza funcionalidades para implementar APIs Rest de forma extremamente rápida. As APIs são desenvolvidas seguindo o padrão Model - View, que é descrito logo abaixo:
+Os microsserviços voltados às regras de negócio do produto serão feitos com Django Rest Framework. O Django Rest Framework é uma biblioteca para o Framework Django que disponibiliza funcionalidades para implementar APIs Rest de forma extremamente rápida. As APIs são desenvolvidas seguindo o padrão Model - View, que é descrito logo abaixo:
 </p>
 
 **Model:**
@@ -49,14 +49,14 @@ Nessa camada é implementada o banco de dados ou o modelo objeto-relacional. Tem
 
 **View:**
 
-<p align="justify"> Encarrega-se de interpretar entradas vindas de outros sistemas, distribuindo comandos como autorização, busca de dados ou requisições em outros sistemas, fazendo uso das classes definidas no modelo (Model). Será responsalvel por gerenciar requisições http, prtocolo este de comunicação de rede.</p>
+<p align="justify"> Encarrega-se de interpretar entradas vindas de outros sistemas, distribuindo comandos como autorização, busca de dados ou requisições em outros sistemas, fazendo uso das classes definidas no modelo (Model). Será responsável por gerenciar requisições http, protocolo este de comunicação de rede.</p>
 
 ### Postgres
 
 <p align="justify">
 O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.</p>
 
-### Microsserviço da Interface PWA 
+### Microsserviço da Interface PWA
 
 ### ReactJS
 
@@ -75,39 +75,39 @@ O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScrip
 
 - **Microsserviço Feed** - Responsável por manter feed's de novidades e atualizações gerados de acordo com os perfis dos usuários.
 
-- **Microsserviço Monitorias** - Responsavel por gerenciar tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
+- **Microsserviço Monitorias** - Responsável por gerenciar tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
 
 - **Microsserviço Gamificação** - Responsável gerenciar toda a parte de gamificada do produto, incluindo processamento de um ranking, cálculo de pontuações e distribuição de recompensas.
 
-- **Banco de dados Monitorias** - Responsável por armazenar os dados do microserviço monitorias.
+- **Banco de dados Monitorias** - Responsável por armazenar os dados do microsserviço monitorias.
 
-- **Banco de dados Feed** - Responsável por armazenamento os dados do microserviço Feed.
+- **Banco de dados Feed** - Responsável por armazenamento os dados do microsserviço Feed.
 
-- **Bancos de dados Gamificação** - Responsável por armazenamento os dados do microserviço Ranking.
+- **Bancos de dados Gamificação** - Responsável por armazenamento os dados do microsserviço Ranking.
 
 - **Interface PWA** - Constrói a interface para o usuário e realiza requisições através da API Gateway.
 
 ## 3. Visão das Histórias de Usuário
 
- - **US03 - Implatar armazenamento em cache:** Eu como usuário gostaria de poder usar a aplicação mesmo com uma conexão ruim ou inconsistente à internet.
+- **US03 - Implantar armazenamento em cache:** Eu como usuário gostaria de poder usar a aplicação mesmo com uma conexão ruim ou inconsistente à internet.
 
- - **US04 - Implatar sistema de notificações:** Eu como usuário gostaria de receber notificações por push sobre atividades do app.
+- **US04 - Implantar sistema de notificações:** Eu como usuário gostaria de receber notificações por push sobre atividades do app.
 
- - **US05 - Disponibilizar adição de ícone:** Eu como usuário gostaria de adicionar ícone na tela principal com apenas um click.
+- **US05 - Disponibilizar adição de ícone:** Eu como usuário gostaria de adicionar ícone na tela principal com apenas um click.
 
- - **US06 - Implantar pesquisa dinâmico:** Eu como usuário desejo que o sistema de pesquisa seja dinâmico.
+- **US06 - Implantar pesquisa dinâmico:** Eu como usuário desejo que o sistema de pesquisa seja dinâmico.
 
- - **US07 - Disponibilizar filtros de pesquisa relevantes:** Eu como usuário desejo pesquisar as monitorias de acordo com os filtros relevantes.
+- **US07 - Disponibilizar filtros de pesquisa relevantes:** Eu como usuário desejo pesquisar as monitorias de acordo com os filtros relevantes.
 
- - **US08 - Disponibilizar autenticação por API externa:** Eu como usuário desejo autenticar minha contar utilizando meu cadastro de outro serviço.
+- **US08 - Disponibilizar autenticação por API externa:** Eu como usuário desejo autenticar minha conta utilizando meu cadastro de outro serviço.
 
- - **US09 - Disponibilizar sistema de ranking:** Eu como usuário desejo ter acesso a um sistema de ranqueamento baseado na pontuação do usuário.
+- **US09 - Disponibilizar sistema de ranking:** Eu como usuário desejo ter acesso a um sistema de ranqueamento baseado na pontuação do usuário.
 
- - **US10 - Atualizações de ranking:** Eu como usuário desejo que o ranking seja atualizado de acorodo com período de tempo pré-definido.
+- **US10 - Atualizações de ranking:** Eu como usuário desejo que o ranking seja atualizado de acordo com período de tempo pré-definido.
 
- - **US11 - Sistema de recompensas:** Eu como usuário desejo recber recompensas de acordo com meu engajamento na app, com base na minha classificação do ranking.
+- **US11 - Sistema de recompensas:** Eu como usuário desejo receber recompensas de acordo com meu engajamento na app, com base na minha classificação do ranking.
 
- - **US12 - Sistema de feed perdonalizado:** Eu como usuário desejo ver um feed de acordo com meus temas de interesse, historico de monitoria, usuários seguidos e novidades em geral..
+- **US12 - Sistema de feed personalizado:** Eu como usuário desejo ver um feed de acordo com meus temas de interesse, histórico de monitoria, usuários seguidos e novidades em geral..
 
 - **US13 - Sistema de seguir usuário:** Eu como usuário desejo um poder de seguir usuários que eu ache interessante.
 
@@ -115,7 +115,7 @@ Para mais informações visite o [Backlog](doc-backlog.md).
 
 ## 4. Metas e Restrições de Arquitetura
 
-Uma das principais metas e restrições é se encaixar como um Progressive Web APP, através dos seguintes requisitos: 
+Uma das principais metas e restrições é se encaixar como um Progressive Web APP, através dos seguintes requisitos:
 
 - Poder ser utilizado independentemente do browser ou do dispositivo. O sistema será funcional em navegadores de internet, entretanto atualmente está mais otimizado para o Google Chrome.
 - Funcionar também sem conexão com a internet (apesar que de forma limitada).
@@ -125,7 +125,7 @@ Uma das principais metas e restrições é se encaixar como um Progressive Web A
 - Oferecer uma experiência semelhante a de um aplicativo nativo.
 
 <p align="justify">
-O Ambiente de desenvolvimento será o terminal de uma distribuição Linux com auxílio do ambiente de virtualização Docker e um editor de texto, neste ambiente faremos uso da linguagem de programação Python junto ao framework Django Rest além do framework javascript ReactJS que nos permitira gerar uma interface agradável ao usuário.</p>
+O Ambiente de desenvolvimento será o terminal de uma distribuição Linux com auxílio do ambiente de virtualização Docker e um editor de texto, neste ambiente faremos uso da linguagem de programação Python junto ao framework Django Rest além do framework javascript ReactJS que nos permitirá gerar uma interface agradável ao usuário.</p>
 
 <p align="justify">
 O padrão de microsserviços proporciona uma composição, manutenibilidade e reutilização de código que é essencial, levando em consideração que a equipe é grande e tem conhecimentos diversos, conclui-se que seguir um padrão é fundamental para o sucesso do projeto.</p>
@@ -135,7 +135,7 @@ O padrão de microsserviços proporciona uma composição, manutenibilidade e re
 ### 5.1. Visão Lógica
 
 <p align="justify">
-Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços de Regra de Negócio que são responsáveis por implementar as funcionalidades, API Gateway responsável por mediar a comunicação entre os serviços e Microsserviço da Interface PWA que éresponsável por prover uma interface para o usuario fazer uso das funcionalidades.</p>
+Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços de Regra de Negócio que são responsáveis por implementar as funcionalidades, API Gateway responsável por mediar a comunicação entre os serviços e Microsserviço da Interface PWA que é responsável por prover uma interface para o usuário fazer uso das funcionalidades.</p>
 
 ### Microsserviços de Regra de Negócio
 
@@ -144,11 +144,11 @@ Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços d
 
 - Model - A model é a representação dos objetos, permitindo obter informações do banco de dados sem conhecer a complexidade de tal. Essa camada contém tudo sobre os dados: como acessar, validar, comportamentos e relações entre dados.
 
-- View - Responsável por alimentar o banco de dados por intermédio da Model e receber dados da API externa. Encarrega-se de interpretar entradas vindas de outros sistemas, distribuindo comandos como autorização, busca de dados ou requisições em outros sistemas, fazendo uso das classes definidas no modelo (Model). Será responsalvel por gerenciar requisições http, protocolo este de comunicação de rede.
+- View - Responsável por alimentar o banco de dados por intermédio da Model e receber dados da API externa. Encarrega-se de interpretar entradas vindas de outros sistemas, distribuindo comandos como autorização, busca de dados ou requisições em outros sistemas, fazendo uso das classes definidas no modelo (Model). Será responsável por gerenciar requisições http, protocolo este de comunicação de rede.
 
 ### Microsserviço da Interface PWA
 <p align="justify">
-Responsavel pelo desenvolvimento de interface o usuário e foca na utilização de componentes para que que seja possível aumentar o máximo do reuso na sua aplicação.</p>
+Responsável pelo desenvolvimento de interface o usuário e foca na utilização de componentes para que que seja possível aumentar o máximo do reuso na sua aplicação.</p>
 
 
 
@@ -160,7 +160,7 @@ Do ponto de vista da implementação os Microsserviços de Regra de Negócio vã
 ### Microsserviços de Regra de Negócio
 
 <p align="justify">
- Para realizar a implementação do microsserviço desenvolveremos app Django Rest, teremos uma estrutura Model - View juntamente com uma "Serializers" e uma "Urls".
+Para realizar a implementação do microsserviço desenvolveremos app Django Rest, teremos uma estrutura Model - View juntamente com uma "Serializers" e uma "Urls".
 
 Descrição da distribuição do Django Rest Framework:</p>
 
@@ -169,12 +169,12 @@ Descrição da distribuição do Django Rest Framework:</p>
 - Arquivo Urls.py - Arquivo responsável por conectar e configurar os URLs da API.
 - Arquivo Models.py - Arquivo responsável por gerenciar e executar a comunicação com o banco de dados além de definir entidades e validações.
 
-### Microsserviço da Interface PWA 
+### Microsserviço da Interface PWA
 
 <p align="justify">
 Para realizar a implementação do microsserviço desenvolveremos app ReactJS, teremos uma estrutura App.js juntamente com uma index.js </p>
 
- Descrição da distribuição no ambiente React:
+Descrição da distribuição no ambiente React:
 
 - Arquivo App.js - Ponto inicial da aplicação, também é capaz de referenciar componentes do projeto.
 - index.js - Fazer com que retorne um elemento JSX da app.
@@ -198,18 +198,16 @@ A arquitetura organiza a aplicação em microsserviços, isso faz com que a comp
 
 <p align="justify">
 O banco de dados Postgres é um software multi-plataforma altamente escalável. O software garantirá a segurança dos dados informados pelo usuário, além de disponibilizar ferramentas simples, funcionais e intuitivas.</p>
-  
-## 8. Referências Bibliográficas
+ ## 8. Referências Bibliográficas
 
->Documentação oficial do Django. Disponível em: 
+>Documentação oficial do Django. Disponível em:
 https://docs.djangoproject.com/pt-br/1.11/
 
 >Página "Padrões Arquiteturais MVC x Arquitetura Django da wiki de fga-gpp-mds. Disponível em: https://github.com/fga-gpp-mds/00-Disciplina/wiki/Padr%C3%B5es-Arquiteturais
 
-> Conceito de PWA. Disponível em: 
+> Conceito de PWA. Disponível em:
 https://www.opus-software.com.br/o-que-e-pwa/
- 
-> API Gateway em arquitetura de microsserviços. Disponível em: 
+> API Gateway em arquitetura de microsserviços. Disponível em:
 https://imasters.com.br/apis-microsservicos/api-gateway-em-arquitetura-de-microservices-com-node-js
 
 > External authentication services. Disponível em:
@@ -246,3 +244,4 @@ ___
 | 04/04/2019 | 0.3 | Adição dos tópicos: Tamanho e Desempenho; Qualidade;  Atualizado: Representação da arquitetura | João Pedro, Lucas Alexandre |
 | 04/04/2019 | 0.4 | Adição o tópico: Visão de implementação; Atualizado: PWA | Matheus Estanislau |
 | 07/04/2019  | 0.5 | Revisão de vários tópicos e adição de outros | João Pedro, Lucas Alexandre, Lucas Macêdo, Matheus Estanislau, Matheus Rodrigues, Moacir Mascarenha, Renan Cristyan |
+
