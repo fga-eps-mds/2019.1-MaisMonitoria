@@ -11,26 +11,99 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'Caio Oliveira',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
+    image: 'https://avatars1.githubusercontent.com/u/23109243?s=400&v=4',
+    infoLink: 'https://www.github.com/caiooliv',
     pinned: true,
+    role: 'Product Owner',
+  },
+  {
+    caption: 'Lucas Macêdo',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars2.githubusercontent.com/u/19879482?s=400&v=4',
+    infoLink: 'https://www.github.com/lukassxp',
+    pinned: true,
+    role: 'Arquiteto de Software',
+  },
+  {
+    caption: 'Lucas Siqueira',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars1.githubusercontent.com/u/23382026?s=400&v=4',
+    infoLink: 'https://www.github.com/lucassiqz',
+    pinned: true,
+    role: 'Scrum Master',
+  },
+  {
+    caption: 'Matheus Nascimento',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars1.githubusercontent.com/u/31085700?s=400&v=4',
+    infoLink: 'https://www.github.com/matheus-rn',
+    pinned: true,
+    role: 'DevOps',
+  },
+  {
+    caption: 'João Pedro',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars0.githubusercontent.com/u/31708472?s=400&v=4',
+    infoLink: 'https://www.github.com/jpcirqueira',
+    pinned: true,
+    role: 'Desenvolvedor',
+  },
+  {
+    caption: 'Lucas Alexandre',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars0.githubusercontent.com/u/44438409?s=400&v=4',
+    infoLink: 'https://www.github.com/lucasA27',
+    pinned: true,
+    role: 'Desenvolvedor',
+  },
+  {
+    caption: 'Matheus de Cristo',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars1.githubusercontent.com/u/44438591?s=400&v=4',
+    infoLink: 'https://www.github.com/MatheusEstanislau',
+    pinned: true,
+    role: 'Desenvolvedor',
+  },
+  {
+    caption: 'Moacir Júnior',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars3.githubusercontent.com/u/48539765?s=400&v=4',
+    infoLink: 'https://www.github.com/MoacirMSJ',
+    pinned: true,
+    role: 'Desenvolvedor',
+  },
+  {
+    caption: 'Renan Cristyan',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars1.githubusercontent.com/u/39436190?s=400&v=4',
+    infoLink: 'https://www.github.com/RCristyan',
+    pinned: true,
+    role: 'Desenvolvedor',
   },
 ];
 
 const siteConfig = {
-  title: 'Hora da Hora', // Title for your website.
-  tagline: 'Docs Website ',
+  title: '+Monitoria', // Title for your website.
+  tagline: '',
   url: 'https://fga-eps-mds.github.io', // Your website URL
-  baseUrl: '/2019.1-Hora-Da-Hora/', // Base URL for your project */
+  baseUrl: '/2019.1-MaisMonitoria/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: '2019.1-Hora-Da-Hora',
+  projectName: '2019.1-MaisMonitoria',
   organizationName: 'fga-eps-mds',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -41,16 +114,18 @@ const siteConfig = {
     {doc: 'doc-richpicture', label: 'Requisitos'},
     {doc: 'doc-tap', label: 'Docs'},
     {doc: 'sprint0-planning', label: 'Sprints'},
-    {page: 'help', label: 'Help'},
+  //  {page: 'help', label: 'Help'},
   ],
+
+  docsSideNavCollapsible: true,
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/LOGO_NOVA.png',
+  footerIcon: 'img/LOGO_NOVA.png',
+  favicon: 'img/LOGO_NOVA.png',
 
   /* Colors for website */
   colors: {
@@ -73,7 +148,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} +Monitoria`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

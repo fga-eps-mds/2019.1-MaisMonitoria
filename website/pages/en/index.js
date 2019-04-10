@@ -168,36 +168,35 @@ class Index extends React.Component {
       const showcase = siteConfig.users
         .filter(user => user.pinned)
         .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
+          <div>
+            <a href={user.infoLink} key={user.infoLink}>
+              <img src={user.image} alt={user.caption} title={user.caption}/>
+            </a>
+						<h4>{user.caption}</h4>
+						<p>{user.role}</p>
+          </div>
+          ));
 
       const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
 
       return (
         <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
+          <h2>Este projeto foi idealizado e está sendo desenvolvido por:</h2>
           <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
         </div>
       );
     };
 
     return (
       <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
+        {/* <HomeSplash siteConfig={siteConfig} language={language} /> */}
+        <h1 align='center'>Em construção...</h1>
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
+          {/* <Features /> */}
+          {/* <FeatureCallout /> */}
+          {/* <LearnHow /> */}
+          {/* <TryOut /> */}
+          {/* <Description /> */}
           <Showcase />
         </div>
       </div>
