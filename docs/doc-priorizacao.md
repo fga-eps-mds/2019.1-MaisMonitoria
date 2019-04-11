@@ -1,7 +1,7 @@
 ---
 id: doc-priorizacao
-title: Documento de Priorizacao
-sidebar_label: Documento de Priorização
+title: Priorizacao
+sidebar_label: Priorização
 ---
 
 # Introdução
@@ -45,9 +45,29 @@ Moscow é uma técnica de priorização em que se tem 4 diretivas, que dizem a n
 | US12 | Sistema de feed perdonalizado | Want |
 | US13 | Sistema de seguir usuário | Want |
 
+# First things first
+FTF é uma técnica de priorização que leva em conta 4 fatores, benefício, penalidade, custo e risco. Assim a priorização fica mais detalhada, trazendo mais esclarecimento para os envolvidos no projeto.
+## Tabelas
 
+![FTF - epic01](assets/FTF-1.png)
+> Épico 01 - Interfacce PWA
+
+![FTF - epic02](assets/FTF-2.png)
+> Épico 02 - Microserviço Gerenciador de monitoria
+
+![FTF - epic03](assets/FTF-3.png)
+> Épico 01 - Microserviço gateway
+
+![FTF - epic04](assets/FTF-4.png)
+> Épico 04 - Microserviço de gameficação
+
+![FTF - epic05](assets/FTF-5.png)
+> Épico 01 - Microserviço gerador de feed
+
+todas as tabelas encontram-se disponível em: [Tabelas FTF](https://docs.google.com/spreadsheets/d/1WSlpAsuv4rFWkpX01wvN_n2r_ck3Vuj0PNup1SXLlzM/edit?usp=sharing)
 ## Histórico de Revisão
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 07/04/2019 | 0.1 | Abertura do documento | Caio Oliveira |
 | 07/04/2019 | 0.2 | Desnvolvimento da tabela de Moscow | Caio Oliveira |
+| 10/04/2019 | 0.3 | Desnvolvimento das tabelas de FTF | Caio Oliveira |
