@@ -3,8 +3,13 @@
     "Documentos": [ "doc-tap",
                     "doc-visao",
                     "doc-arquitetura",
+<<<<<<< HEAD
+                    "doc-backlog"],
+=======
                     "doc-folhaEstilo",
-                    "doc-usabilidade"],
+                    "doc-usabilidade",
+                    "doc-priorizacao"],
+>>>>>>> bf5b6952e3308a730241b20a82092e71606ffda3
 
     "Planos": [ "plano-gcs",
                 "plano-riscos",
