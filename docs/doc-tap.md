@@ -98,7 +98,7 @@ EAP ou estrutura analítica de projeto é uma forma visual de representar as fas
 
 <br>
 
-Imagem ampliada está disponivel [aqui](https://uploaddeimagens.com.br/images/002/019/629/full/EAP.png?1554523532).
+Imagem ampliada está disponivel [aqui](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/assets/EAP.png).
 
 ## 10. Canvas
 Canvas é uma ferramenta que demonstra as principais informações de um projeto, para que seja possível a melhor visualização o modelo de negócio.
