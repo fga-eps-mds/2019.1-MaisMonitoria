@@ -30,15 +30,22 @@ Iniciamos com o projeto de baixa fidelidade produzido através dos levantamentos
 
 ### 3.1 Visão Geral Telas
 
-### Versão 2.0
+### Versão 3.0
 
 ![Visão Geral](assets/visao-geral1-prototipo2.png)
 
 ![Visão Geral](assets/visao-geral2-prototipo2.png)
 
-### Versão 1.0
+### Versão 2.0
 
 ![Visão Geral](assets/todas-as-telas.png)
+
+### Versão 1.0 (Protótipo de papel)
+
+![Visão Geral](assets/prototipo-papel1.jpeg)
+
+![Visão Geral](assets/prototipo-papel2.jpeg)
+
 
 ## 4. Teste de Usabilidade
 
@@ -61,8 +68,8 @@ https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scal
 ## Histórico de Revisão
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 30/03/2019 | 0.1 | Criação Protótipo | João Pedro, Matheus Cristo | 
-| 07/04/2019 | 0.2 | Criação de uma nova versão do Protótipo | Lucas Alexandre, Moacir Mascarenha |
+| 30/03/2019 | 0.1 | Criação e desenvolvimento do documento | João Pedro, Matheus Cristo | 
+| 07/04/2019 | 0.2 | Criação da versão 3.0 do Protótipo | Lucas Alexandre, Moacir Mascarenha |
 
 
 

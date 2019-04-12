@@ -52,11 +52,11 @@ Foi feito um mapeamento inicial das características técnicas dos membros do pr
 A partir disto, a equipe de EPS elaborou treinamentos e estudos a serem feitos para o time de desenvolvimento que estão sendo documentados em issues com a tag [TRAINNING].
 
 ## 6. Referências Bibliográficas
-* PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
+> PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
 
-* **PlataformaJogosUnB**. Plano de Gerenciamento de Recursos Humanos. Disponível em https://github.com/fga-gpp-mds/2017.1-PlataformaJogosUnB/wiki/Plano-de-Gerenciamento-de-Recursos-Humanos
+> **PlataformaJogosUnB**. Plano de Gerenciamento de Recursos Humanos. Disponível em https://github.com/fga-gpp-mds/2017.1-PlataformaJogosUnB/wiki/Plano-de-Gerenciamento-de-Recursos-Humanos
 
-* **QueroCultura**. Plano de Gerenciamento dos Recursos Humanos. Disponível em https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Plano-de-Gerenciamento-de-Recursos-Humanos
+> **QueroCultura**. Plano de Gerenciamento dos Recursos Humanos. Disponível em https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Plano-de-Gerenciamento-de-Recursos-Humanos
 
 ## Histórico de Versões
 |Data|Versão|Descrição|Responsável|

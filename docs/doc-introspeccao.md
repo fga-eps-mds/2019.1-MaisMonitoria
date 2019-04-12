@@ -8,7 +8,7 @@ sidebar_label: Introspecção
 <p align="justify"> É uma técnica de elicitação, que baseia-se em imaginar que tipo de sistema eu iria querer se eu tivesse executando esta tarefa, utilizando este equipamento, entre outros[1]. Nesse caso consiste em aspectos em que uma rede social de monitorias deve possuir para satisfazer as necessidades de um estudante que busca compartilhar e adquirir novos conhecimentos.</p>
 
 ## 2. Instrospecção:
-<p align="justify"> 
+<p align="justify">
 
 **Perfil:**
 * Deve conter informações básicas obrigatórias sobre o usuário(monitor).
@@ -29,7 +29,7 @@ sidebar_label: Introspecção
 * Deve conter ranking mensal.
 * Deve conter ranking geral.
 * Deve premiar os usuários com medalhas, ou classificação, ou semelhante.
-	
+    
 **Monitoria:**
 * Deve conter a disciplina.
 * Deve conter uma linkagem para o perfil do usuário que a disponibilizou.
@@ -39,7 +39,7 @@ sidebar_label: Introspecção
 * Solicitar / Aceitar solicitação de monitoria.
 * Deve finalizar a monitoria.
 * Deve ser possível avaliar o monitor.
-	
+    
 **Feed:**
 * Feed baseado em informações do usuário logado.
 * Deve possuir listagem infinita.
@@ -64,7 +64,10 @@ ___
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 19/03/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
-| 19/03/2019 | 0.2 | Realização dos topicos da introspecção | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
+| 19/03/2019 | 0.2 | Realização dos tópicos da introspecção | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
 | 21/03/2019 | 0.3 | Adição da introdução  | Lucas Siqueira |
+
+
+
 
 
