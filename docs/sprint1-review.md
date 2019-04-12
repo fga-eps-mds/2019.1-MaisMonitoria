@@ -36,6 +36,7 @@ Tarefas|Status|Pontos
 
 
 **Ponto Planejados:** 40
+
 **Pontos Concluídos:** 35
 
 ### 2.2 Retrospectiva

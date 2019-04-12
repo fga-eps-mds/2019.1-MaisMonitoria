@@ -9,7 +9,8 @@
     "Planos": [ "plano-gcs",
                 "plano-riscos",
                 "plano-grh", 
-                "plano-custos"]
+                "plano-custos",
+                "doc-descricao-metodologia"]
   },
 
   "docs-sprints": {
