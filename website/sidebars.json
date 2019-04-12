@@ -10,7 +10,9 @@
     "Planos": [ "plano-gcs",
                 "plano-riscos",
                 "plano-grh", 
-                "plano-custos"]
+                "plano-custos",
+                "doc-plano-tempo",
+                "doc-descricao-metodologia"]
   },
 
   "docs-sprints": {
@@ -32,7 +34,8 @@
     
     "Priorização": [],
 
-    "Modelagem": ["doc-nfr"],
+    "Modelagem": ["doc-nfr",
+                  "doc-backlog"],
 
     "Pós-Rastreabilidade": []
   }

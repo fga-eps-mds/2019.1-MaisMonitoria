@@ -24,4 +24,7 @@ sidebar_label: Richpicture
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 23/03/2019 | 0.1 | Criação e densenvolvimento do Documento | Lucas Siqueira, Moacir Junior, Matheus Rodrigues e Lucas Alexandre |
+| 23/03/2019 | 0.1 | Criação e desenvolvimento do Documento | Lucas Siqueira, Moacir Junior, Matheus Rodrigues e Lucas Alexandre |
+
+
+

@@ -25,15 +25,15 @@ sidebar_label: Documento de visão
 |Aluno|Aluno ministrante/ministrado|Cadastrar monitorias/Buscar monitorias de seu interesse|
 
 
-### 3.2 Principais Necessidade do Usuários 
+### 3.2 Principais Necessidade do Usuários
 
 
 
 |Necessidade|Prioridade|Interesses|Solução atual|Solução proposta|
 |:------:|:-------:|:------:|:-------:|:------:|
 |Encontrar monitoria|Alta|Encontrar monitoria que necessita|Monitorias formais, ministradas por alunos selecionados pelo professor|buscar monitorias e ajudas de alunos que tenham interesse em ministrar|
-|Agendar monitoria|Alta|Conseguir monitorias em horários diversos|Monitorias com horários pré-definidos|selecionar monitorias em melhores horários| 
-|Estimular alunos para ajudar|Baixa|Ajudar ao próximo|Créditos|Sistema de ranking para as melhores monitorias| 
+|Agendar monitoria|Alta|Conseguir monitorias em horários diversos|Monitorias com horários pré-definidos|selecionar monitorias em melhores horários|
+|Estimular alunos para ajudar|Baixa|Ajudar ao próximo|Créditos|Sistema de ranking para as melhores monitorias|
 
 ## 4. Envolvidos
 
@@ -49,7 +49,7 @@ sidebar_label: Documento de visão
 |Caio Oliveira|Product Owner|Responsável por maximizar o valor resultante do produto desenvolvido, gerenciando e priorizando o product backlog|
 |Lucas Pereira|Arquiteto|O arquiteto deve monitorar a equipe de desenvolvimento para instruí-los a seguir a arquitetura planejada e lidarem com seu fluxo de dados|
 |Lucas Siqueira|Scrum Master|Responsável por monitorar e garantir que a equipe esteja seguindo os valores, práticas e regras escolhidas das metodologias ágeis, de forma que a equipe consiga ser produtiva e auto-organizável|
-|Matheus Rodigues|DevOps|Responsável por definir as ferramentas utilizadas no desenvolvimento do projeto. O devOps deve configurar o ambiente, buscando aumento a produtividade da equipe de desenvolvimento|
+|Matheus Rodrigues|DevOps|Responsável por definir as ferramentas utilizadas no desenvolvimento do projeto. O devOps deve configurar o ambiente, buscando aumentar a produtividade da equipe de desenvolvimento|
 
 
 ## 5. Visão Geral
@@ -69,8 +69,8 @@ Nesta sessão serão listados alguns exemplos aplicativos de monitoria.
 
 **Figura 1- Tela de subtópicos do Monitoria+App.**
 
-<p align="justify"> O aplicativo Monitoria+App é uma plataforma mobile, compatível somente com android 5.0 ou superior,  que possui informações a respeito de conteúdos acadêmicos, porém todos documentos de textos, e temas fixos. 
-Em comparação o aplicativo Hora da Hora possuirá uma maior flexibilidade em relação aos temas e  conteúdos, será compatível para alguns navegadores.</p> 
+<p align="justify"> O aplicativo Monitoria+App é uma plataforma mobile, compatível somente com android 5.0 ou superior,  que possui informações a respeito de conteúdos acadêmicos, porém todos documentos de textos, e temas fixos.
+Em comparação o aplicativo +Monitoria possuirá uma maior flexibilidade em relação aos temas e  conteúdos, será compatível para alguns navegadores.</p>
 
 
 ### 6.2 Monitoria USJT
@@ -80,11 +80,11 @@ Em comparação o aplicativo Hora da Hora possuirá uma maior flexibilidade em r
 **Figura 2 -Tela do Menu do Monitoria USJT**
 
 <p align="justify"> O aplicativo Monitoria USJT , compatível com android 4.4 ou superior, possui funcionalidades muito semelhantes ao aplicativo Monitoria+App, diferenciando-se na exibição dos assuntos, dividindo-os em áreas de conhecimentos, apresentando todas as opções.</p>
-<p align="justify"> Algumas poucas novidades em relação ao Monitoria+App são apresentadas, destacando-se o chat e os avisos gerais, que poderão ser implementadas no Hora da Hora. Além disso, o Hora da Hora filtrará a pesquisa de monitorias utilizando palavras chave e apresentará de forma organizada para facilitar a busca.</p>
+<p align="justify"> Algumas poucas novidades em relação ao Monitoria+App são apresentadas, destacando-se o chat e os avisos gerais, que poderão ser implementadas no +Monitoria. Além disso, o +Monitoria filtrará a pesquisa de monitorias utilizando palavras chave e apresentará de forma organizada para facilitar a busca.</p>
 
 ## 7. Recursos do produto
 
-### 7.1 Acesso 
+### 7.1 Acesso
 O usuário deverá realizar login ou, caso não tenha uma conta, fazer cadastro.
 
 ### 7.2 Cadastro, Remover e Editar
@@ -113,9 +113,12 @@ Os requisitos não funcionais se baseiam em portabilidade, tempo na execução, 
 
 |Data|Versão|Descrição|Autor(es)|
 |:-----:|:-------:|:-------:|:-------:|
-|28/03/2019|0.1|Criação do documento de visão|João Pedro, Lucas Alexandre, Matheus de Cristo, Moacir Mascarenha e RenanCristyan| 
+|28/03/2019|0.1|Criação do documento de visão|João Pedro, Lucas Alexandre, Matheus de Cristo, Moacir Mascarenha e Renan Cristyan|
 |28/03/2019|0.2|Preenchimento dos tópicos de Descrição do Usuário|João Pedro, Lucas Alexandre, Moacir Mascarenha|
 |29/03/2019|0.3|Preenchimento dos tópicos de visão geral e Visão Geral do Produto|Matheus de Cristo, Moacir Mascarenha|
 |30/03/2019|0.4|Criação do tópico Outros Aplicativos, preenchimento Visão Geral do Produto, Referências Bibliográficas, Recursos do Produto|João Pedro, Lucas Alexandre, Matheus de Cristo, Moacir Mascarenha e Renan Cristyan|
 |31/03/2019/|0.5|Finalização do papel dos Envolvidos|João Pedro e Lucas Alexandre|
+
+
+
 

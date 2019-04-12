@@ -10,7 +10,6 @@ sidebar_label: TAP
 
 O **+Monitoria** é uma aplicação web progressiva para encontrar monitorias disponibilizada por outros alunos dispostos a ajudar outros alunos que buscam conhecimento.</p>
 
-  
 
 ## 2. Propósito e Objetivos
 
@@ -19,7 +18,6 @@ O **+Monitoria** é uma aplicação web progressiva para encontrar monitorias di
 O propósito do **+Monitoria** é facilitar a integração entre os alunos que querem aprender e os que querem ensinar, centralizando informações sobre as monitorias da FGA.
 </p>
 
-  
 
 ## 3. Justificativa
 
@@ -32,33 +30,30 @@ Nos modelos de monitorias atuais os alunos estão presos a um formato que dificu
 
 <p align="justify">
 
-O objetivo dos requisitos de alto nível tem como objetivo mostrar as caracteristicas do produto, servido de guia para a declaração de escopo.
+O objetivo dos requisitos de alto nível tem como objetivo mostrar as características do produto, servido de guia para a declaração de escopo.
 
 - O **+Monitoria** deve ser um aplicativo web progressivo.
-- O **+Monitoria** deve utilizar tecnincas de gameficação para aumentar o engajamento dos usuários no app.
-- O **+Monitoria** deve utilizar principios de redes sociais para fidelizar usuário ao app.
+- O **+Monitoria** deve utilizar técnicas de gamificação para aumentar o engajamento dos usuários no app.
+- O **+Monitoria** deve utilizar princípios de redes sociais para fidelizar usuário ao app.
 - O **+Monitoria** deve facilitar integração de quem quer ensinar e quem quer aprender.
 - O **+Monitoria** deve oferecer usabilidade agradável e bom desempenho para manter o usuário satisfeito.
 </p>
 
-  
 
 ## 5. Riscos
 
 <p align="justify">
 
-Os riscos são identificados e planejados para que possa haver um gerenciamento dos riscos ao longo do projeto, para mais informações veja o  [plano de riscos](plano-riscos.md).   
+Os riscos são identificados e planejados para que possa haver um gerenciamento dos riscos ao longo do projeto, para mais informações veja o  [plano de riscos](plano-riscos.md).  
 
 </p>
 
-  
 
 ## 6. Estimativa de custos
 
 <p align="justify">
 
 A estimativa de custos foi planejada de acordo com o tempo de duração do projeto e leva em conta os custos de aquisição, custos com pessoal, custo de ferramentas, custos de capacitação e uma porcentagem para cobrir eventuais riscos e manter uma margem de lucro segura, para mais informações veja o [plano de custos](plano-custos.md).
-  
 
 ## 7. Partes interessadas
 
@@ -80,10 +75,9 @@ A estimativa de custos foi planejada de acordo com o tempo de duração do proje
 |Caio Oliveira|Product Owner|
 |Lucas Pereira|Arquiteto|
 |Lucas Siqueira|Scrum Master|
-|Matheus Rodigues|DevOps|
+|Matheus Rodrigues|DevOps|
 </p>
 
-  
 
 ## 8. Requisitos para aprovação
 
@@ -104,20 +98,19 @@ EAP ou estrutura analítica de projeto é uma forma visual de representar as fas
 
 <br>
 
-Imagem ampliada está disponivel [aqui](https://uploaddeimagens.com.br/images/002/019/629/full/EAP.png?1554523532).
+Imagem ampliada está disponivel [aqui](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/assets/EAP.png).
 
 ## 10. Canvas
-Canvas é uma ferramenta que demonstra as principais informações de um projeto, para que seja possível a melhor visualização o modelo de negócio. 
+Canvas é uma ferramenta que demonstra as principais informações de um projeto, para que seja possível a melhor visualização o modelo de negócio.
 <br>
 
 ![Canvas](assets/canvas.png)
 
-<br>  
+<br> 
 
 ## 11. Referências
 
-  
-> PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
+ > PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
 
 > Fga-eps-mds a disciplina Disponível em:  <[https://github.com/fga-eps-mds/A-Disciplina](https://github.com/fga-eps-mds/A-Disciplina)>
 
@@ -128,7 +121,6 @@ Canvas é uma ferramenta que demonstra as principais informações de um projeto
 > Quero Cultura plano de gerenciamento de projeto disponível em: <[https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Plano-de-Gerenciamento-do-Projeto](https://github.com/fga-eps-mds/2017.2-QueroCultura/wiki/Plano-de-Gerenciamento-do-Projeto)>
 ___
 
-  
 
 ## Histórico de Revisão
 
@@ -138,5 +130,8 @@ ___
 | 02/04/2018 | 0.2 | Desenvolvimento dos tópicos | Caio Oliveira, Lucas Macêdo, Lucas Siqueira e Matheus Rodrigues|
 | 03/04/2018 | 0.3 | Canvas | Caio Oliveira, Lucas Macêdo, Lucas Siqueira e Matheus Rodrigues |
 | 05/04/2018 | 0.4 | EAP | Caio Oliveira, Lucas Macêdo, Lucas Siqueira e Matheus Rodrigues |
+
+
+
 
 

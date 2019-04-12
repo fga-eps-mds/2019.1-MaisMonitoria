@@ -31,13 +31,13 @@ sidebar_label: Plano de GCS
 
 <p align = "justify">As <i>branches</i> auxiliares são destinadas a implementação de funcionalidades, realização de histórias técnicas e conserto de <i>bugs</i>. Cada uma dessas atividades terá sua própria <i>branch</i>, criada a partir da <i>devel</i>, e terá como padrão de nomenclatura: </p>
 
-``` [<Identificador da atividade>]-<Nome issue associada a atividade>```
+``` <Identificador da atividade>-<Nome issue associada a atividade>```
 
 **Exemplos:**
 
-```[TS03]-Configurar-Ambientes```
-```[BUG]-Duplicação-no-Banco```
-```[US01]-Implementar-Login```
+```TS03-Configurar-Ambientes```
+```BUG-Duplicação-no-Banco```
+```US01-Implementar-Login```
 
 <p align = "justify">Após o fim do desenvolvimento nas <i>branches</i> auxiliares elas devem ser incorporadas a <i>devel</i> por meio de <i>pull request</i>.</p>
 
@@ -87,28 +87,27 @@ sidebar_label: Plano de GCS
 | GitHub | Ferramenta de hospedagem de repositórios |
 | ZenHub | Ferramenta de gerenciamento de equipe |
 | ReactJS | Ferramenta de criação de interface de usuário |
-| Django Rest | Ferramenta para criação de API's |  
-| Docker | Ferramenta de virtualização e configuração de ambiente por meio de containers |  
-| Docker Compose | Ferramenta de gerenciamento de containers Docker |  
-| Code Climate | Ferramenta de analise estática de código |  
-| Travis CI | Ferramenta de integração contínua |  
-| Heroku | Ferramenta de deploy em homologação |  
-| DigitalOcean | Ferramenta de deploy em produção |  
+| Django Rest | Ferramenta para criação de API's | 
+| Docker | Ferramenta de virtualização e configuração de ambiente por meio de containers | 
+| Docker Compose | Ferramenta de gerenciamento de containers Docker | 
+| Code Climate | Ferramenta de análise estática de código | 
+| Travis CI | Ferramenta de integração contínua | 
+| Heroku | Ferramenta de deploy em homologação | 
+| DigitalOcean | Ferramenta de deploy em produção | 
 | Coveralls | Ferramenta de análise de cobertura de testes |
 | VS Code | Ferramenta de edição de código fonte |
 | Slack | Ferramenta de comunicação do grupo |
-  
-### Integração das Ferramentas
+ ### Integração das Ferramentas
 
-<p align = "justify">O GitHub e o Docker tem um papel central na integração das ferramentas, considerando o seguinte pipeline, o desenvolvedor sobe seu ambiente isolado de desenvolvimento criado com containers Docker facilmente através do gerenciamento e orquestração dos containers proporcionado pelo Docker Compose, gera código fonte em python e javascript através do editor de texto VS Code, controla o versionamento utilizando Git e sempre que possível sincroniza o trabalho realizado localmente com o repositório remoto hospedado no GitHub. A partir deste ponto entram em cena Travis e Code Climate, pois após cada alteração no repositório remoto o Travis gera uma nova build do projeto e o Code Climate realiza uma análise estática do código fonte. Além de realizar a build, o Travis também possui outras funções que em alguns casos fazem parte da build e em outros casos são eventos pós build ou pré build, como executar todos os testes automatizados e enviar as informações sobre os testes para o Coveralls verificar a cobertura de testes, automatizar o deploy no Heroku ou Digital Ocean e comunicar qualquer problema que ocorra no processo de build impedindo que código quebrado se junte as versões estáveis do projeto. Por fim, e novamente através do GitHub, o Slack e o ZenHub disparam notificações ou realizam ações com base em atualizações no repositório remoto, logicamente além das funções descritas acima Slack e ZenHub também ajudam na comunicação e gerência da equipe através de algumas ações manuais feitas pelos membros, no entanto no caso do Slack ainda existem alguns bots que são usados para automatizar certas atividades.</p>
+<p align = "justify">O GitHub e o Docker tem um papel central na integração das ferramentas, considerando o seguinte pipeline, o desenvolvedor sobe seu ambiente isolado de desenvolvimento criado com containers Docker facilmente através do gerenciamento e orquestração dos containers proporcionado pelo Docker Compose, gera código fonte em python e javascript através do editor de texto VS Code, controla o versionamento utilizando Git e sempre que possível sincronizar o trabalho realizado localmente com o repositório remoto hospedado no GitHub. A partir deste ponto entram em cena Travis e Code Climate, pois após cada alteração no repositório remoto o Travis gera uma nova build do projeto e o Code Climate realiza uma análise estática do código fonte. Além de realizar a build, o Travis também possui outras funções que em alguns casos fazem parte da build e em outros casos são eventos pós build ou pré build, como executar todos os testes automatizados e enviar as informações sobre os testes para o Coveralls verificar a cobertura de testes, automatizar o deploy no Heroku ou Digital Ocean e comunicar qualquer problema que ocorra no processo de build impedindo que código quebrado se junte as versões estáveis do projeto. Por fim, e novamente através do GitHub, o Slack e o ZenHub disparam notificações ou realizam ações com base em atualizações no repositório remoto, logicamente além das funções descritas acima Slack e ZenHub também ajudam na comunicação e gerência da equipe através de algumas ações manuais feitas pelos membros, no entanto no caso do Slack ainda existem alguns bots que são usados para automatizar certas atividades.</p>
 
 ## 5. Referências
 
-* PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
+> PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
 
-* Semantic Versioning 2.0.0 . Semantic Versioning Specification (SemVer). Disponível em <[http://semver.org/](http://semver.org/)>
+> Semantic Versioning 2.0.0 . Semantic Versioning Specification (SemVer). Disponível em <[http://semver.org/](http://semver.org/)>
 
-* **PlataformaJogosUnB**. Plano de Gerenciamento de Configuração de Software. Disponível em <[https://github.com/fga-gpp-mds/2017.1-PlataformaJogosUnB/wiki/Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software](https://github.com/fga-gpp-mds/2017.1-PlataformaJogosUnB/wiki/Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software)>
+> **PlataformaJogosUnB**. Plano de Gerenciamento de Configuração de Software. Disponível em <[https://github.com/fga-gpp-mds/2017.1-PlataformaJogosUnB/wiki/Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software](https://github.com/fga-gpp-mds/2017.1-PlataformaJogosUnB/wiki/Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software)>
 
 ## Histórico de Revisão
 
@@ -117,4 +116,7 @@ sidebar_label: Plano de GCS
 | 26/03/2019 | 0.1 | Criação do Documento e adição dos tópicos Introdução, Políticas e Uso de Issues | Lucas Macêdo |
 | 26/03/2019 | 0.2 | Adição do tópico Ferramentas | Lucas Macêdo e Matheus Rodrigues |
 | 27/03/2019 | 0.3 | Adição do sub-tópico Integração das Ferramentas | Lucas Macêdo |
+
+
+
 
