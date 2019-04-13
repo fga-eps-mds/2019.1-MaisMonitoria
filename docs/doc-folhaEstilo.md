@@ -40,12 +40,12 @@ sidebar_label: Folha de Estilo
 
 ### Alinhar os operandos com a quebra do delimitador
    Exemplo correto:
-   # Aligned with opening delimiter
+   #### Aligned with opening delimiter
    foo = long_function_name(var_one, var_two,
                             var_three, var_four)
 
    Exemplo incorreto:
-   # Arguments on first line forbidden when not using vertical alignment
+   #### Arguments on first line forbidden when not using vertical alignment
    foo = long_function_name(var_one, var_two,
        var_three, var_four)
 
@@ -159,14 +159,14 @@ sidebar_label: Folha de Estilo
    string_2 = “World!”
    phrase = string + string2
 
-   # Printing “Hello World!”
+   #### Printing “Hello World!”
    print(phrase)
   
    Exemplo incorreto:
    string_1 = “Hello ”
    string_2 = “World!”
    phrase = string + string2
-   # Printing “Hello World!”
+   #### Printing “Hello World!”
    print(phrase)
   
 ### Os comentários devem ter no máximo 75 caracteres por linha
