@@ -23,6 +23,7 @@ sidebar_label: Folha de Estilo
 **Indentação**
 
 **Usar 4 espaços por nível de identação**
+
    Exemplo correto:
    if (constant > iterator)
        do_something()
@@ -32,6 +33,7 @@ sidebar_label: Folha de Estilo
    do_something()
 
 **As linhas são limitadas a no máximo 79 caracteres**
+
    Exemplo correto:
    total = ((number_of_items * base_price) + (taxes * dollar_quotation)
            - (sub_total - commercial_discount))
@@ -40,17 +42,23 @@ sidebar_label: Folha de Estilo
    total = ((number_of_items * base_price) + (taxes * dollar_quotation) - (sub_total - commercial_discount))
 
 **Alinhar os operandos com a quebra do delimitador**
+
    Exemplo correto:
+   
    **Aligned with opening delimiter**
+
    foo = long_function_name(var_one, var_two,
                             var_three, var_four)
 
    Exemplo incorreto:
+   
    **Arguments on first line forbidden when not using vertical alignment**
+   
    foo = long_function_name(var_one, var_two,
        var_three, var_four)
 
 **O fechamento de parênteses, colchetes ou chaves pode ser alinhado sob o primeiro caractere não-espaço-branco da última linha da lista**
+   
    Exemplo correto:
    vector = [
    1, 2, 3,
@@ -63,7 +71,9 @@ sidebar_label: Folha de Estilo
    1, 2, 3,
    4, 5, 6,
    7, 8, 9]
+
 **Uma linha deve ser quebrada depois de um operador binário**
+
    Exemplo correto:
    income = (gross_wages +
              taxable_interest +
@@ -79,7 +89,9 @@ sidebar_label: Folha de Estilo
          - student_loan_interest)
 
 **Linhas em branco**
+
 **Colocar linhas em branco entre as linhas de código**
+
    Exemplo correto:
    name = input('enter your name')
    age = input('enter your name')
@@ -99,7 +111,9 @@ sidebar_label: Folha de Estilo
 **Adicionar duas linhas em branco acima e abaixo das definições de classe e funções top-level**
 
 **As definições de métodos dentro de uma classe são cercadas por uma única linha em branco**
+
 **Linhas em branco podem ser usadas para separar grupos de funções relacionadas e omitidas entre um grupo de one-liners relacionados**
+
    Exemplo correto:
    var_1 = 0
    var_2 = 2 ** 5
@@ -118,7 +132,9 @@ sidebar_label: Folha de Estilo
    phrase = string + string2
 
 **Imports**
+
 **Imports devem estar em linhas separadas**
+
    Exemplo correto:
    import os
    import sys
@@ -128,45 +144,58 @@ sidebar_label: Folha de Estilo
 
 **Os imports são sempre colocados na parte de cima do arquivo, logo após qualquer comentário e docstrings do arquivo, e antes dos módulos globais e constantes**
 
-## 2.2 Estruturas de Comentários
+### 2.2 Estruturas de Comentários
 
 <br>
 
 **Comentários de linha única devem ser escritos com # (espaço) (comentário)**
+
    Exemplo correto:
+
    **This is a commentary**
   
    Exemplo incorreto:
+
    **This is a commentary**
 
 **Todos os comentários devem começar com letra maiúscula**
+
    Exemplo correto:
+
    **This is a commentary**
   
    Exemplo incorreto:
+
    **this is a commentary**
 
 **Todos os comentários devem ser redigidos em inglês**
+
    Exemplo correto:
+
    **This is a commentary**   
 
    Exemplo incorreto:
+
    **Este é um comentário**
 
 **Todos os comentários devem ter uma linha em branco acima**
+
    Exemplo correto:
    string_1 = “Hello ”
    string_2 = “World!”
    phrase = string + string2
 
    **Printing “Hello World!”**
+
    print(phrase)
   
    Exemplo incorreto:
    string_1 = “Hello ”
    string_2 = “World!”
    phrase = string + string2
+
    **Printing “Hello World!”**
+
    print(phrase)
   
 **Os comentários devem ter no máximo 75 caracteres por linha**
@@ -180,6 +209,7 @@ sidebar_label: Folha de Estilo
 <br>
 
 **Usar parênteses em estruturas de decisão**
+
    Exemplo correto:
    if (age >= 18):
        print (maior de idade)
@@ -189,17 +219,19 @@ sidebar_label: Folha de Estilo
        print (maior de idade)
 
 **Colocar um espaço entre condicionais muito extensas**
+
    Exemplo correto:
    if((name == 'Lira' and age == 10) or (name == 'Jessica' and age == 8)):   
 
    Exemplo incorreto:
    if((name=='Lira'and age==10)or(name=='Jessica'and age == 8)):
 
-## 2.4 Indentação de Estruturas de Controle
+### 2.4 Indentação de Estruturas de Controle
 
 <br>
 
 **Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura**
+
    Exemplo correto:
    if (variable_1 > 100):
        do_this( )
@@ -213,6 +245,7 @@ sidebar_label: Folha de Estilo
        do_that( )
 
 **Estruturas complicadas**
+
    Exemplo correto:
    if (((var_1 > var_2) && (var_1 > var_3)) ||
        ((var_1 > 1) && (var_2 < 10)) ||
@@ -227,11 +260,12 @@ sidebar_label: Folha de Estilo
    else:
      do_that( )
 
-## 2.5 Rotinas
+### 2.5 Rotinas
 
 <br>
 
 **Usar linhas em branco para separar as partes da rotina**
+
    Exemplo correto:
    def showAccount(accountNumber):
 
@@ -248,6 +282,7 @@ sidebar_label: Folha de Estilo
        findNumber()   
 
 **Usar a indentação padrão nos parâmetros da rotina**
+
    Exemplo correto:
    def setBalance (
        id,
@@ -259,11 +294,12 @@ sidebar_label: Folha de Estilo
    Exemplo incorreto:
    def setBalance (id, balance, date, user):
 
-## 2.6 Convenção de Nomeação
+### 2.6 Convenção de Nomeação
 
 <br>
 
 **Evitar caracteres ‘l’ (‘L’ minúsculo), ‘O’ (‘o’ maiúsculo) ou ‘I’ (‘i’ maiúsculo) como nomes de variáveis de único caractere**
+
    Exemplo correto:
    i = True
    L = 47
@@ -275,6 +311,7 @@ sidebar_label: Folha de Estilo
    O = 3.14
 
 **Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula**
+
    Exemplo correto:
    class PersonNames:
 
@@ -282,6 +319,7 @@ sidebar_label: Folha de Estilo
    class person_Names:
 
 **Nomes de variáveis devem ser escritos em letra minúscula e separados por underline ‘_’**
+
    Exemplo correto:
    person_name = "John"
    person_last_name = "Smith"
@@ -291,6 +329,7 @@ sidebar_label: Folha de Estilo
    PersonLastName = "Smith"
 
 **Os nomes de exceções devem seguir a convenção de nomenclatura de classes com o sufixo “Error”**
+
    Exemplo correto:
    except IOError:
 
@@ -298,6 +337,7 @@ sidebar_label: Folha de Estilo
    except i_o_error:
 
 **Os nomes de funções e métodos devem ser minúsculos, com palavras separadas por underline ‘_’**
+
    Exemplo correto:
    def calc_total(number_1, number_2):
 
@@ -305,17 +345,18 @@ sidebar_label: Folha de Estilo
    def calcTotal(number_1, number_2):
 
 **Constantes devem ser escritas com todas as letras maiúsculas e palavras separadas por underline ‘_’**
+
    Exemplo correto:
    MAX_LENGTH = 25
 
    Exemplo incorreto:
    max_length = 25
 
-# 3. React
+## 3. React
 
 <br>
 
-## 3.1 Regras Básicas
+### 3.1 Regras Básicas
 
 <br>
 
@@ -335,7 +376,7 @@ sidebar_label: Folha de Estilo
 - Sempre use a sintaxe JSX.
 - Não use React.createElement a não ser que você esteja declarando a partir de um arquivo que não seja JSX.
   
-## 3.2 Nomenclatura
+### 3.2 Nomenclatura
 
 <br>
 
@@ -356,7 +397,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
        const reservationItem = <ReservationCard />; //instância em camel e componente em Pascal
 - Nomeando componentes: Use o mesmo nome do componente. Ex.: MeuComponente.jsx tem um nome que referencia MeuComponente. No entanto, para os componentes de raiz de um diretório, use index.jsx como o nome do arquivo e usar o nome de diretório como o nome do componente.
 
-## 3.3 Declaração
+### 3.3 Declaração
 
 <br>
 
@@ -370,7 +411,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
        // ideal
        export default class MeuComponente extends React.Component {
        }
-## 3.4 Aspas
+### 3.4 Aspas
 
 <br>
 
@@ -409,7 +450,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
        // ideal
        <Foo bar={baz} />
 
-## 3.6 Props
+### 3.6 Props
 
 <br>
 
@@ -452,7 +493,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
            key={todo.id}
        />
        ))}
-## 3.7 Refs
+### 3.7 Refs
 
 <br>
 
@@ -466,7 +507,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
        <Foo
        ref={(ref) => this.myRef = ref}
                                    />
-## 3.8 Parênteses
+### 3.8 Parênteses
 
 <br>
 
@@ -493,7 +534,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
        const body = <div>hello</div>;
        return <Componente>{body}</Componente>;
        }
-## 3.9 Tags
+### 3.9 Tags
 
 <br>
 
@@ -516,7 +557,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
        bar="bar"
        baz="baz"
        />
-## 3.10 Métodos
+### 3.10 Métodos
 
 <br>
 
@@ -576,7 +617,7 @@ Sempre inclua um único espaço no fechamento de suas tags que não recebem filh
        return (<div />);
        }
 
-## 3.11 Prioridades
+### 3.11 Prioridades
 
 <br>
 
