@@ -16,6 +16,8 @@ sidebar_label: Review
 - Devops: Matheus Rodrigues
 - Arquiteto: Lucas Macedo
 
+<br>
+
 ## 2. Resultados da sprint
 
 <br>

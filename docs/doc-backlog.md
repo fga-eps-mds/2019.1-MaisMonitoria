@@ -8,6 +8,8 @@ sidebar_label: Backlog do Produto
 
 ## 1. Introdução
 
+<br>
+
 <p align="justify">
 O backlog é um artefato que representa a acumulação de trabalho, é uma espécie de estoque relativo ao produto que ainda não foi desenvolvido, sendo assim entende-se como uma listagem de pedidos em espera.
 </p>

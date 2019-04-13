@@ -16,6 +16,8 @@ sidebar_label: Planning
 - Devops: Matheus Rodrigues
 - Arquiteto: Lucas Macêdo
 
+<br>
+
 ## 2. Sprint Backlog
 
 <br>
