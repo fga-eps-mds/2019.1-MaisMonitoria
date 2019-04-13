@@ -5,12 +5,15 @@ sidebar_label: Priorização
 ---
 
 # Introdução
+
 Priorização é usada para ajudar no planejamento do projeto e assim escolher o que deve ser implementado, de acordo com o que agrega mais valor para o produto ou para o cliente.
 
 # Moscow
+
 Moscow é uma técnica de priorização em que se tem 4 diretivas, que dizem a necessidade do requisito para o projeto.
 
 ### Legenda
+
 - **Must** = Maior prioridade, requisitos de essenciais para o projeto.
 - **Should** = Prioridade secundária, requisitos importantes para o projeto.
 - **Could** = Terceiro nível de prioridade, requisitos interessantes para o projeto.
@@ -69,8 +72,8 @@ todas as tabelas encontram-se disponível em: [Tabelas FTF](https://docs.google.
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 07/04/2019 | 0.1 | Abertura do documento | Caio Oliveira |
-| 07/04/2019 | 0.2 | Desnvolvimento da tabela de Moscow | Caio Oliveira |
-| 10/04/2019 | 0.3 | Desnvolvimento das tabelas de FTF | Caio Oliveira |
+| 07/04/2019 | 0.2 | Desenvolvimento da tabela de Moscow | Caio Oliveira |
+| 10/04/2019 | 0.3 | Desenvolvimento das tabelas de FTF | Caio Oliveira |
 
 
 

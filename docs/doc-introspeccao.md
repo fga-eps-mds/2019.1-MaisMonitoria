@@ -22,7 +22,7 @@ sidebar_label: Introspecção
 * Deve mostrar as premiações ou classificações adquiridas pelo ranking.
 * Visualizar monitorias pendentes (Finalizar / Excluir).
 * Deve conter o curso que o usuário cursa.
-* Pode conter áreas de interesse?.
+* Pode conter áreas de interesse.
 
 **Ranking:**
 * Deve ser limitado com um determinado número.
@@ -55,7 +55,19 @@ sidebar_label: Introspecção
 
 </p>
 
-## 3. Referências
+## 3. Rastreabilidade de Requisitos
+
+Este documento ajudou a elicitar as seguintes features:
+
+* FT04 - Manter Conta de Usuário
+* FT05 - Manter Monitorias
+* FT06 - Sistema de Pesquisa
+* FT10 - Ranking
+* FT11 - Recompensas
+* FT12 - Feed Pesonalizado
+* FT13 - Sistema de Follow
+
+## 4. Referências
 
 >[1]PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
 ___
@@ -66,6 +78,7 @@ ___
 | 19/03/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
 | 19/03/2019 | 0.2 | Realização dos tópicos da introspecção | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
 | 21/03/2019 | 0.3 | Adição da introdução  | Lucas Siqueira |
+| 13/04/2019 | 0.4 | Adição de rastreabilidade de Requisitos | Lucas Siqueira |
 
 
 

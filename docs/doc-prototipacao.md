@@ -60,7 +60,20 @@ O Teste de Usabilidade completo está disponivel em: [Teste de Usabilidade](doc-
 
 https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scaling=scale-down
 
-## 6. Referências
+## 6. Rastreabilidade de Requisitos
+
+Este documento ajudou a elicitar as seguintes features:
+
+* FT01 - Visual Atraente App-Like
+* FT04 - Manter Conta de Usuário
+* FT05 - Manter Monitorias
+* FT06 - Sistema de Pesquisa
+* FT10 - Ranking
+* FT11 - Recompensas
+* FT12 - Feed Pesonalizado
+* FT13 - Sistema de Follow
+
+## 7. Referências
 >[1] PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
 >[2] Prototyping QueroMaisConversa. Disponível em https://github.com/QueroMais/QueroMaisConversa/wiki/Prototyping#31-vis%C3%A3o-geral-das-telas
 >[3]ferramenta Figma. Disponível em https://www.figma.com
@@ -70,6 +83,7 @@ https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scal
 |:--:|:--:|:--:|:--:|
 | 30/03/2019 | 0.1 | Criação e desenvolvimento do documento | João Pedro, Matheus Cristo | 
 | 07/04/2019 | 0.2 | Criação da versão 3.0 do Protótipo | Lucas Alexandre, Moacir Mascarenha |
+| 13/04/2019 | 0.3 | Adição de rastreabilidade de Requisitos | Lucas Siqueira |
 
 
 

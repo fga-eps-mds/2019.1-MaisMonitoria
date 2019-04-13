@@ -160,6 +160,7 @@ O produto deve oferecer a funcionalidade de seguir outros usuários para receber
 
 
 ## Histórico de Revisão
+
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 06/04/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |

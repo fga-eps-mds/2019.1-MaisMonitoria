@@ -21,7 +21,17 @@ sidebar_label: NFR Framework
 Ferramenta utilizada foi o Star UML disponível no link: 
 [StarUML.io](http://staruml.io/)
 
-## 4. Referências
+## 4. Rastreabilidade de Requisitos
+
+Este documento ajudou a elicitar as seguintes features:
+
+* FT01 - Visual Atraente App-Like
+* FT02 - Experiência Offline Significativa
+* FT07 - Realizar Autenticação por API Externa
+* FT08 - Realizar Transformação e Agregação de Dados
+* FT09 - Oferecer Ponto de Acesso Único aos Microsserviços
+
+## 5. Referências
 >[1] Slide da aula 17 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano
 
 ## Histórico de Revisão
@@ -31,3 +41,4 @@ Ferramenta utilizada foi o Star UML disponível no link:
 | 30/03/2019 | 0.1 | Criação do Documento | Lucas Macêdo, Lucas Siqueira, Matheus Rodrigues e Lucas Alexandre |
 | 30/03/2019 | 0.2 | Usabilidade, Portabilidade e Segurança | Lucas Siqueira e Lucas Alexandre |
 | 31/03/2019 | 0.3 | Desempenho | Lucas Macêdo e Matheus Rodrigues |
+| 13/04/2019 | 0.4 | Adição de rastreabilidade de Requisitos | Lucas Siqueira |
