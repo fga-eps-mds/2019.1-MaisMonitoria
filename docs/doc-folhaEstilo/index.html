@@ -59,30 +59,30 @@
 <h3><a class="anchor" aria-hidden="true" id="21-layout-de-codigo"></a><a href="#21-layout-de-codigo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.1 Layout de Código</h3>
 <p><br></p>
 <p><strong>Indentação</strong></p>
-<p><strong>Usar 4 espaços por nível de identação</strong>
-Exemplo correto:
+<p><strong>Usar 4 espaços por nível de identação</strong></p>
+<p>Exemplo correto:
 if (constant &gt; iterator)
 do_something()</p>
 <p>Exemplo incorreto:
 if (constant &gt; iterator)
 do_something()</p>
-<p><strong>As linhas são limitadas a no máximo 79 caracteres</strong>
-Exemplo correto:
+<p><strong>As linhas são limitadas a no máximo 79 caracteres</strong></p>
+<p>Exemplo correto:
 total = ((number_of_items * base_price) + (taxes * dollar_quotation)
 - (sub_total - commercial_discount))</p>
 <p>Exemplo incorreto:
 total = ((number_of_items * base_price) + (taxes * dollar_quotation) - (sub_total - commercial_discount))</p>
-<p><strong>Alinhar os operandos com a quebra do delimitador</strong>
-Exemplo correto:
-<strong>Aligned with opening delimiter</strong>
-foo = long_function_name(var_one, var_two,
+<p><strong>Alinhar os operandos com a quebra do delimitador</strong></p>
+<p>Exemplo correto:</p>
+<p><strong>Aligned with opening delimiter</strong></p>
+<p>foo = long_function_name(var_one, var_two,
 var_three, var_four)</p>
-<p>Exemplo incorreto:
-<strong>Arguments on first line forbidden when not using vertical alignment</strong>
-foo = long_function_name(var_one, var_two,
+<p>Exemplo incorreto:</p>
+<p><strong>Arguments on first line forbidden when not using vertical alignment</strong></p>
+<p>foo = long_function_name(var_one, var_two,
 var_three, var_four)</p>
-<p><strong>O fechamento de parênteses, colchetes ou chaves pode ser alinhado sob o primeiro caractere não-espaço-branco da última linha da lista</strong>
-Exemplo correto:
+<p><strong>O fechamento de parênteses, colchetes ou chaves pode ser alinhado sob o primeiro caractere não-espaço-branco da última linha da lista</strong></p>
+<p>Exemplo correto:
 vector = [
 1, 2, 3,
 4, 5, 6,
@@ -92,9 +92,9 @@ vector = [
 vector = [
 1, 2, 3,
 4, 5, 6,
-7, 8, 9]
-<strong>Uma linha deve ser quebrada depois de um operador binário</strong>
-Exemplo correto:
+7, 8, 9]</p>
+<p><strong>Uma linha deve ser quebrada depois de um operador binário</strong></p>
+<p>Exemplo correto:
 income = (gross_wages +
 taxable_interest +
 (dividends - qualified_dividends) -
@@ -106,9 +106,9 @@ income = (gross_wages
 + (dividends - qualified_dividends)
 - ira_deduction
 - student_loan_interest)</p>
-<p><strong>Linhas em branco</strong>
-<strong>Colocar linhas em branco entre as linhas de código</strong>
-Exemplo correto:
+<p><strong>Linhas em branco</strong></p>
+<p><strong>Colocar linhas em branco entre as linhas de código</strong></p>
+<p>Exemplo correto:
 name = input('enter your name')
 age = input('enter your name')</p>
 <p>people = People(name,age)</p>
@@ -121,9 +121,9 @@ people = People(name , age)
 print(people.getName())
 print(people.getAge())</p>
 <p><strong>Adicionar duas linhas em branco acima e abaixo das definições de classe e funções top-level</strong></p>
-<p><strong>As definições de métodos dentro de uma classe são cercadas por uma única linha em branco</strong>
-<strong>Linhas em branco podem ser usadas para separar grupos de funções relacionadas e omitidas entre um grupo de one-liners relacionados</strong>
-Exemplo correto:
+<p><strong>As definições de métodos dentro de uma classe são cercadas por uma única linha em branco</strong></p>
+<p><strong>Linhas em branco podem ser usadas para separar grupos de funções relacionadas e omitidas entre um grupo de one-liners relacionados</strong></p>
+<p>Exemplo correto:
 var_1 = 0
 var_2 = 2 ** 5
 result = var_1 + var_2</p>
@@ -137,65 +137,65 @@ result = var_1 + var_2
 string_1 = “Hello ”
 string_2 = “World!”
 phrase = string + string2</p>
-<p><strong>Imports</strong>
-<strong>Imports devem estar em linhas separadas</strong>
-Exemplo correto:
+<p><strong>Imports</strong></p>
+<p><strong>Imports devem estar em linhas separadas</strong></p>
+<p>Exemplo correto:
 import os
 import sys</p>
 <p>Exemplo incorreto:
 import sys, os</p>
 <p><strong>Os imports são sempre colocados na parte de cima do arquivo, logo após qualquer comentário e docstrings do arquivo, e antes dos módulos globais e constantes</strong></p>
-<h2><a class="anchor" aria-hidden="true" id="22-estruturas-de-comentarios"></a><a href="#22-estruturas-de-comentarios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.2 Estruturas de Comentários</h2>
+<h3><a class="anchor" aria-hidden="true" id="22-estruturas-de-comentarios"></a><a href="#22-estruturas-de-comentarios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.2 Estruturas de Comentários</h3>
 <p><br></p>
-<p><strong>Comentários de linha única devem ser escritos com # (espaço) (comentário)</strong>
-Exemplo correto:
-<strong>This is a commentary</strong></p>
-<p>Exemplo incorreto:
-<strong>This is a commentary</strong></p>
-<p><strong>Todos os comentários devem começar com letra maiúscula</strong>
-Exemplo correto:
-<strong>This is a commentary</strong></p>
-<p>Exemplo incorreto:
-<strong>this is a commentary</strong></p>
-<p><strong>Todos os comentários devem ser redigidos em inglês</strong>
-Exemplo correto:
-<strong>This is a commentary</strong></p>
-<p>Exemplo incorreto:
-<strong>Este é um comentário</strong></p>
-<p><strong>Todos os comentários devem ter uma linha em branco acima</strong>
-Exemplo correto:
+<p><strong>Comentários de linha única devem ser escritos com # (espaço) (comentário)</strong></p>
+<p>Exemplo correto:</p>
+<p><strong>This is a commentary</strong></p>
+<p>Exemplo incorreto:</p>
+<p><strong>This is a commentary</strong></p>
+<p><strong>Todos os comentários devem começar com letra maiúscula</strong></p>
+<p>Exemplo correto:</p>
+<p><strong>This is a commentary</strong></p>
+<p>Exemplo incorreto:</p>
+<p><strong>this is a commentary</strong></p>
+<p><strong>Todos os comentários devem ser redigidos em inglês</strong></p>
+<p>Exemplo correto:</p>
+<p><strong>This is a commentary</strong></p>
+<p>Exemplo incorreto:</p>
+<p><strong>Este é um comentário</strong></p>
+<p><strong>Todos os comentários devem ter uma linha em branco acima</strong></p>
+<p>Exemplo correto:
 string_1 = “Hello ”
 string_2 = “World!”
 phrase = string + string2</p>
-<p><strong>Printing “Hello World!”</strong>
-print(phrase)</p>
+<p><strong>Printing “Hello World!”</strong></p>
+<p>print(phrase)</p>
 <p>Exemplo incorreto:
 string_1 = “Hello ”
 string_2 = “World!”
-phrase = string + string2
-<strong>Printing “Hello World!”</strong>
-print(phrase)</p>
+phrase = string + string2</p>
+<p><strong>Printing “Hello World!”</strong></p>
+<p>print(phrase)</p>
 <p><strong>Os comentários devem ter no máximo 75 caracteres por linha</strong></p>
 <p><strong>Os comentários devem ser frases completas</strong></p>
 <p><strong>Todos os comentários devem ser identificados com o código</strong></p>
 <h2><a class="anchor" aria-hidden="true" id="23-organizacão-de-estruturas-de-controle"></a><a href="#23-organizacão-de-estruturas-de-controle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.3 Organização de Estruturas de Controle</h2>
 <p><br></p>
-<p><strong>Usar parênteses em estruturas de decisão</strong>
-Exemplo correto:
+<p><strong>Usar parênteses em estruturas de decisão</strong></p>
+<p>Exemplo correto:
 if (age &gt;= 18):
 print (maior de idade)</p>
 <p>Exemplo incorreto:
 if age &gt;= 18:
 print (maior de idade)</p>
-<p><strong>Colocar um espaço entre condicionais muito extensas</strong>
-Exemplo correto:
+<p><strong>Colocar um espaço entre condicionais muito extensas</strong></p>
+<p>Exemplo correto:
 if((name == 'Lira' and age == 10) or (name == 'Jessica' and age == 8)):</p>
 <p>Exemplo incorreto:
 if((name=='Lira'and age==10)or(name=='Jessica'and age == 8)):</p>
-<h2><a class="anchor" aria-hidden="true" id="24-indentacão-de-estruturas-de-controle"></a><a href="#24-indentacão-de-estruturas-de-controle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.4 Indentação de Estruturas de Controle</h2>
+<h3><a class="anchor" aria-hidden="true" id="24-indentacão-de-estruturas-de-controle"></a><a href="#24-indentacão-de-estruturas-de-controle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.4 Indentação de Estruturas de Controle</h3>
 <p><br></p>
-<p><strong>Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura</strong>
-Exemplo correto:
+<p><strong>Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura</strong></p>
+<p>Exemplo correto:
 if (variable_1 &gt; 100):
 do_this( )
 else:
@@ -205,8 +205,8 @@ if (variable_1 &gt; 100):
 do_this( )
 else:
 do_that( )</p>
-<p><strong>Estruturas complicadas</strong>
-Exemplo correto:
+<p><strong>Estruturas complicadas</strong></p>
+<p>Exemplo correto:
 if (((var_1 &gt; var_2) &amp;&amp; (var_1 &gt; var_3)) ||
 ((var_1 &gt; 1) &amp;&amp; (var_2 &lt; 10)) ||
 (var_3 = 0)):
@@ -218,10 +218,10 @@ if (((var_1 &gt; var_2) &amp;&amp; (var_1 &gt; var_3)) || ((var_1 &gt; 1) &amp;&
 do_this( )
 else:
 do_that( )</p>
-<h2><a class="anchor" aria-hidden="true" id="25-rotinas"></a><a href="#25-rotinas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.5 Rotinas</h2>
+<h3><a class="anchor" aria-hidden="true" id="25-rotinas"></a><a href="#25-rotinas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.5 Rotinas</h3>
 <p><br></p>
-<p><strong>Usar linhas em branco para separar as partes da rotina</strong>
-Exemplo correto:
+<p><strong>Usar linhas em branco para separar as partes da rotina</strong></p>
+<p>Exemplo correto:
 def showAccount(accountNumber):</p>
 <pre><code class="hljs">   print(accountNumber)
 </code></pre>
@@ -233,8 +233,8 @@ def showAccount(accountNumber):
 print(accountNumber)
 def retrieveAccount(accountNumber):
 findNumber()</p>
-<p><strong>Usar a indentação padrão nos parâmetros da rotina</strong>
-Exemplo correto:
+<p><strong>Usar a indentação padrão nos parâmetros da rotina</strong></p>
+<p>Exemplo correto:
 def setBalance (
 id,
 balance,
@@ -243,10 +243,10 @@ user
 ):</p>
 <p>Exemplo incorreto:
 def setBalance (id, balance, date, user):</p>
-<h2><a class="anchor" aria-hidden="true" id="26-convencão-de-nomeacão"></a><a href="#26-convencão-de-nomeacão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.6 Convenção de Nomeação</h2>
+<h3><a class="anchor" aria-hidden="true" id="26-convencão-de-nomeacão"></a><a href="#26-convencão-de-nomeacão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.6 Convenção de Nomeação</h3>
 <p><br></p>
-<p><strong>Evitar caracteres ‘l’ (‘L’ minúsculo), ‘O’ (‘o’ maiúsculo) ou ‘I’ (‘i’ maiúsculo) como nomes de variáveis de único caractere</strong>
-Exemplo correto:
+<p><strong>Evitar caracteres ‘l’ (‘L’ minúsculo), ‘O’ (‘o’ maiúsculo) ou ‘I’ (‘i’ maiúsculo) como nomes de variáveis de único caractere</strong></p>
+<p>Exemplo correto:
 i = True
 L = 47
 o = 3.14</p>
@@ -254,36 +254,36 @@ o = 3.14</p>
 I = True
 l = 47
 O = 3.14</p>
-<p><strong>Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula</strong>
-Exemplo correto:
+<p><strong>Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula</strong></p>
+<p>Exemplo correto:
 class PersonNames:</p>
 <p>Exemplo incorreto:
 class person_Names:</p>
-<p><strong>Nomes de variáveis devem ser escritos em letra minúscula e separados por underline ‘_’</strong>
-Exemplo correto:
+<p><strong>Nomes de variáveis devem ser escritos em letra minúscula e separados por underline ‘_’</strong></p>
+<p>Exemplo correto:
 person_name = &quot;John&quot;
 person_last_name = &quot;Smith&quot;</p>
 <p>Exemplo incorreto:
 PersonName = &quot;John&quot;
 PersonLastName = &quot;Smith&quot;</p>
-<p><strong>Os nomes de exceções devem seguir a convenção de nomenclatura de classes com o sufixo “Error”</strong>
-Exemplo correto:
+<p><strong>Os nomes de exceções devem seguir a convenção de nomenclatura de classes com o sufixo “Error”</strong></p>
+<p>Exemplo correto:
 except IOError:</p>
 <p>Exemplo incorreto:
 except i_o_error:</p>
-<p><strong>Os nomes de funções e métodos devem ser minúsculos, com palavras separadas por underline ‘_’</strong>
-Exemplo correto:
+<p><strong>Os nomes de funções e métodos devem ser minúsculos, com palavras separadas por underline ‘_’</strong></p>
+<p>Exemplo correto:
 def calc_total(number_1, number_2):</p>
 <p>Exemplo incorreto:
 def calcTotal(number_1, number_2):</p>
-<p><strong>Constantes devem ser escritas com todas as letras maiúsculas e palavras separadas por underline ‘_’</strong>
-Exemplo correto:
+<p><strong>Constantes devem ser escritas com todas as letras maiúsculas e palavras separadas por underline ‘_’</strong></p>
+<p>Exemplo correto:
 MAX_LENGTH = 25</p>
 <p>Exemplo incorreto:
 max_length = 25</p>
-<h1><a class="anchor" aria-hidden="true" id="3-react"></a><a href="#3-react" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. React</h1>
+<h2><a class="anchor" aria-hidden="true" id="3-react"></a><a href="#3-react" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. React</h2>
 <p><br></p>
-<h2><a class="anchor" aria-hidden="true" id="31-regras-basicas"></a><a href="#31-regras-basicas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.1 Regras Básicas</h2>
+<h3><a class="anchor" aria-hidden="true" id="31-regras-basicas"></a><a href="#31-regras-basicas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.1 Regras Básicas</h3>
 <p><br></p>
 <ul>
 <li><p>Apenas um componente por arquivo.</p></li>
@@ -301,7 +301,7 @@ max_length = 25</p>
 <li><p>Sempre use a sintaxe JSX.</p></li>
 <li><p>Não use React.createElement a não ser que você esteja declarando a partir de um arquivo que não seja JSX.</p></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="32-nomenclatura"></a><a href="#32-nomenclatura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.2 Nomenclatura</h2>
+<h3><a class="anchor" aria-hidden="true" id="32-nomenclatura"></a><a href="#32-nomenclatura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.2 Nomenclatura</h3>
 <p><br></p>
 <ul>
 <li><p>Extensão: Use a extensão .jsx para componentes React.
@@ -321,7 +321,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
 </code></pre></li>
 <li><p>Nomeando componentes: Use o mesmo nome do componente. Ex.: MeuComponente.jsx tem um nome que referencia MeuComponente. No entanto, para os componentes de raiz de um diretório, use index.jsx como o nome do arquivo e usar o nome de diretório como o nome do componente.</p></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="33-declaracão"></a><a href="#33-declaracão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.3 Declaração</h2>
+<h3><a class="anchor" aria-hidden="true" id="33-declaracão"></a><a href="#33-declaracão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.3 Declaração</h3>
 <p><br></p>
 <ul>
 <li><p>Não use displayName para nomear componentes. Em vez disso, o nome do componente por referência.</p>
@@ -335,7 +335,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
  }
 </code></pre></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="34-aspas"></a><a href="#34-aspas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.4 Aspas</h2>
+<h3><a class="anchor" aria-hidden="true" id="34-aspas"></a><a href="#34-aspas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.4 Aspas</h3>
 <p><br></p>
 <ul>
 <li><p>Sempre usa aspas duplas (&quot;) para atributos, mas aspas simples para todos os outros JS usados no componente.</p>
@@ -372,7 +372,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
  &lt;Foo bar={baz} /&gt;
 </code></pre></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="36-props"></a><a href="#36-props" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.6 Props</h2>
+<h3><a class="anchor" aria-hidden="true" id="36-props"></a><a href="#36-props" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.6 Props</h3>
 <p><br></p>
 <ul>
 <li><p>Sempre use camelCase para nomes de props.</p>
@@ -415,7 +415,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
  ))}
 </code></pre></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="37-refs"></a><a href="#37-refs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.7 Refs</h2>
+<h3><a class="anchor" aria-hidden="true" id="37-refs"></a><a href="#37-refs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.7 Refs</h3>
 <p><br></p>
 <ul>
 <li><p>Sempre use ref callbacks.</p>
@@ -429,7 +429,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
                              /&gt;
 </code></pre></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="38-parenteses"></a><a href="#38-parenteses" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.8 Parênteses</h2>
+<h3><a class="anchor" aria-hidden="true" id="38-parenteses"></a><a href="#38-parenteses" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.8 Parênteses</h3>
 <p><br></p>
 <ul>
 <li><p>Coloque Tags JSX entre parênteses quando eles abrangem mais de uma linha.</p>
@@ -456,7 +456,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
  }
 </code></pre></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="39-tags"></a><a href="#39-tags" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.9 Tags</h2>
+<h3><a class="anchor" aria-hidden="true" id="39-tags"></a><a href="#39-tags" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.9 Tags</h3>
 <p><br></p>
 <ul>
 <li><p>Sempre que a Tag não possuir children use self-close ( ).</p>
@@ -479,7 +479,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
  /&gt;
 </code></pre></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="310-metodos"></a><a href="#310-metodos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.10 Métodos</h2>
+<h3><a class="anchor" aria-hidden="true" id="310-metodos"></a><a href="#310-metodos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.10 Métodos</h3>
 <p><br></p>
 <ul>
 <li><p>Manipuladores de evento do método render dentro do constructor().</p>
@@ -538,7 +538,7 @@ Referência de nomenclatura: Use PascalCase para componentes e camelCase para as
  }
 </code></pre></li>
 </ul>
-<h2><a class="anchor" aria-hidden="true" id="311-prioridades"></a><a href="#311-prioridades" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.11 Prioridades</h2>
+<h3><a class="anchor" aria-hidden="true" id="311-prioridades"></a><a href="#311-prioridades" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3.11 Prioridades</h3>
 <p><br></p>
 <ul>
 <li><p>Prioridades para class extends<br>
@@ -606,4 +606,4 @@ clickHandlers ou eventHandlers tipo onClickSubmit() ou onChangeDescription()
 <tr><td style="text-align:center">05/04/2019</td><td style="text-align:center">0.1</td><td style="text-align:center">Abertura do Documento</td><td style="text-align:center">Matheus Estanislau, Renan Cristyan</td></tr>
 </tbody>
 </table>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2019.1-MaisMonitoria/docs/doc-arquitetura"><span class="arrow-prev">← </span><span>Documento de Arquitetura</span></a><a class="docs-next button" href="/2019.1-MaisMonitoria/docs/doc-usabilidade"><span>Teste de Usabilidade</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#1-introducão">1. Introdução</a></li><li><a href="#2-python">2. Python</a><ul class="toc-headings"><li><a href="#21-layout-de-codigo">2.1 Layout de Código</a></li></ul></li><li><a href="#22-estruturas-de-comentarios">2.2 Estruturas de Comentários</a></li><li><a href="#23-organizacão-de-estruturas-de-controle">2.3 Organização de Estruturas de Controle</a></li><li><a href="#24-indentacão-de-estruturas-de-controle">2.4 Indentação de Estruturas de Controle</a></li><li><a href="#25-rotinas">2.5 Rotinas</a></li><li><a href="#26-convencão-de-nomeacão">2.6 Convenção de Nomeação</a></li><li><a href="#31-regras-basicas">3.1 Regras Básicas</a></li><li><a href="#32-nomenclatura">3.2 Nomenclatura</a></li><li><a href="#33-declaracão">3.3 Declaração</a></li><li><a href="#34-aspas">3.4 Aspas</a></li><li><a href="#35-espacamento">3.5 Espaçamento</a></li><li><a href="#36-props">3.6 Props</a></li><li><a href="#37-refs">3.7 Refs</a></li><li><a href="#38-parenteses">3.8 Parênteses</a></li><li><a href="#39-tags">3.9 Tags</a></li><li><a href="#310-metodos">3.10 Métodos</a></li><li><a href="#311-prioridades">3.11 Prioridades</a></li><li><a href="#4-referencias-bibliograficas">4. Referências Bibliográficas</a></li><li><a href="#5-historico-de-revisão">5. Histórico de Revisão</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 +Monitoria</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2019.1-MaisMonitoria/docs/doc-arquitetura"><span class="arrow-prev">← </span><span>Documento de Arquitetura</span></a><a class="docs-next button" href="/2019.1-MaisMonitoria/docs/doc-usabilidade"><span>Teste de Usabilidade</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#1-introducão">1. Introdução</a></li><li><a href="#2-python">2. Python</a><ul class="toc-headings"><li><a href="#21-layout-de-codigo">2.1 Layout de Código</a></li><li><a href="#22-estruturas-de-comentarios">2.2 Estruturas de Comentários</a></li></ul></li><li><a href="#23-organizacão-de-estruturas-de-controle">2.3 Organização de Estruturas de Controle</a><ul class="toc-headings"><li><a href="#24-indentacão-de-estruturas-de-controle">2.4 Indentação de Estruturas de Controle</a></li><li><a href="#25-rotinas">2.5 Rotinas</a></li><li><a href="#26-convencão-de-nomeacão">2.6 Convenção de Nomeação</a></li></ul></li><li><a href="#3-react">3. React</a><ul class="toc-headings"><li><a href="#31-regras-basicas">3.1 Regras Básicas</a></li><li><a href="#32-nomenclatura">3.2 Nomenclatura</a></li><li><a href="#33-declaracão">3.3 Declaração</a></li><li><a href="#34-aspas">3.4 Aspas</a></li></ul></li><li><a href="#35-espacamento">3.5 Espaçamento</a><ul class="toc-headings"><li><a href="#36-props">3.6 Props</a></li><li><a href="#37-refs">3.7 Refs</a></li><li><a href="#38-parenteses">3.8 Parênteses</a></li><li><a href="#39-tags">3.9 Tags</a></li><li><a href="#310-metodos">3.10 Métodos</a></li><li><a href="#311-prioridades">3.11 Prioridades</a></li></ul></li><li><a href="#4-referencias-bibliograficas">4. Referências Bibliográficas</a></li><li><a href="#5-historico-de-revisão">5. Histórico de Revisão</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 +Monitoria</section></footer></div></body></html>
