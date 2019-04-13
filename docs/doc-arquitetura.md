@@ -4,14 +4,23 @@ title: Documento de Arquitetura
 sidebar_label: Documento de Arquitetura
 ---
 
+<br>
+
+
 ## 1. Introdução
 
+<br>
+
 ### 1.1. Objetivo
+
+<br>
 
 <p align="justify">
     Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema. garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores. </p>
 
 ### 1.2. Escopo
+
+<br>
 
 <p align="justify">
     O +Monitoria é um produto de software que contará com uma interface Web Progressiva (PWA) e uma estrutura de microsserviços responsável pela implementação das regras de negócios, com objetivo de facilitar as monitorias na FGA.</p>
@@ -24,19 +33,26 @@ sidebar_label: Documento de Arquitetura
 
 ### 1.3. Visão Geral
 
+<br>
+
 <p align="justify">
 Neste documento estão contidos os seguintes pontos, respectivamente: representação da arquitetura, metas e restrições de arquitetura, visão dos casos de uso, visão lógica, visão da implementação, tamanho e desempenho.</p>
 
 ## 2. Representação Arquitetural
+
+<br>
 
 <p align="justify">
 Será utilizada na aplicação o padrão arquitetural de microsserviços, com uma interface PWA construída com React JS, um framework que baseia-se na linguagem de programação JavaScript. A organização dos microsserviços se dará através de uma API Gateway que será responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação. Os microsserviços voltados à implementação das regras de negócio serão construídos com Django Rest, um framework feito a partir da linguagem de programação Python que implementa o design de arquitetura REST. </p>
 
 ### 2.1 Representação Interna dos Microsserviços
 
+<br>
+
 ### Microsserviços de Regra de Negócio
 
 ### Django REST Framework
+
 
 <p align="justify">
 Os microsserviços voltados às regras de negócio do produto serão feitos com Django Rest Framework. O Django Rest Framework é uma biblioteca para o Framework Django que disponibiliza funcionalidades para implementar APIs Rest de forma extremamente rápida. As APIs são desenvolvidas seguindo o padrão Model - View, que é descrito logo abaixo:
@@ -66,6 +82,8 @@ O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScrip
 </p>
 
 ### 2.2 Diagrama de Relações
+
+<br>
 
 ![Diagrama de relações](assets/diagrama.png)
 
@@ -132,7 +150,11 @@ O padrão de microsserviços proporciona uma composição, manutenibilidade e re
 
 ## 5. Visões Arquiteturais
 
+<br>
+
 ### 5.1. Visão Lógica
+
+<br>
 
 <p align="justify">
 Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços de Regra de Negócio que são responsáveis por implementar as funcionalidades, API Gateway responsável por mediar a comunicação entre os serviços e Microsserviço da Interface PWA que é responsável por prover uma interface para o usuário fazer uso das funcionalidades.</p>
@@ -153,6 +175,8 @@ Responsável pelo desenvolvimento de interface o usuário e foca na utilização
 
 
 ### 5.2. Visão de Implementação
+
+<br>
 
 <p align="justify">
 Do ponto de vista da implementação os Microsserviços de Regra de Negócio vão ser API's REST feitas com Django Rest, a API Gateway será também uma API desenvolvida em Django REST e o Microsserviço da Interface PWA será uma aplicação web progressiva feita com ReactJS.</p>
@@ -182,6 +206,8 @@ Descrição da distribuição no ambiente React:
 
 ## 6. Tamanho e desempenho
 
+<br>
+
 <p align="justify">
 O produto deve ser simples e eficiente. Por ter uma interface PWA utilizará scripts de execução em segundo plano, arquivos JavaScript, que armazenam em cache os ativos e permitem desempenho mais alto. As principais vantagens de se utilizar PWA são retenção e economia. O produto deve fazer uso criterioso do armazenamento em cache para que mesmo com uma conexão ruim, ou inconstante, o usuário consiga usar o app.</p>
 
@@ -192,6 +218,8 @@ Apesar de precisar de requisições externas para a comunicação, essa aplicaç
 Os microsserviços independentes, se construídos corretamente, não afetam uns aos outros. Isso significa que, se um elemento falhar, o restante da aplicação permanece em funcionamento, diferentemente do modelo monolítico.</p>
 
 ## 7. Qualidade
+
+<br>
 
 <p align="justify">
 A arquitetura organiza a aplicação em microsserviços, isso faz com que a compreensão e manutenção do sistema seja facilitada para os desenvolvedores. Serão utilizados frameworks adequados para o que é requisitado no projeto, sendo Django REST para os microsserviços de regra de negócio e ReactJS para o microsserviço da interface PWA, ambos são altamente utilizados pela comunidade de desenvolvedores.</p>
@@ -236,7 +264,12 @@ https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-f
 
 ___
 
+<br>
+
 ## Histórico de Revisão
+
+<br>
+
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 02/04/2019 | 0.1 |  Abertura do Documento|João Pedro, Lucas Alexandre, Moacir Mascarenha |

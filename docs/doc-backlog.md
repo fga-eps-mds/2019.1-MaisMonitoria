@@ -4,6 +4,8 @@ title: Backlog do Produto
 sidebar_label: Backlog do Produto
 ---
 
+<br>
+
 ## 1. Introdução
 
 <p align="justify">
@@ -13,11 +15,17 @@ O backlog é um artefato que representa a acumulação de trabalho, é uma espé
 
 ## 2. EPIC01 - Interface PWA
 
+<br>
+
 ### 2.1 Descrição
+
+<br>
 
 O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
 
 ### 2.2 FT01 - Visual Atraente App-Like
+
+<br>
 
 O produto deve apresentar um visual App-Like para que o usuário se sinta utilizando um app nativo, além de ter um estilo moderno e minimalista, uma boa navegação entre suas telas aplicando conceito de single page application e se preocupar em ter uma usabilidade agradável.
 
@@ -29,6 +37,8 @@ O produto deve apresentar um visual App-Like para que o usuário se sinta utiliz
 
 ### 2.3 FT02 - Experiência Offline Significativa
 
+<br>
+
 O produto deve fazer uso criterioso do armazenamento em cache para que mesmo com uma conexão ruim, ou inconstante, o usuário consiga usar o app.
 
 | Id | Nome | Descrição | Relevância |
@@ -37,6 +47,8 @@ O produto deve fazer uso criterioso do armazenamento em cache para que mesmo com
 | US03 | Implantar armazenamento em cache | Eu como usuário gostaria de poder usar a aplicação mesmo com uma conexão ruim ou inconsistente à internet. | Média |
 
 ### 2.4 FT03 - Engajavél, Instalavél e Progressivo
+
+<br>
 
 O produto deve enviar notificações por push via web, adicionar um ícone na tela principal do usuário com apenas um clique e se adequar ao máximo as limitações do dispositivo do usuário.
 
@@ -47,11 +59,17 @@ O produto deve enviar notificações por push via web, adicionar um ícone na te
 
 ## 3. EPIC02 - Microsserviço Gerenciador de Monitorias
 
+<br>
+
 ### 3.1 Descrição
+
+<br>
 
 O produto deve conter um microsserviço que gerencie tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
 
 ### 3.2 FT04 - Manter Conta de Usuário
+
+<br>
 
 O produto deve disponibilizar criação, alteração, exclusão e visualização de conta para os usuários.
 
@@ -63,6 +81,8 @@ O produto deve disponibilizar criação, alteração, exclusão e visualização
 
 ### 3.3 FT05 - Manter Monitorias
 
+<br>
+
 O produto deve disponibilizar criação, alteração, exclusão, visualização, avaliação, marcação e solicitação de monitorias para os usuários cadastrados.
 
 | Id | Nome | Descrição | Relevância |
@@ -71,6 +91,8 @@ O produto deve disponibilizar criação, alteração, exclusão, visualização,
 | TS09 | Implantação da estrutura de classes e do banco de dados | Eu como desenvolvedor desejo implantar as classes e o banco de dados para o controle dos dados de monitorias. | Alta |
 
 ### 3.4 FT06 - Sistema de Pesquisa
+
+<br>
 
 O produto deve oferecer um sistema de pesquisa dinâmico com filtros relevantes.
 
@@ -81,11 +103,17 @@ O produto deve oferecer um sistema de pesquisa dinâmico com filtros relevantes.
 
 ## 4. EPIC03 - Microsserviço Gateway
 
+<br>
+
 ### 4.1 Descrição
+
+<br>
 
 O produto deve conter um microsserviço responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação.
 
 ### 4.2 FT07 - Realizar Autenticação por API Externa
+
+<br>
 
 O produto deve abstrair a complexidade da construção de um serviço de autenticação utilizando uma API externa para tal fim. (Ex: Telegram, Facebook, Google)
 
@@ -96,6 +124,8 @@ O produto deve abstrair a complexidade da construção de um serviço de autenti
 
 ### 4.3 FT08 - Realizar Transformação e Agregação de Dados
 
+<br>
+
 O produto deve através da API Gateway transformar e agregar dados visando diminuir ao máximo a quantidade de chamadas ao microsserviço e o consumo de internet / dados do usuário, simplificando as requisições do lado do usuário.
 
 | Id | Nome | Descrição | Relevância |
@@ -103,6 +133,8 @@ O produto deve através da API Gateway transformar e agregar dados visando dimin
 | TS11 | Gerenciamento de informações no cache | Eu como desenvolvedor gostaria de diminuir o número de requisições de acordo com informações contidas no cache. | Alta |
 
 ### 4.4 FT09 - Oferecer Ponto de Acesso Único aos Microsserviços
+
+<br>
 
 O produto deve oferecer um 'Proxy' para servir de ponto acesso único aos microsserviços.
 
@@ -112,11 +144,17 @@ O produto deve oferecer um 'Proxy' para servir de ponto acesso único aos micros
 
 ## 5. EPIC04 - Microsserviço de Gamificação
 
+<br>
+
 ### 5.1 Descrição
+
+<br>
 
 O produto deve conter um microsserviço responsável gerenciar toda a parte de gamificada do produto, incluindo processamento de um ranking, cálculo de pontuações e distribuição de recompensas.
 
 ### 5.2 FT10 - Ranking
+
+<br>
 
 O produto deve oferecer um sistema de ranqueamento entre os usuários visando estimulá-los a dar monitorias como uma forma de competir.
 
@@ -128,6 +166,8 @@ O produto deve oferecer um sistema de ranqueamento entre os usuários visando es
 
 ### 5.3 FT11 - Recompensas
 
+<br>
+
 O produto deve recompensar o usuário baseado em sua faixa de pontuação no ranking com títulos em forma de badges em seu perfil.
 
 | Id | Nome | Descrição | Relevância |
@@ -137,11 +177,15 @@ O produto deve recompensar o usuário baseado em sua faixa de pontuação no ran
 
 ## 6. EPIC05 - Microsserviço Gerador de Feed
 
+<br>
+
 ### Descrição
 
 O produto deve conter um microsserviço responsável por manter feed's de novidades e atualizações gerados de acordo com os perfis dos usuários.
 
 ### 6.1 FT12 - Feed personalizado
+
+<br>
 
 O produto deve contar com um algoritmo de geração de feed que leva em conta temas de interesse, histórico de monitorias, usuários seguidos e novidades e atualizações em geral.
 
@@ -152,6 +196,8 @@ O produto deve contar com um algoritmo de geração de feed que leva em conta te
 
 ### 6.2 FT13 - Sistema de Follow
 
+<br>
+
 O produto deve oferecer a funcionalidade de seguir outros usuários para receber atualizações dos mesmos em seu feed.
 
 | Id | Nome | Descrição | Relevância |
@@ -160,6 +206,8 @@ O produto deve oferecer a funcionalidade de seguir outros usuários para receber
 
 
 ## Histórico de Revisão
+
+<br>
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|

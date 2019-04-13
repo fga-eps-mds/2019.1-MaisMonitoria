@@ -4,16 +4,23 @@ title: Teste de Usabilidade
 sidebar_label: Teste de Usabilidade
 ---
 
+<br>
 
 ## 1. Introdução
+
+<br>
 
 <p align="justify"> Este documento tem por objetivo mostrar o procedimento de teste e usabilidade da aplicação +Monitoria sem instruir ao usuário como utilizá-lo. Após esse processo será registrado informações sobre sua experiência no aplicativo.<p>
 
 ## 2. Grupo de usuários
 
+<br>
+
 <p align="justify"> Alunos da FGA(Faculdade do Gama-UNB) que tenham interesse em receber ou dar monitoria de maneira informal.<p>
 
 ## 3. Fluxo de Tarefas
+
+<br>
 
 1) Tarefa : Pesquisar Monitoria
     O usuário deve realizar a pesquisa de um monitoria.
@@ -32,9 +39,15 @@ O usuário deve acessar os detalhes de uma monitoria.
     
 
 ## 4. Considerações do Usuário e Resultados:
+
+<br>
+
 Reunir resultados e sugestões dos usuários.
 
 ### 4.1 Teste de Usabilidade
+
+<br>
+
 ### Teste 1:
 
 Informações:
@@ -86,7 +99,7 @@ Avaliador: Moacir Mascarenha
 Preferência por cores claras, botão para cadastrar monitoria nada intuitivo.
 
 
-## Conclusão
+## 5. Conclusão
 
 Após os teste foram feitas mudanças no Protótipo, visando corrigir elementos que os usuários avaliaram negativamente, como cores e botões pouco intuitivos.Além da inclusão de outros elementos foi feita a reestilização de todo o aplicativo.
 

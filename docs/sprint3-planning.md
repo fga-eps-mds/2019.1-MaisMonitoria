@@ -4,7 +4,11 @@ title: Planning da Sprint 3
 sidebar_label: Planning
 ---
 
+<br>
+
 ## 1. Resumo
+
+<br>
 
 - Período: 08/04 - 14/04
 - Scrum master: Lucas Siqueira
@@ -13,6 +17,9 @@ sidebar_label: Planning
 - Arquiteto: Lucas Macêdo
 
 ## 2. Sprint Backlog
+
+<br>
+
 Tarefas|Pontos
 --|--
 |[Modelagem da estrutura de classes e banco de dados de usuário](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/46) | 5
@@ -38,6 +45,9 @@ Total de Pontos: 29
 
 
 ## 4. Quadro de pareamento
+
+<br>
+
 Tarefas|Responsáveis
 --|--
 |[Modelagem da estrutura de classes e banco de dados de usuário](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/46) | Lucas Macedo, Moacir Junior, João Pedro.

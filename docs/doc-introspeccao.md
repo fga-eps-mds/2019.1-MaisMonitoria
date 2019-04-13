@@ -4,10 +4,18 @@ title: Introspecção
 sidebar_label: Introspecção
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
+
 <p align="justify"> É uma técnica de elicitação, que baseia-se em imaginar que tipo de sistema eu iria querer se eu tivesse executando esta tarefa, utilizando este equipamento, entre outros[1]. Nesse caso consiste em aspectos em que uma rede social de monitorias deve possuir para satisfazer as necessidades de um estudante que busca compartilhar e adquirir novos conhecimentos.</p>
 
 ## 2. Instrospecção:
+
+<br>
+
 <p align="justify">
 
 **Perfil:**
@@ -57,6 +65,8 @@ sidebar_label: Introspecção
 
 ## 3. Rastreabilidade de Requisitos
 
+<br>
+
 Este documento ajudou a elicitar as seguintes features:
 
 * FT04 - Manter Conta de Usuário
@@ -69,10 +79,15 @@ Este documento ajudou a elicitar as seguintes features:
 
 ## 4. Referências
 
+<br>
+
 >[1]PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
 ___
 
 ## Histórico de Revisão
+
+<br>
+
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 19/03/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |

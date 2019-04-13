@@ -4,7 +4,12 @@ title: Observação
 sidebar_label: Observação
 ---
 
+<br>
+
 ## 1. Introdução
+  
+  <br>
+
   <p align='justify' >A observação é uma técnica de elicitação que possibilita observar as tarefas sendo executadas pelos interessados sem interferir no ambiente, como o nosso contexto trata-se de um PWA (Progressive Web Apps) ainda não implementado, utilizamos da observação participativa para levantar requisitos a partir de aplicativos já existentes que implementam funcionalidades semelhantes às desejadas.</p>
 
 Aplicativos utilizados na observação:
@@ -15,6 +20,8 @@ Aplicativos utilizados na observação:
   
 
 ## 2.Observação
+
+<br>
 
 **Monitoria + App**
   
@@ -66,6 +73,8 @@ Aplicativos utilizados na observação:
   
 ## 3. Rastreabilidade de Requisitos
 
+<br>
+
 Este documento ajudou a elicitar as seguintes features:
 
 * FT04 - Manter Conta de Usuário
@@ -73,6 +82,9 @@ Este documento ajudou a elicitar as seguintes features:
 * FT06 - Sistema de Pesquisa
 
 ## 4.Conclusão
+
+<br>
+
 <p align='justify' >Observando os dois aplicativos concluímos que o sistema de login do Monitoria+App se aproxima bastante com o  que desejamos, no entanto o seu menu fica disponível somente ao acessar uma opção de  alguma matéria, aumentando assim o número de passos para acessar outras funcionalidades como as de perfil .Já o Monitoria USJT possui um menu bastante agradável e de fácil acesso para o usuário.Tendo em vista os pontos positivos e negativos citados acima ganhamos uma boa base para definir novos requisitos.</p>
 
 

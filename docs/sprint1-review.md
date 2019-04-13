@@ -4,7 +4,11 @@ title: Review da Sprint 1
 sidebar_label: Review
 ---
 
+<br>
+
 ## 1. Resumo
+
+<br>
 
 - Período: 25/03 - 31/03
 - Scrum master: Lucas Siqueira
@@ -14,7 +18,11 @@ sidebar_label: Review
 
 ## 2. Resultados da sprint
 
+<br>
+
 ### 2.1 Fechamento da Sprint
+
+<br>
 
 Tarefas|Status|Pontos
 --|--|--
@@ -41,6 +49,8 @@ Tarefas|Status|Pontos
 
 ### 2.2 Retrospectiva
 
+<br>
+
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Muito documento entregue, a equipe de MDS mais comprometida no projeto. | Bot da daily não funcionou corretamente, dívidas referentes a equipe de EPS, devido a mal planejamento da sprint. |Planejar melhor as próximas sprints|
@@ -54,6 +64,8 @@ Tarefas|Status|Pontos
 |Lucas Alexandre| Aprendi a noção básica de django rest, aprendi a modelar requisitos não funcionais, todos os EPS me ajudaram quando solicitado. | Muitos problemas na configuração do ambiente durante a realização do curso e o git hub pages poderia ser melhor. |Nenhuma.|
 
 ## 3. Quadro de conhecimento ao fim da sprint
+<br>
+
 ![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-2.png)
 
 
@@ -76,6 +88,9 @@ Tarefas|Status|Pontos
 
 
 ## 6. Feedback do Scrum Master
+
+<br>
+
 <p align = "justify">
 Essa sprint foi de extrema importância para definição do projeto, nela conseguimos aplicar diversas técnicas para levantar requisitos. Porém foi uma sprint com muitas tarefas, o que ocasionou em dívidas.
 

@@ -4,7 +4,11 @@ title: Review da Sprint 2
 sidebar_label: Review
 ---
 
+<br>
+
 ## 1. Resumo
+
+<br>
 
 - Período: 01/04 - 07/04
 - Scrum master: Lucas Siqueira
@@ -14,7 +18,11 @@ sidebar_label: Review
 
 ## 2. Resultados da sprint
 
+<br>
+
 ### 2.1 Fechamento da Sprint
+
+<br>
 
 Tarefas|Status|Pontos
 --|--|--
@@ -36,6 +44,8 @@ Tarefas|Status|Pontos
 
 ### 2.2 Retrospectiva
 
+<br>
+
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Maior entendimento da equipe em relação às metodologias ágeis, boa prototipação do produto, conclusão do backlog, importantes decisões tomadas. | Dívidas continuaram como dívida e as entregas não foram constantes. |Maior comprometimento na realização das tarefas.|
@@ -49,6 +59,9 @@ Tarefas|Status|Pontos
 |Lucas Alexandre| Adquiri conhecimento básico em teste, ao fazer o protótipo elevei meu conhecimento acerca do projeto, tive um pareamento efetivo na realização do protótipo. | Dependência do PO na realização do protótipo. |Nenhuma.|
 
 ## 3. Quadro de conhecimento ao fim da sprint
+
+<br>
+
 ![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-3.png)
 
 
@@ -80,7 +93,12 @@ Tarefas|Status|Pontos
 
 
 ## 7. Feedback do Scrum Master
+
+<br>
+
 ### 7.1 Análise dos riscos
+
+<br>
 
 **Riscos ocorridos durante a sprint:**
 
@@ -98,6 +116,9 @@ As ações tomadas foram: Realizar o backlog em paralelo ao documento de arquite
 
 
 ### 7.2 Análise geral
+
+<br>
+
 <p align = "justify">
 Nessa sprint decisões importantes foram tomadas, a partir de uma avaliação de todo o grupo junto ao Product Owner foi definido que com as mudanças no escopo do projeto não teria mais sentido chamá-lo de Hora da hora, sendo assim definido um novo nome: +Monitoria, junto ao nome foi definida a logo do produto.
 

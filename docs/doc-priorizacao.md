@@ -4,11 +4,17 @@ title: Priorizacao
 sidebar_label: Priorização
 ---
 
-# Introdução
+<br>
+
+## 1. Introdução
+
+<br>
 
 Priorização é usada para ajudar no planejamento do projeto e assim escolher o que deve ser implementado, de acordo com o que agrega mais valor para o produto ou para o cliente.
 
-# Moscow
+## 2. Moscow
+
+<br>
 
 Moscow é uma técnica de priorização em que se tem 4 diretivas, que dizem a necessidade do requisito para o projeto.
 
@@ -48,7 +54,10 @@ Moscow é uma técnica de priorização em que se tem 4 diretivas, que dizem a n
 | US12 | Sistema de feed personalizado | Want |
 | US13 | Sistema de seguir usuário | Want |
 
-# First things first
+## 3. First things first
+
+<br>
+
 FTF é uma técnica de priorização que leva em conta 4 fatores, benefício, penalidade, custo e risco. Assim a priorização fica mais detalhada, trazendo mais esclarecimento para os envolvidos no projeto.
 ## Tabelas
 
@@ -68,7 +77,11 @@ FTF é uma técnica de priorização que leva em conta 4 fatores, benefício, pe
 > Épico 05 - Microsserviço gerador de feed
 
 todas as tabelas encontram-se disponível em: [Tabelas FTF](https://docs.google.com/spreadsheets/d/1WSlpAsuv4rFWkpX01wvN_n2r_ck3Vuj0PNup1SXLlzM/edit?usp=sharing)
+
 ## Histórico de Revisão
+
+<br>
+
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 07/04/2019 | 0.1 | Abertura do documento | Caio Oliveira |

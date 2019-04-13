@@ -4,7 +4,11 @@ title: NFR Framework
 sidebar_label: NFR Framework
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
 
 <p align="justify">Trata-se de um framework conceitual para condução da Engenharia de Requisitos orientada aos requisitos não funcionais, com uma extensão que apoia suposições para avaliação de satisfação das metas-flexíveis.</p>
 
@@ -18,10 +22,14 @@ sidebar_label: NFR Framework
 
 ## 3. Ferramenta Utilizada
 
+<br>
+
 Ferramenta utilizada foi o Star UML disponível no link: 
 [StarUML.io](http://staruml.io/)
 
 ## 4. Rastreabilidade de Requisitos
+
+<br>
 
 Este documento ajudou a elicitar as seguintes features:
 
@@ -32,9 +40,14 @@ Este documento ajudou a elicitar as seguintes features:
 * FT09 - Oferecer Ponto de Acesso Único aos Microsserviços
 
 ## 5. Referências
+
+<br>
+
 >[1] Slide da aula 17 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano
 
 ## Histórico de Revisão
+
+<br>
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
