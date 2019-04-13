@@ -59,7 +59,7 @@ class Membros extends React.Component {
             <div className="row justify-content-center d-flex align-items-center">
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f1.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/f4.jpg" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Caio Oliveira</h4>
@@ -87,7 +87,7 @@ class Membros extends React.Component {
 
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f1.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/lucassiqz.png" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Lucas Siqueira</h4>
@@ -101,7 +101,7 @@ class Membros extends React.Component {
 
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f1.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/f3.jpg" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Matheus Rodrigues</h4>
@@ -117,7 +117,7 @@ class Membros extends React.Component {
             <div className="row justify-content-center d-flex align-items-center">
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f1.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/joao.jpg" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>João Pedro</h4>
@@ -145,7 +145,7 @@ class Membros extends React.Component {
 
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f1.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/cristo.jpeg" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Matheus de Cristo </h4>
@@ -159,7 +159,7 @@ class Membros extends React.Component {
 
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f1.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/f2.jpg" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Moacir Júnior</h4>
