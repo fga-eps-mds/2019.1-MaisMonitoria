@@ -6,22 +6,23 @@ sidebar_label: Folha de Estilo
 
 <br>
 
-# 1. Introdução
+## 1. Introdução
 
 <br>
 
 <p align="justify">Este documento tem como objetivo padronizar e organizar o estilo de código entre os integrantes do projeto. A folha de estilo é baseada no padrão PEP 8, que é um documento de convenções Python, onde são estabelecidas boas práticas e recomendações para se criar códigos organizados e, consequentemente, mais legíveis e baseada nos padrões de utilização do React.</p>
 
-# 2. Python
+## 2. Python
 
 <br>
 
-## 2.1 Layout de Código
+### 2.1 Layout de Código
 
 <br>
 
-### Indentação
-### Usar 4 espaços por nível de identação
+**Indentação**
+
+**Usar 4 espaços por nível de identação**
    Exemplo correto:
    if (constant > iterator)
        do_something()
@@ -30,7 +31,7 @@ sidebar_label: Folha de Estilo
    if (constant > iterator)
    do_something()
 
-### As linhas são limitadas a no máximo 79 caracteres
+**As linhas são limitadas a no máximo 79 caracteres**
    Exemplo correto:
    total = ((number_of_items * base_price) + (taxes * dollar_quotation)
            - (sub_total - commercial_discount))
@@ -38,18 +39,18 @@ sidebar_label: Folha de Estilo
    Exemplo incorreto:
    total = ((number_of_items * base_price) + (taxes * dollar_quotation) - (sub_total - commercial_discount))
 
-### Alinhar os operandos com a quebra do delimitador
+**Alinhar os operandos com a quebra do delimitador**
    Exemplo correto:
-   #### Aligned with opening delimiter
+   **Aligned with opening delimiter**
    foo = long_function_name(var_one, var_two,
                             var_three, var_four)
 
    Exemplo incorreto:
-   #### Arguments on first line forbidden when not using vertical alignment
+   **Arguments on first line forbidden when not using vertical alignment**
    foo = long_function_name(var_one, var_two,
        var_three, var_four)
 
-### O fechamento de parênteses, colchetes ou chaves pode ser alinhado sob o primeiro caractere não-espaço-branco da última linha da lista
+**O fechamento de parênteses, colchetes ou chaves pode ser alinhado sob o primeiro caractere não-espaço-branco da última linha da lista**
    Exemplo correto:
    vector = [
    1, 2, 3,
@@ -62,7 +63,7 @@ sidebar_label: Folha de Estilo
    1, 2, 3,
    4, 5, 6,
    7, 8, 9]
-### Uma linha deve ser quebrada depois de um operador binário
+**Uma linha deve ser quebrada depois de um operador binário**
    Exemplo correto:
    income = (gross_wages +
              taxable_interest +
@@ -77,8 +78,8 @@ sidebar_label: Folha de Estilo
          - ira_deduction
          - student_loan_interest)
 
-### Linhas em branco
-### Colocar linhas em branco entre as linhas de código
+**Linhas em branco**
+**Colocar linhas em branco entre as linhas de código**
    Exemplo correto:
    name = input('enter your name')
    age = input('enter your name')
@@ -95,11 +96,10 @@ sidebar_label: Folha de Estilo
    print(people.getName())
    print(people.getAge())
   
-### Adicionar duas linhas em branco acima e abaixo das definições de classe e funções top-level
+**Adicionar duas linhas em branco acima e abaixo das definições de classe e funções top-level**
 
-### As definições de métodos dentro de uma classe são cercadas por uma única linha em branco
-
-### Linhas em branco podem ser usadas para separar grupos de funções relacionadas e omitidas entre um grupo de one-liners relacionados
+**As definições de métodos dentro de uma classe são cercadas por uma única linha em branco**
+**Linhas em branco podem ser usadas para separar grupos de funções relacionadas e omitidas entre um grupo de one-liners relacionados**
    Exemplo correto:
    var_1 = 0
    var_2 = 2 ** 5
@@ -117,8 +117,8 @@ sidebar_label: Folha de Estilo
    string_2 = “World!”
    phrase = string + string2
 
-### Imports
-### Imports devem estar em linhas separadas
+**Imports**
+**Imports devem estar em linhas separadas**
    Exemplo correto:
    import os
    import sys
@@ -126,60 +126,60 @@ sidebar_label: Folha de Estilo
    Exemplo incorreto:
    import sys, os
 
-### Os imports são sempre colocados na parte de cima do arquivo, logo após qualquer comentário e docstrings do arquivo, e antes dos módulos globais e constantes
+**Os imports são sempre colocados na parte de cima do arquivo, logo após qualquer comentário e docstrings do arquivo, e antes dos módulos globais e constantes**
 
 ## 2.2 Estruturas de Comentários
 
 <br>
 
-### Comentários de linha única devem ser escritos com # (espaço) (comentário)
+**Comentários de linha única devem ser escritos com # (espaço) (comentário)**
    Exemplo correto:
-   # This is a commentary
+   **This is a commentary**
   
    Exemplo incorreto:
-   #This is a commentary
+   **This is a commentary**
 
-### Todos os comentários devem começar com letra maiúscula
+**Todos os comentários devem começar com letra maiúscula**
    Exemplo correto:
-   # This is a commentary
+   **This is a commentary**
   
    Exemplo incorreto:
-   # this is a commentary
+   **this is a commentary**
 
-### Todos os comentários devem ser redigidos em inglês
+**Todos os comentários devem ser redigidos em inglês**
    Exemplo correto:
-   # This is a commentary   
+   **This is a commentary**   
 
    Exemplo incorreto:
-   # Este é um comentário
+   **Este é um comentário**
 
-### Todos os comentários devem ter uma linha em branco acima
+**Todos os comentários devem ter uma linha em branco acima**
    Exemplo correto:
    string_1 = “Hello ”
    string_2 = “World!”
    phrase = string + string2
 
-   #### Printing “Hello World!”
+   **Printing “Hello World!”**
    print(phrase)
   
    Exemplo incorreto:
    string_1 = “Hello ”
    string_2 = “World!”
    phrase = string + string2
-   #### Printing “Hello World!”
+   **Printing “Hello World!”**
    print(phrase)
   
-### Os comentários devem ter no máximo 75 caracteres por linha
+**Os comentários devem ter no máximo 75 caracteres por linha**
 
-### Os comentários devem ser frases completas
+**Os comentários devem ser frases completas**
 
-### Todos os comentários devem ser identificados com o código
+**Todos os comentários devem ser identificados com o código**
 
 ## 2.3 Organização de Estruturas de Controle
 
 <br>
 
-### Usar parênteses em estruturas de decisão
+**Usar parênteses em estruturas de decisão**
    Exemplo correto:
    if (age >= 18):
        print (maior de idade)
@@ -188,7 +188,7 @@ sidebar_label: Folha de Estilo
    if age >= 18:
        print (maior de idade)
 
-### Colocar um espaço entre condicionais muito extensas
+**Colocar um espaço entre condicionais muito extensas**
    Exemplo correto:
    if((name == 'Lira' and age == 10) or (name == 'Jessica' and age == 8)):   
 
@@ -199,7 +199,7 @@ sidebar_label: Folha de Estilo
 
 <br>
 
-### Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura
+**Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura**
    Exemplo correto:
    if (variable_1 > 100):
        do_this( )
@@ -212,7 +212,7 @@ sidebar_label: Folha de Estilo
        else:
        do_that( )
 
-### Estruturas complicadas
+**Estruturas complicadas**
    Exemplo correto:
    if (((var_1 > var_2) && (var_1 > var_3)) ||
        ((var_1 > 1) && (var_2 < 10)) ||
@@ -231,7 +231,7 @@ sidebar_label: Folha de Estilo
 
 <br>
 
-### Usar linhas em branco para separar as partes da rotina
+**Usar linhas em branco para separar as partes da rotina**
    Exemplo correto:
    def showAccount(accountNumber):
 
@@ -247,7 +247,7 @@ sidebar_label: Folha de Estilo
    def retrieveAccount(accountNumber):
        findNumber()   
 
-### Usar a indentação padrão nos parâmetros da rotina
+**Usar a indentação padrão nos parâmetros da rotina**
    Exemplo correto:
    def setBalance (
        id,
@@ -263,7 +263,7 @@ sidebar_label: Folha de Estilo
 
 <br>
 
-### Evitar caracteres ‘l’ (‘L’ minúsculo), ‘O’ (‘o’ maiúsculo) ou ‘I’ (‘i’ maiúsculo) como nomes de variáveis de único caractere
+**Evitar caracteres ‘l’ (‘L’ minúsculo), ‘O’ (‘o’ maiúsculo) ou ‘I’ (‘i’ maiúsculo) como nomes de variáveis de único caractere**
    Exemplo correto:
    i = True
    L = 47
@@ -274,14 +274,14 @@ sidebar_label: Folha de Estilo
    l = 47
    O = 3.14
 
-### Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula
+**Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula**
    Exemplo correto:
    class PersonNames:
 
    Exemplo incorreto:
    class person_Names:
 
-### Nomes de variáveis devem ser escritos em letra minúscula e separados por underline ‘_’
+**Nomes de variáveis devem ser escritos em letra minúscula e separados por underline ‘_’**
    Exemplo correto:
    person_name = "John"
    person_last_name = "Smith"
@@ -290,21 +290,21 @@ sidebar_label: Folha de Estilo
    PersonName = "John"
    PersonLastName = "Smith"
 
-### Os nomes de exceções devem seguir a convenção de nomenclatura de classes com o sufixo “Error”
+**Os nomes de exceções devem seguir a convenção de nomenclatura de classes com o sufixo “Error”**
    Exemplo correto:
    except IOError:
 
    Exemplo incorreto:
    except i_o_error:
 
-### Os nomes de funções e métodos devem ser minúsculos, com palavras separadas por underline ‘_’
+**Os nomes de funções e métodos devem ser minúsculos, com palavras separadas por underline ‘_’**
    Exemplo correto:
    def calc_total(number_1, number_2):
 
    Exemplo incorreto:
    def calcTotal(number_1, number_2):
 
-### Constantes devem ser escritas com todas as letras maiúsculas e palavras separadas por underline ‘_’
+**Constantes devem ser escritas com todas as letras maiúsculas e palavras separadas por underline ‘_’**
    Exemplo correto:
    MAX_LENGTH = 25
 
