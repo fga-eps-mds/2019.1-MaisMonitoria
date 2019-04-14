@@ -52,7 +52,7 @@ const siteConfig = {
   },
 
   /* Custom fonts for website */
-  /*
+  
   fonts: {
     myFont: [
       "Times New Roman",
@@ -62,9 +62,9 @@ const siteConfig = {
       "-apple-system",
       "system-ui"
     ]
-  },
-  */
 
+  },
+  
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} +Monitoria`,
 
@@ -74,8 +74,30 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
-
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    "js/vendor/jquery-2.2.4.min.js",
+    {src:"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
+      integrity:"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q",
+    },
+    "js/easing.min.js",
+    "js/hoverIntent.js",
+    "js/superfish.min.js",
+    "js/vendor/bootstrap.min.js",
+    "js/jquery.ajaxchimp.min.js",
+    "js/jquery.magnific-popup.min.js",
+    "js/owl.carousel.min.js",
+    "js/owl-carousel-thumb.min.js",
+    "js/jquery.sticky.js",
+    "js/jquery.nice-select.min.js",
+    "js/parallax.min.js",
+    "js/waypoints.min.js",
+    "js/wow.min.js",
+    "js/jquery.counterup.min.js",
+    "js/mail-script.js",
+    "js/main.js",
+  ],
+	
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
   // No .html extensions for paths.
