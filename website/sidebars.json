@@ -12,7 +12,8 @@
                 "plano-grh", 
                 "plano-custos",
                 "doc-plano-tempo",
-                "doc-descricao-metodologia"]
+                "doc-descricao-metodologia",
+                "doc-plano-medicao"]
   },
 
   "docs-sprints": {
