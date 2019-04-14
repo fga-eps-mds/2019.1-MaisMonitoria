@@ -4,15 +4,23 @@ title: Plano de Custos
 sidebar_label: Plano de Custos
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
 
 <p align="justify">O plano de gerenciamento dos custos define o formato e estabelece as atividades e os critérios de planejamento, estruturação e controle dos custos do projeto.</p>
 
 ## 2. Estimativa de Custo
 
+<br>
+
 <p align="justify">O cálculo da expectativa de custo vai levar em conta custos de aquisição, custos com pessoal, custo de ferramentas, custos de capacitação e uma porcentagem para cobrir eventuais riscos e manter uma margem de lucro segura.</p>
 
 ## 3. Custo de Aquisição
+
+<br>
 
 <p align="justify">Incluem equipamentos, espaço de trabalho, transporte e alimentação. Para levantar o custo dos equipamentos o Devops e o Arquiteto levantaram os requisitos mínimos que um notebook precisa ter para que os Desenvolvedores possam realizar suas atividades tranquilamente, com base nisso o Product Owner fez uma pesquisa de preço e escolheu o modelo de Notebook que atende aos requisitos impostos equalizando qualidade e bom preço. No quesito espaço de trabalho o Product Owner chegou a conclusão que a melhor saída é alugar um espaço de Coworking pois todos os outros gastos e preocupações como contas de água, luz e a manutenção do espaço estão embutidas no aluguel. Por fim para definir um valor para as despesas com transporte e alimentação o Product Owner considerou que cada membro da equipe pegará no máximo duas conduções para se deslocar até o local de trabalho e que o preço médio de uma refeição na região é 15 reais.</p>
 
@@ -36,6 +44,8 @@ sidebar_label: Plano de Custos
 
 ## 4. Custo de Pessoal
 
+<br>
+
 <p align="justify"> Para chegar nos valores salariais definidos o Product Owner fez uma pesquisa de quanto se paga em média por uma hora de trabalho de desenvolvedores júnior para se estimar o salário da equipe de MDS, já no caso da equipe de EPS se levantou quanto se paga em média pela hora de trabalho de cada um dos papéis definidos para a equipe e ao final calculamos a média aritmética entre os ganhos médios, pois levamos em conta que tais papéis serão rotacionados entre a equipe de EPS.</p>
 
 <br>
@@ -52,9 +62,13 @@ sidebar_label: Plano de Custos
 
 ## 5. Custo de Ferramentas
 
+<br>
+
 Não estão previstos gastos com ferramentas durante a execução do projeto, pois o grupo pretende utilizar apenas ferramentas Open Source ou em caso extremo em que não existam soluções Open Source adequadas utilizar ferramentas proprietárias dentro de seu limite Free de uso. As ferramentas que esperamos utilizar podem ser vistas no [Plano de GCS](https://fga-eps-mds.github.io/2019.1-Hora-Da-Hora/docs/plano-gcs).
 
 ## 6. Custo de Capacitação
+
+<br>
 
 <p align="justify">Ao discutir com a equipe de EPS sobre o atual nível técnico da equipe de MDS o Product Owner chegou a conclusão que seria necessário investir na capacitação da equipe MDS, tendo em vista que eles ainda não tem tanta desenvoltura para pesquisar e aprender por conta própria sobre os conhecimentos demandados para execução do projeto. A partir dessa decisão foram adotadas duas formas de realizar capacitação da equipe de MDS, a primeira através de Dojos ministrados pelos membros da equipe de EPS e a segunda forma que é através de cursos em plataformas online de ensino, sendo alguns gratuitos e outros adquiridos.</p>
 
@@ -72,6 +86,8 @@ Não estão previstos gastos com ferramentas durante a execução do projeto, po
 *Consideramos custo zero para os dojos pois a equipe de EPS recebe salário para desenvolver as atividades do projeto e os dojos foram encarados como uma atividade do projeto.
 
 ## 7. Custo Total
+
+<br>
 
 <p align="justify">Para estimar o custo total, além de somar todas as despesas levantadas nos tópicos anteriores o Product Owner adicionou um acréscimo de 20% no custo para garantir uma margem de lucro segura e mais 20% para cobrir eventuais riscos ou atrasos que venham a ocorrer durante a execução do projeto.</p>
 
@@ -98,6 +114,8 @@ Não estão previstos gastos com ferramentas durante a execução do projeto, po
 
 ## 8. Referências
 
+<br>
+
 > GUIA PMBOK®. Disponível em: https://brasil.pmi.org/brazil/PMBOKGuideAndStandards.aspx
 
 > LOVEMONDAYS. <b>Salários para programadores e equipe de analista, arquiteto, scrum master, DevOps e PO</b>. Disponível em: <https://www.lovemondays.com.br/>.
@@ -108,6 +126,9 @@ Não estão previstos gastos com ferramentas durante a execução do projeto, po
 ___
 
 ## Histórico de Revisão
+
+<br>
+
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 31/03/2019 | 0.1 | Criação do documento | Lucas Macêdo |

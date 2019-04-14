@@ -4,11 +4,17 @@ title: Plano de Gestão e Configuração de Software
 sidebar_label: Plano de GCS
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
 
 <p align = "justify">O presente documento tem como finalidade abordar os procedimentos de gerência e configuração de software a serem seguidos no projeto.</p>
 
 ## 2. Políticas
+
+<br>
 
 ### Política de Commits
 
@@ -47,6 +53,8 @@ sidebar_label: Plano de GCS
 
 ## 3. Uso de Issues
 
+<br>
+
 <p align = "justify">As <i>issues</i> serão criadas com o objetivo de mapear e descrever todo o trabalho a ser desenvolvido durante o projeto, possibilitando controle e transparência do que está sendo feito. Com isso, conseguiremos manter o rastro de tudo que foi planejado e efetuado.</p>
 
 <p align = "justify">As issues vão conter identificadores e labels, para que se possa indicar sua natureza. Os identificadores definidos para o projeto serão:</p>
@@ -81,6 +89,8 @@ sidebar_label: Plano de GCS
 
 ## 4. Ferramentas
 
+<br>
+
 | Ferramenta | Descrição |
 |:----:|:---------:|
 | Git | Ferramenta de versionamento |
@@ -97,11 +107,14 @@ sidebar_label: Plano de GCS
 | Coveralls | Ferramenta de análise de cobertura de testes |
 | VS Code | Ferramenta de edição de código fonte |
 | Slack | Ferramenta de comunicação do grupo |
+ 
  ### Integração das Ferramentas
 
 <p align = "justify">O GitHub e o Docker tem um papel central na integração das ferramentas, considerando o seguinte pipeline, o desenvolvedor sobe seu ambiente isolado de desenvolvimento criado com containers Docker facilmente através do gerenciamento e orquestração dos containers proporcionado pelo Docker Compose, gera código fonte em python e javascript através do editor de texto VS Code, controla o versionamento utilizando Git e sempre que possível sincronizar o trabalho realizado localmente com o repositório remoto hospedado no GitHub. A partir deste ponto entram em cena Travis e Code Climate, pois após cada alteração no repositório remoto o Travis gera uma nova build do projeto e o Code Climate realiza uma análise estática do código fonte. Além de realizar a build, o Travis também possui outras funções que em alguns casos fazem parte da build e em outros casos são eventos pós build ou pré build, como executar todos os testes automatizados e enviar as informações sobre os testes para o Coveralls verificar a cobertura de testes, automatizar o deploy no Heroku ou Digital Ocean e comunicar qualquer problema que ocorra no processo de build impedindo que código quebrado se junte as versões estáveis do projeto. Por fim, e novamente através do GitHub, o Slack e o ZenHub disparam notificações ou realizam ações com base em atualizações no repositório remoto, logicamente além das funções descritas acima Slack e ZenHub também ajudam na comunicação e gerência da equipe através de algumas ações manuais feitas pelos membros, no entanto no caso do Slack ainda existem alguns bots que são usados para automatizar certas atividades.</p>
 
 ## 5. Referências
+
+<br>
 
 > PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
 
