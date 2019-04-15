@@ -4,21 +4,31 @@ title: Documento de visão
 sidebar_label: Documento de visão
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
+
 <p align="justify"> Esse documento tem como propósito demonstrar a visão geral, as características, reunir as funcionalidades, requisitos e os objetivos do aplicativo web a ser produzido. Fornece uma visão unificada das necessidades e expectativas do cliente em relação ao software, além de ajudar a reduzir riscos.<p>
 <p align="justify"> Muitos alunos no meio acadêmico possuem dificuldades de aprendizado durante seus estudos tradicionais, através disso foi idealizado um ambiente agradável que possibilitasse que alunos pudessem trocar informações com a realização de monitorias.</p>
 
 ## 2. Objetivos
+
+<br>
 
 - Criar uma aplicação que visa facilitar a relação entre monitores e estudantes
 - Agilizar o processo de agendamento de encontros com monitores, sobrando assim mais tempo para o aluno se dedicar aos estudos
 
 ## 3. Descrição do usuário
 
+<br>
+
 <p align="justify">O aplicativo web tem como finalidade viabilizar e flexibilizar as monitorias e encontros de estudos. Os usuários serão discentes que poderão optar por ministrar monitorias, ou optar por participar da monitoria como aluno interessado. Destarte o aplicativo irá facilitar o encontro entre os usuários possibilitando um maior fluxo de informações de maneira simples e eficiente.</p>
 
 ### 3.1 Usuários
 
+<br>
 
 |Tipo|Descrição|Responsabilidade|
 |:------:|:------:|:--------:|
@@ -27,7 +37,7 @@ sidebar_label: Documento de visão
 
 ### 3.2 Principais Necessidade do Usuários
 
-
+<br>
 
 |Necessidade|Prioridade|Interesses|Solução atual|Solução proposta|
 |:------:|:-------:|:------:|:-------:|:------:|
@@ -36,6 +46,8 @@ sidebar_label: Documento de visão
 |Estimular alunos para ajudar|Baixa|Ajudar ao próximo|Créditos|Sistema de ranking para as melhores monitorias|
 
 ## 4. Envolvidos
+
+<br>
 
 |Nome|Descrição|Principais responsabilidades|
 |:-------:|:-------:|:-----:|
@@ -54,16 +66,25 @@ sidebar_label: Documento de visão
 
 ## 5. Visão Geral
 
+<br>
+
 <p align="justify">Este documento esclarece as singularidades da aplicação, descreve as necessidades que incentivaram seu desenvolvimento. Sua organização é realizada utilizando-se de tópicos e subtópicos enumerados, sendo seus tópicos: Introdução, Descrição do Usuário, Envolvidos, Visão Geral, Recursos do Produto, Requisitos não Funcionais, Referências Bibliográficas, Histórico de Revisão.</p>
 
 ### 5.1 Visão Geral do Produto
 
+<br>
+
 <p align="justify">A principal funcionalidade da aplicação é flexibilizar as monitorias, ou seja, facilitar o encontro entre estudantes e monitores. O aluno cadastrado terá acesso a uma série de funcionalidades que o ajudará a entrar em contato com algum monitor que esteja disponível no menor tempo possível, poupando assim bastante tempo que pode ser aproveitado em estudos de forma forma eficiente.</p>
 
 ## 6. Outros Aplicativos
+
+<br>
+
 Nesta sessão serão listados alguns exemplos aplicativos de monitoria.
 
 ### 6.1 Monitoria+App
+
+<br>
 
 ![monitoriaapp](assets/monitoriaapp.png)
 
@@ -75,6 +96,8 @@ Em comparação o aplicativo +Monitoria possuirá uma maior flexibilidade em rel
 
 ### 6.2 Monitoria USJT
 
+<br>
+
 ![monitoriaUSJT](assets/monitoriaUSJT.png)
 
 **Figura 2 -Tela do Menu do Monitoria USJT**
@@ -84,32 +107,55 @@ Em comparação o aplicativo +Monitoria possuirá uma maior flexibilidade em rel
 
 ## 7. Recursos do produto
 
+<br>
+
 ### 7.1 Acesso
+
+<br>
+
 O usuário deverá realizar login ou, caso não tenha uma conta, fazer cadastro.
 
 ### 7.2 Cadastro, Remover e Editar
+
+<br>
+
 O usuário poderá fazer cadastro, editar e/ou remover monitorias de sua autoria.
 
 ### 7.3 Pesquisa de Monitorias
+
+<br>
+
 Será possível filtrar a pesquisa por monitorias de interesses específicos.
 
 ### 7.4 Avaliar Monitoria
+
+<br>
+
 O usuário após o término da monitoria poderá avaliá-la dando uma nota, que servirá de feedback para outros alunos.
 
 ### 7.5 Ranking
+
+<br>
+
 Método de gamificação para incentivar os usuários a permanecer utilizando o aplicativo.
 
 ## 8. Requisitos Não Funcionais
+
+<br>
 
 Os requisitos não funcionais se baseiam em portabilidade, tempo na execução, confiabilidade, mobilidade, etc. Tais recursos serão definidos e modelados, melhor, no NFR.
 
 ## 9. Referências bibliográficas
 
+<br>
+
 >IBM Knowledge Center - Documento de Visão.Disponível em:https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html. Acesso em: 30 de março de 2019.
 
 >Artefato: Documento de Visão.Disponível em: http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/workproducts/documentoVisao_DFFF024D.html. Acesso em: 30 de março de 2019
 
-## 10. Histórico de revisão
+## Histórico de revisão
+
+<br>
 
 |Data|Versão|Descrição|Autor(es)|
 |:-----:|:-------:|:-------:|:-------:|

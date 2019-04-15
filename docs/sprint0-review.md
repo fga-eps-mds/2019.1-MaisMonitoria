@@ -4,7 +4,11 @@ title: Review da Sprint 0
 sidebar_label: Review
 ---
 
+<br>
+
 ## 1. Resumo
+
+<br>
 
 - Período: 14/03 - 24/03
 - Scrum master: Lucas Siqueira
@@ -12,9 +16,15 @@ sidebar_label: Review
 - Devops: Matheus Rodrigues
 - Arquiteto: Lucas Macedo
 
+<br>
+
 ## 2. Resultados da sprint
 
+<br>
+
 ### 2.1 Fechamento da Sprint
+
+<br>
 
 Tarefas|Status|Pontos
 --|--|--
@@ -31,6 +41,8 @@ Tarefas|Status|Pontos
 **Pontos Concluídos:** 14
 
 ### 2.2 Retrospectiva
+
+<br>
 
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
@@ -68,6 +80,8 @@ Tarefas|Status|Pontos
 <br>
 
 ## 6. Feedback do Scrum Master
+
+<br>
 
 Devido ao fato de ser a primeira sprint e as ideias acerca do projeto não estarem definidas, esta sprint foi focada em treinamentos e ao início do levantamento de requisitos
 

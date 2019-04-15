@@ -4,7 +4,11 @@ title: Planning da Sprint 0
 sidebar_label: Planning
 ---
 
+<br>
+
 ## 1. Resumo
+
+<br>
 
 - Período: 14/03 - 24/03
 - Scrum master: Lucas Siqueira
@@ -12,7 +16,12 @@ sidebar_label: Planning
 - Devops: Matheus Rodrigues
 - Arquiteto: Lucas Macêdo
 
+<br>
+
 ## 2. Sprint Backlog
+
+<br>
+
 Tarefas|Pontos
 --|--
 |[Dojo de Git](https://github.com/fga-eps-mds/2019.1-hora-da-hora/issues/1) | 3
@@ -35,6 +44,9 @@ Total de Pontos: 14
 
 
 ## 4. Quadro de pareamento
+
+<br>
+
 Tarefas|Responsáveis
 --|--
 |[Dojo de Git](https://github.com/fga-eps-mds/2019.1-hora-da-hora/issues/1) | Lucas Siqueira, Lucas Macedo, MDS

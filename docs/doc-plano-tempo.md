@@ -4,7 +4,11 @@ title: Plano de Tempo
 sidebar_label: Plano de Tempo
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
 
 <p align="justify">
 
@@ -17,6 +21,8 @@ Para determinar o que seria entregue em cada sprint, foi feito um roadmap geral 
 
 ## 2. Backlog do Produto
 
+<br>
+
 <p align="justify">
 O backlog é um artefato que representa a acumulação de trabalho, é uma espécie de estoque relativo ao produto que ainda não foi desenvolvido, sendo assim entende-se como uma listagem de pedidos em espera.
 </p>
@@ -25,19 +31,27 @@ Backlog do produto dispónivel [aqui.](doc-backlog)
 
 ## 3. Roadmap Geral
 
+<br>
+
 ![RoadMap Release 1](assets/roadmap-release1.png)
 
 ## 4. Roadmap dos Papéis
 
-![RoadMap dos Papéis](assets/roadmap-papeis.png)
+<br>
 
+![RoadMap dos Papéis](assets/roadmap-papeis.png)
 
 
 ## 5. Referências Bibliográficas
 
+<br>
+
 > PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK 5a. ed. - EUA: Project Management Institute, 2013.
 
 ## Histórico de Versões
+
+<br>
+
 |Data|Versão|Descrição|Responsável|
 |----|------|---------|-----------|
 |12/04/2019| 0.1 | Abertura do documento| Lucas Siqueira, Lucas Macêdo, Matheus Rodrigues, Caio Oliveira

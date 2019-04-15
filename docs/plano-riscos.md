@@ -4,13 +4,23 @@ title: Plano de Riscos
 sidebar_label: Plano de Riscos
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
+
 <p align="justify">O Plano de gerenciamento de riscos consiste da identificação, análise, planejamento de respostas e controle dos riscos. Depois do planejamento, torna-se possível fazer a gerência dos riscos, esta será feita pelo scrum master ao decorrer das sprints.</p>
 
 ## 2. Estrutura Analítica de Riscos - EAR
+
+<br>
+
 <p align="justify">A EAR facilita a identificação de riscos em projetos, servindo como guia para análise do contexto, da documentação e também para questionamento das partes interessadas. Tem como objetivo mostrar as principais categorias de risco para um tipo de projeto buscando especificidade, pois dessa forma o ganho de tempo na identificação é mais significativo[1]. </p>
 
 ### 2.2. Categoria dos Riscos
+
+<br>
 
 Os riscos podem ser apresentados em categorias. São elas:
 
@@ -32,7 +42,11 @@ Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, contro
 
 ## 3. Análise quantitativa dos riscos
 
+<br>
+
 ### 3.1. Impacto
+
+<br>
 
 <p align = "justify">Para se quantificar o impacto do risco no projeto o <b>custo</b>, o <b>tempo</b>, o <b>escopo</b> e a <b>qualidade</b> devem ser levados em conta.
 
@@ -48,6 +62,8 @@ A tabela abaixo deve ser usada como referência:
 
 ### 3.2. Probabilidade
 
+<br>
+
 <p align = "justify">Para quantificar um risco em relação a sua probabilidade de ocorrência a tabela a seguir deve ser utilizada:
 
 | Probabilidade | Intervalo | Representação | 
@@ -59,6 +75,8 @@ A tabela abaixo deve ser usada como referência:
 | **Muito Alta** | maior que 61%  |5|
 
 ### 3.3. Prioridade
+
+<br>
 
 <p align = "justify">Para definir a prioridade do risco deve-se relacionar a Probabilidade com o Impacto por meio da matriz <b>Probabilidade</b>x<b>Impacto</b> a seguir:
 
@@ -82,6 +100,8 @@ A tabela abaixo deve ser usada como referência:
 
 ## 4. Riscos levantados
 
+<br>
+
 | **Risco** | **Descrição** | **Categoria EAR** | **Prob.** | **Impacto** | **Ação** | **Prioridade**
 | --- | --- | --- | --- | --- | --- | --- | 
 | R01 | Dificuldade com as tecnologias | Técnico - Tecnologia | Alta | Muito Alto | Estudo e pareamentos efetivos | 20
@@ -100,10 +120,16 @@ A tabela abaixo deve ser usada como referência:
 
 
 ## 5. Referências
+
+<br>
+
 >[1] RODRIGUES, Eli. EAR para projetos de software. Disponivel em https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/  
 >[2] NAKASHIMA, D. T. V. Identificação de riscos em projetos de TI.
 
 ## Histórico de Revisão
+
+<br>
+
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 |27/03/2019 | 0.1 | Abertura e desenvolvimento do documento | Lucas Siqueira e Caio Oliveira

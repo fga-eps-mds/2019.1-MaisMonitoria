@@ -4,7 +4,11 @@ title: Richpicture
 sidebar_label: Richpicture
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
 
 <p align="justify">Trata-se de uma modelagem cuja notação permite analisar problemas e expressar ideias. Pode auxiliar na identificação: de processos de negócio e seus requisitos; de atores envolvidos nos processos de negócio e suas responsabilidades; dos relacionamentos entre processos e atores, e de potenciais problemas e conflitos. [1].</p>
 
@@ -18,9 +22,13 @@ sidebar_label: Richpicture
 
 ## 3. Referências
 
+<br>
+
 >[1]Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano
 
 ## Histórico de Revisão
+
+<br>
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|

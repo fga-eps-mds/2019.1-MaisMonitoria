@@ -4,10 +4,18 @@ title: Introspecção
 sidebar_label: Introspecção
 ---
 
+<br>
+
 ## 1. Introdução
+
+<br>
+
 <p align="justify"> É uma técnica de elicitação, que baseia-se em imaginar que tipo de sistema eu iria querer se eu tivesse executando esta tarefa, utilizando este equipamento, entre outros[1]. Nesse caso consiste em aspectos em que uma rede social de monitorias deve possuir para satisfazer as necessidades de um estudante que busca compartilhar e adquirir novos conhecimentos.</p>
 
 ## 2. Instrospecção:
+
+<br>
+
 <p align="justify">
 
 **Perfil:**
@@ -22,7 +30,7 @@ sidebar_label: Introspecção
 * Deve mostrar as premiações ou classificações adquiridas pelo ranking.
 * Visualizar monitorias pendentes (Finalizar / Excluir).
 * Deve conter o curso que o usuário cursa.
-* Pode conter áreas de interesse?.
+* Pode conter áreas de interesse.
 
 **Ranking:**
 * Deve ser limitado com um determinado número.
@@ -55,17 +63,37 @@ sidebar_label: Introspecção
 
 </p>
 
-## 3. Referências
+## 3. Rastreabilidade de Requisitos
+
+<br>
+
+Este documento ajudou a elicitar as seguintes features:
+
+* FT04 - Manter Conta de Usuário
+* FT05 - Manter Monitorias
+* FT06 - Sistema de Pesquisa
+* FT10 - Ranking
+* FT11 - Recompensas
+* FT12 - Feed Pesonalizado
+* FT13 - Sistema de Follow
+
+## 4. Referências
+
+<br>
 
 >[1]PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
 ___
 
 ## Histórico de Revisão
+
+<br>
+
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 19/03/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
 | 19/03/2019 | 0.2 | Realização dos tópicos da introspecção | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
 | 21/03/2019 | 0.3 | Adição da introdução  | Lucas Siqueira |
+| 13/04/2019 | 0.4 | Adição de rastreabilidade de Requisitos | Lucas Siqueira |
 
 
 

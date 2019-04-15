@@ -4,7 +4,11 @@ title: Termo de Abertura de Projeto
 sidebar_label: TAP
 ---
 
+<br>
+
 ## 1. Descrição do Projeto
+
+<br>
 
 <p align="justify">
 
@@ -12,6 +16,8 @@ O **+Monitoria** é uma aplicação web progressiva para encontrar monitorias di
 
 
 ## 2. Propósito e Objetivos
+
+<br>
 
 <p align="justify">
 
@@ -21,12 +27,16 @@ O propósito do **+Monitoria** é facilitar a integração entre os alunos que q
 
 ## 3. Justificativa
 
+<br>
+
 <p align="justify">
 
 Nos modelos de monitorias atuais os alunos estão presos a um formato que dificulta a integração de quem quer ensinar e quem quer aprender, por motivos de horários ou do número máximo de monitores que uma disciplina pode ter, e por isso o **+Monitoria** visa facilitar essa união, disponibilizando uma maior gama de horários e monitores para que quem deseja aprender tenha mais opções.
 </p>
 
 ## 4. Requisitos de alto nível
+
+<br>
 
 <p align="justify">
 
@@ -42,6 +52,8 @@ O objetivo dos requisitos de alto nível tem como objetivo mostrar as caracterí
 
 ## 5. Riscos
 
+<br>
+
 <p align="justify">
 
 Os riscos são identificados e planejados para que possa haver um gerenciamento dos riscos ao longo do projeto, para mais informações veja o  [plano de riscos](plano-riscos.md).  
@@ -51,11 +63,15 @@ Os riscos são identificados e planejados para que possa haver um gerenciamento 
 
 ## 6. Estimativa de custos
 
+<br>
+
 <p align="justify">
 
 A estimativa de custos foi planejada de acordo com o tempo de duração do projeto e leva em conta os custos de aquisição, custos com pessoal, custo de ferramentas, custos de capacitação e uma porcentagem para cobrir eventuais riscos e manter uma margem de lucro segura, para mais informações veja o [plano de custos](plano-custos.md).
 
 ## 7. Partes interessadas
+
+<br>
 
 <p align="justify">
 
@@ -81,6 +97,8 @@ A estimativa de custos foi planejada de acordo com o tempo de duração do proje
 
 ## 8. Requisitos para aprovação
 
+<br>
+
 <p align="justify">
 
 Ter implementados as funcionalidades definidas no escopo.
@@ -90,6 +108,9 @@ Atender os requisitos de PWA(lighthouse)
 
 
 ## 9. EAP
+
+<br>
+
 EAP ou estrutura analítica de projeto é uma forma visual de representar as fases e estruturas necessárias de um projeto.
 
 <br>
@@ -101,6 +122,9 @@ EAP ou estrutura analítica de projeto é uma forma visual de representar as fas
 Imagem ampliada está disponivel [aqui](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/assets/EAP.png).
 
 ## 10. Canvas
+
+<br>
+
 Canvas é uma ferramenta que demonstra as principais informações de um projeto, para que seja possível a melhor visualização o modelo de negócio.
 <br>
 
@@ -109,6 +133,8 @@ Canvas é uma ferramenta que demonstra as principais informações de um projeto
 <br> 
 
 ## 11. Referências
+
+<br>
 
  > PMI. *Um guia do conhecimento em gerenciamento de projetos.* Guia PMBOK® 5a. ed. - EUA: Project Management Institute, 2013
 
@@ -123,6 +149,8 @@ ___
 
 
 ## Histórico de Revisão
+
+<br>
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
