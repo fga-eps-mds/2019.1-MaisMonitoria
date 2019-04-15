@@ -66,7 +66,7 @@ class Membros extends React.Component {
                   <p className="designation">Product Owner</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/caiooliv"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/caiooliv"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@ class Membros extends React.Component {
                   <p className="designation">Software Architect</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/lukassxp"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/lukassxp"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ class Membros extends React.Component {
                   <p className="designation">Scrum Master</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/lucassiqz"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/lucassiqz"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -108,7 +108,7 @@ class Membros extends React.Component {
                   <p className="designation">DevOps</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/matheus-rn"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/matheus-rn"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@ class Membros extends React.Component {
                   <p className="designation">Desenvolvedor</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/jpcirqueira"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/jpcirqueira"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@ class Membros extends React.Component {
                   <p className="designation">Desenvolvedor</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/lucasA27"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/lucasA27"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -152,7 +152,7 @@ class Membros extends React.Component {
                   <p className="designation">Desenvolvedor</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/MatheusEstanislau"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/MatheusEstanislau"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ class Membros extends React.Component {
                   <p className="designation">Desenvolvedor</p>
 
                   <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/MoacirMSJ"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/MoacirMSJ"><i className="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -182,7 +182,7 @@ class Membros extends React.Component {
                     <p className="designation">Desenvolvedor</p>
 
                     <div className="align-items-center justify-content-center d-flex">
-                      <a href="https://www.github.com/RCristyan"><i class="fa fa-github"></i></a>
+                      <a href="https://www.github.com/RCristyan"><i className="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>
@@ -288,11 +288,10 @@ class Index extends React.Component {
     return (
         <div>
           <div>
-          <section className="home-banner-area relative" style={{height: "38.7em"}}>
+          <section className="home-banner-area relative">
             <div className="container">
               <div className="row fullscreen d-flex align-items-center justify-content-center">
                 <div className="banner-content col-lg-8 col-md-12">
-                  <div><br/><br/><br/><br/><br/><br/><br/></div>
                   <h1 className="wow fadeIn" data-wow-duration="4s"> The standard Lorem Ipsum <br/> on the Web</h1>
                   <p className="text-white">
                     In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space
