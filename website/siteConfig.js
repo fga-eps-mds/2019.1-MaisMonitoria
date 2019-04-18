@@ -43,7 +43,7 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/LOGO_NOVA.png',
   footerIcon: 'img/LOGO_NOVA.png',
-  favicon: 'img/LOGO_NOVA.png',
+  favicon: 'img/Logo_com_fundo.png',
 
   /* Colors for website */
   colors: {

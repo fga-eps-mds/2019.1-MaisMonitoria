@@ -21,20 +21,19 @@ class Meio extends React.Component {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-6 about-left">
-              <img className="img-fluid" src="img/about.jpg" alt=""/>
+              <img className="img-fluid" src="img/+m.png" alt=""/>
             </div>
             <div className="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
               <h1>
-                The standard <br/> Lorem Ipsum
+                O que é o app?
               </h1>
               <div className="wow fadeIn" data-wow-duration="1s">
                 <p>
-                  There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think
-                  about setting up your own viewing station. In the life of any aspiring astronomer that it is time to buy that first
-                  telescope. It’s exciting to think about setting up your own viewing station.
+                  Nos modelos atuais as monitorias disponibilizadas pela faculdade estão limitadas, pois há um número específico de alunos que podem ser monitores, horários confilitates.
+                  Com isso em mente, o <strong>+Monitoria</strong> ajuda os estudantes à compartilhar e adquirir conhecimentos referentes as disciplinas da FGA.  
                 </p>
               </div>
-              <a href="#" className="primary-btn">Explore Courses</a>
+              <a href="#" className="primary-btn">Instalar</a>
             </div>
           </div>
         </div>
@@ -59,7 +58,7 @@ class Membros extends React.Component {
             <div className="row justify-content-center d-flex align-items-center">
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f4.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/caio.png" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Caio Oliveira</h4>
@@ -101,7 +100,7 @@ class Membros extends React.Component {
 
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f3.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/matheus.png" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Matheus Rodrigues</h4>
@@ -131,7 +130,7 @@ class Membros extends React.Component {
 
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f1.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/LucasA.png" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Lucas Alexandre</h4>
@@ -159,7 +158,7 @@ class Membros extends React.Component {
 
               <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                 <div className="thumb d-flex justify-content-center">
-                  <img className="img-fluid" src="img/faculty/f2.jpg" alt=""/>
+                  <img className="img-fluid" src="img/faculty/Moacir.jpg" alt=""/>
                 </div>
                 <div className="meta-text text-center">
                   <h4>Moacir Júnior</h4>
@@ -175,7 +174,7 @@ class Membros extends React.Component {
             <div className="row justify-content-center d-flex align-items-center">
                 <div className="col-lg-3 col-md-6 col-sm-12 single-faculty">
                   <div className="thumb d-flex justify-content-center">
-                    <img className="img-fluid" src="img/faculty/f2.jpg" alt=""/>
+                    <img className="img-fluid" src="img/faculty/Renan.jpg" alt=""/>
                   </div>
                   <div className="meta-text text-center">
                     <h4>Renan Cristyan</h4>
@@ -201,44 +200,67 @@ class Features extends React.Component {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-title text-center">
-                <h1>Features That Make Us Hero</h1>
-                <p>
-                  If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for
-                  as low as $.17 each.
-                </p>
+                <h1>Features do projeto</h1>''
               </div>
             </div>
           </div>
           <div className="feature-inner row">
+
+          <div className="col-lg-4 col-md-6">
+              <div className="feature-item">
+                <i className="ti-files"></i>
+                <h4>Interface PWA</h4>
+                <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                  <p>
+                    Para a melhor experiência dos usuários oferecemos uma aplicação web progressiva, com fácil instalção e usabiliade agradável.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="feature-item">
+                <i className="ti-headphone-alt"></i>
+                <h4>Monitorias</h4>
+                <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                  <p>
+                    Cadastre suas monitorias com o conteúdo que deseja ensinar e combine as aulas com aqueles que desejam aprender com você.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-crown"></i>
-                <h4>Lorem Ipsum</h4>
+                <h4>Feed</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                   <p>
-                    Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+                  Veja as monitorias mais recentes e que mais se encaixam no seu perfil.
                   </p>
                 </div>
               </div>
             </div>
+            
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-briefcase"></i>
-                <h4>Lorem Ipsum</h4>
+                <h4>Pesquisa</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
                   <p>
-                    Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+                    Pesquise por uma monitoria que melhor se encaixa no seu perfil, usando os filtros que melhor se adequem à você.
                   </p>
                 </div>
               </div>
             </div>
+            
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-medall-alt"></i>
-                <h4>Lorem Ipsum</h4>
+                <h4>Ranking</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
                   <p>
-                    Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+                    Veja sua colocação no ranking dos melhores monitores, com as colocações baseadas no seu engajamento do app.
                   </p>
                 </div>
               </div>
@@ -246,36 +268,16 @@ class Features extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="feature-item">
                 <i className="ti-key"></i>
-                <h4>Lorem Ipsum</h4>
+                <h4>Seguir</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                   <p>
-                    Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
+                    Siga seus monitores preferidos para que possa ver novas monitorias e atividades do monitor.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="feature-item">
-                <i className="ti-files"></i>
-                <h4>Lorem Ipsum</h4>
-                <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                  <p>
-                    Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="feature-item">
-                <i className="ti-headphone-alt"></i>
-                <h4>Lorem Ipsum</h4>
-                <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-                  <p>
-                    Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-                  </p>
-                </div>
-              </div>
-            </div>
+          
+            
           </div>
         </div>
       </section>
@@ -292,10 +294,9 @@ class Index extends React.Component {
             <div className="container">
               <div className="row fullscreen d-flex align-items-center justify-content-center">
                 <div className="banner-content col-lg-8 col-md-12">
-                  <h1 className="wow fadeIn" data-wow-duration="4s"> The standard Lorem Ipsum <br/> on the Web</h1>
+                  <h1 className="wow fadeIn" data-wow-duration="4s"><span style={{color:'#0E4C72'}}>+</span>Monitoria</h1>
                   <p className="text-white">
-                    In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space
-                    telescope.
+                  É uma aplicação web progressiva para encontrar monitorias disponibilizada por outros alunos dispostos a ajudar outros alunos que buscam conhecimento.
                   </p>
                 </div>
               </div>
