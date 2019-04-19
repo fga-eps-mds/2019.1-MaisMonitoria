@@ -10,7 +10,7 @@ sidebar_label: Review
 
 <br>
 
-- Período: 15/04 - 21/04
+- Período: 08/04 - 14/04
 - Scrum master: Lucas Siqueira
 - Product Owner: Caio Oliveira
 - Devops: Matheus Rodrigues
