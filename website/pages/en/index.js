@@ -296,7 +296,7 @@ class Index extends React.Component {
                 <div className="banner-content col-lg-8 col-md-12">
                   <h1 className="wow fadeIn" data-wow-duration="4s"><span style={{color:'#0E4C72'}}>+</span>Monitoria</h1>
                   <p className="text-white">
-                  É uma aplicação web progressiva para encontrar monitorias disponibilizada por outros alunos dispostos a ajudar outros alunos que buscam conhecimento.
+                  Uma aplicação para integrar alunos que desejam aprender, e os que desejam ensinar.
                   </p>
                 </div>
               </div>
