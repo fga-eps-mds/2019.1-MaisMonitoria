@@ -1,6 +1,6 @@
 ---
 id: sprint4-planning
-title: Planning da Sprint 3 
+title: Planning da Sprint 4
 sidebar_label: Planning
 ---
 
