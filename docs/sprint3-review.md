@@ -1,6 +1,6 @@
 ---
-id: sprint2-review
-title: Review da Sprint 2
+id: sprint3-review
+title: Review da Sprint 3
 sidebar_label: Review
 ---
 
