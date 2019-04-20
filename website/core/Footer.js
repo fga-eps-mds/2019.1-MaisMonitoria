@@ -24,6 +24,13 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
+        <section className="sitemap">
+        <h5>Nossos repositórios</h5>
+          <a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria">+Monitoria Docs</a>
+          <a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria-FrontEnd">+Monitoria FrontEnd</a>
+          <a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria-api">+Monitoria API gateway</a>
+          <a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria-ApiMonitorias">+Monitoria API monitorias</a>
+        </section>
         {/* <section className="sitemap">
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (

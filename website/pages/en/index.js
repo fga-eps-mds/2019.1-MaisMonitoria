@@ -29,7 +29,7 @@ class Meio extends React.Component {
               </h1>
               <div className="wow fadeIn" data-wow-duration="1s">
                 <p>
-                  Nos modelos atuais as monitorias disponibilizadas pela faculdade estão limitadas, pois há um número específico de alunos que podem ser monitores, horários confilitates.
+                  Nos modelos atuais as monitorias disponibilizadas pela faculdade estão limitadas, pois há um número específico de alunos que podem ser monitores, horários conflitantes.
                   Com isso em mente, o <strong>+Monitoria</strong> ajuda os estudantes à compartilhar e adquirir conhecimentos referentes as disciplinas da FGA.  
                 </p>
               </div>
@@ -200,7 +200,7 @@ class Features extends React.Component {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-title text-center">
-                <h1>Features do projeto</h1>''
+                <h1>Principais funcionalidades</h1>
               </div>
             </div>
           </div>
@@ -212,7 +212,7 @@ class Features extends React.Component {
                 <h4>Interface PWA</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
                   <p>
-                    Para a melhor experiência dos usuários oferecemos uma aplicação web progressiva, com fácil instalção e usabiliade agradável.
+                    Para a melhor experiência dos usuários oferecemos uma aplicação web progressiva, com fácil instalação e usabiliade agradável.
                   </p>
                 </div>
               </div>
@@ -236,7 +236,7 @@ class Features extends React.Component {
                 <h4>Feed</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                   <p>
-                  Veja as monitorias mais recentes e que mais se encaixam no seu perfil.
+                  Veja as monitorias mais recentes e que mais se encaixam no seu perfil.                                                                                                                                                                      
                   </p>
                 </div>
               </div>
@@ -276,8 +276,6 @@ class Features extends React.Component {
                 </div>
               </div>
             </div>
-          
-            
           </div>
         </div>
       </section>
