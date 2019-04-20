@@ -1,7 +1,7 @@
 # Contribuindo com o projeto
 
 ## Fluxo de trabalho
-1- Clone o repositorio.
+1- Se você for um colaborador externo, dê um fork no projeto.
 
 2- Puxe uma nova branch a partir da branch develop.
 
