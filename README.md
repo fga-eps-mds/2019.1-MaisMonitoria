@@ -18,7 +18,7 @@
 
 | Membro | E-mail | Github | Papel |Matricula|
 |-------------------------------|--------------------------|----------------------------------|----------------------|------------|
-| Lucas Siqueira	| lucassiqzro@gmail.com | [lucassiqz](https://github.com/lucassiqzro) | Scrum Master |15/0137567|
+| Lucas Siqueira	| lucassiqzro@gmail.com | [lucassiqz](https://github.com/lucassiqz) | Scrum Master |15/0137567|
 | Caio Oliveira	| caiooliv97@gmail.com | [caiooliv](https://github.com/caiooliv) | Product Owner |15/0120630|
 | Lucas Macedo	| lpalucas.10@gmail.com | [lukassxp](https://github.com/lukassxp) | Arquiteto de Software |15/0137397|
 | Matheus Rodrigues	| matheus.1nascimento58@gmail.com | [matheus-rn](https://github.com/matheus-rn) | DevOps |16/0015294|
