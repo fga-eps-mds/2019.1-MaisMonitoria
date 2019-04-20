@@ -28,7 +28,7 @@ class Meio extends React.Component {
                 O que é o app?
               </h1>
               <div className="wow fadeIn" data-wow-duration="1s">
-                <p>
+              <p>
                   Nos modelos atuais as monitorias disponibilizadas pela faculdade estão limitadas, pois há um número específico de alunos que podem ser monitores, horários conflitantes.
                   Com isso em mente, o <strong>+Monitoria</strong> ajuda os estudantes à compartilhar e adquirir conhecimentos referentes as disciplinas da FGA.  
                 </p>
@@ -271,11 +271,12 @@ class Features extends React.Component {
                 <h4>Seguir</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                   <p>
-                    Siga seus monitores preferidos para que possa ver novas monitorias e atividades do monitor.
+                    Siga seus monitores preferidos para que possa ver novas monitorias e atividades do monitor. 
                   </p>
+                
                 </div>
               </div>
-            </div>x 
+            </div> 
           </div>
         </div>
       </section>
@@ -293,7 +294,7 @@ class Index extends React.Component {
               <div className="row fullscreen d-flex align-items-center justify-content-center">
                 <div className="banner-content col-lg-8 col-md-12">
                   <h1 className="wow fadeIn" data-wow-duration="4s"><span style={{color:'#0E4C72'}}>+</span>Monitoria</h1>
-                  <p className="text-white">
+                  <p className="text-white" style={{fontSize: 30}}>
                   Uma aplicação para integrar alunos que desejam aprender, e os que desejam ensinar.
                   </p>
                 </div>
