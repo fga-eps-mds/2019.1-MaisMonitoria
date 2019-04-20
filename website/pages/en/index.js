@@ -21,15 +21,15 @@ class Meio extends React.Component {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-6 about-left">
-              <img className="img-fluid" src="img/+m.png" alt=""/>
+              <img className="img-fluid" src="img/maisMonitoria.png" alt=""/>
             </div>
             <div className="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
               <h1>
                 O que é o app?
               </h1>
               <div className="wow fadeIn" data-wow-duration="1s">
-                <p>
-                  Nos modelos atuais as monitorias disponibilizadas pela faculdade estão limitadas, pois há um número específico de alunos que podem ser monitores, horários confilitates.
+              <p>
+                  Nos modelos atuais as monitorias disponibilizadas pela faculdade estão limitadas, pois há um número específico de alunos que podem ser monitores, horários conflitantes.
                   Com isso em mente, o <strong>+Monitoria</strong> ajuda os estudantes à compartilhar e adquirir conhecimentos referentes as disciplinas da FGA.  
                 </p>
               </div>
@@ -200,7 +200,7 @@ class Features extends React.Component {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-title text-center">
-                <h1>Features do projeto</h1>''
+                <h1>Principais funcionalidades</h1>
               </div>
             </div>
           </div>
@@ -212,7 +212,7 @@ class Features extends React.Component {
                 <h4>Interface PWA</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
                   <p>
-                    Para a melhor experiência dos usuários oferecemos uma aplicação web progressiva, com fácil instalção e usabiliade agradável.
+                    Para a melhor experiência dos usuários oferecemos uma aplicação web progressiva, com fácil instalação e usabiliade agradável.
                   </p>
                 </div>
               </div>
@@ -236,7 +236,7 @@ class Features extends React.Component {
                 <h4>Feed</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                   <p>
-                  Veja as monitorias mais recentes e que mais se encaixam no seu perfil.
+                  Veja as monitorias mais recentes e que mais se encaixam no seu perfil.                                                                                                                                                                      
                   </p>
                 </div>
               </div>
@@ -271,13 +271,12 @@ class Features extends React.Component {
                 <h4>Seguir</h4>
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                   <p>
-                    Siga seus monitores preferidos para que possa ver novas monitorias e atividades do monitor.
+                    Siga seus monitores preferidos para que possa ver novas monitorias e atividades do monitor. 
                   </p>
+                
                 </div>
               </div>
-            </div>
-          
-            
+            </div> 
           </div>
         </div>
       </section>
@@ -295,7 +294,7 @@ class Index extends React.Component {
               <div className="row fullscreen d-flex align-items-center justify-content-center">
                 <div className="banner-content col-lg-8 col-md-12">
                   <h1 className="wow fadeIn" data-wow-duration="4s"><span style={{color:'#0E4C72'}}>+</span>Monitoria</h1>
-                  <p className="text-white">
+                  <p className="text-white" style={{fontSize: 30}}>
                   Uma aplicação para integrar alunos que desejam aprender, e os que desejam ensinar.
                   </p>
                 </div>
