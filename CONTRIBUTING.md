@@ -13,4 +13,5 @@
 
 6- Um dos mantenedores do projeto terá que aprovar o pull request, e depois fazer o merge.
 
-**Para mais informações acesse o nosso [plano de gerenciamento de software](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/plano-gcs)**
+**Para mais informações acesse o nosso [Plano de Gestão e Configuração de Software
+](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/plano-gcs)**
