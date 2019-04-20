@@ -21,7 +21,7 @@ class Meio extends React.Component {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-6 about-left">
-              <img className="img-fluid" src="img/+m.png" alt=""/>
+              <img className="img-fluid" src="img/maisMonitoria.png" alt=""/>
             </div>
             <div className="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
               <h1>
@@ -275,7 +275,7 @@ class Features extends React.Component {
                   </p>
                 </div>
               </div>
-            </div>
+            </div>x 
           </div>
         </div>
       </section>
