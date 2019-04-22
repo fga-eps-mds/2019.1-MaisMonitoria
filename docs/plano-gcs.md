@@ -35,7 +35,7 @@ sidebar_label: Plano de GCS
 
 <p align = "justify">A <i>master</i> será a <i>branch</i> estável do projeto, sendo ela proveniente da <i>devel</i> por meio de aprovação de <i>pull request</i> ao fim de cada <i>release</i>. Nenhum membro será autorizado a fazer <i>commits</i> diretamente na <i>master</i> ou na <i>devel</i>.</p>
 
-<p align = "justify">As <i>branches</i> auxiliares são destinadas a implementação de funcionalidades, realização de histórias técnicas e conserto de <i>bugs</i>. Cada uma dessas atividades terá sua própria <i>branch</i>, criada a partir da <i>devel</i>, e terá como padrão de nomenclatura: </p>
+<p align = "justify">As <i>branches</i> auxiliares são destinadas a implementação de funcionalidades, realização de histórias técnicas e conserto de <i>bugs</i>. Cada uma dessas atividades terá sua própria <i>branch</i>, criada a partir da <i>devel</i>, as <i>Hotfix</i> são as branches criadas a partir da master e servem para resolver de forma rápida, os bugs em produção. Terão como padrão de nomenclatura: </p>
 
 ``` <Identificador da atividade>-<Nome issue associada a atividade>```
 
@@ -129,6 +129,8 @@ sidebar_label: Plano de GCS
 | 26/03/2019 | 0.1 | Criação do Documento e adição dos tópicos Introdução, Políticas e Uso de Issues | Lucas Macêdo |
 | 26/03/2019 | 0.2 | Adição do tópico Ferramentas | Lucas Macêdo e Matheus Rodrigues |
 | 27/03/2019 | 0.3 | Adição do sub-tópico Integração das Ferramentas | Lucas Macêdo |
+| 21/04/2019 | 0.4 | Ajuste tópico de branches | Matheus Rodrigues |
+
 
 
 
