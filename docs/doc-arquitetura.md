@@ -226,7 +226,12 @@ A arquitetura organiza a aplicação em microsserviços, isso faz com que a comp
 
 <p align="justify">
 O banco de dados Postgres é um software multi-plataforma altamente escalável. O software garantirá a segurança dos dados informados pelo usuário, além de disponibilizar ferramentas simples, funcionais e intuitivas.</p>
- ## 8. Referências Bibliográficas
+
+## 8. Pipeline
+
+![Pipeline](assets/pipeline_mm.png)
+
+## 9. Referências Bibliográficas
 
 >Documentação oficial do Django. Disponível em:
 https://docs.djangoproject.com/pt-br/1.11/
@@ -277,4 +282,5 @@ ___
 | 04/04/2019 | 0.3 | Adição dos tópicos: Tamanho e Desempenho; Qualidade;  Atualizado: Representação da arquitetura | João Pedro, Lucas Alexandre |
 | 04/04/2019 | 0.4 | Adição o tópico: Visão de implementação; Atualizado: PWA | Matheus Estanislau |
 | 07/04/2019 | 0.5 | Revisão de vários tópicos e adição de outros | João Pedro, Lucas Alexandre, Lucas Macêdo, Matheus Estanislau, Matheus Rodrigues, Moacir Mascarenha, Renan Cristyan |
+| 21/04/2019 | 0.6 | Adição do pipeline | Matheus Rodrigues |
 
