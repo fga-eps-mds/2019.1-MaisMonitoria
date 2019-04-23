@@ -1,7 +1,7 @@
 ---
 name: 'História técnica '
 about: 'Descrição de uma issue de história técnica '
-title: ''
+title: "[TS]"
 labels: História técnica
 assignees: ''
 
