@@ -13,8 +13,8 @@ const users = [];
 
 const siteConfig = {
   algolia: {
-    apiKey: '${API_KEY}',
-    indexName: '${indexName}',
+    apiKey: process.env.API_KEY,
+    indexName: process.env.indexName,
     placeholder: 'Ask me something',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
