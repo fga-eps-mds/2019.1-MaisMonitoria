@@ -12,6 +12,13 @@
 const users = [];
 
 const siteConfig = {
+  algolia: {
+    apiKey: process.env.API_KEY,
+    indexName: process.env.indexName,
+    placeholder: 'Pesquisar',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
+
   title: '+Monitoria', // Title for your website.
   tagline: '',
   url: 'https://fga-eps-mds.github.io', // Your website URL
@@ -29,6 +36,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {search: true},
     {doc: 'doc-richpicture', label: 'Requisitos'},
     {doc: 'doc-tap', label: 'Docs'},
     {doc: 'sprint0-planning', label: 'Sprints'},
