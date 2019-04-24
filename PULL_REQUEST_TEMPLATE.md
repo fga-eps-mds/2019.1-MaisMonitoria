@@ -1,6 +1,6 @@
 ## Issue resolvida
 
-#Número_da_issue - (Nome da issue)[]
+[< Identificador > < número da issue > < Nome da issue > ](link da issue)
 
 ## Comentário
 
