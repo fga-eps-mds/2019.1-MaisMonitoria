@@ -25,7 +25,9 @@
                  "sprint2-review"],
     "Sprint 3": ["sprint3-planning",
                   "sprint3-review"],
-    "Sprint 4": ["sprint4-planning"]
+    "Sprint 4": ["sprint4-planning",
+                  "sprint4-review"],
+    "Sprint 5": ["sprint5-planning"] 
   },
 
   "docs-requisitos": {
