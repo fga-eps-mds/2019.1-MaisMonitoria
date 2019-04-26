@@ -43,7 +43,9 @@ Neste documento estão contidos os seguintes pontos, respectivamente: representa
 <br>
 
 <p align="justify">
-Será utilizada na aplicação o padrão arquitetural de microsserviços, com uma interface PWA construída com React JS, um framework que baseia-se na linguagem de programação JavaScript. A organização dos microsserviços se dará através de uma API Gateway que será responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação. Os microsserviços voltados à implementação das regras de negócio serão construídos com Django Rest, um framework feito a partir da linguagem de programação Python que implementa o design de arquitetura REST. </p>
+A arquitetura padrão do mais monitoria será uma arquitetura hibrida, por conta da nescla de arquiteturas usadas. Será utilizado a arquitetura cliente-servidor para visão geral, sendo o cliente a interface do produto e servidor todos os outros serviços necessarios, tambem será utilizado a arquitetura de microsserviços para uma melhor ecalabilidade do software, os bancos serão separados por opção de uma boa pratica na aquitetura de microserviços, ademais será utilizado a arquitetura Model View Controler (MVC) por se adequar ao projeto,sendo model os microserviços, view a interface e controler a api geteway.A api getwey é uma api usada como um ponto de acesso único para os microsserviços.Usamos de uma api externa firebase para abstração da complexidade da autenticação.
+
+ </p>
 
 ### 2.1 Representação Interna dos Microsserviços
 
