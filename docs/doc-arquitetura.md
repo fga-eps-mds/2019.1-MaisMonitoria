@@ -178,13 +178,15 @@ Responsável pelo desenvolvimento de interface o usuário e foca na utilização
 
 ### 5.2. Diagrama de implantação
 
+![Diagrama de Implantação](assets/diagrama_de_implantacao.png)
+
 ### 5.3. Visão de Implementação
 
 <p align="justify">
 Do ponto de vista da implementação os Microsserviços de Regra de Negócio vão ser API's REST feitas com Django Rest, a API Gateway será também uma API desenvolvida em Django REST e o Microsserviço da Interface PWA será uma aplicação web progressiva feita com ReactJS.</p>
 
 #### 5.3.1 Diagrama de Classe
-![Diagrama de Implantação](assets/diagrama_de_classes.png)
+![Diagrama de Classe](assets/diagrama_de_classes.png)
 <br>
 
 
