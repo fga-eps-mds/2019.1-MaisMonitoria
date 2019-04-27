@@ -46,6 +46,7 @@ Neste documento estão contidos os seguintes pontos, respectivamente: representa
 A arquitetura padrão do +Monitoria será hibrida por conta da mescla de arquiteturas usadas. Será utilizada a arquitetura cliente-servidor para visão geral, sendo cliente a interface do produto e servidor todos os outros serviços necessarios. Também será utilizada a arquitetura de microsserviços para uma melhor ecalabilidade do software. Os bancos serão separados por opção de uma boa pratica na aquitetura de microserviços, ademais será utilizado a arquitetura Model View Controler (MVC) por se adequar ao projeto, sendo Model os microserviços, View a interface e Controler a Api Gateway. A Api Gateway é uma api usada como um ponto de acesso único para os microsserviços. Usamos de uma api externa Firebase para abstração da complexidade da autenticação.
  </p>
 
+
 ### 2.1 Representação Interna dos Microsserviços
 
 <br>
@@ -175,13 +176,17 @@ Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços d
 Responsável pelo desenvolvimento de interface o usuário e foca na utilização de componentes para que que seja possível aumentar o máximo do reuso na sua aplicação.</p>
 
 
+### 5.2. Diagrama de implantação
 
-### 5.2. Visão de Implementação
-
-<br>
+### 5.3. Visão de Implementação
 
 <p align="justify">
 Do ponto de vista da implementação os Microsserviços de Regra de Negócio vão ser API's REST feitas com Django Rest, a API Gateway será também uma API desenvolvida em Django REST e o Microsserviço da Interface PWA será uma aplicação web progressiva feita com ReactJS.</p>
+
+#### 5.3.1 Diagrama de Classe
+![Diagrama de Implantação](assets/diagrama_de_classes.png)
+<br>
+
 
 ### Microsserviços de Regra de Negócio
 
