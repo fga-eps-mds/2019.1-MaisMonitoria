@@ -117,6 +117,8 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
 
 ## 3. Backlog
 
+<br>
+
 - **EPIC01 - Interface PWA:** O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
 
 - **EPIC02 - Microsserviço Gerenciador de Monitorias:** O produto deve conter um microsserviço que gerencie tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
@@ -130,6 +132,8 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
 Para mais informações visite o [Backlog](doc-backlog.md).
 
 ## 4. Metas e Restrições de Arquitetura
+
+<br>
 
 Uma das principais metas e restrições é se encaixar como um Progressive Web APP, através dos seguintes requisitos:
 
@@ -191,16 +195,19 @@ Descrição da distribuição do Django Rest Framework:</p>
 - Arquivo Urls.py - Arquivo responsável por conectar e configurar os URLs da API.
 - Arquivo Models.py - Arquivo responsável por gerenciar e executar a comunicação com o banco de dados além de definir entidades e validações.
 
+
 ### Microsserviço da Interface PWA
 
 <p align="justify">
-Para realizar a implementação do microsserviço desenvolveremos app ReactJS, teremos uma estrutura App.js juntamente com uma index.js </p>
+Para realizar a implementação do microsserviço desenvolveremos app ReactJS, teremos uma estrutura App.js juntamente com uma index.js e a pasta src, aonde estará todas as components.</p>
 
 Descrição da distribuição no ambiente React:
 
 - Arquivo App.js - Ponto inicial da aplicação, também é capaz de referenciar componentes do projeto.
 - index.js - Fazer com que retorne um elemento JSX da app.
-
+- src - As pastas components e assets.
+- assets - Todos os arquivos png.
+- Components - Todas as components das telas e a pasta de teste.
 
 ## 6. Tamanho e desempenho
 
@@ -227,9 +234,14 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 
 ## 8. Pipeline
 
+<br>
+
 ![Pipeline](assets/pipeline_mm.png)
 
+
 ## 9. Referências Bibliográficas
+
+<br>
 
 >Documentação oficial do Django. Disponível em:
 https://docs.djangoproject.com/pt-br/1.11/
@@ -283,6 +295,9 @@ ___
 | 21/04/2019 | 0.6 | Adição do pipeline | Matheus Rodrigues |
 | 26/04/2019 | 0.7 | Refatorado Representação arquitetural | João Pedro |
 | 26/04/2019 | 0.8 | Refatorado os tópicos 2 e 3 | João Pedro, Lucas Alexandre, Renan Cristyan |
+| 26/04/2019 | 0.9 | Atualizado topico 5, refatorado diagrama de transição | João Pedro, Lucas Alexandre, Renan Cristyan |
 
 
 
+2  - Arquitetura Cliente / Servidor - Visão Arquiteturais - Visão Logica - Diagrama de classes (Limpar o diagrama e representar apenas os modelos) - Visão de Implantação - Diagra
+20:32
