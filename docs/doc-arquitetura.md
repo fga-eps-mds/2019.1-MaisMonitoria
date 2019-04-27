@@ -43,8 +43,7 @@ Neste documento estão contidos os seguintes pontos, respectivamente: representa
 <br>
 
 <p align="justify">
-A arquitetura padrão do mais monitoria será uma arquitetura hibrida, por conta da nescla de arquiteturas usadas. Será utilizado a arquitetura cliente-servidor para visão geral, sendo o cliente a interface do produto e servidor todos os outros serviços necessarios, tambem será utilizado a arquitetura de microsserviços para uma melhor ecalabilidade do software, os bancos serão separados por opção de uma boa pratica na aquitetura de microserviços, ademais será utilizado a arquitetura Model View Controler (MVC) por se adequar ao projeto,sendo model os microserviços, view a interface e controler a api geteway.A api getwey é uma api usada como um ponto de acesso único para os microsserviços.Usamos de uma api externa firebase para abstração da complexidade da autenticação.
-
+A arquitetura padrão do +Monitoria será hibrida por conta da mescla de arquiteturas usadas. Será utilizada a arquitetura cliente-servidor para visão geral, sendo cliente a interface do produto e servidor todos os outros serviços necessarios. Também será utilizada a arquitetura de microsserviços para uma melhor ecalabilidade do software. Os bancos serão separados por opção de uma boa pratica na aquitetura de microserviços, ademais será utilizado a arquitetura Model View Controler (MVC) por se adequar ao projeto, sendo Model os microserviços, View a interface e Controler a Api Gateway. A Api Gateway é uma api usada como um ponto de acesso único para os microsserviços. Usamos de uma api externa Firebase para abstração da complexidade da autenticação.
  </p>
 
 ### 2.1 Representação Interna dos Microsserviços
@@ -79,9 +78,18 @@ O PostgreSQL é um banco de dados objeto relacional, ele será responsável por 
 ### ReactJS
 
 <p align="justify">
-O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis. Essa técnica é chamada de Component Driven Development.
+O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
 
 </p>
+
+### Microsserviços de Autenticação
+
+### FireBase
+<p align="justify">
+
+Firebase é um produto da Google, um conjunto de tecnologias disponíveis em diversas linguagens: Java, Swift, Objective-C, Python, JavaScript (incluindo Node.js), Go, Unity e C++. Será utilizado uma das ferramentas desse produto, o Firebase Authentication. Essa ferramenta fornece serviços de back-end, SDKs fáceis de usar e bibliotecas de IU prontas para autenticar usuários no +Monitoria. A autenticação se dará por meio de senhas, email e Facebook.
+ </p>
+
 
 ### 2.2 Diagrama de Relações
 
@@ -107,29 +115,17 @@ O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScrip
 
 - **Interface PWA** - Constrói a interface para o usuário e realiza requisições através da API Gateway.
 
-## 3. Visão das Histórias de Usuário
+## 3. Backlog
 
-- **US03 - Implantar armazenamento em cache:** Eu como usuário gostaria de poder usar a aplicação mesmo com uma conexão ruim ou inconsistente à internet.
+- **EPIC01 - Interface PWA:** O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
 
-- **US04 - Implantar sistema de notificações:** Eu como usuário gostaria de receber notificações por push sobre atividades do app.
+- **EPIC02 - Microsserviço Gerenciador de Monitorias:** O produto deve conter um microsserviço que gerencie tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
 
-- **US05 - Disponibilizar adição de ícone:** Eu como usuário gostaria de adicionar ícone na tela principal com apenas um click.
+- **EPIC03 - Microsserviço Gateway:** O produto deve conter um microsserviço responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação.
 
-- **US06 - Implantar pesquisa dinâmico:** Eu como usuário desejo que o sistema de pesquisa seja dinâmico.
+- **EPIC04 - Microsserviço de Gamificação:** O produto deve conter um microsserviço responsável gerenciar toda a parte de gamificada do produto, incluindo processamento de um ranking, cálculo de pontuações e distribuição de recompensas.
 
-- **US07 - Disponibilizar filtros de pesquisa relevantes:** Eu como usuário desejo pesquisar as monitorias de acordo com os filtros relevantes.
-
-- **US08 - Disponibilizar autenticação por API externa:** Eu como usuário desejo autenticar minha conta utilizando meu cadastro de outro serviço.
-
-- **US09 - Disponibilizar sistema de ranking:** Eu como usuário desejo ter acesso a um sistema de ranqueamento baseado na pontuação do usuário.
-
-- **US10 - Atualizações de ranking:** Eu como usuário desejo que o ranking seja atualizado de acordo com período de tempo pré-definido.
-
-- **US11 - Sistema de recompensas:** Eu como usuário desejo receber recompensas de acordo com meu engajamento na app, com base na minha classificação do ranking.
-
-- **US12 - Sistema de feed personalizado:** Eu como usuário desejo ver um feed de acordo com meus temas de interesse, histórico de monitoria, usuários seguidos e novidades em geral..
-
-- **US13 - Sistema de seguir usuário:** Eu como usuário desejo um poder de seguir usuários que eu ache interessante.
+- **EPIC05 - Microsserviço Gerador de Feed:** O produto deve conter um microsserviço responsável por manter feed's de novidades e atualizações gerados de acordo com os perfis dos usuários.
 
 Para mais informações visite o [Backlog](doc-backlog.md).
 
@@ -285,4 +281,8 @@ ___
 | 04/04/2019 | 0.4 | Adição o tópico: Visão de implementação; Atualizado: PWA | Matheus Estanislau |
 | 07/04/2019 | 0.5 | Revisão de vários tópicos e adição de outros | João Pedro, Lucas Alexandre, Lucas Macêdo, Matheus Estanislau, Matheus Rodrigues, Moacir Mascarenha, Renan Cristyan |
 | 21/04/2019 | 0.6 | Adição do pipeline | Matheus Rodrigues |
+| 26/04/2019 | 0.7 | Refatorado Representação arquitetural | João Pedro |
+| 26/04/2019 | 0.8 | Refatorado os tópicos 2 e 3 | João Pedro, Lucas Alexandre, Renan Cristyan |
+
+
 
