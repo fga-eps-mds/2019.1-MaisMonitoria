@@ -46,8 +46,16 @@ Neste documento estão contidos os seguintes pontos, respectivamente: representa
 A arquitetura padrão do +Monitoria será hibrida por conta da mescla de arquiteturas usadas. Será utilizada a arquitetura cliente-servidor para visão geral, sendo cliente a interface do produto e servidor todos os outros serviços necessarios. Também será utilizada a arquitetura de microsserviços para uma melhor ecalabilidade do software. Os bancos serão separados por opção de uma boa pratica na aquitetura de microserviços, ademais será utilizado a arquitetura Model View Controler (MVC) por se adequar ao projeto, sendo Model os microserviços, View a interface e Controler a Api Gateway. A Api Gateway é uma api usada como um ponto de acesso único para os microsserviços. Usamos de uma api externa Firebase para abstração da complexidade da autenticação.
  </p>
 
+### 2.1 Arquitetura Cliente / Servidor
+<p align="justify">
+O modelo cliente-servidor, é uma arquitetura que distribui as tarefas entre os fornecedores de um recurso ou serviço, designados como servidores, e os requerentes dos serviços, designados como clientes.
+</p>
 
-### 2.1 Representação Interna dos Microsserviços
+<p align="justify">
+Um servidor é o host que executa diversos serviços ou aplicações que utilizam seus recursos com os clientes. O cliente não compartilha qualquer de seus recursos, mas solicita dados ou funçoẽs do servidor. Os clientes iniciam sessões e se comunicam com os servidores que aguardam requisições de entrada. 
+</p>
+
+### 2.2 Representação Interna dos Microsserviços
 
 <br>
 
@@ -92,7 +100,7 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
  </p>
 
 
-### 2.2 Diagrama de Relações
+### 2.3 Diagrama de Relações
 
 <br>
 
@@ -177,6 +185,8 @@ Responsável pelo desenvolvimento de interface o usuário e foca na utilização
 
 
 ### 5.2. Diagrama de implantação
+
+<p align="justify">O diagrama de implantação é o diagrama estrutural responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado</p>
 
 ![Diagrama de Implantação](assets/diagrama_de_implantacao.png)
 
@@ -284,6 +294,8 @@ http://pyman.blogspot.com/2007/04/o-mvc-o-mtv-e-o-django.html
 > Criando uma API REST utilizando Django REST Framework. Disponível em :
 https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-framework-parte-1-55ac3e394fa
 
+> Diagramas Estruturais da UML: Diagrama de Implantação. Disponível em : http://micreiros.com/diagrama-de-implantacao/
+
 ___
 
 <br>
@@ -303,8 +315,8 @@ ___
 | 26/04/2019 | 0.7 | Refatorado Representação arquitetural | João Pedro |
 | 26/04/2019 | 0.8 | Refatorado os tópicos 2 e 3 | João Pedro, Lucas Alexandre, Renan Cristyan |
 | 26/04/2019 | 0.9 | Atualizado topico 5, refatorado diagrama de transição | João Pedro, Lucas Alexandre, Renan Cristyan |
+| 27/04/2019 | 0.9 | Atualizado topico 2 e 5 | João Pedro, Lucas Alexandre, Mateus Estanislau |
 
 
 
-2  - Arquitetura Cliente / Servidor - Visão Arquiteturais - Visão Logica - Diagrama de classes (Limpar o diagrama e representar apenas os modelos) - Visão de Implantação - Diagra
-20:32
+  <!-- 7- explicar pipeline--> 
