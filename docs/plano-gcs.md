@@ -20,11 +20,22 @@ sidebar_label: Plano de GCS
 
 <p align = "justify">Os <i>commits</i> devem ser atômicos e seu comentário deve descrevê-lo de forma sucinta. O texto deve descrever o que foi produzido, de forma resumida e em português, sem acentuação, com o tempo verbal no particípio. Além disso, deve conter o número de sua <i>issue</i> correspondente, no seguinte formato:
 
+**Repositorio de Documentação**
+
 ```[#<id da issue>] <Texto começando com letra maiúscula, verbo no particípio, e com final>.```
 
 **Exemplo:**
 
-```[#1] Criada estrutura de usuário.```
+```[#1] Criado Documento de Arquitetura.```
+
+**Outos Repositorios**
+
+```[<Tag da issue>] <Texto começando com letra maiúscula, verbo no particípio, e com final>.```
+
+**Exemplo:**
+
+```[US00] Criada estrutura de usuário.```
+
 
 ### Política de Branches
 
@@ -49,7 +60,7 @@ sidebar_label: Plano de GCS
 
 ### Política de Aprovação do Código
 
-<p align = "justify"> Para a aprovação do código, o <i>pull request</i> deve ser revisado por ao menos 1 membro da equipe de EPS, a nomenclatura da <i>branch</i> e dos <i>commits</i> deve estar de acordo com as definições deste documento, o código deve estar escrito seguindo a folha de estilo, a build não pode apresentar erros, a saúde do código deve atingir o nível mínimo, a cobertura de testes deve atingir o nível mínimo e o <i>pull request</i> deve seguir o template da <i>community</i> .</p>
+<p align = "justify"> Para a aprovação do código, o <i>pull request</i> deve ser revisado por ao menos 1 membro da equipe de EPS, a nomenclatura da <i>branch</i> e dos <i>commits</i> deve estar de acordo com as definições deste documento, o código deve estar escrito seguindo a folha de estilo, a build não pode apresentar erros, a saúde do código deve atingir o nível mínimo, a cobertura de testes deve atingir o nível mínimo e o <i>pull request</i> deve seguir o template do <i>community</i> .</p>
 
 ## 3. Uso de Issues
 
@@ -104,9 +115,11 @@ sidebar_label: Plano de GCS
 | Travis CI | Ferramenta de integração contínua | 
 | Heroku | Ferramenta de deploy em homologação | 
 | DigitalOcean | Ferramenta de deploy em produção | 
-| Coveralls | Ferramenta de análise de cobertura de testes |
+| CodeCov | Ferramenta de análise de cobertura de testes |
 | VS Code | Ferramenta de edição de código fonte |
 | Slack | Ferramenta de comunicação do grupo |
+| FireBase | Ferramenta utilizada para abstrair a complexidade da autenticação |
+| Rancher | Ferramenta utilizada para orquestrar os conteiners |
  
  ### Integração das Ferramentas
 
