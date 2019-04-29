@@ -13,23 +13,28 @@ sidebar_label: Documento de Arquitetura
 ### Objetivo
 
 <p align="justify">
-    Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema, garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores. </p>
+Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema, garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores. 
+</p>
 
 ### Escopo
 
 <p align="justify">
-    O +Monitoria é um produto de software que contará com uma interface Web Progressiva (PWA) e uma estrutura de microsserviços responsável pela implementação das regras de negócios, com objetivo de facilitar as monitorias na FGA.</p>
+O +Monitoria é um produto de software que contará com uma interface Web Progressiva (PWA) e uma estrutura de microsserviços responsável pela implementação das regras de negócios, com objetivo de facilitar as monitorias na FGA.
+</p>
 
 <p align="justify">
-    Neste documento são apresentadas as descrições do modelo arquitetural, sua composição e requisitos de integração.</p>
+Neste documento são apresentadas as descrições do modelo arquitetural, sua composição e requisitos de integração.
+</p>
     
 <p align="justify"> 
-    Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS no desenvolvimento do produto, oferecendo diretrizes quanto às tecnologias a serem utilizadas neste projeto, além de seu padrão de utilização.</p>
+Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS no desenvolvimento do produto, oferecendo diretrizes quanto às tecnologias a serem utilizadas neste projeto, além de seu padrão de utilização.
+</p>
 
 ### Visão Geral
 
 <p align="justify">
-Neste documento estão descritos os seguintes pontos, respectivamente: Representação Arquitetural, Backlog, Metas e Restrições de Arquitetura, Visão Lógica, Visão de Implantação, Visão da Implementação, Tamanho e Desempenho, Qualidade e Pipeline.</p>
+Neste documento estão descritos os seguintes pontos, respectivamente: Representação Arquitetural, Backlog, Metas e Restrições de Arquitetura, Visão Lógica, Visão de Implantação, Visão da Implementação, Tamanho e Desempenho, Qualidade e Pipeline.
+</p>
 
 <br>
 
@@ -37,26 +42,57 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 
 <br>
 
+<p align="justify">
+
+</p>
+
+### Cliente Servidor
+
+<p align="justify">
+
+</p>
+
+### Interface PWA
+
+<p align="justify">
+
+</p>
+
+### Microsserviços
+
+<p align="justify">
+
+</p>
+
+### Model-View-Controller
+
+<p align="justify">
+
+</p>
+
+### Django Rest Framework
+
+<p align="justify">
+
+</p>
+
 ### Postgres
 
 <p align="justify">
-O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.</p>
-
-### Interface PWA
+O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.
+</p>
 
 ### ReactJS
 
 <p align="justify">
 O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
-
 </p>
 
 ### FireBase
+
 <p align="justify">
-
 Firebase é um produto da Google, um conjunto de tecnologias disponíveis em diversas linguagens: Java, Swift, Objective-C, Python, JavaScript (incluindo Node.js), Go, Unity e C++. Será utilizado uma das ferramentas desse produto, o Firebase Authentication. Essa ferramenta fornece serviços de back-end, SDKs fáceis de usar e bibliotecas de IU prontas para autenticar usuários. A autenticação se dará por meio de email/senha e via Facebook.
- </p>
-
+</p>
 
 ### Diagrama de Relações
 
@@ -116,7 +152,9 @@ Para mais informações visite o [Backlog](doc-backlog.md) completo.
 
 <br>
 
+<p align="justify">
 Uma das principais metas é se encaixar como um Progressive Web APP, através dos seguintes pré-requisitos:
+</p>
 
 - Poder ser utilizado independentemente do browser ou do dispositivo.
 
@@ -131,16 +169,42 @@ Uma das principais metas é se encaixar como um Progressive Web APP, através do
 - Oferecer uma experiência semelhante a de um aplicativo nativo.
 
 <p align="justify">
-O Ambiente de desenvolvimento devera ser o terminal de uma distribuição Linux com auxílio de um ambiente de virtualização Docker e um editor de texto, neste ambiente deve ser utilizada a linguagem de programação Python junto ao framework Django Rest além do framework javascript ReactJS que nos permitirá gerar uma interface agradável ao usuário.</p>
+O Ambiente de desenvolvimento devera ser o terminal de uma distribuição Linux com auxílio de um ambiente de virtualização Docker e um editor de texto, neste ambiente deve ser utilizada a linguagem de programação Python junto ao framework Django Rest além do framework javascript ReactJS que nos permitirá gerar uma interface agradável ao usuário.
+</p>
 
 <p align="justify">
-O padrão de arquitetural de microsserviços devera ser utilizado para proporciona uma composição, manutenibilidade e reutilização de código que é essencial, levando em consideração que a equipe é grande e tem conhecimentos diversos, conclui-se que seguir tal padrão é fundamental para o sucesso do projeto.</p>
+O padrão de arquitetural de microsserviços devera ser utilizado para proporciona uma composição, manutenibilidade e reutilização de código que é essencial, levando em consideração que a equipe é grande e tem conhecimentos diversos, conclui-se que seguir tal padrão é fundamental para o sucesso do projeto.
+</p>
 
 ## 5. Visão Lógica
 
 <br>
 
+<p align="justify">
+
+</p>
+
+### Microsserviço de Monitorias
+
 ![Diagrama de Classe](assets/diagrama_de_classes.png)
+
+### Microsserviço de Feed
+
+<p align="justify">
+
+</p>
+
+### Microsserviço de Gamificação
+
+<p align="justify">
+
+</p>
+
+### Interface PWA
+
+<p align="justify">
+
+</p>
 
 <br>
 
@@ -152,13 +216,34 @@ O padrão de arquitetural de microsserviços devera ser utilizado para proporcio
 
 <br>
 
-<p align="justify">O diagrama de implantação é responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado.</p>
+<p align="justify">O diagrama de implantação é responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado.
+</p>
+
+<p align="justify">
+
+</p>
 
 <br>
 
 ## 7. Visão de Implementação
 
 <br>
+
+<p align="justify">
+
+</p>
+
+### Microsserviços
+
+<p align="justify">
+
+</p>
+
+### Interface PWA
+
+<p align="justify">
+
+</p>
 
 <br>
 
@@ -167,13 +252,16 @@ O padrão de arquitetural de microsserviços devera ser utilizado para proporcio
 <br>
 
 <p align="justify">
-O produto deve ser simples e eficiente. Por ter uma interface PWA utilizará scripts de execução em segundo plano, arquivos JavaScript, que armazenam em cache os ativos e permitem desempenho mais alto. As principais vantagens de se utilizar PWA são retenção e economia. O produto deve fazer uso criterioso do armazenamento em cache para que mesmo com uma conexão ruim, ou inconstante, o usuário consiga utilizar o app.</p>
+O produto deve ser simples e eficiente. Por ter uma interface PWA utilizará scripts de execução em segundo plano, arquivos JavaScript, que armazenam em cache os ativos e permitem desempenho mais alto. As principais vantagens de se utilizar PWA são retenção e economia. O produto deve fazer uso criterioso do armazenamento em cache para que mesmo com uma conexão ruim, ou inconstante, o usuário consiga utilizar o app.
+</p>
 
 <p align="justify">
-Apesar de precisar de requisições externas para a comunicação, essa aplicação não tende a sofrer muitas quedas de desempenho, inclusive pode ser usado em sistemas com menor poder de processamento e memória.</p>
+Apesar de precisar de requisições externas para a comunicação, essa aplicação não tende a sofrer muitas quedas de desempenho, inclusive pode ser usado em sistemas com menor poder de processamento e memória.
+</p>
 
 <p align="justify">
-Os microsserviços independentes, se construídos corretamente, não afetam uns aos outros. Isso significa que, se um elemento falhar, o restante da aplicação permanece em funcionamento, diferentemente do modelo monolítico.</p>
+Os microsserviços independentes, se construídos corretamente, não afetam uns aos outros. Isso significa que, se um elemento falhar, o restante da aplicação permanece em funcionamento, diferentemente do modelo monolítico.
+</p>
 
 <br>
 
@@ -182,10 +270,12 @@ Os microsserviços independentes, se construídos corretamente, não afetam uns 
 <br>
 
 <p align="justify">
-A arquitetura organiza a aplicação em microsserviços, isso faz com que a compreensão e manutenção do sistema seja facilitada para os desenvolvedores. Serão utilizados frameworks adequados para o que é requisitado no projeto, sendo Django REST para os microsserviços de Regra de Negócio e ReactJS para a interface PWA, ambos são altamente utilizados pela comunidade de desenvolvedores.</p>
+A arquitetura organiza a aplicação em microsserviços, isso faz com que a compreensão e manutenção do sistema seja facilitada para os desenvolvedores. Serão utilizados frameworks adequados para o que é requisitado no projeto, sendo Django REST para os microsserviços de Regra de Negócio e ReactJS para a interface PWA, ambos são altamente utilizados pela comunidade de desenvolvedores.
+</p>
 
 <p align="justify">
-O banco de dados Postgres é um software multi-plataforma altamente escalável. O software garantirá a segurança dos dados informados pelo usuário, além de disponibilizar ferramentas simples, funcionais e intuitivas.</p>
+O banco de dados Postgres é um software multi-plataforma altamente escalável. O software garantirá a segurança dos dados informados pelo usuário, além de disponibilizar ferramentas simples, funcionais e intuitivas.
+</p>
 
 ## 10. Pipeline
 
@@ -199,6 +289,10 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 ![Pipeline](assets/pipeline_mm.png)
 
 <br>
+
+<p align="justify">
+
+</p>
 
 ## 11. Referências Bibliográficas
 
