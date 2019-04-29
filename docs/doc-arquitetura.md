@@ -49,7 +49,13 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 ### Cliente Servidor
 
 <p align="justify">
+O principal relacionamento do projeto é implementado como um cliente-servidor. O cliente é representado pela Interface PWA, que irá realizar requisições na API Gateway, que é o servidor central do projeto.
+</p>
 
+### API Gateway
+
+<p align="justify">
+A API Gateway é a API central do projeto, uma fachada entre o frontend e os microsserviços. É responsável por validar as requisições vindas da Interface PWA redirecionando aos microsserviços apenas requisições autenticadas.
 </p>
 
 ### Interface PWA
@@ -73,7 +79,19 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 ### Django Rest Framework
 
 <p align="justify">
+O DRF é um extensão do Django Framework e é utilizado para a construção de APIs em plataforma Web. Com esse, é possível criar um backend independente, através de serviços, podendo ser acessado por uma aplicação mobile ou web através de requisições do tipo REST. Uma arquitetura REST opera através de métodos de protocolo HTTP; como GET, POST, PUT, DELETE, entre outros.
+</p>
 
+<p align="justify">
+A arquitetura do Django é baseada na arquitetura MVC, no entanto é descrita como MVT(Model-View-Template), o DRF provoca uma adaptação nessa arquitetura (utiliza apenas Model-View) visando disponibilizar uma API REST. Uma boa prática utilizada no DRF é representar cada funcionalidade através de um app interno, para melhor modularização do sistema.
+</p>
+
+<p align="justify">
+A model do DRF é a camada responsável por gerir, modelar e persistir os dados. Tem como principais funções controlar o estado dos dados, responder a instruções para mudança de estado dos dados e cuidar das regras de negócio da aplicação.
+</p>
+
+<p align="justify">
+A view do DRF é a camada encarregada por interpretar entradas vindas de outros sistemas (através de endpoints), distribuindo comandos que geram atualização, busca de dados ou requisições em outras partes do próprio sistema ou de outro sistema que esteja sendo consumido, podendo fazer uso das classes definidas na camada de modelo (model).
 </p>
 
 ### Postgres
@@ -236,8 +254,18 @@ O padrão de arquitetural de microsserviços devera ser utilizado para proporcio
 ### Microsserviços
 
 <p align="justify">
-
+No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos seguintes arquivos:
 </p>
+
+ - **models.py** - implementa a camada model e as validações personalizadas dos dados que serão guardados no banco de dados.
+
+- **views.py** - implementa a camada view, que é responsável pela interação com a model e por processar todos os dados advindos da API do GitHub.
+
+- **urls.py** - endpoints que permitem acesso às views.
+
+- **serializers.py** - responsável por serializar dados, convertê-los de objeto para JSON e também por validá-los de acordo com os dados da modelo.
+
+- **tests.py** - arquivo onde serão escritos todos os testes realizados dentro do APP.
 
 ### Interface PWA
 
