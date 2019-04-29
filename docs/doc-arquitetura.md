@@ -6,7 +6,6 @@ sidebar_label: Documento de Arquitetura
 
 <br>
 
-
 ## 1. Introdução
 
 <br>
@@ -47,6 +46,9 @@ A arquitetura padrão do +Monitoria será hibrida por conta da mescla de arquite
  </p>
 
 ### 2.1 Arquitetura Cliente / Servidor
+
+<br>
+
 <p align="justify">
 O modelo cliente-servidor, é uma arquitetura que distribui as tarefas entre os fornecedores de um recurso ou serviço, designados como servidores, e os requerentes dos serviços, designados como clientes.
 </p>
@@ -76,16 +78,12 @@ Nessa camada é implementada o banco de dados ou o modelo objeto-relacional. Tem
 
 <p align="justify"> Encarrega-se de interpretar entradas vindas de outros sistemas, distribuindo comandos como autorização, busca de dados ou requisições em outros sistemas, fazendo uso das classes definidas no modelo (Model). Será responsável por gerenciar requisições http, protocolo este de comunicação de rede.</p>
 
-**Viewset:**
-
-**Serializer:**
-
 ### Postgres
 
 <p align="justify">
 O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.</p>
 
-### Microsserviço da Interface PWA
+### Interface PWA
 
 ### ReactJS
 
@@ -171,7 +169,7 @@ O padrão de microsserviços proporciona uma composição, manutenibilidade e re
 <br>
 
 <p align="justify">
-Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços de Regra de Negócio que são responsáveis por implementar as funcionalidades, API Gateway responsável por mediar a comunicação entre os serviços e Microsserviço da Interface PWA que é responsável por prover uma interface para o usuário fazer uso das funcionalidades.</p>
+Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços de Regra de Negócio que são responsáveis por implementar as funcionalidades e API Gateway, responsável por mediar a comunicação entre os serviços. Além disso, a Interface PWA é responsável por prover uma interface para o usuário fazer uso das funcionalidades.</p>
 
 ### Microsserviços de Regra de Negócio
 
@@ -182,12 +180,14 @@ Podemos dividir a visão lógica dos nossos microsserviços em Microsserviços d
 
 - View - Responsável por alimentar o banco de dados por intermédio da Model e receber dados da API externa. Encarrega-se de interpretar entradas vindas de outros sistemas, distribuindo comandos como autorização, busca de dados ou requisições em outros sistemas, fazendo uso das classes definidas no modelo (Model). Será responsável por gerenciar requisições http, protocolo este de comunicação de rede.
 
-### Microsserviço da Interface PWA
+### Interface PWA
 <p align="justify">
 Responsável pelo desenvolvimento de interface o usuário e foca na utilização de componentes para que que seja possível aumentar o máximo do reuso na sua aplicação.</p>
 
 
 ### 5.2. Diagrama de implantação
+
+<br>
 
 <p align="justify">O diagrama de implantação é o diagrama estrutural responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado</p>
 
@@ -195,8 +195,11 @@ Responsável pelo desenvolvimento de interface o usuário e foca na utilização
 
 ### 5.3. Visão de Implementação
 
+<br>
+
 <p align="justify">
-Do ponto de vista da implementação os Microsserviços de Regra de Negócio vão ser API's REST feitas com Django Rest, a API Gateway será também uma API desenvolvida em Django REST e o Microsserviço da Interface PWA será uma aplicação web progressiva feita com ReactJS.</p>
+Do ponto de vista da implementação, os Microsserviços de Regra de Negócio e a API Gateway serão APIs feitas com Django Rest. Através das Views e dos Serializers o Django REST implenta os metodos HTTP pra construir as APIs.
+Já o Microsserviço da Interface PWA será uma aplicação web progressiva feita com ReactJS.</p>
 
 #### 5.3.1 Diagrama de Classe
 ![Diagrama de Classe](assets/diagrama_de_classes.png)
@@ -216,10 +219,10 @@ Descrição da distribuição do Django Rest Framework:</p>
 - Arquivo Models.py - Arquivo responsável por gerenciar e executar a comunicação com o banco de dados além de definir entidades e validações.
 
 
-### Microsserviço da Interface PWA
+### Interface PWA
 
 <p align="justify">
-Para realizar a implementação do microsserviço desenvolveremos app ReactJS, teremos uma estrutura App.js juntamente com uma index.js e a pasta src, aonde estará todas as components.</p>
+Para realizar a implementação da interface desenvolveremos app ReactJS, teremos uma estrutura App.js juntamente com uma index.js e a pasta src, aonde estará todas as components.</p>
 
 Descrição da distribuição no ambiente React:
 
@@ -247,7 +250,7 @@ Os microsserviços independentes, se construídos corretamente, não afetam uns 
 <br>
 
 <p align="justify">
-A arquitetura organiza a aplicação em microsserviços, isso faz com que a compreensão e manutenção do sistema seja facilitada para os desenvolvedores. Serão utilizados frameworks adequados para o que é requisitado no projeto, sendo Django REST para os microsserviços de regra de negócio e ReactJS para o microsserviço da interface PWA, ambos são altamente utilizados pela comunidade de desenvolvedores.</p>
+A arquitetura organiza a aplicação em microsserviços, isso faz com que a compreensão e manutenção do sistema seja facilitada para os desenvolvedores. Serão utilizados frameworks adequados para o que é requisitado no projeto, sendo Django REST para os microsserviços de Regra de Negócio e ReactJS para a interface PWA, ambos são altamente utilizados pela comunidade de desenvolvedores.</p>
 
 <p align="justify">
 O banco de dados Postgres é um software multi-plataforma altamente escalável. O software garantirá a segurança dos dados informados pelo usuário, além de disponibilizar ferramentas simples, funcionais e intuitivas.</p>
