@@ -52,7 +52,7 @@ O modelo cliente-servidor, é uma arquitetura que distribui as tarefas entre os 
 </p>
 
 <p align="justify">
-Um servidor é o host que executa diversos serviços ou aplicações que utilizam seus recursos com os clientes. O cliente não compartilha qualquer de seus recursos, mas solicita dados ou funçoẽs do servidor. Os clientes iniciam sessões e se comunicam com os servidores que aguardam requisições de entrada. 
+Um servidor é o host que executa diversos serviços ou aplicações que utilizam seus recursos com os clientes. O cliente não compartilha qualquer de seus recursos, mas solicita dados ou funçoẽs do servidor. Os clientes iniciam sessões e se comunicam com os servidores que aguardam requisições de entrada. Na arquitetura Cliente / Servidor do mais monitoria o cliente está representado através da interface feita em REACTJS e o servidor é representado através dos microsserviços feitos em Django REST Framework.
 </p>
 
 ### 2.2 Representação Interna dos Microsserviços
@@ -62,7 +62,6 @@ Um servidor é o host que executa diversos serviços ou aplicações que utiliza
 ### Microsserviços de Regra de Negócio
 
 ### Django REST Framework
-
 
 <p align="justify">
 Os microsserviços voltados às regras de negócio do produto serão feitos com Django Rest Framework. O Django Rest Framework é uma biblioteca para o Framework Django que disponibiliza funcionalidades para implementar APIs Rest de forma extremamente rápida. As APIs são desenvolvidas seguindo o padrão Model - View, que é descrito logo abaixo:
@@ -76,6 +75,10 @@ Nessa camada é implementada o banco de dados ou o modelo objeto-relacional. Tem
 **View:**
 
 <p align="justify"> Encarrega-se de interpretar entradas vindas de outros sistemas, distribuindo comandos como autorização, busca de dados ou requisições em outros sistemas, fazendo uso das classes definidas no modelo (Model). Será responsável por gerenciar requisições http, protocolo este de comunicação de rede.</p>
+
+**Viewset:**
+
+**Serializer:**
 
 ### Postgres
 
@@ -253,8 +256,18 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 
 <br>
 
-![Pipeline](assets/pipeline_mm.png)
+<p align="justify">O objetivo do pipeline é automatizar o processo de entrega de software em produção de forma rápida, ao mesmo tempo garantindo sua estabilidade, qualidade e resiliência.
+</p>
 
+![Pipeline](assets/pipeline_mm.png)
+<br>
+<p align="justify">
+    Em nosso projeto foram utilizados dois sistemas de pipeline o primeiro dedicado a Develop e o sugundo dedicado para a master.
+    A sequencia de passos utilizados na integração da Develop é o build, que garante a compilação das funcionalidades, depois é realizad
+</p>
+<p align="justify">
+    Os passos que serão utilizados na integração da Develop são: 1º Build: que garante a compilação das funcionalidades. 2º Testing: assegura que o software está contemplando todas as funcionalidades esperadas e que estas estão funcionando corretamente. 3º StyleGuide: Verifica se as linhas de código estão seguindo os padrões de programação. 4º: Code-Cov: Realiza a medição da cobertura de linhas de codigo testados e garante que existe uma quantidade suficiente de linhas testadas.
+</p>
 
 ## 9. Referências Bibliográficas
 
