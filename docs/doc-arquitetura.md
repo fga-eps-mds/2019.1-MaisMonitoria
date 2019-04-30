@@ -43,7 +43,7 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 <br>
 
 <p align="justify">
-A arquitetura do Mais Monitoria será uma aquitetura hibrida, por conta de abranger fundamentos algumas outras arquiteturas como: Cliente Servidor, Microserviço e Model View Controller (MVC).
+A arquitetura do Mais Monitoria será uma arquitetura hibrida, por conta de abranger fundamentos algumas outras arquiteturas como: Cliente Servidor, Microserviço e Model View Controller (MVC).
 </p>
 
 ### Cliente Servidor
@@ -67,12 +67,26 @@ A API Gateway é a API central do projeto, uma fachada entre o frontend e os mic
 ### Microsserviços
 
 <p align="justify">
-
+Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma padronização da arquitetura, para que o sistema seja escolanavel e independente.
 </p>
 
 ### Model-View-Controller
 
 <p align="justify">
+Padrão de arquitetura de software para implementar interfaces com o usuário. Ele divide um determinado aplicativo de software em três camadas interconectadas: o modelo (Model), a visão (View) e o controlador (Controller). 
+</p>
+
+**Model -** Responsável por tratar as regras de negócio. Obter os dados e os traduzir em informações para serem exibidas pela View.
+
+**View -** 
+É camada de interface com usuário e responsável pela interação com a Model.
+
+**Controller -** Responsável por gerenciar as camadas Model e View.
+
+</p>
+
+<p align="justify">
+Na arquitetura MVC do +Monitoria as camadas Model e Controller estão representadas dentro dos microserviços e a camada View é representada pela interface feita em ReactJS.
 
 </p>
 
@@ -83,7 +97,7 @@ O DRF é um extensão do Django Framework e é utilizado para a construção de 
 </p>
 
 <p align="justify">
-A arquitetura do Django é baseada na arquitetura MVC, no entanto é descrita como MVT(Model-View-Template), o DRF provoca uma adaptação nessa arquitetura (utiliza apenas Model-View) visando disponibilizar uma API REST. Uma boa prática utilizada no DRF é representar cada funcionalidade através de um app interno, para melhor modularização do sistema.
+A arquitetura do Django é baseada na arquitetura MVC, no entanto é descrita como MVT (Model-View-Template), o DRF provoca uma adaptação nessa arquitetura (utiliza apenas Model-View) visando disponibilizar uma API REST. Uma boa prática utilizada no DRF é representar cada funcionalidade através de um app interno, para melhor modularização do sistema.
 </p>
 
 <p align="justify">
@@ -206,16 +220,6 @@ O padrão de arquitetural de microsserviços devera ser utilizado para proporcio
 
 ![Diagrama de Classe](assets/diagrama_de_classes.png)
 
-### Microsserviço de Feed
-
-<p align="justify">
-
-</p>
-
-### Microsserviço de Gamificação
-
-<p align="justify">
-
 </p>
 
 ### Interface PWA
@@ -270,16 +274,16 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 ### Interface PWA
 
 <p align="justify">
-Modelado pelo react
+Elemento que proporciona a ligação entre o usuário e a Gateway. Modelada pelo ReactJS, constituida por componentes, com visual atraente e um bom desempenho.
 </p>
 
-- **app.js** - 
+- **App.js** - Possui o compenente raíz do aplicativo.
 
-- **index.js** - 
+- **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e aonde ocorrerá a renderização.
 
 - **assets** - Guarda os arquivos estáticos.
 
-- **components** - Guarda as componentes.
+- **Components** - Guarda as componentes.
 
 <br>
 
@@ -390,8 +394,14 @@ http://pyman.blogspot.com/2007/04/o-mvc-o-mtv-e-o-django.html
 > Criando uma API REST utilizando Django REST Framework. Disponível em :
 https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-framework-parte-1-55ac3e394fa
 
-> Diagramas Estruturais da UML: Diagrama de Implantação. Disponível em : http://micreiros.com/diagrama-de-implantacao/
+> Diagramas Estruturais da UML: Diagrama de Implantação. Disponível em : 
+http://micreiros.com/diagrama-de-implantacao/
 
+> MVC. Disponível em: 
+https://tableless.com.br/mvc-afinal-e-o-que/
+
+> Padrão MVC | Arquitetura Model-View-Controller. Disponível em: 
+https://www.portalgsti.com.br/2017/08/padrao-mvc-arquitetura-model-view-controller.html
 ___
 
 <br>
