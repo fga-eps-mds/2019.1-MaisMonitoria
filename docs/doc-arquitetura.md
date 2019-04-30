@@ -44,12 +44,20 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 <!-- Corrigir -->
 
 <p align="justify">
+<<<<<<< HEAD
 
 A arquitetura do Mais Monitoria, pode ser considerada uma arquitetura hibrida pois utiliza principios de três padroes arquiteturais,sendo eles: Cliente-Servidor, MVC e Microsserviços. Tambem será utilizada uma api para autenticação externa visando abstrair a complexidade da implementação de um sistema de autenticação, a api escolhida para tal fim foi a firebase autentication.
 </p>
 
 ### Cliente Servidor
 
+=======
+A arquitetura do Mais Monitoria será uma arquitetura hibrida, por conta de abranger fundamentos algumas outras arquiteturas como: Cliente Servidor, Microserviço e Model View Controller (MVC).
+</p>
+
+### Cliente Servidor
+
+>>>>>>> 0a4cff31cf515ff27f80c7a64e2cb67f5ffa434f
 <p align="justify">
 O principal relacionamento do projeto é implementado como um cliente-servidor. O cliente é representado pela Interface PWA, que irá realizar requisições na API Gateway, que é o servidor central do projeto.
 </p>
@@ -62,6 +70,7 @@ A API Gateway é a API central do projeto, uma fachada entre o frontend e os mic
 
 ### Interface PWA
 
+<<<<<<< HEAD
 <!-- Reescrever -->
 <p align="justify"> 
 A interface de usuario do sistema, deverar se adequar ao PWA e será construida utilizando o ReactJS.
@@ -71,6 +80,16 @@ A interface de usuario do sistema, deverar se adequar ao PWA e será construida 
 <!-- corrigir -->
 <p align="justify">
 Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa pratica, que pode ser adotada neste padrão arquitetural, para que o sistema seja escolanavel e independente, alem disso tambem é uma boa pratica possuir api gatwey para fornecer ponto de acesso aos microsserviços. 
+=======
+<p align="justify">
+é um termo usado para denotar uma nova metodologia de desenvolvimento de software. Um Progressive Web App pode ser visto como uma evolução híbrida entre as páginas da web regulares e um aplicativo móvel. Este novo modelo de aplicação combina recursos oferecidos pelos navegadores.
+</p>
+
+### Microsserviços
+
+<p align="justify">
+Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma padronização da arquitetura, para que o sistema seja escolanavel e independente.
+>>>>>>> 0a4cff31cf515ff27f80c7a64e2cb67f5ffa434f
 </p>
 
 ### Model-View-Controller
@@ -83,13 +102,24 @@ Padrão de arquitetura de software para implementar interfaces com o usuário. E
 
 **View -** 
 É camada de interface com usuário e responsável pela interação com a Model.
+<<<<<<< HEAD
+=======
+
+**Controller -** Responsável por gerenciar as camadas Model e View.
+
+</p>
+>>>>>>> 0a4cff31cf515ff27f80c7a64e2cb67f5ffa434f
 
 **Controller -** Responsável por gerenciar as camadas Model e View.
 
 </p>
 <!-- mudança -->
 <p align="justify">
+<<<<<<< HEAD
 Na arquitetura MVC do +Monitoria as camadas Model e Controller estão representadas dentro dos microserviços e a camada View é representada pela interface PWA.
+=======
+Na arquitetura MVC do +Monitoria as camadas Model e Controller estão representadas dentro dos microserviços e a camada View é representada pela interface feita em ReactJS.
+>>>>>>> 0a4cff31cf515ff27f80c7a64e2cb67f5ffa434f
 
 </p>
 
@@ -110,9 +140,15 @@ A model do DRF é a camada responsável por gerir, modelar e persistir os dados.
 <p align="justify">
 A view do DRF é a camada encarregada por interpretar entradas vindas de outros sistemas (através de endpoints), distribuindo comandos que geram atualização, busca de dados ou requisições em outras partes do próprio sistema ou de outro sistema que esteja sendo consumido, podendo fazer uso das classes definidas na camada de modelo (model).
 </p>
+<<<<<<< HEAD
 
 ### Postgres
 
+=======
+
+### Postgres
+
+>>>>>>> 0a4cff31cf515ff27f80c7a64e2cb67f5ffa434f
 <p align="justify">
 O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.
 </p>
