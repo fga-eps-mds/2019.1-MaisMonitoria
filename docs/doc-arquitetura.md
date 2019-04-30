@@ -43,7 +43,7 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 <br>
 
 <p align="justify">
-
+A arquitetura do Mais Monitoria será uma aquitetura hibrida, por conta de abranger fundamentos algumas outras arquiteturas como: Cliente Servidor, Microserviço e Model View Controller (MVC).
 </p>
 
 ### Cliente Servidor
@@ -270,8 +270,16 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 ### Interface PWA
 
 <p align="justify">
-
+Modelado pelo react
 </p>
+
+- **app.js** - 
+
+- **index.js** - 
+
+- **assets** - Guarda os arquivos estáticos.
+
+- **components** - Guarda as componentes.
 
 <br>
 
@@ -319,8 +327,30 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 <br>
 
 <p align="justify">
+    Foram utilizados dois Pipelines, para a realização da integração continua uma para a develop outro dedicado para a master.
+</p>
+<br>
+   Passos utilizados:
+<br>
+
+- **Build** - Constrói o código, garantindo sua execução.
+
+- **Testing** - Realiza a execução de testes automatizados.
+    
+- **Style Guide** - Verifica se o código está de acordo com a folha de estilo.
+
+- **CodeCov** - Verifica se a cobertura de testes do código atingiu nível pŕe-definido.
+
+- **Docker Hub** - Após passar por todas etapas da intregação continua irá atualizar as imagens no Docker Hub.
 
 </p>
+
+<br>
+
+### Rancher - Se for constatado uma sobrecarga na Api Gateway o Rancher irá replicar os serviços.
+
+
+
 
 ## 11. Referências Bibliográficas
 
