@@ -61,7 +61,7 @@ A API Gateway é a API central do projeto, uma fachada entre o frontend e os mic
 ### Interface PWA
 
 <p align="justify">
-
+é um termo usado para denotar uma nova metodologia de desenvolvimento de software. Um Progressive Web App pode ser visto como uma evolução híbrida entre as páginas da web regulares e um aplicativo móvel. Este novo modelo de aplicação combina recursos oferecidos pelos navegadores.
 </p>
 
 ### Microsserviços
@@ -208,23 +208,19 @@ O Ambiente de desenvolvimento devera ser o terminal de uma distribuição Linux 
 O padrão de arquitetural de microsserviços devera ser utilizado para proporciona uma composição, manutenibilidade e reutilização de código que é essencial, levando em consideração que a equipe é grande e tem conhecimentos diversos, conclui-se que seguir tal padrão é fundamental para o sucesso do projeto.
 </p>
 
+<br>
+
 ## 5. Visão Lógica
 
 <br>
 
 <p align="justify">
-
+Visualização arquitetural (visão lógica) fornece uma base para compreensão da estrutura e a organização do design do sistema. Descrevendo os requisitos comportamentais e a decomposição do sistema em um conjunto de abstrações.
 </p>
 
 ### Microsserviço de Monitorias
 
-![Diagrama de Classe](assets/diagrama_de_classes.png)
-
-</p>
-
-### Interface PWA
-
-<p align="justify">
+![Diagrama de Classe](assets/diagrama_de_classes.jpeg)
 
 </p>
 
@@ -241,19 +237,11 @@ O padrão de arquitetural de microsserviços devera ser utilizado para proporcio
 <p align="justify">O diagrama de implantação é responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado.
 </p>
 
-<p align="justify">
-
-</p>
-
 <br>
 
 ## 7. Visão de Implementação
 
 <br>
-
-<p align="justify">
-
-</p>
 
 ### Microsserviços
 
@@ -274,14 +262,14 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 ### Interface PWA
 
 <p align="justify">
-Elemento que proporciona a ligação entre o usuário e a Gateway. Modelada pelo ReactJS, constituida por componentes, com visual atraente e um bom desempenho.
+Elemento que proporciona a ligação entre o usuário e a Gateway. Modelada pelo ReactJS, constituida por componentes, sendo eles:
 </p>
 
 - **App.js** - Possui o compenente raíz do aplicativo.
 
 - **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e aonde ocorrerá a renderização.
 
-- **assets** - Guarda os arquivos estáticos.
+- **Assets** - Guarda os arquivos estáticos.
 
 - **Components** - Guarda as componentes.
 
@@ -354,7 +342,7 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 ### Rancher - Se for constatado uma sobrecarga na Api Gateway o Rancher irá replicar os serviços.
 
 
-
+<br>
 
 ## 11. Referências Bibliográficas
 
@@ -422,4 +410,5 @@ ___
 | 26/04/2019 | 0.8 | Refatorado os tópicos 2 e 3 | João Pedro, Lucas Alexandre, Renan Cristyan |
 | 26/04/2019 | 0.9 | Atualizado topico 5, refatorado diagrama de transição | João Pedro, Lucas Alexandre, Renan Cristyan |
 | 27/04/2019 | 0.9 | Atualizado topico 2 e 5 | João Pedro, Lucas Alexandre, Mateus Estanislau |
+| 29/04/2019 | 1.0 | Documento Refatorado | João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre|
 
