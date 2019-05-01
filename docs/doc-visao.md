@@ -100,11 +100,6 @@ O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que e
 
 ## 6. Visão Geral
 
-<br>
-
-<p align="justify">Este tópico esclarece as singularidades da aplicação, descreve as necessidades que incentivaram seu desenvolvimento. Sua organização é realizada utilizando-se de tópicos e subtópicos enumerados, sendo seus tópicos: Introdução, Descrição do Usuário, Envolvidos, Visão Geral, Recursos do Produto, Requisitos não Funcionais, Referências Bibliográficas, Histórico de Revisão.</p>
-
-### 6.1 Visão Geral do Produto
 
 <br>
 
