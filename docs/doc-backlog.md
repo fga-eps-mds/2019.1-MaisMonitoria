@@ -1,7 +1,7 @@
 ---
 id: doc-backlog
-title: Backlog do Produto
-sidebar_label: Backlog do Produto
+title: Backlog 
+sidebar_label: Backlog
 ---
 
 <br>
@@ -12,20 +12,23 @@ sidebar_label: Backlog do Produto
 
 <p align="justify">
 O backlog é um artefato que representa a acumulação de trabalho, é uma espécie de estoque relativo ao produto que ainda não foi desenvolvido, sendo assim entende-se como uma listagem de pedidos em espera.
+
+Temos um backlog do produto em que engloba todas o trabalho planejado para o produto, e um backlog reduzido para descrever apenas o que está dentro do escopo do projeto que vai realizado durante as disciplinas de EPS e MDS.
 </p>
 
+## 2. Backlog do Projeto
 
-## 2. EPIC01 - Interface PWA
+## EPIC01 - Interface PWA
 
 <br>
 
-### 2.1 Descrição
+### Descrição
 
 <br>
 
 O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
 
-### 2.2 FT01 - Visual Atraente App-Like
+### FT01 - Visual Atraente App-Like
 
 <br>
 
@@ -37,7 +40,7 @@ O produto deve apresentar um visual App-Like para que o usuário se sinta utiliz
 | US02 | Modelagem de telas estáticas  | Eu como usuário gostaria de visualizar telas estáticas antes do desenvolvimento das funcionalidades. | Alta |
 | TS03 | Configurar ambiente de desenvolvimento front-end | Eu como desenvolvedor gostaria de disponibilizar um ambiente de desenvolvimento front-end, para potencializar a produtividade da equipe. | Alta |
 
-### 2.3 FT02 - Experiência Offline Significativa
+### FT02 - Experiência Offline Significativa
 
 <br>
 
@@ -48,7 +51,7 @@ O produto deve fazer uso criterioso do armazenamento em cache para que mesmo com
 | TS05 | Avaliação da técnica de armazenamento | Eu como desenvolvedor gostaria de avaliar as formas de armazenamento em cache para definir a que melhor se encaixa no contexto do produto. | Média |
 | US03 | Implantar armazenamento em cache | Eu como usuário gostaria de poder usar a aplicação mesmo com uma conexão ruim ou inconsistente à internet. | Média |
 
-### 2.4 FT03 - Engajavél, Instalavél e Progressivo
+### FT03 - Engajavél, Instalavél e Progressivo
 
 <br>
 
@@ -59,17 +62,17 @@ O produto deve enviar notificações por push via web, adicionar um ícone na te
 | US04 | Implantar sistema de notificações | Eu como usuário gostaria de receber notificações por push sobre atividades do app. | Alta |
 | US05 | Disponibilizar adição de ícone | Eu como usuário gostaria de adicionar ícone na tela principal com apenas um click. | Alta |
 
-## 3. EPIC02 - Microsserviço Gerenciador de Monitorias
+## EPIC02 - Microsserviço Gerenciador de Monitorias
 
 <br>
 
-### 3.1 Descrição
+### Descrição
 
 <br>
 
 O produto deve conter um microsserviço que gerencie tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
 
-### 3.2 FT04 - Manter Conta de Usuário
+### FT04 - Manter Conta de Usuário
 
 <br>
 
@@ -81,7 +84,7 @@ O produto deve disponibilizar criação, alteração, exclusão e visualização
 | TS06 | Modelagem da estrutura de classes e do banco de dados | Eu como desenvolvedor desejo fazer a modelagem das classes e do banco de dados para que possa atender a necessidades do controle dos dados de usuários.| Alta |
 | TS07 | Implantação da estrutura de classes e do banco de dados | Eu como desenvolvedor desejo implantar as classes e o banco de dados para o controle dos dados de usuário. | Alta |
 
-### 3.3 FT05 - Manter Monitorias
+### FT05 - Manter Monitorias
 
 <br>
 
@@ -92,7 +95,7 @@ O produto deve disponibilizar criação, alteração, exclusão, visualização,
 | TS08 | Modelagem da estrutura de classes e do banco de dados | Eu como desenvolvedor desejo fazer a modelagem das classes e do banco de dados para que possa atender a necessidades do controle dos dados de monitorias.| Alta |
 | TS09 | Implantação da estrutura de classes e do banco de dados | Eu como desenvolvedor desejo implantar as classes e o banco de dados para o controle dos dados de monitorias. | Alta |
 
-### 3.4 FT06 - Sistema de Pesquisa
+### FT06 - Sistema de Pesquisa
 
 <br>
 
@@ -103,17 +106,17 @@ O produto deve oferecer um sistema de pesquisa dinâmico com filtros relevantes.
 | US06 | Implantar pesquisa dinâmico | Eu como usuário desejo que o sistema de pesquisa seja dinâmico. | Baixa |
 | US07 | Disponibilizar filtros de pesquisa relevantes | Eu como usuário desejo pesquisar as monitorias de acordo com os filtros relevantes. | Alta |
 
-## 4. EPIC03 - Microsserviço Gateway
+## EPIC03 - Microsserviço Gateway
 
 <br>
 
-### 4.1 Descrição
+### Descrição
 
 <br>
 
 O produto deve conter um microsserviço responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação.
 
-### 4.2 FT07 - Realizar Autenticação por API Externa
+### FT07 - Realizar Autenticação por API Externa
 
 <br>
 
@@ -124,7 +127,7 @@ O produto deve abstrair a complexidade da construção de um serviço de autenti
 | US08 |  Disponibilizar autenticação por API externa | Eu como usuário desejo autenticar minha conta utilizando meu cadastro de outro serviço. | Alta |
 | TS10 | Avaliação técnica da autenticação | Eu como desenvolvedor gostaria de avaliar as opções de autenticação via API externa, para definir a que melhor se encaixa no contexto do produto. | Alta |
 
-### 4.3 FT08 - Realizar Transformação e Agregação de Dados
+### FT08 - Realizar Transformação e Agregação de Dados
 
 <br>
 
@@ -134,7 +137,7 @@ O produto deve através da API Gateway transformar e agregar dados visando dimin
 |--|--|--|--|
 | TS11 | Gerenciamento de informações no cache | Eu como desenvolvedor gostaria de diminuir o número de requisições de acordo com informações contidas no cache. | Alta |
 
-### 4.4 FT09 - Oferecer Ponto de Acesso Único aos Microsserviços
+### FT09 - Oferecer Ponto de Acesso Único aos Microsserviços
 
 <br>
 
@@ -144,17 +147,21 @@ O produto deve oferecer um 'Proxy' para servir de ponto acesso único aos micros
 |--|--|--|--|
 | TS12 | Gerenciamento de requisição | Eu como desenvolvedor desejo que as requisições sejam gerenciadas a partir de um único ponto. | Alta |
 
-## 5. EPIC04 - Microsserviço de Gamificação
+## 3. Backlog do Produto
+<br>
+O backlog do produto engloba todos os épicos descritos acima e também os seguintes épicos:
+
+## EPIC04 - Microsserviço de Gamificação
 
 <br>
 
-### 5.1 Descrição
+### Descrição
 
 <br>
 
 O produto deve conter um microsserviço responsável gerenciar toda a parte de gamificada do produto, incluindo processamento de um ranking, cálculo de pontuações e distribuição de recompensas.
 
-### 5.2 FT10 - Ranking
+### FT10 - Ranking
 
 <br>
 
@@ -166,7 +173,7 @@ O produto deve oferecer um sistema de ranqueamento entre os usuários visando es
 | US09 | Disponibilizar sistema de ranking | Eu como usuário desejo ter acesso a um sistema de ranqueamento baseado na pontuação do usuário. | Média |
 | US10 | Atualizações de ranking | Eu como usuário desejo que o ranking seja atualizado de acordo com período de tempo pré-definido. | Baixa |
 
-### 5.3 FT11 - Recompensas
+### FT11 - Recompensas
 
 <br>
 
@@ -177,7 +184,7 @@ O produto deve recompensar o usuário baseado em sua faixa de pontuação no ran
 | TS14 | Algoritmo de distribuição de recompensas | Eu como desenvolvedor desejo implantar um algoritmo de distribuição de recompensas de acordo com período pré-definido de tempo. | Baixa |
 | US11 | Sistema de recompensas | Eu como usuário desejo receber recompensas de acordo com meu engajamento na app, com base na minha classificação do ranking. | Baixa |
 
-## 6. EPIC05 - Microsserviço Gerador de Feed
+## EPIC05 - Microsserviço Gerador de Feed
 
 <br>
 
@@ -185,7 +192,7 @@ O produto deve recompensar o usuário baseado em sua faixa de pontuação no ran
 
 O produto deve conter um microsserviço responsável por manter feed's de novidades e atualizações gerados de acordo com os perfis dos usuários.
 
-### 6.1 FT12 - Feed personalizado
+### FT12 - Feed personalizado
 
 <br>
 
@@ -196,7 +203,7 @@ O produto deve contar com um algoritmo de geração de feed que leva em conta te
 | TS15 | Algoritmo de Geração do Feed | Eu como desenvolvedor desejo implantar um algoritmo de feed personalizado baseado em temas de interesse, histórico de monitoria, usuários seguidos e novidades em geral. |  Baixa |
 | US12 | Sistema de feed personalizado | Eu como usuário desejo ver um feed de acordo com meus temas de interesse, histórico de monitoria, usuários seguidos e novidades em geral.  | Baixa |
 
-### 6.2 FT13 - Sistema de Follow
+### FT13 - Sistema de Follow
 
 <br>
 
@@ -218,7 +225,7 @@ O produto deve oferecer a funcionalidade de seguir outros usuários para receber
 | 06/04/2019 | 0.3 | Definição das features  | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
 | 07/04/2019 | 0.4 | Definição das historias de usuário, historias técnicas  | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
 | 12/04/2019 | 0.5 | Adição de introdução  | Lucas Siqueira|
-
+| 01/05/2019 | 0.6 | Adição de backlog do projeto  | Lucas Siqueira|
 
 
 
