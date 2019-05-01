@@ -18,6 +18,8 @@ sidebar_label: Documento de Arquitetura
 Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema, garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores.
 </p>
 
+<br>
+
 ### Escopo
 
 <br>
@@ -33,6 +35,8 @@ Neste documento são apresentadas as descrições do modelo arquitetural, sua co
 <p align="justify">
 Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS no desenvolvimento do produto, oferecendo diretrizes quanto às tecnologias a serem utilizadas neste projeto, além de seu padrão de utilização.
 </p>
+
+<br>
 
 ### Visão Geral
 
@@ -53,6 +57,8 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 A arquitetura do +Monitoria, pode ser considerada uma arquitetura híbrida pois utiliza princípios de três padrões arquiteturais,sendo eles: Cliente-Servidor, MVC e Microsserviços. Também será utilizada uma api para autenticação externa visando abstrair a complexidade da implementação de um sistema de autenticação, a api definida para tal finalidade foi a firebase autentication.
 </p>
 
+<br>
+
 ### Cliente Servidor
 
 <br>
@@ -60,6 +66,8 @@ A arquitetura do +Monitoria, pode ser considerada uma arquitetura híbrida pois 
 <p align="justify">
 O principal relacionamento do projeto é implementado como um cliente-servidor. O cliente é representado pela Interface PWA, que irá realizar requisições na API Gateway, que é o servidor central do projeto.
 </p>
+
+<br>
 
 ### API Gateway
 
@@ -69,6 +77,8 @@ O principal relacionamento do projeto é implementado como um cliente-servidor. 
 A API Gateway é a API central do projeto, uma fachada entre o frontend e os microsserviços. É responsável por validar as requisições vindas da Interface PWA redirecionando aos microsserviços apenas requisições autenticadas.
 </p>
 
+<br>
+
 ### Interface PWA
 
 <br>
@@ -77,6 +87,8 @@ A API Gateway é a API central do projeto, uma fachada entre o frontend e os mic
 A interface de usuário do sistema, deverá se adequar ao PWA e será construida utilizando o ReactJS.
 </p>
 
+<br>
+
 ### Microsserviços
 
 <br>
@@ -84,6 +96,8 @@ A interface de usuário do sistema, deverá se adequar ao PWA e será construida
 <p align="justify">
 Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa prática, que pode ser adotada neste padrão arquitetural, tornando o sistema escalonável e independente, ademais também é uma boa prática possuir a api gateway para fornecer ponto de acesso aos microsserviços.
 </p>
+
+<br>
 
 ### Model-View-Controller
 
@@ -100,12 +114,11 @@ Padrão de arquitetura de software para implementar interfaces com o usuário. E
 
 - **Controller -** Responsável por gerenciar as camadas Model e View.
 
-</p>
-
 <p align="justify">
 Na arquitetura MVC do +Monitoria as camadas Model e Controller estão representadas dentro dos microserviços e a camada View é representada pela interface PWA.
-
 </p>
+
+<br>
 
 ### Django Rest Framework
 
@@ -127,6 +140,8 @@ A model do DRF é a camada responsável por gerir, modelar e persistir os dados.
 A view do DRF é a camada encarregada por interpretar entradas vindas de outros sistemas (através de endpoints), distribuindo comandos que geram atualização, busca de dados ou requisições em outras partes do próprio sistema ou de outro sistema que esteja sendo consumido, podendo fazer uso das classes definidas na camada de modelo (model).
 </p>
 
+<br>
+
 ### Postgres
 
 <br>
@@ -134,6 +149,8 @@ A view do DRF é a camada encarregada por interpretar entradas vindas de outros 
 <p align="justify">
 O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.
 </p>
+
+<br>
 
 ### ReactJS
 
@@ -143,6 +160,8 @@ O PostgreSQL é um banco de dados objeto relacional, ele será responsável por 
 O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
 </p>
 
+<br>
+
 ### FireBase
 
 <br>
@@ -150,6 +169,8 @@ O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScrip
 <p align="justify">
 Firebase é um produto da Google, um conjunto de tecnologias disponíveis em diversas linguagens: Java, Swift, Objective-C, Python, JavaScript (incluindo Node.js), Go, Unity e C++. Será utilizado uma das ferramentas desse produto, o Firebase Authentication. Essa ferramenta fornece serviços de back-end, SDKs fáceis de usar e bibliotecas de IU prontas para autenticar usuários. A autenticação se dará por meio de email/senha e via Facebook.
 </p>
+
+<br>
 
 ### Diagrama de Relações
 
@@ -185,11 +206,13 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
 
 <p align="justify">
 O backlog representa a acumulação de trabalho, é uma espécie de estoque relativo ao produto que ainda não foi desenvolvido, sendo assim entende-se como uma listagem de pedidos em espera.
+</p>
 
+<p align="justify">
 Especificamente neste documento, mesmo que de forma superficial e pouco eficiente, o Backlog supre a ausência de uma especificação dos casos de uso ou da descrição dos cenários de utilização.
+</p>
 
 Os épicos levantados para o produto são:
-</p>
 
 - **EPIC01 - Interface PWA:** O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
 
@@ -243,7 +266,7 @@ O padrão de arquitetura de microsserviços deverá ser utilizado para proporcio
 Visualização arquitetural (visão lógica) fornece uma base para compreensão da estrutura e a organização do design do sistema. Descrevendo os requisitos comportamentais e a decomposição do sistema em um conjunto de abstrações.
 </p>
 
-
+<br>
 
 ### Interface PWA
 
@@ -305,6 +328,8 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 
 - **tests.py** - arquivo onde serão escritos todos os testes realizados dentro do APP.
 
+<br>
+
 ### Interface PWA
 
 <br>
@@ -352,6 +377,8 @@ A arquitetura organiza a aplicação em microsserviços, isso faz com que a comp
 <p align="justify">
 O banco de dados Postgres é um software multi-plataforma altamente escalável. O software garantirá a segurança dos dados informados pelo usuário, além de disponibilizar ferramentas simples, funcionais e intuitivas.
 </p>
+
+<br>
 
 ## 10. Pipeline
 
