@@ -41,11 +41,11 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 ## 2. Representação Arquitetural
 
 <br>
-<!-- Corrigir -->
+
 
 <p align="justify">
 
-A arquitetura do Mais Monitoria, pode ser considerada uma arquitetura hibrida pois utiliza principios de três padroes arquiteturais,sendo eles: Cliente-Servidor, MVC e Microsserviços. Tambem será utilizada uma api para autenticação externa visando abstrair a complexidade da implementação de um sistema de autenticação, a api escolhida para tal fim foi a firebase autentication.
+A arquitetura do +Monitoria, pode ser considerada uma arquitetura híbrida pois utiliza princípios de três padrões arquiteturais,sendo eles: Cliente-Servidor, MVC e Microsserviços. Também será utilizada uma api para autenticação externa visando abstrair a complexidade da implementação de um sistema de autenticação, a api definida para tal finalidade foi a firebase autentication.
 </p>
 
 ### Cliente Servidor
@@ -62,15 +62,15 @@ A API Gateway é a API central do projeto, uma fachada entre o frontend e os mic
 
 ### Interface PWA
 
-<!-- imterface do usuario do sistema, interface pwa , construido com reactjs -->
+
 <p align="justify"> 
-é um termo usado para denotar uma nova metodologia de desenvolvimento de software. Um Progressive Web App pode ser visto como uma evolução híbrida entre as páginas da web regulares e um aplicativo móvel. Este novo modelo de aplicação combina recursos oferecidos pelos navegadores.
+A interface de usuario do sistema, deverar se adequar ao PWA e será construida utilizando o ReactJS.
 </p>
 
 ### Microsserviços
-<!-- corrigir -->
+
 <p align="justify">
-Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa pratica, que pode ser adotada neste padrão arquitetural, para que o sistema seja escolanavel e independente, alem disso tambem é uma boa pratica possuir api gatwey para fornecer ponto de acesso aos microsserviços. 
+Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa prática, que pode ser adotada neste padrão arquitetural, tornando o sistema escalanável e independente, ademais também é uma boa prática possuir a api gateway para fornecer ponto de acesso aos microsserviços. 
 </p>
 
 ### Model-View-Controller
@@ -87,7 +87,7 @@ Padrão de arquitetura de software para implementar interfaces com o usuário. E
 **Controller -** Responsável por gerenciar as camadas Model e View.
 
 </p>
-<!-- mudança -->
+
 <p align="justify">
 Na arquitetura MVC do +Monitoria as camadas Model e Controller estão representadas dentro dos microserviços e a camada View é representada pela interface PWA.
 
@@ -221,7 +221,8 @@ O padrão de arquitetural de microsserviços devera ser utilizado para proporcio
 Visualização arquitetural (visão lógica) fornece uma base para compreensão da estrutura e a organização do design do sistema. Descrevendo os requisitos comportamentais e a decomposição do sistema em um conjunto de abstrações.
 </p>
 
-<!-- colocar o diagrama de pacotes nesses topicos -->
+![Diagrama de Pacote](assets/Diagrama_de_pacotes.png)
+
 
 ### Interface PWA
 
@@ -235,7 +236,6 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 
 ## 6. Visão de Implantação
 
-<!-- explicar diagrama de estados do diagrama de implantação -->
 
 <br>
 
@@ -243,7 +243,13 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 
 <br>
 
-<p align="justify">O diagrama de implantação é responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado.
+<p align="justify">O diagrama de implantação é responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado.O diagrama de implantação mostra um diagrama de estados para tratar da autenticação, com os seguintes passos:
+
+- Passo 1: O usuário poderá cadastrar-se por meio de uma api de autenticação.
+- Passo 2: Retorna os usuários Cadastrados para login.
+- Passo 3: Envia os dados do cadastro para api de comunicação.
+- Passo 4: Verifica os dados recebidos do usuário com os dados que estão salvos na api de autenticação.
+
 </p>
 
 <br>
@@ -320,10 +326,8 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 
 <br>
 
-<p align="justify">O objetivo do pipeline é automatizar o processo de entrega de software em produção de forma rápida, ao mesmo tempo garantindo sua estabilidade, qualidade e resiliência.
+<p align="justify">O objetivo do pipeline é automatizar o processo de entrega de software em produção de forma rápida, ao mesmo tempo garantindo sua estabilidade, qualidade e resiliência. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, o código é construído (build), testado (testing) através de testes automatizados, verificado se está de acordo com a folha de estilo (style guide) e verificado se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, o código está pronto pra ir para o deploy.
 </p>
-
-
 
 ![Pipeline](assets/pipeline_mm.png)
 
