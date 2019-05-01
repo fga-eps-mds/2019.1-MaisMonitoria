@@ -17,8 +17,10 @@ sidebar_label: Documento de visão
 
 <br>
 
-- Criar uma aplicação que visa facilitar a relação entre monitores e estudantes
-- Agilizar o processo de agendamento de encontros com monitores, sobrando assim mais tempo para o aluno se dedicar aos estudos
+<p align="justify">
+O +Monitoria visa integrar alunos da Universida de Brasília campus Gama, que estão dispostos e tem interesse a ensinar com alunos que buscam ajuda no seu aprendizado. Nossa proposta é somar ao modelo de monitorias atual, resolvendo alguns impendimentos que existem como: numero limitado de monitores por disciplina, hoarios imcompativeis e o receio de como monitor matriculado não possuir todo o conhecimento necessario para abordar todos os topicos da disciplina. Dentro do nosso produto este usuario podera escolher apenas um topico da disciplina que tenha um conhecimento bom e queira compartilha-lo, disponizando horarios mais flexiveis em relação as monitorias tradicionais.
+</p>
+
 
 ## 3. Descrição do usuário
 
@@ -68,13 +70,13 @@ sidebar_label: Documento de visão
 
 <br>
 
-<p align="justify">Este documento esclarece as singularidades da aplicação, descreve as necessidades que incentivaram seu desenvolvimento. Sua organização é realizada utilizando-se de tópicos e subtópicos enumerados, sendo seus tópicos: Introdução, Descrição do Usuário, Envolvidos, Visão Geral, Recursos do Produto, Requisitos não Funcionais, Referências Bibliográficas, Histórico de Revisão.</p>
+<p align="justify">Este tópico esclarece as singularidades da aplicação, descreve as necessidades que incentivaram seu desenvolvimento. Sua organização é realizada utilizando-se de tópicos e subtópicos enumerados, sendo seus tópicos: Introdução, Descrição do Usuário, Envolvidos, Visão Geral, Recursos do Produto, Requisitos não Funcionais, Referências Bibliográficas, Histórico de Revisão.</p>
 
 ### 5.1 Visão Geral do Produto
 
 <br>
 
-<p align="justify">A principal funcionalidade da aplicação é flexibilizar as monitorias, ou seja, facilitar o encontro entre estudantes e monitores. O aluno cadastrado terá acesso a uma série de funcionalidades que o ajudará a entrar em contato com algum monitor que esteja disponível no menor tempo possível, poupando assim bastante tempo que pode ser aproveitado em estudos de forma forma eficiente.</p>
+<p align="justify">A principal funcionalidade da aplicação é flexibilizar as monitorias, ou seja, facilitar o encontro entre estudantes e monitores. O aluno cadastrado terá acesso a uma série de funcionalidades que o ajudará a entrar em contato com algum monitor que esteja disponível em um horário comum.</p>
 
 ## 6. Outros Aplicativos
 
