@@ -12,11 +12,15 @@ sidebar_label: Documento de Arquitetura
 
 ### Objetivo
 
+<br>
+
 <p align="justify">
 Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema, garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores.
 </p>
 
 ### Escopo
+
+<br>
 
 <p align="justify">
 O +Monitoria é um produto de software que contará com uma interface Web Progressiva (PWA) e uma estrutura de microsserviços responsável pela implementação das regras de negócios, com objetivo de facilitar as monitorias na FGA.
@@ -32,6 +36,8 @@ Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS n
 
 ### Visão Geral
 
+<br>
+
 <p align="justify">
 Neste documento estão descritos os seguintes pontos, respectivamente: Representação Arquitetural, Backlog, Metas e Restrições de Arquitetura, Visão Lógica, Visão de Implantação, Visão da Implementação, Tamanho e Desempenho, Qualidade e Pipeline.
 </p>
@@ -42,7 +48,6 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 
 <br>
 
-
 <p align="justify">
 
 A arquitetura do +Monitoria, pode ser considerada uma arquitetura híbrida pois utiliza princípios de três padrões arquiteturais,sendo eles: Cliente-Servidor, MVC e Microsserviços. Também será utilizada uma api para autenticação externa visando abstrair a complexidade da implementação de um sistema de autenticação, a api definida para tal finalidade foi a firebase autentication.
@@ -50,11 +55,15 @@ A arquitetura do +Monitoria, pode ser considerada uma arquitetura híbrida pois 
 
 ### Cliente Servidor
 
+<br>
+
 <p align="justify">
 O principal relacionamento do projeto é implementado como um cliente-servidor. O cliente é representado pela Interface PWA, que irá realizar requisições na API Gateway, que é o servidor central do projeto.
 </p>
 
 ### API Gateway
+
+<br>
 
 <p align="justify">
 A API Gateway é a API central do projeto, uma fachada entre o frontend e os microsserviços. É responsável por validar as requisições vindas da Interface PWA redirecionando aos microsserviços apenas requisições autenticadas.
@@ -62,6 +71,7 @@ A API Gateway é a API central do projeto, uma fachada entre o frontend e os mic
 
 ### Interface PWA
 
+<br>
 
 <p align="justify">
 A interface de usuário do sistema, deverá se adequar ao PWA e será construida utilizando o ReactJS.
@@ -69,22 +79,26 @@ A interface de usuário do sistema, deverá se adequar ao PWA e será construida
 
 ### Microsserviços
 
+<br>
+
 <p align="justify">
 Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa prática, que pode ser adotada neste padrão arquitetural, tornando o sistema escalonável e independente, ademais também é uma boa prática possuir a api gateway para fornecer ponto de acesso aos microsserviços.
 </p>
 
 ### Model-View-Controller
 
+<br>
+
 <p align="justify">
 Padrão de arquitetura de software para implementar interfaces com o usuário. Ele divide um determinado aplicativo de software em três camadas interconectadas: o modelo (Model), a visão (View) e o controlador (Controller).
 </p>
 
-**Model -** Responsável por tratar as regras de negócio. Obter os dados e os traduzir em informações para serem exibidas pela View.
+- **Model -** Responsável por tratar as regras de negócio. Obter os dados e os traduzir em informações para serem exibidas pela View.
 
-**View -**
+- **View -**
 É camada de interface com usuário e responsável pela interação com a Model.
 
-**Controller -** Responsável por gerenciar as camadas Model e View.
+- **Controller -** Responsável por gerenciar as camadas Model e View.
 
 </p>
 
@@ -94,6 +108,8 @@ Na arquitetura MVC do +Monitoria as camadas Model e Controller estão representa
 </p>
 
 ### Django Rest Framework
+
+<br>
 
 <p align="justify">
 O DRF é um extensão do Django Framework e é utilizado para a construção de APIs em plataforma Web. Com esse, é possível criar um backend independente, através de serviços, podendo ser acessado por uma aplicação mobile ou web através de requisições do tipo REST. Uma arquitetura REST opera através de métodos de protocolo HTTP; como GET, POST, PUT, DELETE, entre outros.
@@ -113,17 +129,23 @@ A view do DRF é a camada encarregada por interpretar entradas vindas de outros 
 
 ### Postgres
 
+<br>
+
 <p align="justify">
 O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.
 </p>
 
 ### ReactJS
 
+<br>
+
 <p align="justify">
 O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
 </p>
 
 ### FireBase
+
+<br>
 
 <p align="justify">
 Firebase é um produto da Google, um conjunto de tecnologias disponíveis em diversas linguagens: Java, Swift, Objective-C, Python, JavaScript (incluindo Node.js), Go, Unity e C++. Será utilizado uma das ferramentas desse produto, o Firebase Authentication. Essa ferramenta fornece serviços de back-end, SDKs fáceis de usar e bibliotecas de IU prontas para autenticar usuários. A autenticação se dará por meio de email/senha e via Facebook.
@@ -225,25 +247,25 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 
 ### Interface PWA
 
+<br>
 
 ![Diagrama de Pacote](assets/Diagrama_de_pacotes.png)
 Diagrama de pacotes.
 
+<br>
+
 ### Microsserviço de Monitorias
 
+<br>
 
 ![Diagrama de Classe](assets/diagrama_de_classes.jpeg)
 Diagrama de classes.
-
-</p>
 
 <br>
 
 ## 6. Visão de Implantação
 
-
 <br>
-
 
 ![Diagrama de Implantação](assets/diagrama_de_implantacao.png)
 Diagrama de implementação.
@@ -251,14 +273,13 @@ Diagrama de implementação.
 <br>
 
 <p align="justify">O diagrama de implantação é responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado.O diagrama de implantação mostra um diagrama de estados para tratar da autenticação, com os seguintes passos:
-
-- Passo 1: O usuário poderá cadastrar-se por meio de uma api de autenticação.
-- Passo 2: Retorna os usuários Cadastrados para login.
-- Passo 3: Envia os dados do cadastro para api de comunicação.
-- Passo 4: Verifica os dados recebidos do usuário com os dados que estão salvos na api de autenticação.
-- Passo 5: Registra em monitoria os dados do monitor.
-
 </p>
+
+- **Passo 1:** O usuário poderá cadastrar-se por meio de uma api de autenticação.
+- **Passo 2:** Retorna os usuários Cadastrados para login.
+- **Passo 3:** Envia os dados do cadastro para api de comunicação.
+- **Passo 4:** Verifica os dados recebidos do usuário com os dados que estão salvos na api de autenticação.
+- **Passo 5:** Registra em monitoria os dados do monitor.
 
 <br>
 
@@ -267,6 +288,8 @@ Diagrama de implementação.
 <br>
 
 ### Microsserviços
+
+<br>
 
 <p align="justify">
 No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos seguintes arquivos:
@@ -283,6 +306,8 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 - **tests.py** - arquivo onde serão escritos todos os testes realizados dentro do APP.
 
 ### Interface PWA
+
+<br>
 
 <p align="justify">
 No projeto, a interface PWA será construída utilizando ReactJS, que tem sua estrutura composta por os seguintes arquivos:
@@ -335,11 +360,13 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 <p align="justify">O pipeline define as fases do processo de construção do software e implementação. A integração contínua executa as tarefas do pipeline automaticamente. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, a aplicação é construída (build), testada (testing) através de testes automatizados, verificada se está de acordo com a folha de estilo (style guide) e verificada se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, a aplicação está pronta para o deploy.
 </p>
 
+<br>
+
 ![Pipeline](assets/pipeline_mm.png)
 
+<br>
 
 Passos utilizados:
-
 
 - **Build** - Constrói o código, garantindo sua execução.
 
@@ -353,10 +380,7 @@ Passos utilizados:
 
 - **Docker Hub** - Após passar por todas etapas da integração contínua irá atualizar as imagens no Docker Hub.
 
-</p>
-
 <!-- reescrever ranch( não precisa ser um topico) -->
-
 
 <br>
 
@@ -426,8 +450,9 @@ ___
 | 26/04/2019 | 0.8 | Refatorado os tópicos 2 e 3 | João Pedro, Lucas Alexandre, Renan Cristyan |
 | 26/04/2019 | 0.9 | Atualizado tópico 5, refatorado diagrama de transição | João Pedro, Lucas Alexandre, Renan Cristyan |
 | 27/04/2019 | 0.9 | Atualizado tópico 2 e 5 | João Pedro, Lucas Alexandre, Mateus Estanislau |
-| 29/04/2019 | 1.0 | Documento Refatorado | João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre|
-| 01/05/2019 | 1.1 | Refatorado Pipeline |Mateus Estanislau, Moacir Mascarenha, Renan Cristyan|
+| 29/04/2019 | 1.0 | Revisão, criação e atualização de vários tópicos | Lucas Macêdo |
+| 29/04/2019 | 1.1 | Documento Refatorado | João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre|
+| 01/05/2019 | 1.2 | Refatorado Pipeline |Mateus Estanislau, Moacir Mascarenha, Renan Cristyan|
 
 
 
