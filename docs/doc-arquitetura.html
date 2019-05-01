@@ -54,10 +54,12 @@
 <h2><a class="anchor" aria-hidden="true" id="1-introducão"></a><a href="#1-introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Introdução</h2>
 <p><br></p>
 <h3><a class="anchor" aria-hidden="true" id="objetivo"></a><a href="#objetivo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Objetivo</h3>
+<p><br></p>
 <p align="justify">
 Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema, garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="escopo"></a><a href="#escopo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Escopo</h3>
+<p><br></p>
 <p align="justify">
 O +Monitoria é um produto de software que contará com uma interface Web Progressiva (PWA) e uma estrutura de microsserviços responsável pela implementação das regras de negócios, com objetivo de facilitar as monitorias na FGA.
 </p>
@@ -68,6 +70,7 @@ Neste documento são apresentadas as descrições do modelo arquitetural, sua co
 Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS no desenvolvimento do produto, oferecendo diretrizes quanto às tecnologias a serem utilizadas neste projeto, além de seu padrão de utilização.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="visão-geral"></a><a href="#visão-geral" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visão Geral</h3>
+<p><br></p>
 <p align="justify">
 Neste documento estão descritos os seguintes pontos, respectivamente: Representação Arquitetural, Backlog, Metas e Restrições de Arquitetura, Visão Lógica, Visão de Implantação, Visão da Implementação, Tamanho e Desempenho, Qualidade e Pipeline.
 </p>
@@ -78,34 +81,42 @@ Neste documento estão descritos os seguintes pontos, respectivamente: Represent
 <p>A arquitetura do +Monitoria, pode ser considerada uma arquitetura híbrida pois utiliza princípios de três padrões arquiteturais,sendo eles: Cliente-Servidor, MVC e Microsserviços. Também será utilizada uma api para autenticação externa visando abstrair a complexidade da implementação de um sistema de autenticação, a api definida para tal finalidade foi a firebase autentication.</p>
 </p>
 <h3><a class="anchor" aria-hidden="true" id="cliente-servidor"></a><a href="#cliente-servidor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cliente Servidor</h3>
+<p><br></p>
 <p align="justify">
 O principal relacionamento do projeto é implementado como um cliente-servidor. O cliente é representado pela Interface PWA, que irá realizar requisições na API Gateway, que é o servidor central do projeto.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="api-gateway"></a><a href="#api-gateway" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>API Gateway</h3>
+<p><br></p>
 <p align="justify">
 A API Gateway é a API central do projeto, uma fachada entre o frontend e os microsserviços. É responsável por validar as requisições vindas da Interface PWA redirecionando aos microsserviços apenas requisições autenticadas.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="interface-pwa"></a><a href="#interface-pwa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interface PWA</h3>
+<p><br></p>
 <p align="justify">
 A interface de usuário do sistema, deverá se adequar ao PWA e será construida utilizando o ReactJS.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="microsservicos"></a><a href="#microsservicos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Microsserviços</h3>
+<p><br></p>
 <p align="justify">
 Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa prática, que pode ser adotada neste padrão arquitetural, tornando o sistema escalonável e independente, ademais também é uma boa prática possuir a api gateway para fornecer ponto de acesso aos microsserviços.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="model-view-controller"></a><a href="#model-view-controller" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Model-View-Controller</h3>
+<p><br></p>
 <p align="justify">
 Padrão de arquitetura de software para implementar interfaces com o usuário. Ele divide um determinado aplicativo de software em três camadas interconectadas: o modelo (Model), a visão (View) e o controlador (Controller).
 </p>
-<p><strong>Model -</strong> Responsável por tratar as regras de negócio. Obter os dados e os traduzir em informações para serem exibidas pela View.</p>
-<p><strong>View -</strong>
-É camada de interface com usuário e responsável pela interação com a Model.</p>
-<p><strong>Controller -</strong> Responsável por gerenciar as camadas Model e View.</p>
+<ul>
+<li><p><strong>Model -</strong> Responsável por tratar as regras de negócio. Obter os dados e os traduzir em informações para serem exibidas pela View.</p></li>
+<li><p><strong>View -</strong>
+É camada de interface com usuário e responsável pela interação com a Model.</p></li>
+<li><p><strong>Controller -</strong> Responsável por gerenciar as camadas Model e View.</p></li>
+</ul>
 </p>
 <p align="justify">
 Na arquitetura MVC do +Monitoria as camadas Model e Controller estão representadas dentro dos microserviços e a camada View é representada pela interface PWA.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="django-rest-framework"></a><a href="#django-rest-framework" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Django Rest Framework</h3>
+<p><br></p>
 <p align="justify">
 O DRF é um extensão do Django Framework e é utilizado para a construção de APIs em plataforma Web. Com esse, é possível criar um backend independente, através de serviços, podendo ser acessado por uma aplicação mobile ou web através de requisições do tipo REST. Uma arquitetura REST opera através de métodos de protocolo HTTP; como GET, POST, PUT, DELETE, entre outros.
 </p>
@@ -119,14 +130,17 @@ A model do DRF é a camada responsável por gerir, modelar e persistir os dados.
 A view do DRF é a camada encarregada por interpretar entradas vindas de outros sistemas (através de endpoints), distribuindo comandos que geram atualização, busca de dados ou requisições em outras partes do próprio sistema ou de outro sistema que esteja sendo consumido, podendo fazer uso das classes definidas na camada de modelo (model).
 </p>
 <h3><a class="anchor" aria-hidden="true" id="postgres"></a><a href="#postgres" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Postgres</h3>
+<p><br></p>
 <p align="justify">
 O PostgreSQL é um banco de dados objeto relacional, ele será responsável por armazenar os dados do projeto.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="reactjs"></a><a href="#reactjs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ReactJS</h3>
+<p><br></p>
 <p align="justify">
 O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="firebase"></a><a href="#firebase" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FireBase</h3>
+<p><br></p>
 <p align="justify">
 Firebase é um produto da Google, um conjunto de tecnologias disponíveis em diversas linguagens: Java, Swift, Objective-C, Python, JavaScript (incluindo Node.js), Go, Unity e C++. Será utilizado uma das ferramentas desse produto, o Firebase Authentication. Essa ferramenta fornece serviços de back-end, SDKs fáceis de usar e bibliotecas de IU prontas para autenticar usuários. A autenticação se dará por meio de email/senha e via Facebook.
 </p>
@@ -188,12 +202,14 @@ O padrão de arquitetura de microsserviços deverá ser utilizado para proporcio
 Visualização arquitetural (visão lógica) fornece uma base para compreensão da estrutura e a organização do design do sistema. Descrevendo os requisitos comportamentais e a decomposição do sistema em um conjunto de abstrações.
 </p>
 <h3><a class="anchor" aria-hidden="true" id="interface-pwa-1"></a><a href="#interface-pwa-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interface PWA</h3>
+<p><br></p>
 <p><img src="/2019.1-MaisMonitoria/docs/assets/Diagrama_de_pacotes.png" alt="Diagrama de Pacote">
 Diagrama de pacotes.</p>
+<p><br></p>
 <h3><a class="anchor" aria-hidden="true" id="microsservico-de-monitorias"></a><a href="#microsservico-de-monitorias" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Microsserviço de Monitorias</h3>
+<p><br></p>
 <p><img src="/2019.1-MaisMonitoria/docs/assets/diagrama_de_classes.jpeg" alt="Diagrama de Classe">
 Diagrama de classes.</p>
-</p>
 <p><br></p>
 <h2><a class="anchor" aria-hidden="true" id="6-visão-de-implantacão"></a><a href="#6-visão-de-implantacão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>6. Visão de Implantação</h2>
 <p><br></p>
@@ -201,18 +217,19 @@ Diagrama de classes.</p>
 Diagrama de implementação.</p>
 <p><br></p>
 <p align="justify">O diagrama de implantação é responsável por estabelecer a relação entre os recursos de infraestrutura e artefatos do sistema, em outras palavras, ele mapeia as necessidades do software a ser implantado.O diagrama de implantação mostra um diagrama de estados para tratar da autenticação, com os seguintes passos:
-<ul>
-<li>Passo 1: O usuário poderá cadastrar-se por meio de uma api de autenticação.</li>
-<li>Passo 2: Retorna os usuários Cadastrados para login.</li>
-<li>Passo 3: Envia os dados do cadastro para api de comunicação.</li>
-<li>Passo 4: Verifica os dados recebidos do usuário com os dados que estão salvos na api de autenticação.</li>
-<li>Passo 5: Registra em monitoria os dados do monitor.</li>
-</ul>
 </p>
+<ul>
+<li><strong>Passo 1:</strong> O usuário poderá cadastrar-se por meio de uma api de autenticação.</li>
+<li><strong>Passo 2:</strong> Retorna os usuários Cadastrados para login.</li>
+<li><strong>Passo 3:</strong> Envia os dados do cadastro para api de comunicação.</li>
+<li><strong>Passo 4:</strong> Verifica os dados recebidos do usuário com os dados que estão salvos na api de autenticação.</li>
+<li><strong>Passo 5:</strong> Registra em monitoria os dados do monitor.</li>
+</ul>
 <p><br></p>
 <h2><a class="anchor" aria-hidden="true" id="7-visão-de-implementacão"></a><a href="#7-visão-de-implementacão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>7. Visão de Implementação</h2>
 <p><br></p>
 <h3><a class="anchor" aria-hidden="true" id="microsservicos-1"></a><a href="#microsservicos-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Microsserviços</h3>
+<p><br></p>
 <p align="justify">
 No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos seguintes arquivos:
 </p>
@@ -224,6 +241,7 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 <li><p><strong>tests.py</strong> - arquivo onde serão escritos todos os testes realizados dentro do APP.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="interface-pwa-2"></a><a href="#interface-pwa-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interface PWA</h3>
+<p><br></p>
 <p align="justify">
 No projeto, a interface PWA será construída utilizando ReactJS, que tem sua estrutura composta por os seguintes arquivos:
 </p>
@@ -258,7 +276,9 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 <p><br></p>
 <p align="justify">O pipeline define as fases do processo de construção do software e implementação. A integração contínua executa as tarefas do pipeline automaticamente. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, a aplicação é construída (build), testada (testing) através de testes automatizados, verificada se está de acordo com a folha de estilo (style guide) e verificada se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, a aplicação está pronta para o deploy.
 </p>
+<p><br></p>
 <p><img src="/2019.1-MaisMonitoria/docs/assets/pipeline_mm.png" alt="Pipeline"></p>
+<p><br></p>
 <p>Passos utilizados:</p>
 <ul>
 <li><p><strong>Build</strong> - Constrói o código, garantindo sua execução.</p></li>
@@ -270,7 +290,6 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 <ul>
 <li><strong>Docker Hub</strong> - Após passar por todas etapas da integração contínua irá atualizar as imagens no Docker Hub.</li>
 </ul>
-</p>
 <!-- reescrever ranch( não precisa ser um topico) -->
 <p><br></p>
 <h2><a class="anchor" aria-hidden="true" id="11-referencias-bibliograficas"></a><a href="#11-referencias-bibliograficas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>11. Referências Bibliográficas</h2>
@@ -313,9 +332,9 @@ API Gateway em arquitetura de microsserviços. Disponível em:
 <a href="https://www.django-rest-framework.org/topics/html-and-forms/">https://www.django-rest-framework.org/topics/html-and-forms/</a></p>
 </blockquote>
 <blockquote>
-<p>MVC, MTV e Django. Disponível em :</p>
+<p>MVC, MTV e Django. Disponível em :
+<a href="http://pyman.blogspot.com/2007/04/o-mvc-o-mtv-e-o-django.html">http://pyman.blogspot.com/2007/04/o-mvc-o-mtv-e-o-django.html</a></p>
 </blockquote>
-<p><a href="http://pyman.blogspot.com/2007/04/o-mvc-o-mtv-e-o-django.html">http://pyman.blogspot.com/2007/04/o-mvc-o-mtv-e-o-django.html</a></p>
 <blockquote>
 <p>Criando uma API REST utilizando Django REST Framework. Disponível em :
 <a href="https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-framework-parte-1-55ac3e394fa">https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-framework-parte-1-55ac3e394fa</a></p>
@@ -351,8 +370,9 @@ API Gateway em arquitetura de microsserviços. Disponível em:
 <tr><td style="text-align:center">26/04/2019</td><td style="text-align:center">0.8</td><td style="text-align:center">Refatorado os tópicos 2 e 3</td><td style="text-align:center">João Pedro, Lucas Alexandre, Renan Cristyan</td></tr>
 <tr><td style="text-align:center">26/04/2019</td><td style="text-align:center">0.9</td><td style="text-align:center">Atualizado tópico 5, refatorado diagrama de transição</td><td style="text-align:center">João Pedro, Lucas Alexandre, Renan Cristyan</td></tr>
 <tr><td style="text-align:center">27/04/2019</td><td style="text-align:center">0.9</td><td style="text-align:center">Atualizado tópico 2 e 5</td><td style="text-align:center">João Pedro, Lucas Alexandre, Mateus Estanislau</td></tr>
-<tr><td style="text-align:center">29/04/2019</td><td style="text-align:center">1.0</td><td style="text-align:center">Documento Refatorado</td><td style="text-align:center">João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre</td></tr>
-<tr><td style="text-align:center">01/05/2019</td><td style="text-align:center">1.1</td><td style="text-align:center">Refatorado Pipeline</td><td style="text-align:center">Mateus Estanislau, Moacir Mascarenha, Renan Cristyan</td></tr>
+<tr><td style="text-align:center">29/04/2019</td><td style="text-align:center">1.0</td><td style="text-align:center">Revisão, criação e atualização de vários tópicos</td><td style="text-align:center">Lucas Macêdo</td></tr>
+<tr><td style="text-align:center">29/04/2019</td><td style="text-align:center">1.1</td><td style="text-align:center">Documento Refatorado</td><td style="text-align:center">João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre</td></tr>
+<tr><td style="text-align:center">01/05/2019</td><td style="text-align:center">1.2</td><td style="text-align:center">Refatorado Pipeline</td><td style="text-align:center">Mateus Estanislau, Moacir Mascarenha, Renan Cristyan</td></tr>
 </tbody>
 </table>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2019.1-MaisMonitoria/docs/doc-visao"><span class="arrow-prev">← </span><span>Documento de visão</span></a><a class="docs-next button" href="/2019.1-MaisMonitoria/docs/doc-folhaEstilo"><span>Folha de Estilo</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#1-introducão">1. Introdução</a><ul class="toc-headings"><li><a href="#objetivo">Objetivo</a></li><li><a href="#escopo">Escopo</a></li><li><a href="#visão-geral">Visão Geral</a></li></ul></li><li><a href="#2-representacão-arquitetural">2. Representação Arquitetural</a><ul class="toc-headings"><li><a href="#cliente-servidor">Cliente Servidor</a></li><li><a href="#api-gateway">API Gateway</a></li><li><a href="#interface-pwa">Interface PWA</a></li><li><a href="#microsservicos">Microsserviços</a></li><li><a href="#model-view-controller">Model-View-Controller</a></li><li><a href="#django-rest-framework">Django Rest Framework</a></li><li><a href="#postgres">Postgres</a></li><li><a href="#reactjs">ReactJS</a></li><li><a href="#firebase">FireBase</a></li><li><a href="#diagrama-de-relacões">Diagrama de Relações</a></li></ul></li><li><a href="#3-backlog">3. Backlog</a></li><li><a href="#4-metas-e-restricões-de-arquitetura">4. Metas e Restrições de Arquitetura</a></li><li><a href="#5-visão-logica">5. Visão Lógica</a><ul class="toc-headings"><li><a href="#interface-pwa-1">Interface PWA</a></li><li><a href="#microsservico-de-monitorias">Microsserviço de Monitorias</a></li></ul></li><li><a href="#6-visão-de-implantacão">6. Visão de Implantação</a></li><li><a href="#7-visão-de-implementacão">7. Visão de Implementação</a><ul class="toc-headings"><li><a href="#microsservicos-1">Microsserviços</a></li><li><a href="#interface-pwa-2">Interface PWA</a></li></ul></li><li><a href="#8-tamanho-e-desempenho">8. Tamanho e desempenho</a></li><li><a href="#9-qualidade">9. Qualidade</a></li><li><a href="#10-pipeline">10. Pipeline</a></li><li><a href="#11-referencias-bibliograficas">11. Referências Bibliográficas</a></li><li><a href="#historico-de-revisão">Histórico de Revisão</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><h5>Nossos repositórios</h5><a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria">+Monitoria Docs</a><a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria-FrontEnd">+Monitoria FrontEnd</a><a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria-api">+Monitoria API gateway</a><a href="https://github.com/fga-eps-mds/2019.1-MaisMonitoria-ApiMonitorias">+Monitoria API monitorias</a></section><section class="copyright">Copyright © 2019 +Monitoria</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
