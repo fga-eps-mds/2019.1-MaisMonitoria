@@ -10,9 +10,9 @@ sidebar_label: Documento de visão
 
 <br>
 
-<p align="justify"> Esse documento tem como propósito demonstrar a visão geral, as características, reunir as funcionalidades, requisitos e os objetivos do aplicativo web a ser produzido o +Monitoria. Fornece uma visão unificada das necessidades e expectativas do cliente em relação ao software, além de ajudar a reduzir riscos.<p>
+<p align="justify"> Este documento tem como propósito demonstrar a visão geral, as características, reunir as funcionalidades, requisitos e os objetivos do aplicativo web a ser produzido o +Monitoria. Fornece uma visão unificada das necessidades e expectativas do cliente em relação ao software, além de ajudar a reduzir riscos.<p>
 
-<p align="justify"> Muitos alunos no meio acadêmico possuem dificuldades em seu aprendizado durante seus estudos tradicionais, através disso foi idealizado um ambiente agradável que possibilitasse que alunos pudessem trocar informações com a realização de monitorias.</p>
+<p align="justify"> Muitos alunos no meio acadêmico possuem dificuldades em seu aprendizado durante seus estudos tradicionais. Através disso foi idealizado, um ambiente agradável que possibilitasse que alunos pudessem trocar informações com a realização de monitorias.</p>
 
 ## 2. Descrição do problema
 
@@ -33,11 +33,11 @@ sidebar_label: Documento de visão
 | Quanto custa? | +- R$ 330.000,00 |
 
 
-### 2.1 Problema
+### 2.2 Problema
 
 <br>
 
-| | Informaões do problema |
+| | Informações do problema |
 |:------:|:------:|
 | O problema | Falta de transparência na comunicação entre alunos e monitores |
 | Afeta | Estudantes de diversas matérias da FGA |
@@ -105,25 +105,15 @@ O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que e
 
 <p align="justify">A principal funcionalidade da aplicação é flexibilizar as monitorias, ou seja, facilitar o encontro entre estudantes e monitores. O aluno cadastrado terá acesso a uma série de funcionalidades que o ajudará a entrar em contato com algum monitor que esteja disponível em um horário comum.</p>
 
-## 7. Instrução de posição do produto
 
-<br>
 
-| | Instrução de posição do produto |
-| :-: | :-: |
-| Para | Qualquer aluno que esteja disposto a ensinar ou a aprender |
-| Que | Quer ter mais praticidade no processo de se encontrar com outros monitores e/ou alunos |
-| +Monitoria é | Uma aplicação para facilitar encontros entre alunos e monitores |
-| Diferente do | Monitoria+App e Monitoria USJT |
-| Nosso produto | Tem mais flexibilidade em relação aos temas e conteúdos |
-
-## 8. Outros Aplicativos
+## 7. Outros Aplicativos
 
 <br>
 
 Nesta sessão serão listados alguns exemplos aplicativos de monitoria.
 
-### 8.1 Monitoria+App
+### 7.1 Monitoria+App
 
 <br>
 
@@ -134,7 +124,7 @@ Nesta sessão serão listados alguns exemplos aplicativos de monitoria.
 <p align="justify"> O aplicativo Monitoria+App é uma plataforma mobile, compatível somente com Android 5.0 ou superior,  que possui informações a respeito de conteúdos acadêmicos, porém todos documentos de texto e temas fixos.
 Em comparação o aplicativo +Monitoria possuirá uma maior flexibilidade em relação aos temas e  conteúdos, e será compatível para alguns navegadores.</p>
 
-### 8.2 Monitoria USJT
+### 7.2 Monitoria USJT
 
 <br>
 
@@ -145,6 +135,18 @@ Em comparação o aplicativo +Monitoria possuirá uma maior flexibilidade em rel
 <p align="justify"> O aplicativo Monitoria USJT, compatível com Android 4.4 ou superior, possui funcionalidades muito semelhantes ao aplicativo Monitoria+App, diferenciando-se na exibição dos assuntos, dividindo-os em áreas de conhecimento e apresentando todas as opções.</p>
 
 <p align="justify"> Algumas poucas novidades em relação ao Monitoria+App são apresentadas, destacando-se o chat e os avisos gerais. Além disso, o +Monitoria filtrará a pesquisa de monitorias utilizando palavras chave e as apresentará de forma organizada para facilitar a busca.</p>
+
+## 8. Instrução de posição do produto
+
+<br>
+
+| | Instrução de posição do produto |
+| :-: | :-: |
+| Para | Qualquer aluno que esteja disposto a ensinar ou a aprender |
+| Que | Quer ter mais praticidade no processo de se encontrar com outros monitores e/ou alunos |
+| +Monitoria é | Uma aplicação para facilitar encontros entre alunos e monitores |
+| Diferente do | Monitoria+App e Monitoria USJT |
+| Nosso produto | Tem mais flexibilidade em relação aos temas e conteúdos |
 
 ## 9. Recursos do produto
 
@@ -186,10 +188,10 @@ O ranking é um método de gamificação para incentivar os usuários a permanec
 Os Requisitos não Funcionais não estão relacionados diretamente às funcionalidades que estão disponiveis para o usuario em um sistema. Tratados geralmente como premissas e restrições técnicas de um projeto, os requisitos não funcionais são necessidades que não podem ser atendidas através de funcionalidades.
 
 Os requisitos não funcionais levantados do +Monitoria são: 
-- Usabilidade: Este requisito visa definir a facilidade e aprendizibilidade com que as pessoas podem desempenhar o uso do produto
-- Portabilidade: Este requisito visa tornar o produto capaz de ser usado em diferentes sistemas e computadores
-- Segurança: Este requisito visa garantir a integridade dos dados fornecidos pelo usuario e do seu uso na aplicação
-- Desempenho: Este requisito visa contemplar como o produto desempenha seus propositos durante o uso
+- Usabilidade: Este requisito visa definir a facilidade e aprendizibilidade com que as pessoas podem desempenhar o uso do produto.
+- Portabilidade: Este requisito visa tornar o produto capaz de ser usado em diferentes sistemas e computadores.
+- Segurança: Este requisito visa garantir a integridade dos dados fornecidos pelo usuario e do seu uso na aplicação.
+- Desempenho: Este requisito visa contemplar como o produto desempenha seus propositos durante o uso.
 
 Tais recursos serão definidos e modelados no [NFR](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/doc-nfr).
 
