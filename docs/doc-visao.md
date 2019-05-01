@@ -143,15 +143,25 @@ Método de gamificação para incentivar os usuários a permanecer utilizando o 
 
 <br>
 
-Os requisitos não funcionais se baseiam em portabilidade, tempo na execução, confiabilidade, mobilidade, etc. Tais recursos serão definidos e modelados, melhor, no NFR.
+Os Requisitos não Funcionais não estão relacionados diretamente às funcionalidades que estão disponiveis para o usuario em um sistema. Tratados geralmente como premissas e restrições técnicas de um projeto os requisitos não funcionais são necessidades que não podem ser atendidas através de funcionalidades.[3]
+
+Os requisitos não funcionais levantados do +Monitoria são: 
+- Usabilidade: Este requisito visa definir a facilidade e aprendizibilidade com que as pessoas podem desempenhar o uso do produto.
+- Portabilidade: Este requisito visa tornar o produto capaz de ser usado em diferentes sistemas e computadores.
+- Segurança: Este requisito visa garantir a integridade dos dados fornecidos pelo usuario e do seu uso na aplicação.
+- Desempenho: Este requisito visa contemplar como o produto desempenha seus propositos durante o uso.
+
+Tais recursos serão definidos e modelados, melhor, no [NFR](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/doc-nfr).
 
 ## 9. Referências bibliográficas
 
 <br>
 
->IBM Knowledge Center - Documento de Visão.Disponível em:https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html. Acesso em: 30 de março de 2019.
+>[1] IBM Knowledge Center - Documento de Visão.Disponível em:https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html. Acesso em: 30 de março de 2019.
 
->Artefato: Documento de Visão.Disponível em: http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/workproducts/documentoVisao_DFFF024D.html. Acesso em: 30 de março de 2019
+>[2] Artefato: Documento de Visão.Disponível em: http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/workproducts/documentoVisao_DFFF024D.html. Acesso em: 30 de março de 2019
+
+>[3] Requisitos funcionais e não funcionais. Disponível em: https://codificar.com.br/aplicativos/requisitos-funcionais-nao-funcionais/
 
 ## Histórico de revisão
 
@@ -164,6 +174,7 @@ Os requisitos não funcionais se baseiam em portabilidade, tempo na execução, 
 |29/03/2019|0.3|Preenchimento dos tópicos de visão geral e Visão Geral do Produto|Matheus de Cristo, Moacir Mascarenha|
 |30/03/2019|0.4|Criação do tópico Outros Aplicativos, preenchimento Visão Geral do Produto, Referências Bibliográficas, Recursos do Produto|João Pedro, Lucas Alexandre, Matheus de Cristo, Moacir Mascarenha e Renan Cristyan|
 |31/03/2019/|0.5|Finalização do papel dos Envolvidos|João Pedro e Lucas Alexandre|
+|01/04/2019/|0.5|Refatorado tópico 9|João Pedro,Lucas Alexandre e Lucas Siqueira|
 
 
 
