@@ -249,6 +249,7 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 - Passo 2: Retorna os usuários Cadastrados para login.
 - Passo 3: Envia os dados do cadastro para api de comunicação.
 - Passo 4: Verifica os dados recebidos do usuário com os dados que estão salvos na api de autenticação.
+- Passo 5: Registra em monitoria os dados do monitor.
 
 </p>
 
