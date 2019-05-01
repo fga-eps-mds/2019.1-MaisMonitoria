@@ -10,7 +10,7 @@ sidebar_label: Planning
 
 <br>
 
-- Período: 22/04 - 28/04
+- Período: 22/04 - 29/04
 - Scrum master: Lucas Siqueira
 - Product Owner: Caio Oliveira
 - Devops: Matheus Rodrigues
@@ -26,8 +26,6 @@ Tarefas|Pontos
 --|--
 |[Disponibilizar autenticação por API externa](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/56) | 8
 |[Documentos do scrum master sprint 5](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/77) | 1
-|[Lançar release notes](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/76) | 3
-|[Preparação para R1](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/75) | 5
 |[Finalizar pipeline](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/74) | 13
 |[Testar Front-end](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/73) | 5
 |[Testar API monitoria](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/72) | 3
@@ -36,7 +34,7 @@ Tarefas|Pontos
 
 
 
-Total de Pontos: 54
+Total de Pontos: 46
 
 ## 3. Quadro de conhecimento antes do início da sprint
 
@@ -55,8 +53,6 @@ Tarefas|Responsáveis
 --|--
 |[Disponibilizar autenticação por API externa](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/56) | Lucas Macedo, Lucas Alexandre, Renan Cristyan
 |[Documentos do scrum master sprint 5](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/77) | Lucas Siqueira
-|[Lançar release notes](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/76) | Lucas Siqueira, Caio Oliveira
-|[Preparação para R1](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/75) | Lucas Siqueira, Caio Oliveira, Matheus Estanislau
 |[Finalizar pipeline](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/74) | Matheus Rodrigues
 |[Testar Front-end](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/73) | Lucas Alexandre, Renan Cristyan
 |[Testar API monitoria](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/72) | João Pedro, Moacir Junior
