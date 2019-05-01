@@ -95,22 +95,21 @@ Tarefas|Status|Pontos
 
 ### 7.1 Análise dos riscos
 
+Foi assumido o risco de planejar mais pontos, pois essa foi a ultima sprint antes da release 1
 <br>
 
 **R01 - Dificuldade com as tecnologias:**
 
-**R07 - Entregas atrasadas:**
+Nessa sprint ocorreu a TS16 Finalizar Pipeline, que se deu á realizar o deploy no ambiente de homologação nesta tarefa, o nosso devops encontrou vários problemas com a tecnologia, por ser algo novo para ele.
 
-**R08 - Dependência das atividades:**
+As ações tomadas foram: Buscar ajuda no lappis para solucionar os problemas encontrados.
 
-**R13 - Conflito com entregas de outras disciplinas:**
 
 ### 7.2 Análise geral
 
 <br>
 
 <p align = "justify">
-
 
 
 
