@@ -13,7 +13,7 @@ sidebar_label: Documento de Arquitetura
 ### Objetivo
 
 <p align="justify">
-Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema, garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores. 
+Este documento visa esclarecer as principais características  arquiteturais do +Monitoria, com o objetivo de elucidar como será modelada toda a arquitetura do sistema, garantindo uma facilidade de visualização da estrutura e dos requisitos para os desenvolvedores.
 </p>
 
 ### Escopo
@@ -25,8 +25,8 @@ O +Monitoria é um produto de software que contará com uma interface Web Progre
 <p align="justify">
 Neste documento são apresentadas as descrições do modelo arquitetural, sua composição e requisitos de integração.
 </p>
-    
-<p align="justify"> 
+  
+<p align="justify">
 Além disso este documento tem como objetivo orientar toda equipe de MDS e EPS no desenvolvimento do produto, oferecendo diretrizes quanto às tecnologias a serem utilizadas neste projeto, além de seu padrão de utilização.
 </p>
 
@@ -63,25 +63,25 @@ A API Gateway é a API central do projeto, uma fachada entre o frontend e os mic
 ### Interface PWA
 
 
-<p align="justify"> 
-A interface de usuario do sistema, deverar se adequar ao PWA e será construida utilizando o ReactJS.
+<p align="justify">
+A interface de usuário do sistema, deverá se adequar ao PWA e será construida utilizando o ReactJS.
 </p>
 
 ### Microsserviços
 
 <p align="justify">
-Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa prática, que pode ser adotada neste padrão arquitetural, tornando o sistema escalanável e independente, ademais também é uma boa prática possuir a api gateway para fornecer ponto de acesso aos microsserviços. 
+Microsserviços são responsáveis por desenvolver sistemas mais flexíveis e com manutenção simples. A utilização de bancos dedicados para cada microsserviço é uma boa prática, que pode ser adotada neste padrão arquitetural, tornando o sistema escalonável e independente, ademais também é uma boa prática possuir a api gateway para fornecer ponto de acesso aos microsserviços.
 </p>
 
 ### Model-View-Controller
 
 <p align="justify">
-Padrão de arquitetura de software para implementar interfaces com o usuário. Ele divide um determinado aplicativo de software em três camadas interconectadas: o modelo (Model), a visão (View) e o controlador (Controller). 
+Padrão de arquitetura de software para implementar interfaces com o usuário. Ele divide um determinado aplicativo de software em três camadas interconectadas: o modelo (Model), a visão (View) e o controlador (Controller).
 </p>
 
 **Model -** Responsável por tratar as regras de negócio. Obter os dados e os traduzir em informações para serem exibidas pela View.
 
-**View -** 
+**View -**
 É camada de interface com usuário e responsável pela interação com a Model.
 
 **Controller -** Responsável por gerenciar as camadas Model e View.
@@ -162,12 +162,12 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
 <br>
 
 <p align="justify">
-O backlog representa a acumulação de trabalho, é uma espécie de estoque relativo ao produto que ainda não foi desenvolvido, sendo assim entende-se como uma listagem de pedidos em espera. 
+O backlog representa a acumulação de trabalho, é uma espécie de estoque relativo ao produto que ainda não foi desenvolvido, sendo assim entende-se como uma listagem de pedidos em espera.
 
-Especificaente neste documento, mesmo que de forma superficial e pouco eficiente, o Backlog supri a ausência de uma especicação dos casos de uso ou da descrição dos cenários de utilização.
+Especificamente neste documento, mesmo que de forma superficial e pouco eficiente, o Backlog supre a ausência de uma especificação dos casos de uso ou da descrição dos cenários de utilização.
 
 Os épicos levantados para o produto são:
-</p> 
+</p>
 
 - **EPIC01 - Interface PWA:** O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
 
@@ -204,11 +204,11 @@ Uma das principais metas é se encaixar como um Progressive Web APP, através do
 - Oferecer uma experiência semelhante a de um aplicativo nativo.
 
 <p align="justify">
-O Ambiente de desenvolvimento devera ser o terminal de uma distribuição Linux com auxílio de um ambiente de virtualização Docker e um editor de texto, neste ambiente deve ser utilizada a linguagem de programação Python junto ao framework Django Rest além do framework javascript ReactJS que nos permitirá gerar uma interface agradável ao usuário.
+O Ambiente de desenvolvimento deverá ser o terminal de uma distribuição Linux com auxílio de um ambiente de virtualização Docker e um editor de texto, neste ambiente deve ser utilizada a linguagem de programação Python junto ao framework Django Rest além do framework javascript ReactJS que nos permitirá gerar uma interface agradável ao usuário.
 </p>
 
 <p align="justify">
-O padrão de arquitetural de microsserviços devera ser utilizado para proporciona uma composição, manutenibilidade e reutilização de código que é essencial, levando em consideração que a equipe é grande e tem conhecimentos diversos, conclui-se que seguir tal padrão é fundamental para o sucesso do projeto.
+O padrão de arquitetura de microsserviços deverá ser utilizado para proporcionar uma composição, manutenibilidade e reutilização de código que é essencial, levando em consideração que a equipe é grande e tem conhecimentos diversos, conclui-se que seguir tal padrão é fundamental para o sucesso do projeto.
 </p>
 
 <br>
@@ -221,14 +221,19 @@ O padrão de arquitetural de microsserviços devera ser utilizado para proporcio
 Visualização arquitetural (visão lógica) fornece uma base para compreensão da estrutura e a organização do design do sistema. Descrevendo os requisitos comportamentais e a decomposição do sistema em um conjunto de abstrações.
 </p>
 
-![Diagrama de Pacote](assets/Diagrama_de_pacotes.png)
 
 
 ### Interface PWA
 
+
+![Diagrama de Pacote](assets/Diagrama_de_pacotes.png)
+Diagrama de pacotes.
+
 ### Microsserviço de Monitorias
 
+
 ![Diagrama de Classe](assets/diagrama_de_classes.jpeg)
+Diagrama de classes.
 
 </p>
 
@@ -239,7 +244,9 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 
 <br>
 
+
 ![Diagrama de Implantação](assets/diagrama_de_implantacao.png)
+Diagrama de implementação.
 
 <br>
 
@@ -265,7 +272,7 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos seguintes arquivos:
 </p>
 
- - **models.py** - implementa a camada model e as validações personalizadas dos dados que serão guardados no banco de dados.
+- **models.py** - implementa a camada model e as validações personalizadas dos dados que serão guardados no banco de dados.
 
 - **views.py** - implementa a camada view, que é responsável pela interação com a model e por processar todos os dados advindos da API do GitHub.
 
@@ -278,12 +285,12 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 ### Interface PWA
 
 <p align="justify">
-No projeto, a interface PWA será construida utilizando ReactJS, que tem sua estrutura composta por os seguintes arquivos: 
+No projeto, a interface PWA será construída utilizando ReactJS, que tem sua estrutura composta por os seguintes arquivos:
 </p>
 
-- **App.js** - Possui o compenente raíz do aplicativo.
+- **App.js** - Possui o componente raiz do aplicativo.
 
-- **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e aonde ocorrerá a renderização.
+- **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e onde ocorrerá a renderização.
 
 - **Assets** - Guarda os arquivos estáticos.
 
@@ -323,11 +330,9 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 
 ## 10. Pipeline
 
-<!-- reescrever pipeline -->
-
 <br>
 
-<p align="justify">O objetivo do pipeline é automatizar o processo de entrega de software em produção de forma rápida, ao mesmo tempo garantindo sua estabilidade, qualidade e resiliência. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, o código é construído (build), testado (testing) através de testes automatizados, verificado se está de acordo com a folha de estilo (style guide) e verificado se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, o código está pronto pra ir para o deploy.
+<p align="justify">O pipeline define as fases do processo de construção do software e implementação. A integração contínua executa as tarefas do pipeline automaticamente. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, a aplicação é construída (build), testada (testing) através de testes automatizados, verificada se está de acordo com a folha de estilo (style guide) e verificada se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, a aplicação está pronta para o deploy.
 </p>
 
 ![Pipeline](assets/pipeline_mm.png)
@@ -339,18 +344,18 @@ Passos utilizados:
 - **Build** - Constrói o código, garantindo sua execução.
 
 - **Testing** - Realiza a execução de testes automatizados.
-    
+  
 - **Style Guide** - Verifica se o código está de acordo com a folha de estilo.
 
 - **CodeCov** - Verifica se a cobertura de testes do código atingiu nível pŕe-definido.
 
 <!-- reescrevr docker hub -->
 
-- **Docker Hub** - Após passar por todas etapas da intregação continua irá atualizar as imagens no Docker Hub.
+- **Docker Hub** - Após passar por todas etapas da integração contínua irá atualizar as imagens no Docker Hub.
 
 </p>
 
- <!-- reescrever ranch( não precisa ser um topico) -->
+<!-- reescrever ranch( não precisa ser um topico) -->
 
 
 <br>
@@ -393,13 +398,13 @@ http://pyman.blogspot.com/2007/04/o-mvc-o-mtv-e-o-django.html
 > Criando uma API REST utilizando Django REST Framework. Disponível em :
 https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-framework-parte-1-55ac3e394fa
 
-> Diagramas Estruturais da UML: Diagrama de Implantação. Disponível em : 
+> Diagramas Estruturais da UML: Diagrama de Implantação. Disponível em :
 http://micreiros.com/diagrama-de-implantacao/
 
-> MVC. Disponível em: 
+> MVC. Disponível em:
 https://tableless.com.br/mvc-afinal-e-o-que/
 
-> Padrão MVC | Arquitetura Model-View-Controller. Disponível em: 
+> Padrão MVC | Arquitetura Model-View-Controller. Disponível em:
 https://www.portalgsti.com.br/2017/08/padrao-mvc-arquitetura-model-view-controller.html
 ___
 
@@ -419,8 +424,24 @@ ___
 | 21/04/2019 | 0.6 | Adição do pipeline | Matheus Rodrigues |
 | 26/04/2019 | 0.7 | Refatorado Representação arquitetural | João Pedro |
 | 26/04/2019 | 0.8 | Refatorado os tópicos 2 e 3 | João Pedro, Lucas Alexandre, Renan Cristyan |
-| 26/04/2019 | 0.9 | Atualizado topico 5, refatorado diagrama de transição | João Pedro, Lucas Alexandre, Renan Cristyan |
-| 27/04/2019 | 0.9 | Atualizado topico 2 e 5 | João Pedro, Lucas Alexandre, Mateus Estanislau |
+| 26/04/2019 | 0.9 | Atualizado tópico 5, refatorado diagrama de transição | João Pedro, Lucas Alexandre, Renan Cristyan |
+| 27/04/2019 | 0.9 | Atualizado tópico 2 e 5 | João Pedro, Lucas Alexandre, Mateus Estanislau |
 | 29/04/2019 | 1.0 | Documento Refatorado | João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre|
+| 01/05/2019 | 1.1 | Refatorado Pipeline |Mateus Estanislau, Moacir Mascarenha, Renan Cristyan|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
