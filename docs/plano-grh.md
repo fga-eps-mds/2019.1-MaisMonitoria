@@ -68,7 +68,89 @@ Foi feito um mapeamento inicial das características técnicas dos membros do pr
 
 A partir disto, a equipe de EPS elaborou treinamentos e estudos a serem feitos para o time de desenvolvimento que estão sendo documentados em issues com a tag [TRAINNING].
 
-## 6. Referências Bibliográficas
+## 6. Conclusão Release 1
+ <br>
+A partir do levantamento feito, foi definido: Segunda no periodo de 13h-14h para o sprint review, segunda no periodo da noite para o sprint planning, e que a daily seria feita utilizando um bot no slack sendo o horario 20h-24h disponivel para responder.
+
+ <br>
+
+### 6.1 Treinamentos realizados:
+| Tema:          	|Teoria de Git    | 
+|----------------	|--------------------|
+|**Data:** 	| 18/03/2019 	 |
+| **Instrutores:**   	| Lucas Siqueira & Lucas Macedo 	 |
+| **Nomes**          	|**Presentes** | 
+| João Pedro      	|          ✔️       	| 
+| Matheus Cristo  	|          ✔️       	| 
+| Moacir          	            |          ✔️       	| 
+| Renan        	            |          ✔️       	|
+| Lucas Alexandre       |Não estava matriculado na disciplina.|
+
+<br>
+
+| Tema:          	|Prática de Git aplicando OO| 
+|----------------	|--------------------|
+|**Data:** 	| 18/03/2019 	 |
+| **Instrutores:**   	| Lucas Siqueira, Lucas Macedo, Caio Oliveira, Matheus Rodrigues 	 |
+| **Nomes**          	|**Presentes** | 
+| João Pedro      	|          ✔️       	| 
+| Matheus Cristo  	|          ✔️       	| 
+| Moacir          	            |          ✔️       	| 
+| Renan        	            |          ✔️       	|
+| Lucas Alexandre       |          ✔️         |
+
+**Obs:** Apesar de ainda não estar matriculado na disciplina o Lucas Alexandre compareceu ao dojo.
+
+<br>
+
+| Tema:          	|Metodologia ágil | 
+|----------------	|--------------------|
+|**Data:** 	| 19/03/2019 	 |
+| **Instrutores:**   	| Lucas Siqueira & Lucas Macedo  	 |
+| **Descrição:**     	| Processo do scrum explicando o papel de cada um dos envolvidos, rituais e programação em pares.| 
+| **Nomes**          	| **Presentes** | 
+| João Pedro      	|          ✔️         | 
+| Matheus Cristo  	|          ✔️         | 
+| Moacir         	            |          ✔️         | 
+| Renan        	            |          ✔️         |
+| Lucas Alexandre        |          ✔️         |
+
+<br>
+
+| Tema:          	|Docker | 
+|----------------	|--------------------|
+|**Data:** 	| 19/03/2019|
+| **Instrutores:**   	| Matheus Rodrigues |
+| **Descrição:**     	| Imagens, containers e como será aplicado ao projeto| 
+| **Nomes**          	| **Presentes** | 
+| João Pedro     	|          ✔         | 
+| Matheus Cristo 	|          ✔         | 
+| Moacir         	            |          ✔         | 
+| Renan      	            |          ✔         |
+| Lucas Alexandre       |          ✔         |
+
+<br>
+
+| Tema:              |Teste unitários e testes com mock utilizando pytest   |
+|----------------    |--------------------|
+|**Data:**     | 06/03/2019      |
+| **Instrutores:**       | Lucas Macedo      |
+| **Nomes**              |**Presentes** |
+| João Pedro          |          ✔           |
+| Matheus Cristo      |          ✔           |
+| Moacir                          |          ✔           |
+| Renan                        |          ✔           |
+| Lucas Alexandre       | ✔  |
+
+**Obs:** Foi disponibilizado para os membros de MDS um arquivo com exemplos de testes, para que possam tirar duvidas e se basear futuramente. Os membros de MDS não desenvolveram código durante o Dojo apenas viram demonstrações feitas por mim e tiveram liberdade para tirar suas dúvidas.
+
+### 6.2 Quadro de conhecimento ao fim da Release 1
+<br>
+
+![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-5.png)
+
+
+## 7. Referências Bibliográficas
 
 <br>
 
