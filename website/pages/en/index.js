@@ -21,7 +21,7 @@ class Meio extends React.Component {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-6 about-left">
-              <img className="img-fluid" style="width: 300px; margin-left:20px;" src="img/usage.gif" alt=""/>
+              <img className="img-fluid" style={{width: 300, marginLeft:20}} src="img/usage.gif" alt=""/>
             </div>
             <div className="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
               <h1>
