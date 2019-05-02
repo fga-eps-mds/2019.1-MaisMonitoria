@@ -18,6 +18,8 @@ Temos um backlog do produto em que engloba todas o trabalho planejado para o pro
 
 ## 2. Backlog do Projeto
 
+<br>
+
 ## EPIC01 - Interface PWA
 
 <br>

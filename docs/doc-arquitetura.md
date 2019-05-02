@@ -384,18 +384,20 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 
 <br>
 
-<p align="justify">O pipeline define as fases do processo de construção do software e implementação. A integração contínua executa as tarefas do pipeline automaticamente. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, a aplicação é construída (build), testada (testing) através de testes automatizados, verificada se está de acordo com a folha de estilo (style guide) e verificada se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, a aplicação está pronta para o deploy.
+<p align="justify">O pipeline define as fases do processo de construção e implementação do software. A integração contínua executa as tarefas do pipeline automaticamente. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, a aplicação é construída (build), testada (testing) através de testes automatizados, verificada se está de acordo com a folha de estilo (style guide) e verificada se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, a aplicação está pronta para o deploy.
 </p>
+
+#### Pipeline Release 1
 
 <br>
 
-![Pipeline](assets/pipeline_mm.png)
+![Pipeline](assets/pipeline_r1.png)
 
 <br>
 
 Passos utilizados:
 
-- **Build** - Constrói o código, garantindo sua execução.
+- **Build** - Constrói a aplicação, garantindo sua execução.
 
 - **Testing** - Realiza a execução de testes automatizados.
   
@@ -405,7 +407,7 @@ Passos utilizados:
 
 <!-- reescrevr docker hub -->
 
-- **Docker Hub** - Após passar por todas etapas da integração contínua irá atualizar as imagens no Docker Hub.
+- **Docker Hub** - Após passar por todas etapas da integração contínua irá publicar a imagen no Docker Hub.
 
 <!-- reescrever ranch( não precisa ser um topico) -->
 
@@ -476,11 +478,11 @@ ___
 | 26/04/2019 | 0.7 | Refatorado Representação arquitetural | João Pedro |
 | 26/04/2019 | 0.8 | Refatorado os tópicos 2 e 3 | João Pedro, Lucas Alexandre, Renan Cristyan |
 | 26/04/2019 | 0.9 | Atualizado tópico 5, refatorado diagrama de transição | João Pedro, Lucas Alexandre, Renan Cristyan |
-| 27/04/2019 | 0.9 | Atualizado tópico 2 e 5 | João Pedro, Lucas Alexandre, Mateus Estanislau |
-| 29/04/2019 | 1.0 | Revisão, criação e atualização de vários tópicos | Lucas Macêdo |
-| 29/04/2019 | 1.1 | Documento Refatorado | João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre|
-| 01/05/2019 | 1.2 | Refatorado Pipeline |Mateus Estanislau, Moacir Mascarenha, Renan Cristyan|
-
+| 27/04/2019 | 1.0 | Atualizado tópico 2 e 5 | João Pedro, Lucas Alexandre, Mateus Estanislau |
+| 29/04/2019 | 1.1 | Revisão, criação e atualização de vários tópicos | Lucas Macêdo |
+| 29/04/2019 | 1.2 | Documento Refatorado | João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre|
+| 01/05/2019 | 1.3 | Refatorado Pipeline |Mateus Estanislau, Moacir Mascarenha, Renan Cristyan|
+| 02/05/2019 | 1.4 | Ajustado Pipeline |Matheus Rodrigues|
 
 
 
