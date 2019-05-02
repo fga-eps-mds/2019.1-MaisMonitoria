@@ -93,6 +93,7 @@ Os objetivos da medição são definidos em termos da entidade, propósito, atri
 </br>
 
 ### 3.4.1 Métricas do produto
+
 </br>
 
 #### 3.4.1.1 Cobertura de teste
@@ -109,9 +110,13 @@ Os objetivos da medição são definidos em termos da entidade, propósito, atri
 </br>
 
 ### 3.4.2 Métricas da equipe
+
 </br>
+
 #### 3.4.2.1 Burndown
+
 </br>
+
 |||
 |:----:|:----|
 |Indicador|Burndown|
@@ -122,7 +127,9 @@ Os objetivos da medição são definidos em termos da entidade, propósito, atri
 |Ferramenta| Manual |
 
 </br>
+
 #### 3.4.2.1 Velocity
+
 </br>
 
 |||
@@ -164,6 +171,7 @@ Os objetivos da medição são definidos em termos da entidade, propósito, atri
 |:--:|:--:|:--:|:--:|
 | 14/04/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Caio Oliveira, Matheus Rodrigues |
 |14/04/2019| 0.2 | Tópicos adicionados: Objetivo, processos de medição, referências | Matheus Rodrigues|
+|11/04/2019|0.3 | Revisão do documento|Lucas Pereira e Matheus Rodrigues|
 
 
 
