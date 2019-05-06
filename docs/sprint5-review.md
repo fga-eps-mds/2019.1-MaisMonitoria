@@ -84,7 +84,7 @@ Tarefas|Status|Pontos
 
 <br>
 
-![Engajamento Dailts Sprint 6](assets/dailys-sprint-5.png)
+![Engajamento Dailts Sprint 5](assets/dailys-sprint-5.png)
 
 <br>
 
@@ -110,6 +110,15 @@ As ações tomadas foram: Buscar ajuda no lappis para solucionar os problemas en
 <br>
 
 <p align = "justify">
+A sprint 5 foi fundamental para o planejado para release 1, com a integração do frontend com o backend foi possui ter algo funcional.
+
+Analisando o velocity, houve o aumento das tarefas devido a proximidade da primeira apresentação do produto, foi entregue todos os pontos os planejados.
+
+Em relação ao burndown nota-se que a equipe conseguiu fazer entregas ao longo do tempo, e o fato de termos feito uma sprint de 8 dias tornou possível a entrega de todas as tarefas.
+
+Com o quadro de conhecimento ao final da sprint, podemos notar o aumento no conhecimento a cerca dos testes, pois tivemos historias dedicadas a eles, porém com o fim da integração do frontend com o backend não foi possível aproveitar todos os testes que foram feitos.
+
+Para a próxima Sprint iremos focar na preparação para a apresentação da release 1, visando realizar ajustes finos na documentação, realizar os ajustes necessários para tornar o produto o mais apresentável possível, e treinar a equipe de MDS para a apresentação.
 
 
 
