@@ -21,7 +21,7 @@ class Meio extends React.Component {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-6 about-left">
-              <img className="img-fluid" src="img/maisMonitoria.png" alt=""/>
+              <img className="img-fluid" style={{width: 300, marginLeft:20}} src="img/usage.gif" alt=""/>
             </div>
             <div className="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
               <h1>
@@ -33,7 +33,7 @@ class Meio extends React.Component {
                   Com isso em mente, o <strong>+Monitoria</strong> ajuda os estudantes à compartilhar e adquirir conhecimentos referentes as disciplinas da FGA.  
                 </p>
               </div>
-              <a href="#" className="primary-btn">Instalar</a>
+              <a href="https://homolog.maismonitoria.com/" className="primary-btn">Visite a plataforma</a>
             </div>
           </div>
         </div>

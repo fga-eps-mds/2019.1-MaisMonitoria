@@ -115,11 +115,14 @@ EAP ou estrutura analítica de projeto é uma forma visual de representar as fas
 
 <br>
 
-![EAP](assets/EAP.png)
+### Versão 2.0
+![EAP](assets/EAP_versao_2.0.png)
 
 <br>
 
-Imagem ampliada está disponivel [aqui](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/assets/EAP.png).
+Imagem ampliada está disponivel [aqui](https://uploaddeimagens.com.br/images/002/080/087/full/EAP_versao_2.0.png?1556758805).
+<br>
+[Versão 1.0](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/assets/EAP.png).
 
 ## 10. Canvas
 
