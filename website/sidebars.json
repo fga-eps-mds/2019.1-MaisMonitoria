@@ -28,7 +28,10 @@
     "Sprint 4": ["sprint4-planning",
                   "sprint4-review"],
     "Sprint 5": ["sprint5-planning",
-                  "sprint5-review"]
+                  "sprint5-review"],
+    "Sprint 6": ["sprint6-planning",
+                 "sprint6-review"],
+    "Release 1": ["release1-review"]             
   },
 
   "docs-requisitos": {
