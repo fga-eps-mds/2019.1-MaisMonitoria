@@ -2,7 +2,7 @@
 name: Bug
 about: Descrição de uma issue de bug
 title: "[BUG]"
-labels: bug
+labels: ''
 assignees: ''
 
 ---
