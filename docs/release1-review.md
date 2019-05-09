@@ -107,7 +107,6 @@ Para ver de forma detalhada [clique aqui](https://docs.google.com/spreadsheets/d
 
 Os commits englobam a soma da contribuição na branch develop durante cada sprint, nos seguintes repositórios: [Documentação*](https://github.com/fga-eps-mds/2019.1-MaisMonitoria), [Front-end](https://github.com/fga-eps-mds/2019.1-MaisMonitoria-FrontEnd), [API Gateway](https://github.com/fga-eps-mds/2019.1-MaisMonitoria-api), [API Monitorias](https://github.com/fga-eps-mds/2019.1-MaisMonitoria-ApiMonitorias), desconsiderando a sprint 6 que teve como foco a preparação para apresentação da R1.
 
-> Para o repositório de documentação foi considerada a branch master, pois nele não existe uma branch develop.
 <br>
 
 | Integrante | Sprint 1| Sprint 2 |Sprint 3| Sprint 4 | Sprint 5 |
@@ -121,6 +120,8 @@ Os commits englobam a soma da contribuição na branch develop durante cada spri
 | Moacir         	   | 4 | 3 | 6 | 8 | 9 |
 | Renan Cristyan        | 4 | 1 | 6 | 6 | 11 |
 | Lucas Alexandre       | 8 | 4 | 8 | 12 | 9 |
+
+> Para o repositório de documentação foi considerada a branch master, pois nele não existe uma branch develop.
 
 <br>
 
@@ -137,6 +138,7 @@ Em seguida fomos para o início do desenvolvimento do produto, percebemos que a 
 <p align="justify">
 Analisando o burndown da release, vimos que nas sprints finais tivemos muito mais pontos planejados, pois o tempo estava se esgotando e ainda estava faltando muito do planejado, com o tempo as dívidas foram diminuindo e as entregas foram acontecendo, logo ocorreu um avanço muito grande no comprometimento da equipe com as entregas, algo que não vinha acontecendo ao longo das outras sprints. Esse aumento no número de atividades fica ainda mais evidente no velocity, onde a sprint 4 e 5 ocorreu uma sobrecarga em relação à linha média de pontos entregues, em seguida, a sprint 6 tivemos menos pontos planejados, tendo em foco a preparação para a apresentação e finalização desta release, porém após a apresentação ocorreu um "relaxamento" da equipe, não concluindo a tempo todas as atividades propostas para a mesma.
 <p align="justify">
+
 A metodologia conseguiu ser seguida como descrita em seu [documento](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/doc-descricao-metodologia), nos ritos ágeis a equipe inicialmente se mostrou disperça, porém com o tempo foi se adaptando, tornando as reunião mais efetivas. Analisando o quadro de conhecimento percebe-se um avanço significativo de toda a equipe, porém ainda não estamos com o conhecimento bem alinhado, vemos que existem tópicos em que existe uma disparidade no nível de conhecimento.
 <p align="justify">
 Os riscos ocorridos ao longo da release com exceção das entregas atrasadas foram normais e bem lidados pela equipe, porém a sprint 4 ocorreu um aumento grande de ricos, algo que aconteceu devido a complexidade que englobou as atividades da sprint, além de fatores externos como a proximidade de provas e entregas de trabalhos de outras disciplinas.
