@@ -46,13 +46,13 @@ Tarefas|Status|Pontos
 
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
-|Lucas Siqueira| Foi feita a autenticação, conseguimos definir o roteiro da apresentação, e começamos a fazer os testes. | A equipe não está focada no que está fazendo. | Aumentar o nível de compromentimento da equipe. |
-|Lucas Pereira| Resolvemos a autenticação. | Conhecimento da equipe não está homogeneo, está ficando muitas tarefas concentradas em poucas pessoas. | Tornar o conhecimento mais homogeneo. |
+|Lucas Siqueira| Foi feita a autenticação, conseguimos definir o roteiro da apresentação, e começamos a fazer os testes. | A equipe não está focada no que está fazendo. | Aumentar o nível de comprometimento da equipe. |
+|Lucas Pereira| Resolvemos a autenticação. | Conhecimento da equipe não está homogêneo, está ficando muitas tarefas concentradas em poucas pessoas. | Tornar o conhecimento mais homogêneo. |
 |Caio Oliveira| - | - | - |
 |Matheus Rodrigues| Refatoração do frontend. | Ter que fazer refatorações que não eram pra ser necessárias. | Mais atenção ao fazer as tarefas. |
 |João Pedro| - | - | - |
 |Moacir Junior| Aprendi a fazer os testes do backend. | Ter demorado para aprender a fazer os testes. | Nenhuma. |
-|Matheus Cristo| Pareamento efetivo e aprendizado em testes. | Devido a falta de conhecimento do codigo foi dificil fazer os testes. |  Nenhuma. |
+|Matheus Cristo| Pareamento efetivo e aprendizado em testes. | Devido a falta de conhecimento do código foi difícil fazer os testes. |  Nenhuma. |
 |Renan Cristyan| Aprendi um pouco a fazer os testes do frontend. | Pareamento não efetivo, por causa da minha falta de foco. | Focar um pouco mais no meu pareamento. |
 |Lucas Alexandre| - | - | - |
 
@@ -95,7 +95,7 @@ Tarefas|Status|Pontos
 
 ### 7.1 Análise dos riscos
 
-Foi assumido o risco de planejar mais pontos, pois essa foi a ultima sprint antes da release 1
+Foi assumido o risco de planejar mais pontos, pois essa foi a última sprint antes da release 1
 <br>
 
 **R01 - Dificuldade com as tecnologias:**
@@ -110,13 +110,13 @@ As ações tomadas foram: Buscar ajuda no lappis para solucionar os problemas en
 <br>
 
 <p align = "justify">
-A sprint 5 foi fundamental para o planejado para release 1, com a integração do frontend com o backend foi possui ter algo funcional.
+A sprint 5 foi fundamental para o planejado para release 1, com a integração do frontend com o backend foi possível ter algo funcional.
 
 Analisando o velocity, houve o aumento das tarefas devido a proximidade da primeira apresentação do produto, foi entregue todos os pontos os planejados.
 
 Em relação ao burndown nota-se que a equipe conseguiu fazer entregas ao longo do tempo, e o fato de termos feito uma sprint de 8 dias tornou possível a entrega de todas as tarefas.
 
-Com o quadro de conhecimento ao final da sprint, podemos notar o aumento no conhecimento a cerca dos testes, pois tivemos historias dedicadas a eles, porém com o fim da integração do frontend com o backend não foi possível aproveitar todos os testes que foram feitos.
+Com o quadro de conhecimento ao final da sprint, podemos notar o aumento no conhecimento acerca dos testes, pois tivemos issues dedicadas a eles, porém com o fim da integração do frontend com o backend não foi possível aproveitar todos os testes que foram feitos.
 
 Para a próxima Sprint iremos focar na preparação para a apresentação da release 1, visando realizar ajustes finos na documentação, realizar os ajustes necessários para tornar o produto o mais apresentável possível, e treinar a equipe de MDS para a apresentação.
 
@@ -129,6 +129,9 @@ Para a próxima Sprint iremos focar na preparação para a apresentação da rel
 
 
 </p>
+
+
+
 
 
 
