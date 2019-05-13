@@ -33,6 +33,7 @@ Tarefas|Pontos
 |[Linkar Monitoria ao Perfil do Usuário que a Criou](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/125) | 8
 
 Total de pontos de dividas anteriores: 4 
+
 Total de Pontos: 25
 
 ## 3. Quadro de conhecimento antes do início da sprint
