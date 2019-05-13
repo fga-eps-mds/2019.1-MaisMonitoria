@@ -52,27 +52,27 @@ No dia 2 de maio de 2019 ocorreu o encerramento e apresentação da primeira rel
 
 <br>
 
-**Sprint 1**
+[**Sprint 1**]((https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/sprint1-review))
 - R07 - Entregas atrasadas
 - R11 - Falta de salas na faculdade para encontros
 
-**Sprint 2**
+[**Sprint 2**]((https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/sprint2-review))
 - R07 - Entregas atrasadas
 - R08 - Dependência das atividades
 
-**Sprint 3**
+[**Sprint 3**]((https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/sprint3-review))
 - R01 - Dificuldade com as tecnologias
 - R07 - Entregas atrasadas
 - R13 - Conflito com entregas de outras disciplinas
 
-**Sprint 4**
+[**Sprint 4**](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/sprint4-review)
 - R01 - Dificuldade com as tecnologias
 - R07 - Entregas atrasadas
 - R08 - Dependência das atividades
 - R12 - Pareamentos não efetivos
 - R13 - Conflito com entregas de outras disciplinas
 
-**Sprint 5**
+[**Sprint 5**](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/sprint5-review)
 - R01 - Dificuldade com as tecnologias
 
 <br>
