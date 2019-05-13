@@ -91,11 +91,20 @@ Tarefas|Status|Pontos
 
 ### 7.1 Análise dos riscos
 
+**R07 - Entregas atrasadas:**
+Tivemos como dívida a lançar release notes e os documentos do scrum master da sprint 6, que ocorreram devido ao "relaxamento" da equipe após a apresentação da release 1. 
+
+As ações tomadas foram: Quanto a release notes estamos avaliando a melhor forma de se fazer. Quanto aos documentos do scrum master a dívida se deu devido a tarefa: review de release 1, e será feita na próxima sprint.
+
+
 ### 7.2 Análise geral
 
 <br>
 
 <p align = "justify">
+Nessa sprint tivemos a apresentação da release 1, a equipe de MDS se mostrou bem preparada para apresentar, logo os treinamentos feitos durante a sprint foram efetivos. Tivemos uma refatoração muito grande nos documentos, porém após o feedback da R1 vimos que ainda será necessário a realização de ajustes nos mesmos. Analisando o velocity e o burndown percebe-se que a equipe focou apenas na preparação para a apresentação, logo tivemos umas redução no número de tarefas da sprint. Após a apresentação tivemos um "relaxamento" da equipe como um todo, evidente no engajamento nas dailys, onde o número de respostas diminuiu após a entrega.
+
+> Para mais detalhes da release 1 [clique aqui](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/release1-review)
 
 
 </p>
