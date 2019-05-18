@@ -94,7 +94,7 @@ Tarefas|Status|Pontos
 <br>
 
 ### 7.1 Análise dos riscos
-
+<br>
 **R01 - Dificuldade com as tecnologias:**
 A equipe apresentou dificuldades na realização dos testes do frontend e na compreensão de exemplos para realização da issue Efeitos de transição de telas.
 
