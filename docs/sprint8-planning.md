@@ -31,7 +31,7 @@ Tarefas|Pontos
 |[Cards de Monitorias](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/128) | 8
 |[Feedback para Usuários](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/129) | 5
 
-Total de pontos de dividas anteriores: 8 
+Total de pontos de dividas anteriores: 3 
 
 Total de Pontos: 27
 
