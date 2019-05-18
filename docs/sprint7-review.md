@@ -123,7 +123,7 @@ Nennhuma ação foi tomada.
 **R14 - Indisponibilidade de membros da equipe:**
 Tivemos a indiponibilidade do membro Matheus Rodrigues no meio da sprint, devido a fatores pessoais.
 
-Ações tomadas: Realocamos o membro Caio Oliveira para ajudar na issue que estava destinada ao Matheus.
+As Ações tomadas foram: Realocamos o membro Caio Oliveira para ajudar na issue que estava destinada ao Matheus.
 
 
 ### 7.2 Análise geral
