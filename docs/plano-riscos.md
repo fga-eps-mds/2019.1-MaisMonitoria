@@ -117,6 +117,7 @@ A tabela abaixo deve ser usada como referência:
 | R11 | Falta de salas na faculdade para encontros | Externo - Ambiente acadêmico | Média  | Alto | Realocar equipe para outro local que possua internet, tomadas, entre outros | 12
 | R12 | Pareamentos não efetivos | Externo - Fatores pessoais | Média  | Alto | Tentar aumentar a comunicação entre os membros, se possível alguém da equipe de EPS monitorar o pareamento, e se extremamente necessário realocar membros em outras atividades. | 12
 | R13 | Conflito entre entregas da sprint e de tarefas de outras disciplinas. | Externo - Fatores pessoais | Muito Alta  | Alto | diminuir o escopo da sprint e redistribuir tarefas. | 12
+| R14 | Indisponibilidade de membros da equipe | Externo - Fatores pessoais  | Baixa | Muito Alto | Redistribuição das tarefas. | 10
 
 
 ## 5. Referências
