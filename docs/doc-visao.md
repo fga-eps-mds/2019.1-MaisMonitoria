@@ -93,7 +93,7 @@ O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que e
 |Moacir Mascarenha|Membro da equipe de desenvolvimento|Realizar o desenvolvimento do software e manter a documentação|
 |Renan Cristyan|Membro da equipe de desenvolvimento|Realizar o desenvolvimento do software e manter a documentação|
 |Caio Oliveira|Product Owner|Responsável por maximizar o valor resultante do produto desenvolvido, gerenciando e priorizando o product backlog|
-|Lucas Pereira|Arquiteto|O arquiteto deve monitorar a equipe de desenvolvimento para instruí-los a seguir a arquitetura planejada e lidarem com seu fluxo de dados|
+|Lucas Macêdo|Arquiteto|O arquiteto deve monitorar a equipe de desenvolvimento para instruí-los a seguir a arquitetura planejada e lidarem com seu fluxo de dados|
 |Lucas Siqueira|Scrum Master|Responsável por monitorar e garantir que a equipe esteja seguindo os valores, práticas e regras escolhidas das metodologias ágeis, de forma que a equipe consiga ser produtiva e auto-organizável|
 |Matheus Rodrigues|DevOps|Responsável por definir as ferramentas utilizadas no desenvolvimento do projeto. O devOps deve configurar o ambiente, buscando aumentar a produtividade da equipe de desenvolvimento|
 

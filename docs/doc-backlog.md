@@ -222,10 +222,10 @@ O produto deve oferecer a funcionalidade de seguir outros usuários para receber
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 06/04/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
-| 06/04/2019 | 0.2 | Definição dos épicos | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
-| 06/04/2019 | 0.3 | Definição das features  | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
-| 07/04/2019 | 0.4 | Definição das historias de usuário, historias técnicas  | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
+| 06/04/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues |
+| 06/04/2019 | 0.2 | Definição dos épicos | Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues |
+| 06/04/2019 | 0.3 | Definição das features  | Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues |
+| 07/04/2019 | 0.4 | Definição das historias de usuário, historias técnicas  | Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues |
 | 12/04/2019 | 0.5 | Adição de introdução  | Lucas Siqueira|
 | 01/05/2019 | 0.6 | Adição de backlog do projeto  | Lucas Siqueira|
 

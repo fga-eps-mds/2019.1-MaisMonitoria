@@ -36,7 +36,7 @@ Tarefas|Status|Pontos
 |[Efeitos de transição de telas](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/123)| Não concluida | 5
 |[Linkar Monitoria ao Perfil do Usuário que a Criou](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/125)| Concluida | 8
 
-**Ponto Planejados:** 25
+**Ponto Planejados:** 26
 
 **Pontos Concluídos:** 10
 
@@ -47,7 +47,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Nenhum. | Relaxamento após o fim da release 1, e a dependência de MDS com EPS para desenvolver as issues. | Procurar ajudar os MDS a se virarem sozinhos. |
-|Lucas Pereira| Conclui minha issue. | Todo mundo achando que está de férias, gerando dívidas com issues "fáceis", não se comunicando efetivamente nas issues, faltando os MDS ficarem mais espertos na hora de pesquisar e aprender a resolver os problemas. | Tentar ser mais produtivo, direcionar o esforço. |
+|Lucas Macêdo| Conclui minha issue. | Todo mundo achando que está de férias, gerando dívidas com issues "fáceis", não se comunicando efetivamente nas issues, faltando os MDS ficarem mais espertos na hora de pesquisar e aprender a resolver os problemas. | Tentar ser mais produtivo, direcionar o esforço. |
 |Caio Oliveira| Nenhum. | Todo mundo achando que está de férias, gerando dívidas com issues "fáceis", não se comunicando efetivamente nas issues. | Diminuir a dependência entre MDS e EPS.  |
 |Matheus Rodrigues| - | - | - |
 |João Pedro| Nenhum. | Tive muitos afazeres durante a semana sem ser ligados ao projeto, e faltou produtividade na realização da minha issue. |EPS dar dicas de como pesquisar para os MDS.|

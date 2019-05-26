@@ -56,7 +56,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Muito documento entregue, a equipe de MDS mais comprometida no projeto. | Bot da daily não funcionou corretamente, dívidas referentes a equipe de EPS, devido a mal planejamento da sprint. |Planejar melhor as próximas sprints|
-|Lucas Pereira| Muitos planos entregues, conseguimos iniciar a configuração do ambiente. | Planejamos equivocadamente muitas tarefas para a sprint porque achamos que precisam rapidamente. |Aumentar o comprometimento dos membros de EPS|
+|Lucas Macêdo| Muitos planos entregues, conseguimos iniciar a configuração do ambiente. | Planejamos equivocadamente muitas tarefas para a sprint porque achamos que precisam rapidamente. |Aumentar o comprometimento dos membros de EPS|
 |Caio Oliveira| Muitos documentos entregues e inicio da configuração do ambiente | Falta de proatividade da equipe de MDS, dívidas da equipe de EPS |Equipe de MDS ser mais independente|
 |Matheus Rodrigues| O entendimento a respeito do projeto aumentou por parte de MDS, o time se mostra bem interessado. | Dívidas da equipe de EPS e algumas decisões que já deveriam ter sido tomadas, não foram resolvidas | A equipe não demorar em tomar decisões importantes |
 |Moacir Junior| Aprendi a noção baśica de django rest e aumentei o conhecimento sobre o projeto. | Curso muito repetitivo em algumas partes, faltou comunicação efetiva entre os membros de mds. |Prestar atenção e se comunicar com seus pareamentos.|

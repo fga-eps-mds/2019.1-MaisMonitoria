@@ -43,7 +43,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Descanso depois da R1, boa preparação para R1 e feedback interessante do que foi feito. | Nenhum. | Nenhuma. |
-|Lucas Pereira| Nenhum. | Deixou a desejar na R1. | Mais sacrifício para fazer as entregas. |
+|Lucas Macêdo| Nenhum. | Deixou a desejar na R1. | Mais sacrifício para fazer as entregas. |
 |Caio Oliveira| Equipe preocupada com entregas para R1. | Equipe de EPS fazendo trabalho de MDS e EPS.|  Equipe de MDS ser mais independente para entregar o que foi pedido. |
 |Matheus Rodrigues| Deploy usando rancher. | Muitas criticas na R1 em relação a alguns documentos. | Mais empenho em tentar entender o que está acontecendo no codigo e no projeto. |
 |João Pedro| Boa apresentação e agora sabemos o que melhorar. | Nenhum. | Focar no que sabemos o que está errado para melhorar. |

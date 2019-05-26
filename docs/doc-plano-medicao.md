@@ -171,7 +171,7 @@ Os objetivos da medição são definidos em termos da entidade, propósito, atri
 |:--:|:--:|:--:|:--:|
 | 14/04/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Caio Oliveira, Matheus Rodrigues |
 |14/04/2019| 0.2 | Tópicos adicionados: Objetivo, processos de medição, referências | Matheus Rodrigues|
-|11/04/2019|0.3 | Revisão do documento|Lucas Pereira e Matheus Rodrigues|
+|11/04/2019|0.3 | Revisão do documento|Lucas Macêdo e Matheus Rodrigues|
 
 
 
