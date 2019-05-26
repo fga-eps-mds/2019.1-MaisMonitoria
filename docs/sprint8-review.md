@@ -108,7 +108,7 @@ Nessa sprint conseguimos reduzir o número de riscos ocorridos, ocasionando em e
 <p align = "justify">
 Analisando os indicadores, vemos melhoras no quadro de conhecimento dado a busca da equipe de MDS em resolver suas issues de forma independente. Quanto ao velocity, tem-se um aumento de pontos entregues em relação às duas sprints anteriores, onde a produtividade da equipe está subindo e pretendemos melhorar ainda mais nas próximas sprints. Em relação ao burndown, apesar das entregas tardias, a equipe se mostrou ágil, onde durante a semana tivemos um volume de trabalho muito bom. A comunicação da equipe melhorou, onde apenas 1 membro não teve um engajamento bom nas dailys, porém como dito no tópico anterior, ele avisou que estaria indisponivel durante a sprint.
 <p align = "justify">
-Para o restante do projeto, ao iniciar a próxima sprint faremos o estudo e levantamento do escopo para a reta final, visando aumentar a produtividade da equipe e a qualidade do produto, visando obter sucesso na entrega final.
+Para o restante do projeto, ao iniciar a próxima sprint faremos o estudo e levantamento do escopo para a reta final, visando aumentar a produtividade da equipe, a qualidade do produto, e obter sucesso na entrega final.
 
 
 
