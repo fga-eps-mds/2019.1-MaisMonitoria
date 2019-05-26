@@ -47,7 +47,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Foi feita a autenticação, conseguimos definir o roteiro da apresentação, e começamos a fazer os testes. | A equipe não está focada no que está fazendo. | Aumentar o nível de comprometimento da equipe. |
-|Lucas Pereira| Resolvemos a autenticação. | Conhecimento da equipe não está homogêneo, está ficando muitas tarefas concentradas em poucas pessoas. | Tornar o conhecimento mais homogêneo. |
+|Lucas Macêdo| Resolvemos a autenticação. | Conhecimento da equipe não está homogêneo, está ficando muitas tarefas concentradas em poucas pessoas. | Tornar o conhecimento mais homogêneo. |
 |Caio Oliveira| - | - | - |
 |Matheus Rodrigues| Refatoração do frontend. | Ter que fazer refatorações que não eram pra ser necessárias. | Mais atenção ao fazer as tarefas. |
 |João Pedro| - | - | - |

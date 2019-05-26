@@ -51,7 +51,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Maior entendimento da equipe em relação às metodologias ágeis, boa prototipação do produto, conclusão do backlog, importantes decisões tomadas. | Dívidas continuaram como dívida e as entregas não foram constantes. |Maior comprometimento na realização das tarefas.|
-|Lucas Pereira| Fechamento do backlog do produto, ambientes configurados para início da codificação. | Falta de comprometimento da equipe de EPS que deixou as mesmas histórias como dívida, demora na definição da logo e do novo nome do projeto. |Maior comprometimento da equipe de EPS.|
+|Lucas Macêdo| Fechamento do backlog do produto, ambientes configurados para início da codificação. | Falta de comprometimento da equipe de EPS que deixou as mesmas histórias como dívida, demora na definição da logo e do novo nome do projeto. |Maior comprometimento da equipe de EPS.|
 |Caio Oliveira| Fechamento do backlog  | Falta de proatividade da equipe de MDS e dívidas não resolvidas | Maior comprometimento para acabar com dívidas |
 |Matheus Rodrigues| Fechamento do backlog e ambientes configurados | Dívidas não resolvidas | Foco nas reuniões |
 |Moacir Junior| Dojo de testes, aprendi a utilizar o figma, ótimo pareamento no desenvolvimento do protótipo. | Dependência entre as issues e falta direcionamento na realização das tarefas. |Deixar menos dívidas.|

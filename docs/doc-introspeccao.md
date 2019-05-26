@@ -90,8 +90,8 @@ ___
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-| 19/03/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
-| 19/03/2019 | 0.2 | Realização dos tópicos da introspecção | Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues |
+| 19/03/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues |
+| 19/03/2019 | 0.2 | Realização dos tópicos da introspecção | Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues |
 | 21/03/2019 | 0.3 | Adição da introdução  | Lucas Siqueira |
 | 13/04/2019 | 0.4 | Adição de rastreabilidade de Requisitos | Lucas Siqueira |
 

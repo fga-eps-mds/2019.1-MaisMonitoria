@@ -47,7 +47,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira|Comunicação efetiva, definição do projeto, inicio da elicitação de requisitos e dojos efetivos | Equipe não está focada durante as reuniões|Diminuir as brincadeiras desnecessárias durante as reuniões|
-|Lucas Pereira|Comunicação efetiva, definimos requisitos para o produto tendo assim uma boa visão sobre o escopo e os dojos pareceram efetivos | Planejamos várias coisas e botamos poucas em prática| Otimizar o tempo botando em prática o que é planejado |
+|Lucas Macedo|Comunicação efetiva, definimos requisitos para o produto tendo assim uma boa visão sobre o escopo e os dojos pareceram efetivos | Planejamos várias coisas e botamos poucas em prática| Otimizar o tempo botando em prática o que é planejado |
 |Caio Oliveira| - | - | - |
 |Matheus Rodrigues|Entendimento do projeto e alinhamento do conhecimento entre os integrantes| Reuniões prolongadas por conta da perda de foco| Concentração da equipe|
 |Moacir Junior|Adquirir noção básica de react, git, scrum, docker, e entendi o projeto |Falta de foco nas reuniões |Nenhum|

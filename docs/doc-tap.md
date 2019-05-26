@@ -89,7 +89,7 @@ A estimativa de custos foi planejada de acordo com o tempo de duração do proje
 |Moacir Mascarenha|Membro da equipe de desenvolvimento|
 |Renan Cristyan|Membro da equipe de desenvolvimento|
 |Caio Oliveira|Product Owner|
-|Lucas Pereira|Arquiteto|
+|Lucas Macêdo|Arquiteto|
 |Lucas Siqueira|Scrum Master|
 |Matheus Rodrigues|DevOps|
 </p>

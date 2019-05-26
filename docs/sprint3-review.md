@@ -49,7 +49,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Fechou as dividas anteriores, pareamentos foram efetivos. | Sprint foi planejada de acordo com velocity para não ter dívidas e mesmo assim tivemos dívidas |Aumentar o foco nas reuniões.|
-|Lucas Pereira| Fechou as dívidas antigas, pareamentos efetivos, conclusão do layout do pages. | Surgiu a primeira dívida da equipe de MDS, e a equipe de MDS achando que dúvidas são normais, devido às dívidas anteriores de EPS, faltou foco na reunião. |Aumentar o foco durante as reuniões e não deixar mais dívidas.|
+|Lucas Macêdo| Fechou as dívidas antigas, pareamentos efetivos, conclusão do layout do pages. | Surgiu a primeira dívida da equipe de MDS, e a equipe de MDS achando que dúvidas são normais, devido às dívidas anteriores de EPS, faltou foco na reunião. |Aumentar o foco durante as reuniões e não deixar mais dívidas.|
 |Caio Oliveira| Diminuiram as dividas, amadurecimento da equipe de MDS. | Reunião não foi tão produtiva quanto deveria, deixamos dívidas que poderiam ter sido feitas. |Os MDS aprenderem a buscar as coisas sozinhos.|
 |Matheus Rodrigues| A equipe se empenhou para concluir suas histórias e fechar as dívidas anteriores. | Reunião pouco produtiva.| Mais foco nas reuniões.|
 |Moacir Junior| Diminuíram as dívidas. | Excesso de piadas durante a reunião. |Mais foco durante as reuniões. |

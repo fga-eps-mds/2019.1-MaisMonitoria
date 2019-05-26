@@ -50,7 +50,7 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Amadurecimento da equipe de desenvolvimento, tendo a primeira sprint com codificação do backend. | issues concluídas mudando os critérios de aceitação planejados anteriormente, e equipe confiou muito na reunião de sábado e não foi ágil durante a semana. | Ter mais comprometimento e não deixar as coisas para serem feitas em cima da hora. |
-|Lucas Pereira| Iniciamos a e adiantamos bem a codificação do backend. | Tivemos dívidas novamente, foram quebrados critérios de aceitação de algumas issues e não foi possível integrar o front e back por motivos que poderiam ser evitados. | Descrever melhor as issues para não haver novamente falha na integração. |
+|Lucas Macêdo| Iniciamos a e adiantamos bem a codificação do backend. | Tivemos dívidas novamente, foram quebrados critérios de aceitação de algumas issues e não foi possível integrar o front e back por motivos que poderiam ser evitados. | Descrever melhor as issues para não haver novamente falha na integração. |
 |Caio Oliveira| Nenhum. | Falta de comprometimento de MDS com as práticas ágeis, falta de atenção nas reuniões, MDS dependendo muito da equipe de EPS. | Independência dos MDS, comprometimento da equipe com o projeto |
 |Matheus Rodrigues|  Alguns membros de mds se mostraram preocupados e mostraram disposição para se empenhar mais. | Pouca produtividade ao decorrer da sprint. | Aumentar a disposição em relação aos interesses da disciplina. |
 |João Pedro| Aprendizado geral de todos do grupo, pareamento efetivo, muito apoio da equipe de EPS. | Deixou para fazer em cima, mal planejamento de tempo da equipe de MDS, perda da segunda-feira. | Maior comprometimento. |
