@@ -36,7 +36,7 @@ Tarefas|Status|Pontos
 |[Efeitos de transição de telas](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/123)| Não concluida | 5
 |[Linkar Monitoria ao Perfil do Usuário que a Criou](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/125)| Concluida | 8
 
-**Ponto Planejados:** 25
+**Ponto Planejados:** 26
 
 **Pontos Concluídos:** 10
 
