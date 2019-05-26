@@ -28,10 +28,16 @@
               createToggler('#navToggler', '#docsNav', 'docsSliderActive');
               createToggler('#tocToggler', 'body', 'tocActive');
 
-              const headings = document.querySelector('.toc-headings');
+              var headings = document.querySelector('.toc-headings');
               headings && headings.addEventListener('click', function(event) {
-                if (event.target.tagName === 'A') {
-                  document.body.classList.remove('tocActive');
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
                 }
               }, false);
 
@@ -106,7 +112,7 @@
 <tr><td style="text-align:center">Moacir Mascarenha</td><td style="text-align:center">Membro da equipe de desenvolvimento</td></tr>
 <tr><td style="text-align:center">Renan Cristyan</td><td style="text-align:center">Membro da equipe de desenvolvimento</td></tr>
 <tr><td style="text-align:center">Caio Oliveira</td><td style="text-align:center">Product Owner</td></tr>
-<tr><td style="text-align:center">Lucas Pereira</td><td style="text-align:center">Arquiteto</td></tr>
+<tr><td style="text-align:center">Lucas Macêdo</td><td style="text-align:center">Arquiteto</td></tr>
 <tr><td style="text-align:center">Lucas Siqueira</td><td style="text-align:center">Scrum Master</td></tr>
 <tr><td style="text-align:center">Matheus Rodrigues</td><td style="text-align:center">DevOps</td></tr>
 </tbody>

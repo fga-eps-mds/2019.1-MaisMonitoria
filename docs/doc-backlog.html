@@ -28,10 +28,16 @@
               createToggler('#navToggler', '#docsNav', 'docsSliderActive');
               createToggler('#tocToggler', 'body', 'tocActive');
 
-              const headings = document.querySelector('.toc-headings');
+              var headings = document.querySelector('.toc-headings');
               headings && headings.addEventListener('click', function(event) {
-                if (event.target.tagName === 'A') {
-                  document.body.classList.remove('tocActive');
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
                 }
               }, false);
 
@@ -249,10 +255,10 @@ O backlog do produto engloba todos os épicos descritos acima e também os segui
 <tr><th style="text-align:center">Data</th><th style="text-align:center">Versão</th><th style="text-align:center">Descrição</th><th style="text-align:center">Autor(es)</th></tr>
 </thead>
 <tbody>
-<tr><td style="text-align:center">06/04/2019</td><td style="text-align:center">0.1</td><td style="text-align:center">Abertura do documento</td><td style="text-align:center">Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues</td></tr>
-<tr><td style="text-align:center">06/04/2019</td><td style="text-align:center">0.2</td><td style="text-align:center">Definição dos épicos</td><td style="text-align:center">Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues</td></tr>
-<tr><td style="text-align:center">06/04/2019</td><td style="text-align:center">0.3</td><td style="text-align:center">Definição das features</td><td style="text-align:center">Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues</td></tr>
-<tr><td style="text-align:center">07/04/2019</td><td style="text-align:center">0.4</td><td style="text-align:center">Definição das historias de usuário, historias técnicas</td><td style="text-align:center">Lucas Siqueira, Lucas Pereira, Caio Oliveira, Matheus Rodrigues</td></tr>
+<tr><td style="text-align:center">06/04/2019</td><td style="text-align:center">0.1</td><td style="text-align:center">Abertura do documento</td><td style="text-align:center">Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues</td></tr>
+<tr><td style="text-align:center">06/04/2019</td><td style="text-align:center">0.2</td><td style="text-align:center">Definição dos épicos</td><td style="text-align:center">Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues</td></tr>
+<tr><td style="text-align:center">06/04/2019</td><td style="text-align:center">0.3</td><td style="text-align:center">Definição das features</td><td style="text-align:center">Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues</td></tr>
+<tr><td style="text-align:center">07/04/2019</td><td style="text-align:center">0.4</td><td style="text-align:center">Definição das historias de usuário, historias técnicas</td><td style="text-align:center">Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues</td></tr>
 <tr><td style="text-align:center">12/04/2019</td><td style="text-align:center">0.5</td><td style="text-align:center">Adição de introdução</td><td style="text-align:center">Lucas Siqueira</td></tr>
 <tr><td style="text-align:center">01/05/2019</td><td style="text-align:center">0.6</td><td style="text-align:center">Adição de backlog do projeto</td><td style="text-align:center">Lucas Siqueira</td></tr>
 </tbody>
