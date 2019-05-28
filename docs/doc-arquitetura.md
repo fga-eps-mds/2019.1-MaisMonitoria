@@ -484,6 +484,7 @@ ___
 | 01/05/2019 | 1.3 | Refatorado Pipeline |Mateus Estanislau, Moacir Mascarenha, Renan Cristyan|
 | 02/05/2019 | 1.4 | Ajustado Pipeline |Matheus Rodrigues|
 |28/05/2019| 1.5|Atualizado diagrama de classes|Moacir Mascarenha|
+|28/05/2019|1.6|Atualizado diagrama de classes|Moacir Mascarenha|
 
 
 
