@@ -35,7 +35,7 @@ Tarefas|Status|Pontos
 |[Cards de Monitorias](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/128)|Concluída. | 8
 |[Feedback para Usuários](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/129)|Concluída. | 5
 
-**Ponto Planejados:** 24
+**Pontos Planejados:** 24
 
 **Pontos Concluídos:** 24
 

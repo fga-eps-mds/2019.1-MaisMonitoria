@@ -38,7 +38,7 @@ Tarefas|Status|Pontos
 |[Plano de Tempo](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/19) | Concluida | 2
 |[Plano de Medição](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/43) | Concluida | 3
 
-**Ponto Planejados:** 29
+**Pontos Planejados:** 29
 
 **Pontos Concluídos:** 24
 
