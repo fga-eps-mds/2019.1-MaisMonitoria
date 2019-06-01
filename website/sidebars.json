@@ -37,7 +37,8 @@
     "Sprint 8": ["sprint8-planning",
                  "sprint8-review"],
     "Sprint 9": ["sprint9-planning",
-                  "sprint9-review"]             
+                  "sprint9-review"],
+    "Sprint 10": ["sprint10-planning"]                           
   },
 
   "docs-requisitos": {

@@ -40,6 +40,10 @@ Tarefas|Status|Pontos
 
 **Pontos Concluídos:** 22
 
+**Bugs Resolvidos:** 
+
+[Botão de Enviar E-mail de Redefinição de Senha](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/133)
+
 ### 2.2 Retrospectiva
 
 <br>
@@ -108,7 +112,7 @@ As ações tomadas foram: Para o deploy continuo foi levantada a hipotese de mud
 <br>
 
 <p align = "justify">
-Nessa sprint as tarefas propostas foram entregues no período planejado da sprint para a realização do code review, porém tivemos dividas relativas a tarefas de EPS, uma delas que pode comprometer com a evolução do projeto, porém será feito o teste de usabilidade durante a semana, as evoluções serão feitas na proxima sprint, junto a um novo teste de usabilidade. 
+Nessa sprint as tarefas propostas foram entregues no período planejado da sprint para a realização do code review, porém tivemos dividas relativas a tarefas de EPS, uma delas que pode comprometer com a evolução do projeto, porém será feito o teste de usabilidade durante a proxíma sprint, e as evoluções referentes ao feedback na sprint seguinte, junto a um novo teste de usabilidade. 
 
 <p align = "justify">
 Analisando os indicadores, vemos poucas melhoras no quadro de conhecimento dado que a evolução na sprint passada foi maior, a curva de conhecimento agora é elevada mais lentamente. Quanto ao velocity, apesar de diminuir os pontos entregues, a equipe de desenvolvimento não deixou dividas, logo para a proxima sprint iremos elevar o número de tarefas planejadas para conseguir determinar a produtividade máxima da equipe. Em relação ao burndown, as entregas tardias se deram devido a revisão dos pull requests e realização das alterações solicitadas, a equipe se mostrou ágil, onde durante a semana tivemos um volume de trabalho muito bom. Apesar de um número bom de respostas nas dailys, a equipe não desempenhou bem os ritos ágeis durante a sprint, tivemos 3 faltas na sprint review e algumas respostas razas nas dailys, abordaremos o tema na realização do sprint planning da próxima sprint visando acabar com esse problema.
