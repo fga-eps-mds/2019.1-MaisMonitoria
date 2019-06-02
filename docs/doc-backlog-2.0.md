@@ -1,6 +1,6 @@
 ---
 id: doc-backlog_2
-title: Backlog 
+title: Backlog
 sidebar_label: Backlog
 ---
 
@@ -27,8 +27,9 @@ Temos um backlog do produto em que engloba todas o trabalho planejado para o pro
 <p align="justify">
 Para a segunda versão do backlog, decidimos retirar o nível de features, pois encaramos nossas histórias de usuário como algo funcional, adicionando novas US's e também refatorando os épicos e US's definidas anteriormente.
 
-## Justificativas 
-<!-- Adequar o escopo da disciplina, a partir do que foi discutido em sala e etc erros cometidos na versão anterior-->
+## Justificativa
+<p align="justify">
+A decisão da criação da segunda versão do backlog se deu devido a erros cometidos anteriormente, deixando algumas histórias muito genéricas, onde deveriam ter sido melhor divididas e a adequação das nomenclaturas usadas, onde não havia a necessidade de quebrar em features, visto que a histórias de usuário já estavam com características de feature. Outra razão para essa mudança foram as aulas da professora carla, onde em diversos momentos foi discutido o escopo dos projetos em geral, visando na diminuição do mesmo, e adequando-o ao tempo útil da disciplina.
 
 
 ### 2.1 Backlog do Projeto
@@ -46,11 +47,11 @@ O épico contém tudo que se diz respeito ao gerenciamento da monitoria.
 | Id | Nome | Descrição | Relevância |
 |--|--|--|--|
 | [US06](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/88) | Pesquisa dinâmica | Eu como usuário desejo que o conforme o texto da pesquisa seja escrito, seja retornado os devidos resultados. | Alta |
-| [US07](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/89) | Filtros de pesquisa relevantes | Eu como usuário desejo definir os critérios para o resultado da pesquisa. | Media |
+| [US07](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/89) | Filtros de pesquisa relevantes | Eu como usuário desejo definir os critérios para o resultado da pesquisa. | Média |
 | [US23](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/148) | Priorização do Feed | Eu como usuário desejo ver no feed as atualizações mais recentes quanto as monitorias. | Alta |
-| [US19](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/136) | Meio de comunicação entre monitor e aluno. | Eu como usuário desejo ter disponível o contato de um monitor para obter mais informações sobre a monitoria e agenda-la. | Alta |
-| [US21](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/144) | Edição de monitoria. | Eu como usuário desejo ter a posibilidade de editar as informações de uma monitoria que eu cadastrei. | Alta |
-| [US20](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/143) | Like em monitoria. | Eu como usuário desejo ter a posibilidade dar like em uma monitoria para falicitar o acesso a mesma. | Alta |
+| [US19](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/136) | Meio de comunicação entre monitor e aluno. | Eu como usuário desejo ter disponível o contato de um monitor para obter mais informações sobre a monitoria e agendá-la. | Alta |
+| [US21](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/144) | Edição de monitoria. | Eu como usuário desejo ter a possibilidade de editar as informações de uma monitoria que eu cadastrei. | Alta |
+| [US20](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/143) | Like em monitoria. | Eu como usuário desejo ter a possibilidade dar like em uma monitoria para facilitar o acesso a mesma. | Alta |
 
 
 ### EPIC02 - Contas de Usuário
@@ -66,13 +67,20 @@ O épico contém tudo que se diz respeito ao gerenciamento da monitoria.
 
 | Id | Nome | Descrição | Relevância |
 |--|--|--|--|
-| [US16](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/127) | Redefinição de senha. | Eu como usuário desejo ter a posibilidade redefinir minha senha caso tenha esquecido ou decida mudar. | Alta |
+| [US16](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/127) | Redefinição de senha. | Eu como usuário desejo ter a possibilidade redefinir minha senha caso tenha esquecido ou decida mudar. | Alta |
 | [US22](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/147) | Tela de Perfil. | Eu como usuário desejo visualizar meu perfil podendo ver minhas informações, monitorias cadastradas e curtidas. | Alta |
 | [US26](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/152) | Fotos de perfil. | Eu como usuário desejo adicionar e pré visualizar foto do meu perfil. | Alta |
 
-### EPIC03 - Undefined
+### EPIC03 - Feedbacks
 
-# UNDEFINED
+<br>
+
+<p align="justify">
+O épico contém tudo que se diz respeito a feedbacks das ações realizadas pelo usuário ou pela aplicação.
+
+<br>
+
+# Descrição
 
 | Id | Nome | Descrição | Relevância |
 |--|--|--|--|
@@ -87,3 +95,7 @@ O épico contém tudo que se diz respeito ao gerenciamento da monitoria.
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 | 30/05/2019 | 0.1 | Abertura do documento | Lucas Siqueira, Lucas Macêdo, Caio Oliveira |
+| 02/06/2019 | 0.2 | Adição de justificativa | Lucas Siqueira |
+
+
+
