@@ -63,7 +63,7 @@ O épico contém tudo que se diz respeito ao gerenciamento da monitoria.
 <br>
 
 <p align="justify">
-O épico contém tudo que se diz respeito ao gerenciamento da monitoria.
+O épico contém tudo que se diz respeito ao gerenciamento de conta do usuário.
 
 | Id | Nome | Descrição | Relevância |
 |--|--|--|--|
