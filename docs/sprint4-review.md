@@ -39,7 +39,7 @@ Tarefas|Status|Pontos
 |[Disponibilizar autenticação por API externa](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/56)| Não concluida | 8
 |[Gerenciamento de requisição](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/55)| Concluida | 5
 
-**Ponto Planejados:** 53
+**Pontos Planejados:** 53
 
 **Pontos Concluídos:** 45
 

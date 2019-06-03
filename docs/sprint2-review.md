@@ -40,7 +40,7 @@ Tarefas|Status|Pontos
 |[Dojo de Pytest](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/26)| Concluida | 3
 |[Plano de Tempo](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/19)| Não concluida | 2
 
-**Ponto Planejados:** 36
+**Pontos Planejados:** 36
 
 **Pontos Concluídos:** 28
 

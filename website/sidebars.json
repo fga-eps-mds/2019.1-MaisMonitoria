@@ -36,7 +36,9 @@
                  "sprint7-review"],
     "Sprint 8": ["sprint8-planning",
                  "sprint8-review"],
-    "Sprint 9": ["sprint9-planning"]             
+    "Sprint 9": ["sprint9-planning",
+                  "sprint9-review"],
+    "Sprint 10": ["sprint10-planning"]                           
   },
 
   "docs-requisitos": {
@@ -49,7 +51,7 @@
     "Priorização": [],
 
     "Modelagem": ["doc-nfr",
-                  "doc-backlog"],
+                  "doc-backlog_2"],
 
     "Pós-Rastreabilidade": []
   }
