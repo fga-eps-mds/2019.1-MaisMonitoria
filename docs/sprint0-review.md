@@ -36,7 +36,7 @@ Tarefas|Status|Pontos
 |[Richpicture](https://github.com/fga-eps-mds/2019.1-hora-da-hora/issues/6) | Concluído | 1
 
 
-**Ponto Planejados:** 14
+**Pontos Planejados:** 14
 
 **Pontos Concluídos:** 14
 

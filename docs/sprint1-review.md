@@ -45,7 +45,7 @@ Tarefas|Status|Pontos
 |[Configurar Ambiente de Desenvlvimento do Front-End](https://github.com/fga-eps-mds/2019.1-Hora-Da-Hora/issues/15)| Concluida | 8
 
 
-**Ponto Planejados:** 40
+**Pontos Planejados:** 40
 
 **Pontos Concluídos:** 35
 

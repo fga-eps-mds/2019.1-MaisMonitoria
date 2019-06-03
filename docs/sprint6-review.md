@@ -32,7 +32,7 @@ Tarefas|Status|Pontos
 |[Documentos do scrum master sprint 6](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/77)| Não concluida | 1
 |[Preaparação R1](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/75)| Concluida | 13
 
-**Ponto Planejados:** 17
+**Pontos Planejados:** 17
 
 **Pontos Concluídos:** 13
 
