@@ -36,7 +36,7 @@ Tarefas|Status|Pontos
 |[Testar API gateway](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/71)| Concluida | 3
 |[Integração front-end com back-end](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/70)| Concluida | 13
 
-**Ponto Planejados:** 46
+**Pontos Planejados:** 46
 
 **Pontos Concluídos:** 46
 
