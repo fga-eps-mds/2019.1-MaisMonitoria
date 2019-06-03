@@ -1,5 +1,5 @@
 ---
-id: doc-backlog_2
+id: doc-backlog-2.0
 title: Backlog
 sidebar_label: Backlog
 ---
