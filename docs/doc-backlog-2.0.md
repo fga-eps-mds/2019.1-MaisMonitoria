@@ -1,5 +1,5 @@
 ---
-id: doc-backlog_2
+id: doc-backlog-2.0
 title: Backlog
 sidebar_label: Backlog
 ---
@@ -20,29 +20,42 @@ Temos um backlog do produto em que engloba todas o trabalho planejado para o pro
 
 ## 2. Backlog
 
-## [Versão 1.0](doc-backlog.md)
+<br>
 
-## Versão 2.0
+### [Versão 1.0](doc-backlog.md)
+
+<br>
+
+### Versão 2.0
+
+<br>
 
 <p align="justify">
 Para a segunda versão do backlog, decidimos retirar o nível de features, pois encaramos nossas histórias de usuário como algo funcional, adicionando novas US's e também refatorando os épicos e US's definidas anteriormente.
 
-## Justificativa
+### 2.1 Justificativa
+
+<br>
+
 <p align="justify">
 A decisão da criação da segunda versão do backlog se deu devido a erros cometidos anteriormente, deixando algumas histórias muito genéricas, onde deveriam ter sido melhor divididas e a adequação das nomenclaturas usadas, onde não havia a necessidade de quebrar em features, visto que a histórias de usuário já estavam com características de feature. Outra razão para essa mudança foram as aulas da professora carla, onde em diversos momentos foi discutido o escopo dos projetos em geral, visando na diminuição do mesmo, e adequando-o ao tempo útil da disciplina.
 
+### 2.2 Backlog do Projeto
 
-### 2.1 Backlog do Projeto
+<br>
+
 ### EPIC01 - Sistema de Monitorias
 
 <br>
 
-### Descrição
+### Descrição:
 
 <br>
 
 <p align="justify">
 O épico contém tudo que se diz respeito ao gerenciamento da monitoria.
+
+<br>
 
 | Id | Nome | Descrição | Relevância |
 |--|--|--|--|
@@ -53,12 +66,13 @@ O épico contém tudo que se diz respeito ao gerenciamento da monitoria.
 | [US21](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/144) | Edição de monitoria. | Eu como usuário desejo ter a possibilidade de editar as informações de uma monitoria que eu cadastrei. | Alta |
 | [US20](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/143) | Like em monitoria. | Eu como usuário desejo ter a possibilidade dar like em uma monitoria para facilitar o acesso a mesma. | Alta |
 
+<br>
 
 ### EPIC02 - Contas de Usuário
 
 <br>
 
-### Descrição
+### Descrição:
 
 <br>
 
@@ -71,7 +85,13 @@ O épico contém tudo que se diz respeito ao gerenciamento de conta do usuário.
 | [US22](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/147) | Tela de Perfil. | Eu como usuário desejo visualizar meu perfil podendo ver minhas informações, monitorias cadastradas e curtidas. | Alta |
 | [US26](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/152) | Fotos de perfil. | Eu como usuário desejo adicionar e pré visualizar foto do meu perfil. | Alta |
 
+<br>
+
 ### EPIC03 - Feedbacks
+
+<br>
+
+### Descrição:
 
 <br>
 
@@ -79,8 +99,6 @@ O épico contém tudo que se diz respeito ao gerenciamento de conta do usuário.
 O épico contém tudo que se diz respeito a feedbacks das ações realizadas pelo usuário ou pela aplicação.
 
 <br>
-
-# Descrição
 
 | Id | Nome | Descrição | Relevância |
 |--|--|--|--|

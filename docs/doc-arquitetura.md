@@ -281,7 +281,7 @@ Diagrama de pacotes.
 
 <br>
 
-![Diagrama de Classe](assets/diagrama_de_classes.jpeg)
+![Diagrama de Classe](assets/diagrama_de_classe.png)
 Diagrama de classes.
 
 <br>
@@ -483,6 +483,8 @@ ___
 | 29/04/2019 | 1.2 | Documento Refatorado | João Pedro, Lucas Alexandre, Mateus Estanislau, Renan Cristyan e Lucas Alexandre|
 | 01/05/2019 | 1.3 | Refatorado Pipeline |Mateus Estanislau, Moacir Mascarenha, Renan Cristyan|
 | 02/05/2019 | 1.4 | Ajustado Pipeline |Matheus Rodrigues|
+|28/05/2019| 1.5|Atualizado diagrama de classes|Moacir Mascarenha|
+|28/05/2019|1.6|Atualizado diagrama de classes|Moacir Mascarenha|
 
 
 
