@@ -30,7 +30,7 @@ Tarefas|Status|Pontos
 --|--|--
 |[Priorização do Feed](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/148)| Concluida | 2
 |[Refatorar Feedback do Esqueceu Senha](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/150)| Concluida | 2
-|[Refatorar Configuração dos Repositórios](https://github.com/fga-eps-mds/2019\.1-MaisMonitoria/issues/154)| Não concluida | 3
+|[Refatorar Configuração dos Repositórios](https://github.com/fga-eps-mds/2019\.1-MaisMonitoria/issues/154)| Não concluída | 3
 |[Refatorar Backlog](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/153)| Concluida | 3
 |[Fotos de Perfil](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/152)| Não concluida | 3
 |[Página Não Encontrada](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/151)| Concluida | 2
@@ -46,7 +46,7 @@ Tarefas|Status|Pontos
 
 **Pontos Concluídos:** 28
 
-**Bugs Resolvidos:** 
+**Bugs Resolvidos:**
 
 [Botão de Login](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/132)
 
@@ -59,9 +59,9 @@ Tarefas|Status|Pontos
 |Membro|Pontos Positivos|Pontos Negativos|Sugestões de melhoria|
 |---|------|-----|---|
 |Lucas Siqueira| Entregas mais frequentes ao longo da sprint. | Não comprimento de todas as tarefas da sprint. | Realizar os testes de usabilidade. |
-|Lucas Macêdo| Nenhum. | Os criterios de aceitação dos PRs estão ruins. | Fazer uma revisão mais critica e construtiva dos PRs, revisar mais rápido. Buscando melhorar a qualidade do produto. |
-|Caio Oliveira| Entregas continuas. | Dividas. | Nenhuma. |
-|Matheus Rodrigues| Nenhuma. | Não cumprimento de todas as tarefas. | Dar feedbacks mais rápidos em relação aos PRS. |
+|Lucas Macêdo| Nenhum. | Os critérios de aceitação dos PRs estão ruins. | Fazer uma revisão mais crítica e construtiva dos PRs, revisar mais rápido. Buscando melhorar a qualidade do produto. |
+|Caio Oliveira| Entregas contínuas. | Dívidas. | Nenhuma. |
+|Matheus Rodrigues| Nenhum. | Não cumprimento de todas as tarefas. | Dar feedbacks mais rápidos em relação aos PRS. |
 |João Pedro| Nenhum. | Demora da revisão dos PRs, pareamento não efetivo por falta de comprometimento. | Nenhuma. |
 |Moacir Junior| Nenhum. | Demora na revisão do PR. | Revisar os PR's mais rápido. |
 |Matheus Cristo| - | - | - |
@@ -112,12 +112,12 @@ Tarefas|Status|Pontos
 **R07 - Entregas atrasadas:**
 Tivemos quatro dívidas: Teste de Usabilidade, Refatorar Configuração dos Repositórios, Fotos de Perfil, Like em Monitoria.
 
-As ações tomadas foram: Seram adicionadas á proxima sprint, e para o like em monitoria será feita uma alteração no pareamento devido a não efetividade do anterior.
+As ações tomadas foram: Serão adicionadas a próxima sprint, e para o like em monitoria será feita uma alteração no pareamento devido a não efetividade do anterior.
 
 **R12 - Pareamentos não efetivos:**
 O pareamento para a issue "Like em Monitoria" não foi efetivo.
 
-As ações tomadas foram: Nenhuma ação foi tomada durante a sprint, porém para a proxima sprint o pareamento será alterado.
+As ações tomadas foram: Nenhuma ação foi tomada durante a sprint, porém para a próxima sprint o pareamento será alterado.
 
 
 ### 7.2 Análise geral
@@ -125,10 +125,13 @@ As ações tomadas foram: Nenhuma ação foi tomada durante a sprint, porém par
 <br>
 
 <p align = "justify">
-Nessa sprint tivemos entregas mais constantes ao longo da sprint, porém tivemos dividas, novamente não foi feito o teste de usabilidade, para a proxima sprint será priorizado e caso o membro delegado para fazer não realizar será feito por outro.
+Nessa sprint tivemos entregas mais constantes ao longo da sprint, porém tivemos dívidas, novamente não foi feito o teste de usabilidade, para a próxima sprint será priorizado e caso o membro delegado para fazer não realizar será feito por outro.
 
 <p align = "justify">
-Analisando os indicadores, para o quadro de conhecimento foi feito uma alteração, tiramos a aba de html/css e adicionamos a aba 'material-ui' que é a biblioteca utilizada para a estilização e desenvolvimento do front-end. Quanto ao velocity, nessa sprint tivemos mais pontos planejados, por estarmos entrando na reta final do projeto, apesar das dividas entregamos um número maior de pontos. Em relação ao burndown, as entregas foram mais constantes. Quanto os ritos ágeis a equipe após uma conversa feita no começo da sprint a equipe se mostrou mais interessada e participativa.
+Analisando os indicadores, para o quadro de conhecimento foi feito uma alteração, tiramos a aba de html/css e adicionamos a aba 'material-ui' que é a biblioteca utilizada para a estilização e desenvolvimento do front-end. Quanto ao velocity, nessa sprint tivemos mais pontos planejados, por estarmos entrando na reta final do projeto, apesar das dívidas entregamos um número maior de pontos. Em relação ao burndown, as entregas foram mais constantes. Quanto os ritos ágeis a equipe após uma conversa feita no começo da sprint a equipe se mostrou mais interessada e participativa.
+
+
+
 
 
 
