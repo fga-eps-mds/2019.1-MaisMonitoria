@@ -60,8 +60,8 @@ Tarefas|Status|Pontos
 |---|------|-----|---|
 |Lucas Siqueira| Entregas mais frequentes ao longo da sprint. | Não comprimento de todas as tarefas da sprint. | Realizar os testes de usabilidade. |
 |Lucas Macêdo| Nenhum. | Os criterios de aceitação dos PRs estão ruins. | Fazer uma revisão mais critica e construtiva dos PRs, revisar mais rápido. Buscando melhorar a qualidade do produto. |
-|Caio Oliveira| - | - | - |
-|Matheus Rodrigues| - | - | - |
+|Caio Oliveira| Entregas continuas. | Dividas. | Nenhuma. |
+|Matheus Rodrigues| Nenhuma. | Não cumprimento de todas as tarefas. | Dar feedbacks mais rápidos em relação aos PRS. |
 |João Pedro| Nenhum. | Demora da revisão dos PRs, pareamento não efetivo por falta de comprometimento. | Nenhuma. |
 |Moacir Junior| Nenhum. | Demora na revisão do PR. | Revisar os PR's mais rápido. |
 |Matheus Cristo| - | - | - |
