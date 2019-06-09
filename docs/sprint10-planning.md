@@ -27,13 +27,14 @@ Tarefas|Pontos
 |[Priorização do Feed](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/148) | 2
 |[Refatorar Feedback do Esqueceu Senha](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/150) | 2
 |[Refatorar Configuração dos Repositórios](https://github.com/fga-eps-mds/2019\.1-MaisMonitoria/issues/154) | 3
-|[Refatorar Backlog](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/153) | 5
+|[Refatorar Backlog](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/153) | 3
 |[Fotos de Perfil](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/152) | 3
-|[Página Não Encontrada](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/151) | 5
+|[Página Não Encontrada](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/151) | 2
 |[Loading Spinners](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/149) | 3
 |[Tela de Perfil](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/147) | 5
 |[Documentos do Scrum Master Sprint10](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/146) | 1
-|[Like em Monitoria](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/143) | 1
+|[Like em Monitoria](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/143) | 8
+|[Tela de Edição de Monitoria](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/144) | 5
 |[*Deploy Contínuo](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | 5
 |[*Teste de Usabilidade](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/139) | 3
 
@@ -67,6 +68,7 @@ Tarefas|Responsáveis
 |[Tela de Perfil](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/147) | Lucas Alexandre, Moacir Junior
 |[Documentos do Scrum Master Sprint 10](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/146) | Lucas Siqueira
 |[Like em Monitoria](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/143) | João Pedro, Matheus Estanislau
+|[Tela de Edição de Monitoria](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/144) | João Pedro, Renan Cristyan
 |[*Deploy Contínuo](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | Matheus Rodrigues
 |[*Teste de Usabilidade](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/139) | Caio Oliveira
 
