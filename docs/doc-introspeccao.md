@@ -67,15 +67,10 @@ sidebar_label: Introspecção
 
 <br>
 
-Este documento ajudou a elicitar as seguintes features:
+Este documento ajudou a elicitar os seguintes épicos:
 
-* FT04 - Manter Conta de Usuário
-* FT05 - Manter Monitorias
-* FT06 - Sistema de Pesquisa
-* FT10 - Ranking
-* FT11 - Recompensas
-* FT12 - Feed Pesonalizado
-* FT13 - Sistema de Follow
+* Sistema de Monitorias
+* Contas de Usuário
 
 ## 4. Referências
 
@@ -94,7 +89,7 @@ ___
 | 19/03/2019 | 0.2 | Realização dos tópicos da introspecção | Lucas Siqueira, Lucas Macêdo, Caio Oliveira, Matheus Rodrigues |
 | 21/03/2019 | 0.3 | Adição da introdução  | Lucas Siqueira |
 | 13/04/2019 | 0.4 | Adição de rastreabilidade de Requisitos | Lucas Siqueira |
-
+| 10/06/2019 | 0.5 | Edição da rastreabilidade de Requisitos | Lucas Siqueira |
 
 
 

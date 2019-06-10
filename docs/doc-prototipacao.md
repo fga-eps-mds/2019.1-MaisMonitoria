@@ -79,16 +79,11 @@ https://www.figma.com/proto/SUKpGx4jTGXy0o7ZAJMNwDNE/Untitled?node-id=1%3A2&scal
 
 <br>
 
-Este documento ajudou a elicitar as seguintes features:
+Este documento ajudou a elicitar os seguintes épicos:
 
-* FT01 - Visual Atraente App-Like
-* FT04 - Manter Conta de Usuário
-* FT05 - Manter Monitorias
-* FT06 - Sistema de Pesquisa
-* FT10 - Ranking
-* FT11 - Recompensas
-* FT12 - Feed Pesonalizado
-* FT13 - Sistema de Follow
+* Sistema de Monitorias
+* Contas de Usuário
+
 
 ## 7. Referências
 
@@ -104,6 +99,7 @@ Este documento ajudou a elicitar as seguintes features:
 | 30/03/2019 | 0.1 | Criação e desenvolvimento do documento | João Pedro, Matheus Cristo | 
 | 07/04/2019 | 0.2 | Criação da versão 3.0 do Protótipo | Lucas Alexandre, Moacir Mascarenha |
 | 13/04/2019 | 0.3 | Adição de rastreabilidade de Requisitos | Lucas Siqueira |
+| 10/06/2019 | 0.4 | Edição da rastreabilidade de Requisitos | Lucas Siqueira |
 
 
 
