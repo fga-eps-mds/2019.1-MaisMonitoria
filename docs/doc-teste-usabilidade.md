@@ -169,3 +169,6 @@ Com a observação do mediador e o feedback dos usuários foi possível verifica
 </p>
 
 
+| Data | Versão | Descrição | Autor(es) |
+|:--:|:--:|:--:|:--:|
+| 10/06/2019 | 0.1 | Criação do documento | Caio Oliveira, Lucas Siqueira |
