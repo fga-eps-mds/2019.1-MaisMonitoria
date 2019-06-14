@@ -212,19 +212,24 @@ O backlog representa a acumulação de trabalho, é uma espécie de estoque rela
 Especificamente neste documento, mesmo que de forma superficial e pouco eficiente, o Backlog supre a ausência de uma especificação dos casos de uso ou da descrição dos cenários de utilização.
 </p>
 
-Os épicos levantados para o produto são:
+Os épicos levantados para o projeto são:
 
-- **EPIC01 - Interface PWA:** O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
+- **EPIC01 - Sistema de Monitorias:**  
+<p align="justify">
+O projeto deve conter um microsserviço gerenciador de monitorias e suas dependências, capaz de registrar, filtrar, editar, curtir e pesquisar monitorias. Além disso, a comunicação entre aluno e monitor deve ser intermediada pelo mesmo.
+</p>
+    
+- **EPIC02 - Contas de Usuário:**  
+<p align="justify">
+O projeto deve conter um microsserviço gerenciador de usuários, possibilitando a visualização e edição de seus dados cadastrados.
+</p>
 
-- **EPIC02 - Microsserviço Gerenciador de Monitorias:** O produto deve conter um microsserviço que gerencie tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
+- **EPIC03 - Feedbacks:** 
+<p align="justify">
+O projeto deve conter uma funcionalidade para gerar de feedbacks. O usuário será informado sobre o término de suas ações, páginas inexistentes na aplicação, e também poderá visualizar um loading spinner toda vez que uma ação estiver em execução.
+</p>
 
-- **EPIC03 - Microsserviço Gateway:** O produto deve conter um microsserviço responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação.
-
-- **EPIC04 - Microsserviço de Gamificação:** O produto deve conter um microsserviço responsável gerenciar toda a parte de gamificada do produto, incluindo processamento de um ranking, cálculo de pontuações e distribuição de recompensas.
-
-- **EPIC05 - Microsserviço Gerador de Feed:** O produto deve conter um microsserviço responsável por manter feed's de novidades e atualizações gerados de acordo com os perfis dos usuários.
-
-Para mais informações visite o [Backlog](doc-backlog.md) completo.
+Para mais informações visite o [Backlog](doc-backlog-2.0.md) completo.
 
 <br>
 
@@ -485,6 +490,7 @@ ___
 | 02/05/2019 | 1.4 | Ajustado Pipeline |Matheus Rodrigues|
 |28/05/2019| 1.5|Atualizado diagrama de classes|Moacir Mascarenha|
 |28/05/2019|1.6|Atualizado diagrama de classes|Moacir Mascarenha|
+|14/06/2019|1.7|Atualizado Backlog|João Pedro, Lucas Alexandre, Moacir Mascarenha|
 
 
 
