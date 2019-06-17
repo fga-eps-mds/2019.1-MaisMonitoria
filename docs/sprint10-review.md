@@ -96,7 +96,7 @@ Tarefas|Status|Pontos
 
 <br>
 
-![Engajamento Dailts Sprint 9](assets/dailys-sprint-10.png)
+![Engajamento Dailts Sprint 10](assets/dailys-sprint-10.png)
 
 <br>
 
