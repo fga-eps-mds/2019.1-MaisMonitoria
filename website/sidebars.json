@@ -40,7 +40,9 @@
                   "sprint9-review"],
     "Sprint 10": ["sprint10-planning",
                   "sprint10-review"],
-    "Sprint 11":["sprint11-planning"]                           
+    "Sprint 11":["sprint11-planning",
+                  "sprint11-review"],
+    "Sprint 12":["sprint12-planning"]                                         
   },
 
   "docs-requisitos": {

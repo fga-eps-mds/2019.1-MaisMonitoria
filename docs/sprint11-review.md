@@ -28,8 +28,6 @@ sidebar_label: Review
 
 Tarefas|Status|Pontos
 --|--|--
-Tarefas|Pontos
---|--
 |[EVM](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/166)| Concluida | 5
 |[Tela de Perfil do Monitor](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/159)| Concluida | 5
 |[Limitar requisições no feed](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/160)| Concluida | 3
@@ -117,7 +115,7 @@ As ações tomadas foram: Serão realocadas nas duas sprints finais.
 <br>
 
 <p align = "justify">
-Como principal ponto positivo da sprint, tivemos a realização de testes de usabilidade, onde encontramos alguns bugs que tem impacto grande na usabilidade. Para a reta final do projeto, focaremos em ajustar o produto segundo os feedbacks, visando melhorar o produto a fim de torna-lo o mais apresentavél e usavél possivel.
+Como principal ponto positivo da sprint, tivemos a realização dos testes de usabilidade, onde encontramos alguns bugs que tem impacto grande na usabilidade. Para a reta final do projeto, focaremos em ajustar o produto segundo os feedbacks, visando melhorar o produto a fim de torna-lo o mais apresentavél e usavél possivel.
 
 <p align = "justify">
 

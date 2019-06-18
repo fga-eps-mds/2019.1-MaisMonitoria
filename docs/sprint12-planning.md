@@ -28,11 +28,11 @@ Tarefas|Pontos
 |[Deletar monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/171) | 3
 |[Refatorar deletar like da monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/173) | 5
 |[Bug multiplicar likes/monitorias](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/171) | 5
-|[Bug editar perfil](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/174) | Matheus Estanislau
+|[Bug editar perfil](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/174) | 3
 |[Refatorar campos criar/editar monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/172) | 3
 |[Documentos do Scrum Master Sprint 12](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/175) | 1
-|[Deploy Contínuo Ambiente de Produção*](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | 3
-|[Contas no firebase sem cadastro no banco de dados*](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/161) | 3
+|[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | 3
+|[*Contas no firebase sem cadastro no banco de dados](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/161) | 3
 
 Total de pontos de dividas anteriores: 30
 
@@ -42,7 +42,7 @@ Total de Pontos: 6
 
 <br>
 
-![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-10.png)
+![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-11.png)
 
 <br>
 
