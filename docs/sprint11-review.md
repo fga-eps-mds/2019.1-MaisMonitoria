@@ -41,11 +41,9 @@ Tarefas|Status|Pontos
 |[*Like em Monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/143)| Concluida | 8
 |[*Fotos de Perfil](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/152)| Concluida | 3
 
-**Pontos Planejados:** 
+**Pontos Planejados:** 45
 
-**Pontos Concluídos:** 
-
-**Bugs Resolvidos:**
+**Pontos Concluídos:** 31
 
 ### 2.2 Retrospectiva
 
