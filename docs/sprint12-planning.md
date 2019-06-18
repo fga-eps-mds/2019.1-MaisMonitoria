@@ -34,7 +34,7 @@ Tarefas|Pontos
 |[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | 3
 |[*Contas no firebase sem cadastro no banco de dados](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/161) | 3
 
-Total de pontos de dividas anteriores: 30
+Total de pontos de dividas anteriores: 31
 
 Total de Pontos: 6
 
