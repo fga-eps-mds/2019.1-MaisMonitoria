@@ -152,13 +152,23 @@ O PostgreSQL é um banco de dados objeto relacional, ele será responsável por 
 
 <br>
 
+### Arquitetura Orientada à Componentes
+<p align="justify">
+Arquitetura com ênfase na decomposição dos sistemas, em componentes funcionais e lógicos com interfaces bem definidas, usadas para comunicação entre os próprios componentes.
+</p>
+
+<p align="justify">
+Arquitetura com ênfase em decompor um sistema em elementos(Componentes), logicos e funcionais, com comunicação definidas entre os elementos. 
+</p>
+
 ### ReactJS
 
 <br>
 
 <p align="justify">
-O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
+O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Permite criar componentes encapsulados capazes de gerenciar seus estados.Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
 </p>
+
 
 <br>
 
@@ -281,6 +291,7 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 Diagrama de pacotes.
 
 <br>
+A pasta src é responsável por armazenar as dependencias, componentes, arquivos e lógica da interface. 
 
 ### Microsserviço de Monitorias
 
@@ -343,7 +354,7 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 No projeto, a interface PWA será construída utilizando ReactJS, que tem sua estrutura composta por os seguintes arquivos:
 </p>
 
-- **App.js** - Possui o componente raiz do aplicativo.
+- **App.js** - Possui o componente raiz do aplicativo. Responsável por inicializar a renderização das telas.
 
 - **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e onde ocorrerá a renderização.
 
@@ -491,19 +502,5 @@ ___
 |28/05/2019| 1.5|Atualizado diagrama de classes|Moacir Mascarenha|
 |28/05/2019|1.6|Atualizado diagrama de classes|Moacir Mascarenha|
 |14/06/2019|1.7|Atualizado Backlog|João Pedro, Lucas Alexandre, Moacir Mascarenha|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|21/06/2019|1.8|Adicionado Arquitetura orientada a componentes|João Pedro, Lucas Alexandre, Renan Cristyan e Moacir Mascarenha|
 
