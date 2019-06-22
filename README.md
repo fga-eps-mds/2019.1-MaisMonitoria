@@ -28,6 +28,8 @@
 | Renan Cristyan	| rcristyan9@gmail.com | [rcristyan](https://github.com/rcristyan) | Desenvolvedor |17/0044386|
 | Moacir Junior	| moacirmascarenha86@gmail.com | [moacirmsj](https://github.com/moacirmsj) | Desenvolvedor |17/0080366|
 
+### Acesse a aplicação
+* [+Monitoria - homologação](https://homolog.maismonitoria.com)
 ### Conheça nossa documentação
 * [+Monitoria Docs](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/)
 
