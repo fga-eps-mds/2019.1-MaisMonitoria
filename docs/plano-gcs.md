@@ -119,11 +119,10 @@ sidebar_label: Plano de GCS
 | Slack | Ferramenta de comunicação do grupo |
 | FireBase | Ferramenta utilizada para abstrair a complexidade da autenticação |
 | Rancher | Ferramenta utilizada para orquestrar os conteiners |
-|GitLabCI | Ferramenta utilizada para deploy contínuo |
  
  ### Integração das Ferramentas
 
-<p align = "justify">O GitHub e o Docker tem um papel central na integração das ferramentas, considerando o seguinte pipeline, o desenvolvedor sobe seu ambiente isolado de desenvolvimento criado com containers Docker facilmente através do gerenciamento e orquestração dos containers proporcionado pelo Docker Compose, gera código fonte em python e javascript através do editor de texto VS Code, controla o versionamento utilizando Git e sempre que possível sincronizar o trabalho realizado localmente com o repositório remoto hospedado no GitHub. A partir deste ponto entram em cena Travis e Code Climate, pois após cada alteração no repositório remoto o Travis gera uma nova build do projeto e o Code Climate realiza uma análise estática do código fonte. Além de realizar a build, o Travis também possui outras funções que em alguns casos fazem parte da build e em outros casos são eventos pós build ou pré build, como executar todos os testes automatizados e enviar as informações sobre os testes para o CodeCov verificar a cobertura de testes, e comunicar qualquer problema que ocorra no processo de build impedindo que código quebrado se junte as versões estáveis do projeto. O gitlabCI irá automatizar o deploy na Digital Ocean onde a orquestração de containers será feita pela Rancher. Por fim, e novamente através do GitHub, o Slack e o ZenHub disparam notificações ou realizam ações com base em atualizações no repositório remoto, logicamente além das funções descritas acima Slack e ZenHub também ajudam na comunicação e gerência da equipe através de algumas ações manuais feitas pelos membros, no entanto no caso do Slack ainda existem alguns bots que são usados para automatizar certas atividades.</p>
+<p align = "justify">O GitHub e o Docker tem um papel central na integração das ferramentas, considerando o seguinte pipeline, o desenvolvedor sobe seu ambiente isolado de desenvolvimento criado com containers Docker facilmente através do gerenciamento e orquestração dos containers proporcionado pelo Docker Compose, gera código fonte em python e javascript através do editor de texto VS Code, controla o versionamento utilizando Git e sempre que possível sincronizar o trabalho realizado localmente com o repositório remoto hospedado no GitHub. A partir deste ponto entram em cena Travis e Code Climate, pois após cada alteração no repositório remoto o Travis gera uma nova build do projeto e o Code Climate realiza uma análise estática do código fonte. Além de realizar a build, o Travis também possui outras funções que em alguns casos fazem parte da build e em outros casos são eventos pós build ou pré build, como executar todos os testes automatizados e enviar as informações sobre os testes para o CodeCov verificar a cobertura de testes, e comunicar qualquer problema que ocorra no processo de build impedindo que código quebrado se junte as versões estáveis do projeto. O Travis irá executar um script que automatizará o deploy na Digital Ocean onde a orquestração de containers será feita pelo Rancher. Por fim, e novamente através do GitHub, o Slack e o ZenHub disparam notificações ou realizam ações com base em atualizações no repositório remoto, logicamente além das funções descritas acima Slack e ZenHub também ajudam na comunicação e gerência da equipe através de algumas ações manuais feitas pelos membros, no entanto no caso do Slack ainda existem alguns bots que são usados para automatizar certas atividades.</p>
 
 ## 5. Referências
 
@@ -143,7 +142,7 @@ sidebar_label: Plano de GCS
 | 26/03/2019 | 0.2 | Adição do tópico Ferramentas | Lucas Macêdo e Matheus Rodrigues |
 | 27/03/2019 | 0.3 | Adição do sub-tópico Integração das Ferramentas | Lucas Macêdo |
 | 21/04/2019 | 0.4 | Ajuste tópico de branches | Matheus Rodrigues |
-
+| 22/06/2019 | 0.5 | Ajustes finais | Matheus Rodrigues |
 
 
 

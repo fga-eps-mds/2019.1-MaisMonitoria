@@ -22,7 +22,7 @@ Seguindo o que é feito na disciplina a um longo tempo, utilizamos de recursos d
 > Mais detalhes em: https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/doc-descricao-metodologia
 
 ## 4. Definição das tecnologias
-Matheus ou Macedo
+As tecnologias utilizadas no projeto foram decididas a partir de discursões entre os membros do grupo, visando a produtividade. Para a configuração e gerenciamento de containers, utilizamos as ferramentas Docker e Docker Compose, visto que possuíamos, apesar de pouco, um certo conhecimento em relação a esta tecnologia. Em relação a análise de código, utilizamos as ferramentas Code Climate e CodeCov, onde o Code Climate nos gerava as métricas necessarias a respeito da saúde do código e o CodeCov sobre a cobertura de testes, as duas ferramentas também possuem interfaces intuitivas e amigáveis. Para a criação da interface do webapp, optamos pelo ReactJS, pois observamos as vantagens que nos traria no desenvolvimento de um PWA. Na escolha da tecnologia para o desenvolvimento das nossas APIs decidimos utilizar o Django Rest, visto que boa parte do grupo já possuia um certo conhecimento a respeito do framework Django e esta ferramenta atenderia ao proprósito do projeto. O Firebase é uma ferramenta que abstrai a complexidade da autenticação no webapp, preferimos utilizar uma API externa para tal ao invés de implementar uma solução para esse quesito. O Travis foi escolhido como ferramenta de integração contínua, onde automatiza todo nosso Pipeline. A DigitalOcean é o provedor em nuvem que usamos no projeto, visto que possuímos crédito na plataforma e a mesma atendia as necessidades do projeto. O Rancher é a tecnologia que orquestra os nossos containers na nuvem e possui uma interface intuitiva. Para a comunicação do grupo, decidimos utilizar o Slack, pois o mesmo facilitava a inserção de bots que automativam algumas tarefas como: responder as Dailys, acompanhar os commits feitos no GitHub e as builds no travis. Para a codificação, usamos o editor VS Code, pois nos auxiliava para a programação em pares. Já na parte de versionamento e hospedagem de repositório, o Git e o Github foram utilizados, visto que eram quesitos da diciplina de EPS/MDS e que possuiam integração com outras plataformas como o Code Climate e o Travis. Por fim, o ZenHub foi usado para o gerenciamento da equipe, mostrando o andamento das tarefas de cada membro.
 
 > Mais detalhes sobre as ferramentas, disponíveis em: https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/plano-gcs#4-ferramentas
 
@@ -115,4 +115,5 @@ Caio
 |------------------|-----------------|---------------------------------|--------------------|
 | 22/06/2019| 0.1 | Tópicos 1 e 2 | Caio Oliveira  |
 | 22/06/2019| 0.2 | Tópicos 2, 3, 6, 8, 9, 10, 11, 12, 13 | Lucas Siqueira  |
+|22/06/2019 | 0.3 | Tópico 4 | Matheus Rodrigues | 
 
