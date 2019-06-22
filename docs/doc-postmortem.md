@@ -105,7 +105,7 @@ Além dos sentimentos compartilhados, durante a execução do projeto na defini�
 
 ### 14.4 Lucas Macedo
 
-Os cara não leva nada a serio.
+"Os cara não leva nada a sério!" essa foi minha frase durante o semestre. Infelizmente ao final do projeto não me senti com a sensação de dever cumprido, fiquei bem insatisfeito com a "arquitetura" do nosso front-end, no começo do projeto eu como arquiteto confiei na equipe de desenvolvimento, que eles utilizariam oque aprenderam durante a capacitação para criar os componentes e organizar nossas páginas de forma correta e utilizando bom senso, no entanto após passado o sufoco da R1 e o começo meio morno da R2 parei para analisar, revisar, etc... o código e a organização do nosso front-end e me deparei com uma grande bagunça, código sem padrão, com algumas replicações, componentes sem função bem definida e uma estrutura de páginas e rotas confusa para não dizer ruim. Tudo isso cai na minha conta, pois acabei aceitando "qualquer coisa" em termos de código e organização durante a R1 por diversos motivos que já foram citados no documento, e depois durante a R2 demorei demais para tomar a atitude de conversar com a equipe de MDS, explicar pra eles quais seriam as melhores práticas e ajuda-los em uma refatoração, uma vez que quando tomei essa decisão ela foi barrada pela equipe de EPS pelos motivos de que o código já estava muito grande e uma refatoração com essas proporções era um risco muito grande para o projeto. No fim, não foi possível cuidar bem do front-end como consgui cuidar das nossas API's, mas fiz o possível para que novos problemas não fossem inseridos no nosso front-end durante a R2.   
 
 ### 14.5 Matheus Rodrigues
 Calma, ta de boa, o projeto tá pronto, só fazer.
@@ -119,5 +119,5 @@ Caio
 | 22/06/2019| 0.1 | Tópicos 1 e 2 | Caio Oliveira  |
 | 22/06/2019| 0.2 | Tópicos 2, 3, 6, 8, 9, 10, 11, 12, 13 | Lucas Siqueira  |
 |22/06/2019 | 0.3 | Tópico 4 | Matheus Rodrigues | 
-| 22/06/2019 | 0.4 | Tópicos 5 e 7 | Lucas Macêdo |
+| 22/06/2019 | 0.4 | Tópicos 5, 7 e 14.4 | Lucas Macêdo |
 
