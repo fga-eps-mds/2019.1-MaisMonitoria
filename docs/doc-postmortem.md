@@ -27,7 +27,8 @@ As tecnologias utilizadas no projeto foram decididas a partir de discursões ent
 > Mais detalhes sobre as ferramentas, disponíveis em: https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/plano-gcs#4-ferramentas
 
 ## 5. Definição da arquitetura
-Macedo
+
+Como sugerido pela professora Carla optamos por utilizar uma arquitetura orientada a microsserviços, ao analisar nosso escopo observamos que ele não era grande e complexo o sufiente para que fosse necessário utilizar tal arquitetura, no entanto visando o aprendizado e o desafio técnico mantivemos a decisão inicial. Após isso procuramos ajuda na internet, com colegas de trabalho, colegas de faculdade e com professores, no intuito de seguir as melhores práticas possiveis dentro da arquitetura, evitar erros bobos e descobrir boas tenologias para utilizar. Uma vez definida e modelada nossa arquitetura macro, focamos na arquitetura interna dos nossos serviços, que foi modelada de acordo com as tecnologias, frameworks e linguagens que escolhemos utilizar, novamente buscamos ajuda com a mesma intenção de utlizar as melhores práticas possiveis e evitar erros clichês. 
 
 ## 6. Capacitação da equipe 
 
@@ -41,7 +42,8 @@ Em seguida, realizamos um treinamento a cerca de testes unitários em python, te
 https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/plano-grh 
 
 ## 7. Início a codificação
-Macedo
+
+Infelizmente mesmo após o periodo de capacitação, a equipe de MDS não atingiu o nível técnico necessário para contribuir de forma independente e eficiente no desenvolvimento, o que acabou obrigando a equipe de EPS a ter que acompanhar muito de perto os membros de MDS e na maioria das vezes codificar por eles as issues. Esse fato acabou sobrecarregando a equipe de EPS princialmente nas proximidades da R1 e de certa forma acomodou os membros de MDS uma vez que a equipe de EPS estava sempre cobrindo o deficit no desenvolvimento do código. 
 
 ## 8. Entrega da R1
 
@@ -102,6 +104,7 @@ Além dos sentimentos compartilhados, durante a execução do projeto na defini�
 
 
 ### 14.4 Lucas Macedo
+
 Os cara não leva nada a serio.
 
 ### 14.5 Matheus Rodrigues
@@ -116,4 +119,5 @@ Caio
 | 22/06/2019| 0.1 | Tópicos 1 e 2 | Caio Oliveira  |
 | 22/06/2019| 0.2 | Tópicos 2, 3, 6, 8, 9, 10, 11, 12, 13 | Lucas Siqueira  |
 |22/06/2019 | 0.3 | Tópico 4 | Matheus Rodrigues | 
+| 22/06/2019 | 0.4 | Tópicos 5 e 7 | Lucas Macêdo |
 
