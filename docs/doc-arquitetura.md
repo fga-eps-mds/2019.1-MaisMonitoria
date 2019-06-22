@@ -356,7 +356,7 @@ No projeto, a interface PWA será construída utilizando ReactJS, que tem sua es
 
 - **Assets** - Pasta responsável por armazenar arquivos estáticos como imagens e icones svg, podendo ser ultilizado na composição das telas.
 
-- **Components** - Armazena os componentes que compoem a estrutura da interface, sendo cada componente uma tela do sistema.
+- **Components** - Pasta que armazena os componentes do projeto, que são classes ou funções JavaScript que retornam um elemento do React e descrevem como a interface do usuário deve se comportar.
 
 <br>
 
