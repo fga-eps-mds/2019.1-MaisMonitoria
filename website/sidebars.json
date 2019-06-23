@@ -14,7 +14,9 @@
                 "plano-custos",
                 "doc-plano-tempo",
                 "doc-descricao-metodologia",
-                "doc-plano-medicao"]
+                "doc-plano-medicao"],
+      
+    "Post Mortem":["doc-postmortem"]
   },
 
   "docs-sprints": {
@@ -43,7 +45,8 @@
                   "sprint10-review"],
     "Sprint 11":["sprint11-planning",
                   "sprint11-review"],
-    "Sprint 12":["sprint12-planning"]                                         
+    "Sprint 12":["sprint12-planning"],
+    "Post Mortem":["doc-postmortem"]                                         
   },
 
   "docs-requisitos": {
@@ -53,11 +56,11 @@
                     "doc-observacao",
                     "doc-prototipacao"],
     
-    "Priorização": [],
+    "Priorização": ["doc-priorizacao"],
 
     "Modelagem": ["doc-nfr",
                   "doc-backlog-2.0"],
 
-    "Pós-Rastreabilidade": []
+    "Post Mortem":["doc-postmortem"]
   }
 }
