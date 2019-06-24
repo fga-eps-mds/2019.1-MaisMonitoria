@@ -27,7 +27,7 @@ Tarefas|Pontos
 |[Tela de Perfil na lista de likes](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/169) | 2
 |[Deletar monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/171) | 3
 |[Refatorar deletar like da monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/173) | 5
-|[Bug multiplicar likes/monitorias](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/171) | 5
+|[Bug multiplicar likes/monitorias](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/171) | 8
 |[Bug editar perfil](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/174) | 3
 |[Refatorar campos criar/editar monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/172) | 3
 |[Documentos do Scrum Master Sprint 12](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/175) | 1
