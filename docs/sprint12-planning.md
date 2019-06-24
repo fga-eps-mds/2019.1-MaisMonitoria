@@ -31,7 +31,7 @@ Tarefas|Pontos
 |[Bug editar perfil](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/174) | 3
 |[Refatorar campos criar/editar monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/172) | 3
 |[Documentos do Scrum Master Sprint 12](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/175) | 1
-|[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | 3
+|[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/165) | 3
 |[*Contas no firebase sem cadastro no banco de dados](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/161) | 3
 
 Total de pontos de dividas anteriores: 31
@@ -60,7 +60,7 @@ Tarefas|Responsáveis
 |[Bug editar perfil](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/174) | Matheus Estanislau
 |[Refatorar campos criar/editar monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/172) | Moacir Junior, Renan Cristyan
 |[Documentos do Scrum Master Sprint 12](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/175) | Lucas Siqueira
-|[Deploy Contínuo Ambiente de Produção*](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | Matheus Rodrigues
+|[Deploy Contínuo Ambiente de Produção*](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/165) | Matheus Rodrigues
 |[Contas no firebase sem cadastro no banco de dados*](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/161) | João Pedro, Renan Cristyan
 
 

@@ -10,7 +10,7 @@ sidebar_label: Review
 
 <br>
 
-- Período: 04/06 - 10/06
+- Período: 11/06 - 17/06
 - Scrum master: Lucas Siqueira
 - Product Owner: Caio Oliveira
 - Devops: Matheus Rodrigues
@@ -35,7 +35,7 @@ Tarefas|Status|Pontos
 |[Bug editar perfil](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/174)| Concluida | 3
 |[Refatorar campos criar/editar monitoria](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/172)| Concluida | 3
 |[Documentos do Scrum Master Sprint 12](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/175)| Concluida | 1
-|[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/138) | 3
+|[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/163) | 3
 |[*Contas no firebase sem cadastro no banco de dados](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/161)| Concluida | 3
 
 **Pontos Planejados:** 31
