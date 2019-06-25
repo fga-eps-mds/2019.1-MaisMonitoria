@@ -12,7 +12,7 @@ sidebar_label: Documento de visão
 
 <p align="justify"> Este documento tem como propósito demonstrar a visão geral, as características, reunir as funcionalidades, requisitos e os objetivos do aplicativo web a ser produzido o +Monitoria. Fornece uma visão unificada das necessidades e expectativas do cliente em relação ao software, além de ajudar a reduzir riscos.<p>
 
-<p align="justify"> Muitos alunos no meio acadêmico possuem dificuldades em seu aprendizado durante seus estudos tradicionais. Através disso foi idealizado, um ambiente agradável que possibilitasse que alunos pudessem trocar informações com a realização de monitorias.</p>
+<p align="justify"> Muitos alunos no meio acadêmico possuem dificuldades em seu aprendizado durante seus estudos tradicionais. Através disso foi idealizado, um ambiente agradável que possibilitasse aos alunos disponíbilizar monitorias com o objetivo de incentivar a troca de conhecimento entre os estudantes da Universidade de Brasilia.</p>
 
 ## 2. Descrição do problema
 
@@ -39,17 +39,17 @@ sidebar_label: Documento de visão
 
 | | Informações do problema |
 |:------:|:------:|
-| O problema | Falta de transparência na comunicação entre alunos e monitores |
-| Afeta | Estudantes de diversas matérias da FGA |
-| Cujo impacto é | Falta de informações sobre as monitorias e burocracia para organizar os encontros |
-| Uma solução | Utilizar a ferramenta +Monitoria para auxiliar os alunos e monitores a organizar os encontros |
+| O problema | Horarios incompativéis entre os estudades para realizar ou assistir monitorias, e número limitado de monitorias disponíveis por disciplina. |
+| Afeta | Estudantes da Universidade de Brasilia - FGA |
+| Cujo impacto é | Falta de informações sobre as monitorias, burocracia para organizar os encontros, menos troca de informações entre os estudades impactando na sua formação.|
+| Uma solução | Utilizar a ferramenta +Monitoria para auxiliar os alunos a organizar seus encontros |
 
 ## 3. Objetivos
 
 <br>
 
 <p align="justify">
-O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que estão dispostos e tem interesse em ensinar, com alunos que buscam ajuda no seu aprendizado. Nossa proposta é somar ao modelo de monitoria atual, resolvendo alguns impedimentos que existem como: número limitado de monitores por disciplina, horários incompatíveis e o receio de como monitor matriculado não possuir o conhecimento necessário para abordar todos os tópicos da disciplina. Dentro do nosso produto este usuário poderá escolher apenas um tópico da disciplina que tenha um conhecimento bom e queira compartilhá-lo, disponibilizando horários mais flexíveis em relação às monitorias tradicionais.
+O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que estão dispostos e tem interesse em ensinar, com alunos que buscam ajuda no seu aprendizado. Nossa proposta é somar ao modelo de monitoria atual, resolvendo alguns impedimentos que existem como: número limitado de monitores por disciplina, horários incompatíveis e o receio de como monitor matriculado não possuir o conhecimento necessário para abordar todos os tópicos da disciplina. Dentro do nosso produto este usuário poderá escolher os tópicos da disciplina que tenha um conhecimento bom e queira compartilhá-lo, disponibilizando horários mais flexíveis em relação às monitorias tradicionais, e assim aumentando o conhecimento e a iteração entre os estudades.
 </p>
 
 
@@ -65,8 +65,7 @@ O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que e
 
 | Tipo | Descrição | Responsabilidade |
 |:------:|:------:|:--------:|
-| Aluno ministrante | Monitor | Cadastrar monitorias |
-| Aluno ministrado | Aluno | Buscar monitorias de seu interesse |
+| Aluno  | Monitor | Cadastrar monitorias, procurar monitorias, entrar em contato com outros usuários |
 
 
 ### 4.2 Principais Necessidade do Usuários
@@ -77,7 +76,7 @@ O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que e
 |:------:|:-------:|:------:|:-------:|:------:|
 | Encontrar monitoria | Alta | Encontrar monitoria que necessita | Monitorias formais, ministradas por alunos selecionados pelo professor | Buscar monitorias e ajudas de alunos que tenham interesse em ministrar |
 | Agendar monitoria | Alta | Conseguir monitorias em horários diversos | Monitorias com horários pré-definidos | Selecionar monitorias em melhores horários |
-| Estimular alunos a ajudar | Baixa | Ajudar ao próximo | Créditos | Sistema de ranking para as melhores monitorias |
+| Estimular alunos a ajudar | Baixa | Ajudar ao próximo | Créditos | Sistema de ranking e recompensas para as melhores monitorias |
 
 ## 5. Envolvidos
 
@@ -107,11 +106,11 @@ O +Monitoria visa integrar alunos da Universidade de Brasília campus Gama que e
 
 
 
-## 7. Outros Aplicativos
+## 7. Analise de Outros Aplicativos
 
 <br>
 
-Nesta sessão serão listados alguns exemplos aplicativos de monitoria.
+Nesta sessão serão listados alguns aplicativos de monitoria encontrados na playstore.
 
 ### 7.1 Monitoria+App
 
@@ -136,17 +135,17 @@ Em comparação o aplicativo +Monitoria possuirá uma maior flexibilidade em rel
 
 <p align="justify"> Algumas poucas novidades em relação ao Monitoria+App são apresentadas, destacando-se o chat e os avisos gerais. Além disso, o +Monitoria filtrará a pesquisa de monitorias utilizando palavras chave e as apresentará de forma organizada para facilitar a busca.</p>
 
-## 8. Instrução de posição do produto
+## 8. Instrução de posição do +Monitoria
 
 <br>
 
 | | Instrução de posição do produto |
 | :-: | :-: |
-| Para | Qualquer aluno que esteja disposto a ensinar ou a aprender |
-| Que | Quer ter mais praticidade no processo de se encontrar com outros monitores e/ou alunos |
-| +Monitoria é | Uma aplicação para facilitar encontros entre alunos e monitores |
+| Para | Qualquer aluno que esteja disposto em adiquirir novos conhecimentos a partir da iteração entre estudantes |
+| Que | Incentiva a troca de conhecimento entre os estudantes da Universidade de Brasilia |
+| +Monitoria é | Uma aplicação para facilitar encontros entre alunos para realização de monitorias |
 | Diferente do | Monitoria+App e Monitoria USJT |
-| Nosso produto | Tem mais flexibilidade em relação aos temas e conteúdos |
+| Nosso produto | Tem mais flexibilidade em relação aos temas, conteúdos e horários  |
 
 ## 9. Recursos do produto
 
@@ -161,7 +160,8 @@ O usuário poderá realizar seu cadastro, ou caso já esteja cadastrado poderá 
 
 <br>
 
-Será possivel ao usuário o cadastro, visualização, remoção e solicitação de monitorias.
+Será possivel ao usuário o cadastro, visualização, solicitação de monitorias e adicionar uma monitoria aos favoritos para faciliar a consulta da mesma.
+.
 
 ### 9.3 Pesquisa de Monitorias
 
@@ -169,13 +169,7 @@ Será possivel ao usuário o cadastro, visualização, remoção e solicitação
 
 Poderá ser realizada a busca para encontrar a monitoria desejada de forma mais eficiente.
 
-### 9.4 Avaliar Monitoria
-
-<br>
-
-O usuário após o término da monitoria poderá avaliá-la dando uma nota, que servirá de feedback para outros alunos.
-
-### 9.5 Ranking
+### 9.4 Ranking
 
 <br>
 
@@ -225,7 +219,7 @@ Tais recursos serão definidos e modelados no [NFR](https://fga-eps-mds.github.i
 |31/03/2019|0.5|Finalização do papel dos Envolvidos|João Pedro e Lucas Alexandre|
 |01/05/2019|0.6|Refatorado tópico 9|João Pedro,Lucas Alexandre e Lucas Siqueira|
 |01/05/2019|0.7|Tópicos refatorados 4, 7, 9, 11 e Histórico de revisão | Matheus de Cristo, Moacir Mascarenha, Renan Cristyan e Lucas Siqueira|
-
+|10/06/2019|0.8|Ajustes finos no documento| Lucas Siqueira
 
 
 

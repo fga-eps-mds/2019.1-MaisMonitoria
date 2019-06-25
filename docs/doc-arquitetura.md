@@ -152,13 +152,19 @@ O PostgreSQL é um banco de dados objeto relacional, ele será responsável por 
 
 <br>
 
+### Arquitetura Orientada à Componentes
+<p align="justify">
+Arquitetura com ênfase em decompor um sistema em elementos(Componentes), logicos e funcionais, com comunicação definidas entre os elementos. Componentes contém um nível de abstração mais alto que do que Objetos, estando mais próximo do mundo real. 
+</p>
+
 ### ReactJS
 
 <br>
 
 <p align="justify">
-O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Ele permite criar seus próprios componentes. Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
+O React é, como seus próprios criadores descrevem, “uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)”. Permite criar componentes encapsulados capazes de gerenciar seus estados.Numa aplicação em React, você deve quebrar os diferentes elementos dela em pequenos componentes reutilizáveis para transformar em uma componente maior. Essa técnica é chamada de Component Driven Development.
 </p>
+
 
 <br>
 
@@ -176,7 +182,14 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
 
 <br>
 
-![Diagrama de relações](assets/diagrama.png)
+![Diagrama de relações versão 1.0](assets/diagrama.png)
+
+Diagrama de relações versão 1.0
+
+
+![Diagrama de relações versão 2.0](assets/diagrama_de_relacao_2.0.png)
+
+Diagrama de relações versão 2.0
 
 <br>
 
@@ -212,19 +225,24 @@ O backlog representa a acumulação de trabalho, é uma espécie de estoque rela
 Especificamente neste documento, mesmo que de forma superficial e pouco eficiente, o Backlog supre a ausência de uma especificação dos casos de uso ou da descrição dos cenários de utilização.
 </p>
 
-Os épicos levantados para o produto são:
+Os épicos levantados para o projeto são:
 
-- **EPIC01 - Interface PWA:** O produto deve oferecer uma interface web progressiva com usabilidade agradável, visual atraente e um bom desempenho.
+- **EPIC01 - Sistema de Monitorias:**  
+<p align="justify">
+O projeto deve conter um microsserviço gerenciador de monitorias e suas dependências, capaz de registrar, filtrar, editar, curtir e pesquisar monitorias. Além disso, a comunicação entre aluno e monitor deve ser intermediada pelo mesmo.
+</p>
+    
+- **EPIC02 - Contas de Usuário:**  
+<p align="justify">
+O projeto deve conter um microsserviço gerenciador de usuários, possibilitando a visualização e edição de seus dados cadastrados.
+</p>
 
-- **EPIC02 - Microsserviço Gerenciador de Monitorias:** O produto deve conter um microsserviço que gerencie tudo que diz respeito a perfil do usuário, consequentemente sendo responsável por cuidar de toda lógica que envolve as monitorias.
+- **EPIC03 - Feedbacks:** 
+<p align="justify">
+O projeto deve conter uma funcionalidade para gerar de feedbacks. O usuário será informado sobre o término de suas ações, páginas inexistentes na aplicação, e também poderá visualizar um loading spinner toda vez que uma ação estiver em execução.
+</p>
 
-- **EPIC03 - Microsserviço Gateway:** O produto deve conter um microsserviço responsável por intermediar a comunicação entre todos os outros microsserviços, além de cuidar da interação com uma API externa de autenticação.
-
-- **EPIC04 - Microsserviço de Gamificação:** O produto deve conter um microsserviço responsável gerenciar toda a parte de gamificada do produto, incluindo processamento de um ranking, cálculo de pontuações e distribuição de recompensas.
-
-- **EPIC05 - Microsserviço Gerador de Feed:** O produto deve conter um microsserviço responsável por manter feed's de novidades e atualizações gerados de acordo com os perfis dos usuários.
-
-Para mais informações visite o [Backlog](doc-backlog.md) completo.
+Para mais informações visite o [Backlog](doc-backlog-2.0.md) completo.
 
 <br>
 
@@ -276,6 +294,7 @@ Visualização arquitetural (visão lógica) fornece uma base para compreensão 
 Diagrama de pacotes.
 
 <br>
+A pasta src é responsável por armazenar as dependencias, componentes, arquivos e lógica da interface. 
 
 ### Microsserviço de Monitorias
 
@@ -291,7 +310,12 @@ Diagrama de classes.
 <br>
 
 ![Diagrama de Implantação](assets/diagrama_de_implantacao.png)
-Diagrama de implementação.
+
+Diagrama de implementação versão 1.0.
+
+![Diagrama de Implantação](assets/diagrama_de_implantacao_2.0.png)
+
+Diagrama de implementação versão 2.0.
 
 <br>
 
@@ -338,13 +362,13 @@ No projeto, centro de cada serviço possui seus APPs. Cada app é composto pelos
 No projeto, a interface PWA será construída utilizando ReactJS, que tem sua estrutura composta por os seguintes arquivos:
 </p>
 
-- **App.js** - Possui o componente raiz do aplicativo.
+- **App.js** - Possui o componente raiz do aplicativo. Responsável por inicializar a renderização das telas.
 
-- **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e onde ocorrerá a renderização.
+- **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e onde ocorrerá a renderização. Arquivo dedicado para criação e gerenciamento das rotas.
 
-- **Assets** - Guarda os arquivos estáticos.
+- **Assets** - Pasta responsável por armazenar arquivos estáticos como imagens e icones svg, podendo ser ultilizado na composição das telas.
 
-- **Components** - Guarda as componentes.
+- **Components** - Pasta que armazena os componentes do projeto, que são classes ou funções JavaScript que retornam um elemento do React e descrevem como a interface do usuário deve se comportar.
 
 <br>
 
@@ -485,19 +509,7 @@ ___
 | 02/05/2019 | 1.4 | Ajustado Pipeline |Matheus Rodrigues|
 |28/05/2019| 1.5|Atualizado diagrama de classes|Moacir Mascarenha|
 |28/05/2019|1.6|Atualizado diagrama de classes|Moacir Mascarenha|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|14/06/2019|1.7|Atualizado Backlog|João Pedro, Lucas Alexandre, Moacir Mascarenha|
+|21/06/2019|1.8|Adicionado Arquitetura orientada a componentes|João Pedro, Lucas Alexandre, Renan Cristyan e Moacir Mascarenha|
+|21/06/2019|1.9|Alterado Tópico 2 e 5| João Pedro, Lucas Alexandre, Moacir Mascarenha|
+|24/06/2019|2.0|Adicionada novas versões dos diagramas de Implantação e Relações|João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan|
