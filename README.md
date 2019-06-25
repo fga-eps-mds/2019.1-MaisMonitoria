@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center"> +Monitoria </h1>
-<p align="center"> Uma aplicação para integrar alunos que desejam aprender, e os que desejam ensinar.</p>
+<p align="justify"> O projeto +monitoria nasceu com a necessidade dos alunos da FGA de encontrar monitorias sem que sigam os modelos de monitorias atuais, devido as restrições de horário, disposição e limitações dos monitores.O projeto tem como objetivo suprir essa necessidade dos alunos, disponibilizando um catálogo de monitorias , estendendo o número de monitores para que os alunos da FGA possam ter mais opções, buscando aumentar a iteração entre os estudantes e incentivando a troca de conhecimento.</p>
 
 <p align="center">
   <a href="https://fga-eps-mds.github.io/2019.1-MaisMonitoria/">Acesse o site de apresentação do +Monitoria</a>
