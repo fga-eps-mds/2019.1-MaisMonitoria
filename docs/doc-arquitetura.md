@@ -182,7 +182,14 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
 
 <br>
 
-![Diagrama de relações](assets/diagrama.png)
+![Diagrama de relações versão 1.0](assets/diagrama.png)
+
+Diagrama de relações versão 1.0
+
+
+![Diagrama de relações versão 2.0](assets/diagrama_de_relacao_2.0.png)
+
+Diagrama de relações versão 2.0
 
 <br>
 
@@ -303,7 +310,12 @@ Diagrama de classes.
 <br>
 
 ![Diagrama de Implantação](assets/diagrama_de_implantacao.png)
-Diagrama de implementação.
+
+Diagrama de implementação versão 1.0.
+
+![Diagrama de Implantação](assets/diagrama_de_implantacao_2.0.png)
+
+Diagrama de implementação versão 2.0.
 
 <br>
 
@@ -500,3 +512,4 @@ ___
 |14/06/2019|1.7|Atualizado Backlog|João Pedro, Lucas Alexandre, Moacir Mascarenha|
 |21/06/2019|1.8|Adicionado Arquitetura orientada a componentes|João Pedro, Lucas Alexandre, Renan Cristyan e Moacir Mascarenha|
 |21/06/2019|1.9|Alterado Tópico 2 e 5| João Pedro, Lucas Alexandre, Moacir Mascarenha|
+|24/06/2019|2.0|Adicionada novas versões dos diagramas de Implantação e Relações|João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan|
