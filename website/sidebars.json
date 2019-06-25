@@ -5,7 +5,7 @@
                     "doc-arquitetura",
                     "doc-folhaEstilo",
                     "doc-usabilidade",
-                    "doc-priorizacao"],
+                    "doc-teste-usabilidade-2.0"],
 
     "Planos": [ "plano-gcs",
                 "plano-riscos",
@@ -40,7 +40,10 @@
                   "sprint9-review"],
     "Sprint 10": ["sprint10-planning",
                   "sprint10-review"],
-    "Sprint 11":["sprint11-planning"]                           
+    "Sprint 11":["sprint11-planning",
+                  "sprint11-review"],
+    "Sprint 12":["sprint12-planning"],
+    "Post Mortem":["doc-postmortem"]                                         
   },
 
   "docs-requisitos": {
@@ -50,11 +53,9 @@
                     "doc-observacao",
                     "doc-prototipacao"],
     
-    "Priorização": [],
+    "Priorização": ["doc-priorizacao"],
 
     "Modelagem": ["doc-nfr",
-                  "doc-backlog-2.0"],
-
-    "Pós-Rastreabilidade": []
+                  "doc-backlog-2.0"]
   }
 }

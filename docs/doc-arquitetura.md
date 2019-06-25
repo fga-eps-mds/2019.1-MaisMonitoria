@@ -154,11 +154,7 @@ O PostgreSQL é um banco de dados objeto relacional, ele será responsável por 
 
 ### Arquitetura Orientada à Componentes
 <p align="justify">
-Arquitetura com ênfase na decomposição dos sistemas, em componentes funcionais e lógicos com interfaces bem definidas, usadas para comunicação entre os próprios componentes.
-</p>
-
-<p align="justify">
-Arquitetura com ênfase em decompor um sistema em elementos(Componentes), logicos e funcionais, com comunicação definidas entre os elementos. 
+Arquitetura com ênfase em decompor um sistema em elementos(Componentes), logicos e funcionais, com comunicação definidas entre os elementos. Componentes contém um nível de abstração mais alto que do que Objetos, estando mais próximo do mundo real. 
 </p>
 
 ### ReactJS
@@ -186,7 +182,14 @@ Firebase é um produto da Google, um conjunto de tecnologias disponíveis em div
 
 <br>
 
-![Diagrama de relações](assets/diagrama.png)
+![Diagrama de relações versão 1.0](assets/diagrama.png)
+
+Diagrama de relações versão 1.0
+
+
+![Diagrama de relações versão 2.0](assets/diagrama_de_relacao_2.0.png)
+
+Diagrama de relações versão 2.0
 
 <br>
 
@@ -307,7 +310,12 @@ Diagrama de classes.
 <br>
 
 ![Diagrama de Implantação](assets/diagrama_de_implantacao.png)
-Diagrama de implementação.
+
+Diagrama de implementação versão 1.0.
+
+![Diagrama de Implantação](assets/diagrama_de_implantacao_2.0.png)
+
+Diagrama de implementação versão 2.0.
 
 <br>
 
@@ -356,11 +364,11 @@ No projeto, a interface PWA será construída utilizando ReactJS, que tem sua es
 
 - **App.js** - Possui o componente raiz do aplicativo. Responsável por inicializar a renderização das telas.
 
-- **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e onde ocorrerá a renderização.
+- **index.js** - Ponto de entrada tradicional dos nós da aplicação, indica o que será renderizado e onde ocorrerá a renderização. Arquivo dedicado para criação e gerenciamento das rotas.
 
-- **Assets** - Guarda os arquivos estáticos.
+- **Assets** - Pasta responsável por armazenar arquivos estáticos como imagens e icones svg, podendo ser ultilizado na composição das telas.
 
-- **Components** - Guarda as componentes.
+- **Components** - Pasta que armazena os componentes do projeto, que são classes ou funções JavaScript que retornam um elemento do React e descrevem como a interface do usuário deve se comportar.
 
 <br>
 
@@ -503,4 +511,5 @@ ___
 |28/05/2019|1.6|Atualizado diagrama de classes|Moacir Mascarenha|
 |14/06/2019|1.7|Atualizado Backlog|João Pedro, Lucas Alexandre, Moacir Mascarenha|
 |21/06/2019|1.8|Adicionado Arquitetura orientada a componentes|João Pedro, Lucas Alexandre, Renan Cristyan e Moacir Mascarenha|
-
+|21/06/2019|1.9|Alterado Tópico 2 e 5| João Pedro, Lucas Alexandre, Moacir Mascarenha|
+|24/06/2019|2.0|Adicionada novas versões dos diagramas de Implantação e Relações|João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan|
