@@ -30,12 +30,13 @@ Tarefas|Pontos
 |[Lançar release notes](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/178) | 2
 |[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/165) | 3
 |[*Refatorar artefatos](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/162) | 5
+|[*Cenarios](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/120) | 5
 |[*Refatorar documento de arquitetura](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/165) | 3
 
 
-Total de pontos de dividas anteriores: 28
+Total de pontos de dividas anteriores: 16
 
-Total de Pontos: 11
+Total de Pontos: 33
 
 ## 3. Quadro de conhecimento antes do início da sprint
 
@@ -59,3 +60,5 @@ Tarefas|Responsáveis
 |[*Deploy Contínuo Ambiente de Produção](https://github.com/fga-eps-mds/2019.1-MaisMonitoria/issues/165) | Matheus Rodrigues
 |[*Refatorar artefatos](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/162) | Toda equipe
 |[*Refatorar documento de arquitetura](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/165) | MDS
+|[*Cenarios](https://github.com/fga-eps-mds/2019.1-maismonitoria/issues/120) | Caio Oliveira
+

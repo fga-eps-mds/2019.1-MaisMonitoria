@@ -27,7 +27,7 @@ No dia 25 de junho de 2019 ocorreu o encerramento e apresentação da segunda re
 
 <br>
 
-![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-11.png)
+![Ilustração do Quadro de Conhecimentos](assets/quadro-conhecimento-final.png)
 
 
 ## 3. Burndown
@@ -36,8 +36,10 @@ No dia 25 de junho de 2019 ocorreu o encerramento e apresentação da segunda re
 
 ![Burndown release 2](assets/burndown-release2.png)
 
-<br>
 
+> Coletado dia 24/06/2019, para ver a ultima atualização [clique aqui](https://github.com/fga-eps-mds/2019.1-MaisMonitoria#workspaces/hora-da-hora-5c968b3460a08b28bd928327/reports/release?release=5d1116a20f8f9877080d69ac)
+
+<br>
 
 ## 4. Velocity
 

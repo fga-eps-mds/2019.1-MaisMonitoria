@@ -42,7 +42,11 @@
                   "sprint10-review"],
     "Sprint 11":["sprint11-planning",
                   "sprint11-review"],
-    "Sprint 12":["sprint12-planning"],
+    "Sprint 12":["sprint12-planning",
+                 "sprint12-review"],
+    "Sprint 13":["sprint13-planning",
+                  "sprint13-review"],
+    "Release 2": ["release2-review"],
     "Post Mortem":["doc-postmortem"]                                         
   },
 
