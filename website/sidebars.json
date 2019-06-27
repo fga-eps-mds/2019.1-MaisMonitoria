@@ -60,6 +60,7 @@
     "Priorização": ["doc-priorizacao"],
 
     "Modelagem": ["doc-nfr",
-                  "doc-backlog-2.0"]
+                  "doc-backlog-2.0",
+                  "doc-cenarios"]
   }
 }
