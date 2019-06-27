@@ -7,7 +7,7 @@ sidebar_label: Post Mortem
 
 <br>
 
-O documento de postmortem tem como objetivo relatar as experiências vivências no projeto, decidimos então por dividir o documento levantando tópicos que englobam acontecimentos que tiveram grandes impactos ao decorrer do projeto.
+O documento tem como objetivo relatar as experiências vivências no projeto, decidimos então por dividir o documento levantando tópicos que englobam acontecimentos que tiveram grandes impactos ao decorrer do projeto.
 
 ## 2. Definição de escopo
 
