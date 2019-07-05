@@ -30,6 +30,7 @@
 
 ### Acesse a aplicação
 * [+Monitoria - homologação](https://homolog.maismonitoria.com)
+* [+Monitoria - produção](https://m.maismonitoria.com)
 ### Conheça nossa documentação
 * [+Monitoria Docs](https://fga-eps-mds.github.io/2019.1-MaisMonitoria/)
 
