@@ -411,8 +411,6 @@ O banco de dados Postgres é um software multi-plataforma altamente escalável. 
 <p align="justify">O pipeline define as fases do processo de construção e implementação do software. A integração contínua executa as tarefas do pipeline automaticamente. Utilizamos no nosso projeto os ambientes de homologação e de produção. Em ambos os ambientes, a aplicação é construída (build), testada (testing) através de testes automatizados, verificada se está de acordo com a folha de estilo (style guide) e verificada se a cobertura de testes está de acordo com um limite pré-determinado. Ao final desse processo, a aplicação está pronta para o deploy.
 </p>
 
-#### Pipeline Release 1
-
 <br>
 
 ![Pipeline](assets/pipeline_r1.png)
